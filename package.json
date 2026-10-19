@@ -1,0 +1,26 @@
+{
+  "name": "ubrisus",
+  "private": true,
+  "version": "0.1.0",
+  "description": "UbriSUS - Sistema integrado de gestão da saúde pública municipal (SUS), plataforma web 100% em nuvem",
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/api & npm run dev -w apps/web",
+    "build": "npm run build -w apps/api && npm run build -w apps/web",
+    "db:migrate": "npm run db:migrate -w apps/api",
+    "db:seed": "npm run db:seed -w apps/api",
+    "test": "npm test -w apps/api",
+    "typecheck": "npm run typecheck -w apps/api && npm run typecheck -w apps/web",
+    "requisitos:extrair": "node scripts/extrair-requisitos.mjs",
+    "requisitos:cobertura": "node scripts/cobertura-requisitos.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "is-generator-function": "1.0.10"
+  }
+}
