@@ -6,3 +6,7 @@ import './cadastros/anamnese.js';
 import './seguranca/entidades.js';
 import './farmacia/entidades.js';
 import './suporte/entidades.js';
+import './agendamento/entidades.js';
+import './atendimento/entidades.js';
+import './imunizacao/entidades.js';
+import './faturamento/entidades.js';

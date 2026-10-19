@@ -95,7 +95,7 @@ definirEntidade({
   campos: [
     { nome: 'pessoa_id', tipo: 'ref', ref: 'paciente', rotulo: 'Pessoa (cadastro único)', obrigatorio: true, unico: true, aba: 'Identificação', ajuda: 'O operador é sempre uma pessoa única do cadastro; nome e e-mail vêm da pessoa (TR 1.1.2.1.51)' },
     { nome: 'nome', tipo: 'texto', rotulo: 'Nome', max: 70, lista: true, busca: true, somenteLeitura: true, aba: 'Identificação' },
-    { nome: 'login', tipo: 'texto', rotulo: 'Login (CPF)', max: 11, unico: true, obrigatorio: true, lista: true, busca: true, aba: 'Identificação' },
+    { nome: 'login', tipo: 'texto', rotulo: 'Login (CPF)', max: 30, unico: true, obrigatorio: true, lista: true, busca: true, aba: 'Identificação' },
     { nome: 'email', tipo: 'email', rotulo: 'E-mail de contato', somenteLeitura: true, aba: 'Identificação' },
     { nome: 'profissional_id', tipo: 'ref', ref: 'profissional', rotulo: 'Profissional de saúde vinculado', aba: 'Identificação' },
     { nome: 'administrador', tipo: 'booleano', rotulo: 'Administrador do sistema', padrao: false, lista: true, aba: 'Acesso' },
