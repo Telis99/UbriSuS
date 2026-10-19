@@ -23,6 +23,7 @@ import { IconAlertTriangle, IconCloudDownload, IconInfoCircle, IconSearch, IconU
 import dayjs from 'dayjs';
 import { formatarCns, formatarCpf } from '@compartilhado/validacao';
 import { api, urlArquivo } from '@/api';
+import { BotaoMensagemPaciente } from './MensagemPaciente';
 import { Formulario } from '@/genericos/Formulario';
 import { MASCARAS } from '@/genericos/campos';
 import type { Alerta } from '@/tipos';
@@ -73,6 +74,7 @@ export function CabecalhoPaciente({ paciente, compacto, aoAtualizar }: { pacient
             {paciente.gestante && <Badge color="pink">Gestante</Badge>}
             {cond.includes('hipertensao') && <Badge color="orange">Hipertenso</Badge>}
             {cond.includes('diabetes') && <Badge color="grape">Diabético</Badge>}
+            {paciente.id && <BotaoMensagemPaciente pacienteId={paciente.id} nome={paciente.nome} />}
           </Group>
           <Text size="sm">
             {paciente.sexo === 'F' ? 'Feminino' : paciente.sexo === 'M' ? 'Masculino' : 'Sexo ignorado'} · <b>{idadeExtensa(paciente.idade)}</b>

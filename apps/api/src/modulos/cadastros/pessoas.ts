@@ -100,6 +100,7 @@ definirEntidade({
     { nome: 'celular', tipo: 'telefone', rotulo: 'Celular', lista: true, aba: 'Contato' },
     { nome: 'telefone_contato', tipo: 'telefone', rotulo: 'Telefone de contato', aba: 'Contato' },
     { nome: 'email', tipo: 'email', rotulo: 'E-mail', aba: 'Contato' },
+    // Preferências respeitadas por todos os envios automáticos, avulsos e em bloco (TR 1.2.2.9).
     { nome: 'notificar_sms', tipo: 'booleano', rotulo: 'Receber comunicados por SMS', padrao: true, aba: 'Contato' },
     { nome: 'notificar_email', tipo: 'booleano', rotulo: 'Receber comunicados por e-mail', padrao: true, aba: 'Contato' },
     { nome: 'notificar_app', tipo: 'booleano', rotulo: 'Receber comunicados pelo aplicativo', padrao: true, aba: 'Contato' },

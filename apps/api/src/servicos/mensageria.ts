@@ -32,7 +32,7 @@ export async function enviarEmail(para: string, assunto: string, texto: string, 
   return { enviado: true };
 }
 
-async function enviarSms(numero: string, texto: string) {
+async function enviarSms(numero: string, texto: string, id?: number) {
   if (config.sms.provedor === 'log' || !config.sms.url) {
     console.info(`[SMS simulado] ${numero}: ${texto}`);
     return;
@@ -41,7 +41,8 @@ async function enviarSms(numero: string, texto: string) {
   const r = await fetch(config.sms.url, {
     method: 'POST',
     headers: { 'content-type': 'application/json', authorization: `Bearer ${config.sms.token}` },
-    body: JSON.stringify({ numero: '55' + numero, mensagem: texto }),
+    // O identificador volta no retorno do gateway (entrega, falha e respostas: /api/integracao/mensageria/retorno).
+    body: JSON.stringify({ numero: '55' + numero, mensagem: texto, id }),
   });
   if (!r.ok) throw new Error(`Gateway SMS respondeu ${r.status}`);
 }
@@ -91,7 +92,7 @@ export async function processarFila(limite = 50) {
   for (const m of pendentes) {
     try {
       if (m.meio === 'email') await enviarEmail(m.destinatario, m.assunto ?? config.nomeSecretaria, m.texto);
-      else if (m.meio === 'sms') await enviarSms(m.destinatario, m.texto);
+      else if (m.meio === 'sms') await enviarSms(m.destinatario, m.texto, Number(m.id));
       else {
         // Push: entregue pela caixa de mensagens do aplicativo do cidadão (consulta a sis.mensagem).
       }
