@@ -4,6 +4,7 @@ import { rotasAgendamento, rotinaDiariaAgendamento } from './agendamento/rotas.j
 import { rotasAtendimento } from './atendimento/rotas.js';
 import { rotasFarmacia } from './farmacia/rotas.js';
 import { rotasImunizacao } from './imunizacao/rotas.js';
+import { rotasFaturamento } from './faturamento/rotas.js';
 import { rotasCatalogo } from '../servicos/catalogo.js';
 import { rotasCadastros } from './cadastros/rotas.js';
 import { rotasSuporte } from './suporte/rotas.js';
@@ -15,6 +16,7 @@ export async function registrarRotasModulos(app: FastifyInstance) {
   await rotasAtendimento(app);
   await rotasFarmacia(app);
   await rotasImunizacao(app);
+  await rotasFaturamento(app);
   await rotasCatalogo(app);
 }
 

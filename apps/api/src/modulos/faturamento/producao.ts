@@ -59,6 +59,20 @@ export async function validarProcedimento(
   return { valido: criticas.length === 0, criticas };
 }
 
+/** Produção de competência já fechada/enviada é apresentada na próxima competência aberta (TR 1.2.13.1.34). */
+export async function competenciaDeApresentacao(c: pg.PoolClient, competencia: string) {
+  const fechada = await c.query(`select 1 from fat.competencia where competencia = $1 and situacao <> 'ABERTA'`, [competencia]);
+  if (!fechada.rowCount) return competencia;
+  const aberta = (await c.query(`select competencia from fat.competencia where situacao = 'ABERTA' and competencia > $1 order by competencia limit 1`, [competencia])).rows[0];
+  if (aberta) return aberta.competencia as string;
+  let [a, m] = [Number(competencia.slice(0, 4)), Number(competencia.slice(4))];
+  for (;;) {
+    if (++m > 12) (m = 1), a++;
+    const cand = `${a}${String(m).padStart(2, '0')}`;
+    if (!(await c.query(`select 1 from fat.competencia where competencia = $1 and situacao <> 'ABERTA'`, [cand])).rowCount) return cand;
+  }
+}
+
 export async function lancarProducao(c: pg.PoolClient, l: LancamentoProducao) {
   const proc = l.procedimentoId
     ? (await c.query(`select * from cad.procedimento where id = $1`, [l.procedimentoId])).rows[0]
@@ -81,7 +95,7 @@ export async function lancarProducao(c: pg.PoolClient, l: LancamentoProducao) {
   const val = await validarProcedimento(c, proc, paciente, cbo, data);
   const instrumentos: string[] = proc.instrumentos ?? [];
   const individualizado = !!l.pacienteId && (instrumentos.includes('02') || !instrumentos.includes('01'));
-  const competencia = `${data.getFullYear()}${String(data.getMonth() + 1).padStart(2, '0')}`;
+  const competencia = await competenciaDeApresentacao(c, `${data.getFullYear()}${String(data.getMonth() + 1).padStart(2, '0')}`);
   const idade = paciente?.data_nascimento ? Math.floor(idadeMeses(paciente.data_nascimento, data) / 12) : null;
   const valor = Number(proc.valor_municipal ?? proc.valor_sa ?? 0) * (l.quantidade ?? 1);
   const r = await c.query(

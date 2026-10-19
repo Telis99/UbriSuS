@@ -10,3 +10,4 @@ import './Pacientes';
 import './Relatorios';
 import './Farmacia';
 import './Imunizacao';
+import './Faturamento';

@@ -45,6 +45,7 @@ export const PARAMETROS: [string, unknown, string, string][] = [
   ['farmacia.demanda_na_dispensacao', true, 'Permitir lançar demanda reprimida no momento da dispensação', 'FAR'],
   ['farmacia.comprovante', { imprimir: true, termica: false }, 'Comprovante de entrega de medicamentos (imprimir; impressora térmica)', 'FAR'],
   ['imunizacao.alertar_atrasadas', true, 'Exibir alerta de vacinas em atraso ao operador', 'IMU'],
+  ['faturamento.orgao', { nome: 'SECRETARIA MUNICIPAL DE SAUDE DE CABREUVA', sigla: 'SMS', cnpj: '46634432000155', destino: 'SECRETARIA MUNICIPAL DE SAUDE', indicador: 'M' }, 'Órgão responsável e destino no cabeçalho do BPA', 'FAT'],
   ['integracao.rnds', { ativo: false, urlAutenticacao: 'https://ehr-auth-hmg.saude.gov.br/api/token', urlServicos: 'https://sp-ehr-services.hmg.saude.gov.br', certificadoId: null, cpfResponsavel: '' }, 'Integração CADSUS/RNDS', 'TEC'],
 ];
 
