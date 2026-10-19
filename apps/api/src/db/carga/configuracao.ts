@@ -12,6 +12,7 @@ export const PARAMETROS: [string, unknown, string, string][] = [
   ['relatorio.rodape', '', 'Texto adicional no rodapé dos relatórios', 'TEC'],
   ['relatorio.dias_retencao', 365, 'Dias mínimos de guarda das cópias de relatórios emitidos', 'TEC'],
   ['arquivo.tamanho_maximo_mb', 20, 'Tamanho máximo de arquivos anexados (MB)', 'TEC'],
+  ['suporte.expediente', { inicio: '08:00', fim: '17:00' }, 'Horário de expediente do órgão para cálculo do MTtR', 'TEC'],
   ['seguranca.versao_termos', '2026.1', 'Versão vigente dos termos de uso', 'TEC'],
   [
     'seguranca.termos_uso',

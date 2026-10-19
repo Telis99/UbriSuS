@@ -1,0 +1,9 @@
+{
+  "name": "UbriSUS - Gestão da Saúde",
+  "short_name": "UbriSUS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1c5aa8",
+  "icons": [{ "src": "/icone.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

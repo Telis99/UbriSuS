@@ -161,6 +161,20 @@ export function sqlFiltro(e: Entidade, f: Filtro, params: unknown[], alias = 't'
     if (f.op === 'nao_contem' || f.op === 'diferente') return `not (${p(String(v))} = any(coalesce(${col}, '{}')))`;
     throw new ErroHttp(400, 'Operador não suportado para lista de opções.');
   }
+  // Opções: o operador digita a descrição ("Feminino") e o filtro usa os códigos correspondentes.
+  if (c.tipo === 'opcao' && c.opcoes && ['contem', 'nao_contem', 'igual', 'diferente', 'inicia', 'termina'].includes(f.op)) {
+    const s = normalizarNome(String(v ?? ''));
+    const casa = (texto: string) => {
+      const n = normalizarNome(texto);
+      if (f.op === 'igual' || f.op === 'diferente') return n === s;
+      if (f.op === 'inicia') return n.startsWith(s);
+      if (f.op === 'termina') return n.endsWith(s);
+      return n.includes(s);
+    };
+    const codigos = c.opcoes.filter(([cod, rot]) => casa(rot) || casa(cod)).map(([cod]) => cod);
+    const negar = f.op === 'nao_contem' || f.op === 'diferente';
+    return negar ? `(${col} is null or not (${col} = any(${p(codigos)}::text[])))` : `${col} = any(${p(codigos)}::text[])`;
+  }
   if (TEXTUAIS.has(c.tipo) || DIGITOS.has(c.tipo)) {
     const t = `f_unaccent(${col}::text)`;
     const s = String(v ?? '');

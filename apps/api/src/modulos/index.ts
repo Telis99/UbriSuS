@@ -5,3 +5,4 @@ import './cadastros/pessoas.js';
 import './cadastros/anamnese.js';
 import './seguranca/entidades.js';
 import './farmacia/entidades.js';
+import './suporte/entidades.js';

@@ -1,0 +1,41 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: #f5f7fa;
+}
+
+/* Campos em foco bem destacados para operação contínua por teclado. */
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #4987d9;
+  outline-offset: 0;
+}
+
+/* Botões e itens desabilitados com aparência diferenciada (TR 1.1.2.1.27). */
+button:disabled,
+[data-disabled] {
+  opacity: 0.55;
+  cursor: not-allowed !important;
+}
+
+.ag-theme-quartz {
+  --ag-font-size: 12px;
+  --ag-row-height: 30px;
+  --ag-header-height: 34px;
+  --ag-active-color: #1c5aa8;
+}
+
+/* Painel de chamadas: letras grandes visíveis à distância. */
+.painel-chamadas {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+@media print {
+  .nao-imprimir {
+    display: none !important;
+  }
+}
