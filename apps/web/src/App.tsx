@@ -5,6 +5,7 @@ import { useAuth } from '@/auth/Auth';
 import { Layout } from '@/shell/Layout';
 import { ProvedorJanelas } from '@/shell/Janelas';
 import { Validar } from '@/telas/Validar';
+import { PainelChamadas } from '@/telas/Painel';
 import '@/telas';
 
 function Protegido() {
@@ -30,6 +31,7 @@ export function App() {
     <Routes>
       <Route path="/validar" element={<Validar />} />
       <Route path="/validar/:codigo" element={<Validar />} />
+      <Route path="/painel/:chave" element={<PainelChamadas />} />
       <Route path="*" element={<Protegido />} />
     </Routes>
   );

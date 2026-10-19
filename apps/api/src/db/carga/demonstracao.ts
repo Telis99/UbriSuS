@@ -128,7 +128,8 @@ export async function carregarDemonstracao(c: pg.PoolClient) {
   for (let i = 0; i < 40; i++) {
     const fem = i % 2 === 0;
     const idade = [0, 1, 4, 8, 15, 22, 29, 35, 41, 48, 55, 62, 67, 74, 81][i % 15];
-    const ano = new Date().getFullYear() - idade;
+    // Data no passado: idade completa em anos, recuando um número aleatório de dias dentro do ano.
+    const nasc = new Date(Date.now() - (idade * 365.25 + randomInt(1, 360)) * 86_400_000).toISOString().slice(0, 10);
     const nome = `${sorteia(fem ? NOMES_F : NOMES_M)} ${sorteia(SOBRENOMES)} ${sorteia(SOBRENOMES)}`;
     const condicoes = idade > 50 && i % 3 === 0 ? ['hipertensao'] : idade > 45 && i % 4 === 1 ? ['diabetes', 'hipertensao'] : null;
     try {
@@ -136,7 +137,7 @@ export async function carregarDemonstracao(c: pg.PoolClient) {
         await criarPessoa(c, {
           nome,
           sexo: fem ? 'F' : 'M',
-          nascimento: `${ano}-${String(randomInt(1, 13)).padStart(2, '0')}-${String(randomInt(1, 28)).padStart(2, '0')}`,
+          nascimento: nasc,
           municipioId: mun,
           bairroId: bairros.length ? sorteia(bairros) : undefined,
           unidadeId: i % 3 === 0 ? usf2 : usf,

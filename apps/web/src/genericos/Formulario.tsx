@@ -1,4 +1,5 @@
 // Formulário genérico gerado a partir dos metadados da entidade.
+import { useAuth } from '@/auth/Auth';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Alert,
@@ -48,7 +49,7 @@ export interface ExtensaoFormulario {
   aoMudarCampo?: (campo: string, valor: any, dados: Record<string, any>, definir: (parcial: Record<string, any>) => void) => void | Promise<void>;
   acoes?: (registro: Record<string, any> | null, recarregar: () => void) => React.ReactNode;
   cabecalho?: (registro: Record<string, any> | null) => React.ReactNode;
-  abasExtras?: (registro: Record<string, any> | null) => { titulo: string; conteudo: React.ReactNode }[];
+  abasExtras?: (registro: Record<string, any> | null, pode: (permissao: string, modulo?: string) => boolean) => { titulo: string; conteudo: React.ReactNode }[];
 }
 
 const extensoes = new Map<string, ExtensaoFormulario>();
@@ -71,6 +72,7 @@ function valoresPadrao(meta: Meta) {
 }
 
 function FormularioMeta({ meta, id, iniciais, ocultar, emModal, aoSalvar, aoCancelar, extensao }: Props & { meta: Meta }) {
+  const { pode } = useAuth();
   const { abrir, fechar, ativa } = useJanelas();
   const [registroId, setRegistroId] = useState<number | null>(id ?? null);
   const [registro, setRegistro] = useState<Record<string, any> | null>(null);
@@ -252,7 +254,7 @@ function FormularioMeta({ meta, id, iniciais, ocultar, emModal, aoSalvar, aoCanc
 
   const conteudoAba = (aba: string) => <Grid gutter="sm">{visiveis.filter((c) => (c.aba ?? 'Geral') === aba).map(campoEl)}</Grid>;
   const filhos = registroId ? (meta.filhos ?? []) : [];
-  const extras = extensao?.abasExtras?.(registro) ?? [];
+  const extras = extensao?.abasExtras?.(registro, pode) ?? [];
 
   return (
     <Box pos="relative">

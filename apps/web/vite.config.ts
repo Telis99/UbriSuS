@@ -5,6 +5,8 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   plugins: [react()],
   resolve: {
+    // Uma única cópia do dayjs para a aplicação e para @mantine/dates (idioma pt-BR nos calendários).
+    dedupe: ['dayjs'],
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       // Validações compartilhadas com a API (CPF, CNS, CNPJ, idade, senha).

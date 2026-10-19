@@ -35,6 +35,13 @@ export const PARAMETROS: [string, unknown, string, string][] = [
   ['paciente.alertar_outro_municipio', true, 'Alertar paciente residente em outro município', 'AGE'],
   ['alerta.preventivo', { idadeInicial: 25, idadeFinal: 64, intervaloMeses: 36 }, 'Rastreamento do câncer do colo do útero (citopatológico)', 'AGE'],
   ['alerta.mamografia', { idadeInicial: 50, idadeFinal: 69, intervaloMeses: 24 }, 'Rastreamento do câncer de mama (mamografia)', 'AGE'],
+  ['agenda.dias_bloqueio_falta', 30, 'Dias de bloqueio de novo agendamento especializado após falta não justificada', 'AGE'],
+  ['agenda.horizonte_geracao_dias', 120, 'Horizonte (dias) de geração automática dos horários das agendas', 'AGE'],
+  ['agenda.validar_carga_horaria', true, 'Impedir agendas acima da carga horária do vínculo do profissional', 'AGE'],
+  ['exames.exigir_peso_altura', false, 'Exigir peso e altura do paciente na requisição de exames (regulação)', 'AMB'],
+  ['exames.limite_sem_justificativa', 10, 'Quantidade de exames por requisição sem exigir justificativa', 'AMB'],
+  ['exames.lista_espera_automatica', true, 'Incluir automaticamente na lista de espera os exames requisitados', 'AMB'],
+  ['receita.impressao', { cabecalho: true, rodape: true, logoSus: true, duasVias: false, textoCabecalho: '' }, 'Configuração da impressão de receitas (cabeçalho, rodapé, logotipo do SUS, duas vias)', 'PEP'],
   ['integracao.rnds', { ativo: false, urlAutenticacao: 'https://ehr-auth-hmg.saude.gov.br/api/token', urlServicos: 'https://sp-ehr-services.hmg.saude.gov.br', certificadoId: null, cpfResponsavel: '' }, 'Integração CADSUS/RNDS', 'TEC'],
 ];
 
