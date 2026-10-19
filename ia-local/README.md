@@ -146,3 +146,12 @@ Dentro da conversa:
 - Revise as alterações com `git diff` antes de commitar. Faça commits pequenos e frequentes.
 - Se a qualidade não bastar, troque `modeloAgentes` por um modelo maior (ex.: `qwen3.5:9b`) no
   `config.json`, mantendo o 4B para o super agente.
+
+## Problemas comuns
+
+| Mensagem | Causa e solução |
+|---|---|
+| `dial tcp 127.0.0.1:11434 ... recusou` | O **servidor do Ollama não está rodando**. Abra o aplicativo "Ollama" pelo menu Iniciar (ele fica no ícone da bandeja, perto do relógio) ou, em outro terminal, rode `ollama serve` e deixe a janela aberta. Teste com `ollama list`. |
+| `Modelo "qwen3.5:4b" não está instalado` | Rode `ollama pull qwen3.5:4b` e confira o nome com `ollama list`. |
+| `npm` não é reconhecido | Instale o Node.js 22 (https://nodejs.org) e abra um novo terminal. |
+| Pasta `ia-local` não existe | O projeto foi baixado antes da criação do super agente: rode `git pull` na pasta do projeto. |
