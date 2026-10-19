@@ -26,7 +26,7 @@ import {
 import { IconCheck, IconDeviceFloppy, IconFileText, IconHeartbeat, IconLock, IconPill, IconPlus, IconPrinter, IconRefresh, IconTestPipe, IconTrash, IconArrowForward } from '@tabler/icons-react';
 import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip as RTooltip, XAxis, YAxis } from 'recharts';
 import dayjs from 'dayjs';
-import { api } from '@/api';
+import { api, urlArquivo } from '@/api';
 import { useJanelas, useTituloJanela } from '@/shell/Janelas';
 import { BotaoDitado } from '@/voz/Ditado';
 import { CabecalhoPaciente } from '@/componentes/Paciente';
@@ -528,7 +528,12 @@ function AbaExames({ dados, encerrado, aoGravar }: { dados: Completo; encerrado:
                   {i.resultado}
                 </Text>
               )}
-              {i.situacao === 'RESULTADO' && (
+              {i.arquivo && (
+                <Button size="compact-xs" variant="subtle" leftSection={<IconPrinter size={12} />} onClick={() => void abrirPdf(urlArquivo(i.arquivo))}>
+                  Ver laudo
+                </Button>
+              )}
+              {i.situacao === 'REALIZADO' && (i.resultado || i.arquivo) && (
                 <Button size="compact-xs" variant="subtle" leftSection={<IconCheck size={12} />} onClick={() => api.post(`/api/solicitacoes-exame/itens/${i.id}/avaliado`).then(aoGravar)}>
                   Avaliado
                 </Button>

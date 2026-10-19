@@ -1,11 +1,11 @@
 // Pacientes (TR 1.2.6): pesquisa, cadastro padrão CADSUS e abas de histórico consolidado no formulário.
 import { useState } from 'react';
-import { Paper, SegmentedControl, ScrollArea, Stack, Title } from '@mantine/core';
-import { api } from '@/api';
+import { Anchor, Paper, SegmentedControl, ScrollArea, Stack, Title } from '@mantine/core';
+import { api, urlArquivo } from '@/api';
 import { registrarExtensaoFormulario } from '@/genericos/Formulario';
 import { useJanelas, useTituloJanela } from '@/shell/Janelas';
 import { BuscaPaciente } from '@/componentes/Paciente';
-import { fmtData, fmtDataHora, Situacao, TabelaSimples, useCarregar } from '@/componentes/comum';
+import { abrirPdf, fmtData, fmtDataHora, Situacao, TabelaSimples, useCarregar } from '@/componentes/comum';
 import { GraficoEvolucao, HistoricoProntuario } from './Atendimento';
 import { registrarTela } from './registro';
 
@@ -35,6 +35,7 @@ const ROTULOS: Record<string, string> = {
   data_saida: 'Saída',
   data_nascimento: 'Nascimento',
   resultado_liberado_em: 'Resultado em',
+  resultado_arquivo_id: 'Laudo',
   termino_previsto: 'Término previsto',
   avisado_em: 'Avisado em',
 };
@@ -46,7 +47,7 @@ export function HistoricoPaciente({ pacienteId }: { pacienteId: number }) {
   const [secao, setSecao] = useState('agendamentos');
   const { dados } = useCarregar<any[]>(() => api.get(`/api/pacientes/${pacienteId}/historico/${secao}`), [pacienteId, secao]);
   const linhas = dados ?? [];
-  const chaves = linhas.length ? Object.keys(linhas[0]).filter((k) => !k.endsWith('_id') && k !== 'id') : [];
+  const chaves = linhas.length ? Object.keys(linhas[0]).filter((k) => (!k.endsWith('_id') || k === 'resultado_arquivo_id') && k !== 'id') : [];
   return (
     <Stack gap="xs">
       <ScrollArea type="auto">
@@ -59,6 +60,13 @@ export function HistoricoPaciente({ pacienteId }: { pacienteId: number }) {
           valor: (l: any) => {
             const v = l[k];
             if (v == null) return '';
+            // Laudo liberado (laboratório, radiologia, ecografia) aberto direto do histórico.
+            if (k === 'resultado_arquivo_id')
+              return (
+                <Anchor size="sm" onClick={() => void abrirPdf(urlArquivo(v))}>
+                  Abrir laudo
+                </Anchor>
+              );
             if (k === 'situacao') return <Situacao valor={v} />;
             if (typeof v === 'boolean') return v ? 'Sim' : 'Não';
             if (ehData(k)) return String(v).length > 10 ? fmtDataHora(v) : fmtData(v);
