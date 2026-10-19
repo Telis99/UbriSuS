@@ -9,12 +9,15 @@ export interface Grafico {
   /** Campo que separa as séries (uma linha/cor por valor). */
   serie?: string;
   titulo?: string;
+  /** Linhas próprias do gráfico, quando diferentes das linhas da tabela. */
+  dados?: Record<string, any>[];
 }
 
 const CORES = ['#1c7ed6', '#e03131', '#2f9e44', '#f08c00', '#7048e8', '#0c8599', '#c2255c', '#5c940d', '#495057', '#d9480f'];
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-export function svgGrafico(g: Grafico, linhas: Record<string, any>[], largura = 760, altura = 260): string {
+export function svgGrafico(g: Grafico, linhasTabela: Record<string, any>[], largura = 760, altura = 260): string {
+  const linhas = g.dados ?? linhasTabela;
   const categorias = [...new Set(linhas.map((l) => String(l[g.x] ?? '')))];
   const series = g.serie ? [...new Set(linhas.map((l) => String(l[g.serie!] ?? '')))] : [g.titulo ?? g.y];
   const doPonto = (cat: string, s: string) => linhas.filter((l) => String(l[g.x] ?? '') === cat && (!g.serie || String(l[g.serie] ?? '') === s));

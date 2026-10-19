@@ -44,6 +44,7 @@ export const PARAMETROS: [string, unknown, string, string][] = [
   ['receita.impressao', { cabecalho: true, rodape: true, logoSus: true, duasVias: false, textoCabecalho: '' }, 'Configuração da impressão de receitas (cabeçalho, rodapé, logotipo do SUS, duas vias)', 'PEP'],
   ['farmacia.demanda_na_dispensacao', true, 'Permitir lançar demanda reprimida no momento da dispensação', 'FAR'],
   ['farmacia.comprovante', { imprimir: true, termica: false }, 'Comprovante de entrega de medicamentos (imprimir; impressora térmica)', 'FAR'],
+  ['imunizacao.alertar_atrasadas', true, 'Exibir alerta de vacinas em atraso ao operador', 'IMU'],
   ['integracao.rnds', { ativo: false, urlAutenticacao: 'https://ehr-auth-hmg.saude.gov.br/api/token', urlServicos: 'https://sp-ehr-services.hmg.saude.gov.br', certificadoId: null, cpfResponsavel: '' }, 'Integração CADSUS/RNDS', 'TEC'],
 ];
 

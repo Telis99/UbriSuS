@@ -37,7 +37,7 @@ interface Resultado {
   titulo: string;
   colunas: Coluna[];
   linhas: Record<string, any>[];
-  grafico?: { tipo: 'linha' | 'barra'; x: string; y: string; serie?: string };
+  grafico?: { tipo: 'linha' | 'barra'; x: string; y: string; serie?: string; dados?: Record<string, any>[] };
   filtrosTexto?: string[];
 }
 
@@ -72,9 +72,10 @@ function fmt(v: any, f?: string) {
 function GraficoResultado({ r }: { r: Resultado }) {
   const g = r.grafico!;
   const { dados, series } = useMemo(() => {
-    const series = g.serie ? [...new Set(r.linhas.map((l) => String(l[g.serie!])))] : [g.y];
+    const fonte = g.dados ?? r.linhas;
+    const series = g.serie ? [...new Set(fonte.map((l) => String(l[g.serie!])))] : [g.y];
     const mapa = new Map<string, Record<string, any>>();
-    for (const l of r.linhas) {
+    for (const l of fonte) {
       const x = String(l[g.x]);
       const o = mapa.get(x) ?? { x };
       const s = g.serie ? String(l[g.serie]) : g.y;

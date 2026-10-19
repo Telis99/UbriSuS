@@ -9,3 +9,4 @@ import './Atendimento';
 import './Pacientes';
 import './Relatorios';
 import './Farmacia';
+import './Imunizacao';
