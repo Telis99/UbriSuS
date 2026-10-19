@@ -1,7 +1,7 @@
 // Atendimento clínico / prontuário eletrônico (TR 1.2.16, 1.2.32, 1.2.42.2): SOAP com CID/CIAP e ditado,
 // sinais vitais e gráficos de evolução, risco de Framingham, prescrição com controle de alergia e receitas
 // por tipo, requisição de exames, encaminhamentos, documentos, observação, registros sigilosos e desfecho.
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import {
   ActionIcon,
   Alert,
@@ -56,7 +56,7 @@ const TIPOS_RECEITA: [string, string][] = [
   ['AMARELA_A', 'Notificação amarela (A)'],
 ];
 
-interface Completo {
+export interface Completo {
   atendimento: any;
   paciente: any;
   sinais: any[];
@@ -69,6 +69,18 @@ interface Completo {
   observacoes: any[];
   administracoes: any[];
   alertas: any[];
+}
+
+/** Abas adicionais da tela de atendimento registradas por outros módulos (odontologia, saúde mental...). */
+export interface AbaAtendimento {
+  id: string;
+  titulo: string;
+  visivel?: (dados: Completo) => boolean;
+  render: (p: { dados: Completo; encerrado: boolean; aoGravar: () => void }) => ReactNode;
+}
+const abasExtras: AbaAtendimento[] = [];
+export function registrarAbaAtendimento(a: AbaAtendimento) {
+  if (!abasExtras.some((x) => x.id === a.id)) abasExtras.push(a);
 }
 
 function CampoSoap({ rotulo, valor, aoMudar, desabilitado }: { rotulo: string; valor: string; aoMudar: (v: string) => void; desabilitado: boolean }) {
@@ -903,6 +915,13 @@ function TelaAtendimento({ id }: { id: number }) {
           <Tabs.Tab value="encaminhamentos">Encaminhamentos ({dados.encaminhamentos.length})</Tabs.Tab>
           <Tabs.Tab value="documentos">Atestados e documentos</Tabs.Tab>
           {(observacao || dados.observacoes.length > 0 || a.tipo_unidade === 'UPA') && <Tabs.Tab value="observacao">Observação</Tabs.Tab>}
+          {abasExtras
+            .filter((x) => !x.visivel || x.visivel(dados))
+            .map((x) => (
+              <Tabs.Tab key={x.id} value={x.id}>
+                {x.titulo}
+              </Tabs.Tab>
+            ))}
           <Tabs.Tab value="prontuario">Histórico (prontuário)</Tabs.Tab>
           <Tabs.Tab value="sigiloso" leftSection={<IconLock size={12} />}>
             Sigiloso
@@ -930,6 +949,11 @@ function TelaAtendimento({ id }: { id: number }) {
           <Tabs.Panel value="observacao">
             <AbaObservacao dados={dados} aoGravar={() => void carregar()} />
           </Tabs.Panel>
+          {abasExtras.map((x) => (
+            <Tabs.Panel key={x.id} value={x.id}>
+              {x.render(props)}
+            </Tabs.Panel>
+          ))}
           <Tabs.Panel value="prontuario">
             <HistoricoProntuario pacienteId={a.paciente_id} />
           </Tabs.Panel>

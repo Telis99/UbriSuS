@@ -49,6 +49,11 @@ export const PARAMETROS: [string, unknown, string, string][] = [
   ['integracao.rnds', { ativo: false, urlAutenticacao: 'https://ehr-auth-hmg.saude.gov.br/api/token', urlServicos: 'https://sp-ehr-services.hmg.saude.gov.br', certificadoId: null, cpfResponsavel: '' }, 'Integração CADSUS/RNDS', 'TEC'],
 ];
 
+/** Parâmetros declarados pelos módulos (carregados junto com os da plataforma). */
+export function registrarParametro(chave: string, valor: unknown, descricao: string, modulo: string) {
+  if (!PARAMETROS.some(([c]) => c === chave)) PARAMETROS.push([chave, valor, descricao, modulo]);
+}
+
 export async function carregarParametros(c: pg.PoolClient) {
   for (const [chave, valor, descricao, modulo] of PARAMETROS) {
     await c.query(

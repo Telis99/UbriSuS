@@ -11,3 +11,5 @@ import './Relatorios';
 import './Farmacia';
 import './Imunizacao';
 import './Faturamento';
+// Telas dos módulos plugáveis (uma por arquivo em telas/modulos), registradas automaticamente.
+import.meta.glob('./modulos/*.tsx', { eager: true });

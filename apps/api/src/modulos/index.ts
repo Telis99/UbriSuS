@@ -10,3 +10,7 @@ import './agendamento/entidades.js';
 import './atendimento/entidades.js';
 import './imunizacao/entidades.js';
 import './faturamento/entidades.js';
+
+// Demais módulos (laboratório, transporte, TFD, odontologia...) são descobertos automaticamente.
+import { importarDosModulos } from './descoberta.js';
+await importarDosModulos('entidades');

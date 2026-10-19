@@ -8,6 +8,7 @@ import { rotasFaturamento } from './faturamento/rotas.js';
 import { rotasCatalogo } from '../servicos/catalogo.js';
 import { rotasCadastros } from './cadastros/rotas.js';
 import { rotasSuporte } from './suporte/rotas.js';
+import { importarDosModulos } from './descoberta.js';
 
 export async function registrarRotasModulos(app: FastifyInstance) {
   await rotasCadastros(app);
@@ -17,6 +18,8 @@ export async function registrarRotasModulos(app: FastifyInstance) {
   await rotasFarmacia(app);
   await rotasImunizacao(app);
   await rotasFaturamento(app);
+  // Módulos plugáveis: rotas.ts com export default async function (app).
+  for (const { modulo } of await importarDosModulos('rotas')) if (typeof modulo.default === 'function') await modulo.default(app);
   await rotasCatalogo(app);
 }
 
