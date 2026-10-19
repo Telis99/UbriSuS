@@ -153,5 +153,6 @@ Dentro da conversa:
 |---|---|
 | `dial tcp 127.0.0.1:11434 ... recusou` | O **servidor do Ollama não está rodando**. Abra o aplicativo "Ollama" pelo menu Iniciar (ele fica no ícone da bandeja, perto do relógio) ou, em outro terminal, rode `ollama serve` e deixe a janela aberta. Teste com `ollama list`. |
 | `Modelo "qwen3.5:4b" não está instalado` | Rode `ollama pull qwen3.5:4b` e confira o nome com `ollama list`. |
+| `npm.ps1 não pode ser carregado ... execução de scripts foi desabilitada` | Política do PowerShell. Use `npm.cmd` no lugar de `npm` (ex.: `npm.cmd install`), ou libere uma vez com `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`. O super agente não depende do npm: rode `node ia-local\superagente.mjs` ou dê dois cliques em `agente.cmd`. |
 | `npm` não é reconhecido | Instale o Node.js 22 (https://nodejs.org) e abra um novo terminal. |
 | Pasta `ia-local` não existe | O projeto foi baixado antes da criação do super agente: rode `git pull` na pasta do projeto. |
