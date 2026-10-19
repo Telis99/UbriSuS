@@ -588,7 +588,9 @@ export async function rotasAtendimento(app: FastifyInstance) {
       contatos: `select data_hora, setor, meio, assunto, descricao from cad.pessoa_contato where pessoa_id = $1 order by data_hora desc`,
       avisos: `select criado_em, texto, avisado, avisado_em, ativo from cad.pessoa_aviso where pessoa_id = $1 order by criado_em desc`,
       aih: `select * from aih.laudo where paciente_id = $1 order by id desc`,
-      tfd: `select * from tfd.laudo where paciente_id = $1 order by id desc`,
+      tfd: `select l.numero, l.data_abertura, pr.nome procedimento, l.situacao, l.situacao_tratamento, ld.nome local_tratamento
+              from tfd.laudo l left join cad.procedimento pr on pr.id = l.procedimento_id left join tra.local_destino ld on ld.id = l.local_tratamento_id
+             where l.paciente_id = $1 order by l.id desc`,
       transporte: `select v.data_saida, r.nome rota, vp.situacao, vp.local_destino from tra.viagem_passageiro vp join tra.viagem v on v.id = vp.viagem_id
                      left join tra.rota r on r.id = v.rota_id where vp.paciente_id = $1 order by v.data_saida desc`,
     };

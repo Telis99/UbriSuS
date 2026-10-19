@@ -18,7 +18,7 @@ import {
 
 const MAX_TENTATIVAS = 3;
 
-async function logAcesso(req: FastifyRequest, evento: string, operadorId: number | null, login: string, detalhe?: string) {
+export async function logAcesso(req: FastifyRequest, evento: string, operadorId: number | null, login: string, detalhe?: string) {
   await pool.query(`insert into aud.log_acesso (operador_id, login, evento, ip, agente, detalhe) values ($1,$2,$3,$4,$5,$6)`, [
     operadorId,
     login,
@@ -30,7 +30,7 @@ async function logAcesso(req: FastifyRequest, evento: string, operadorId: number
 }
 
 /** Valida contrato de trabalho ativo e ausência de férias/afastamento (TR 1.1.1.32.2). */
-async function vinculoAtivo(profissionalId: number): Promise<boolean> {
+export async function vinculoAtivo(profissionalId: number): Promise<boolean> {
   const v = await consultarUm(
     `select count(*)::int as n from cad.vinculo
       where profissional_id = $1 and ativo
@@ -41,7 +41,7 @@ async function vinculoAtivo(profissionalId: number): Promise<boolean> {
   return (v?.n ?? 0) > 0;
 }
 
-async function iniciarSessao(req: FastifyRequest, operadorId: number, unidadeId: number | null) {
+export async function iniciarSessao(req: FastifyRequest, operadorId: number, unidadeId: number | null) {
   const token = gerarToken();
   const s = await consultarUm<{ id: string }>(
     `insert into seg.sessao (token_hash, operador_id, ip, agente, unidade_id) values ($1,$2,$3,$4,$5) returning id`,

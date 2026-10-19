@@ -21,7 +21,8 @@ export function Login() {
   const { recarregar } = useAuth();
   const [login, setLogin] = useState('');
   const [senha, setSenha] = useState('');
-  const [erro, setErro] = useState<string | null>(null);
+  // Mensagem devolvida pelo retorno do login gov.br (?erro=...).
+  const [erro, setErro] = useState<string | null>(() => new URLSearchParams(window.location.search).get('erro'));
   const [enviando, setEnviando] = useState(false);
   const [recuperar, setRecuperar] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);

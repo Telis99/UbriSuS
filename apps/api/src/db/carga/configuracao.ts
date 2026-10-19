@@ -74,6 +74,13 @@ export const PERFIS: { nome: string; categoria: string; grupo: string | null; de
     permissoes: ['AGE:consultar', 'AGE:incluir', 'AGE:alterar', 'AGE:exportar', 'paciente:*', 'familia:*', 'AMB:consultar', 'recepcao:*', 'agenda:*', 'TRA:consultar', 'TRA:incluir'],
   },
   {
+    nome: 'Transporte sanitário e TFD',
+    categoria: 'OPERACIONAL',
+    grupo: 'RECEPCAO',
+    descricao: 'Agendamento e gestão de viagens, motoristas, despesas e processos de TFD',
+    permissoes: ['TRA:*', 'TFD:*', 'paciente:consultar', 'paciente:alterar', 'AGE:consultar'],
+  },
+  {
     nome: 'Médico',
     categoria: 'OPERACIONAL',
     grupo: 'MEDICOS',
