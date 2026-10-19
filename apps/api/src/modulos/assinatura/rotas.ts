@@ -88,6 +88,7 @@ export default async function rotasAssinatura(app: FastifyInstance) {
     );
   });
 
+  // Execução sequencial ou unificada e notificação final ao solicitante (TR 1.1.1.54.1, 1.1.1.54.3).
   app.post('/api/assinatura/solicitacoes', async (req) => {
     const u = exigirUsuario(req);
     const b = z
@@ -102,6 +103,7 @@ export default async function rotasAssinatura(app: FastifyInstance) {
     return transacao(contextoDe(req, 'assinatura:solicitacao'), (c) => criarSolicitacao(c, b, u));
   });
 
+  // O signatário assina ou rejeita o documento informando o motivo (TR 1.1.1.54.2).
   app.post('/api/assinatura/solicitacoes/:id/responder', async (req) => {
     const u = exigirUsuario(req);
     const b = z.object({ acao: z.enum(['ASSINAR', 'REJEITAR']), motivo: z.string().optional(), certificadoId: z.number().nullish(), certificadoLocal: local }).parse(req.body);

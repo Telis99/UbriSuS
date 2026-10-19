@@ -1,5 +1,6 @@
 // Boletim de Produção Ambulatorial no layout do SIA/SUS (BPA magnético): cabeçalho, BPA consolidado (02)
 // e individualizado (03), campo de controle, geração agrupada ou por unidade e importação de prestadores.
+// Arquivo pronto para o sistema externo, sem redigitação (TR 1.1.1.42).
 import type pg from 'pg';
 import { ErroHttp } from '../../seguranca/usuario.js';
 import { parametro } from '../cadastros/alertas.js';

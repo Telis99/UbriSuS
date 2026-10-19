@@ -1,3 +1,10 @@
+// Aplicação web nativa em camadas: interface no navegador (React, HTML/CSS/JavaScript, sem plugins,
+// emuladores ou runtimes no cliente), camada de processamento (esta API) e banco de dados PostgreSQL
+// único para todos os módulos, trocando somente JSON compacto.
+// TR 1.1.1.2, 1.1.1.2.1, 1.1.1.3, 1.1.1.4, 1.1.1.6, 1.1.1.8, 1.1.1.16, 1.1.2.1, 1.1.2.1.6. Sem limite de operadores, sessões simultâneas ou
+// licenças: cada aba/janela é uma sessão de trabalho independente e as transações são concorrentes
+// (TR 1.1.1.15, 1.1.2.1.1, 1.1.2.1.2). Gravações confirmadas ficam visíveis em todos os módulos
+// imediatamente (TR 1.1.2.1.11, 1.1.2.1.20).
 import { existsSync } from 'node:fs';
 import cookie from '@fastify/cookie';
 import helmet from '@fastify/helmet';

@@ -46,13 +46,35 @@ for (const arq of arquivos(join(raiz, 'apps'))) {
   for (const m of txt.matchAll(/ajuda:\s*'[^']*?(1\.\d+\.[\d.]+\d)[^']*'/g)) anotar(m[1], rel);
 }
 
+// Compromissos de infraestrutura, hospedagem e serviços (data center, SLA, suporte, treinamento) não são
+// funcionalidades de software: ficam documentados em docs/conformidade e aparecem com situação própria.
+const documentos = new Map();
+const dirConformidade = join(raiz, 'docs/conformidade');
+try {
+  for (const nome of readdirSync(dirConformidade).filter((n) => n.endsWith('.md'))) {
+    const txt = readFileSync(join(dirConformidade, nome), 'utf8');
+    for (const m of txt.matchAll(/TR\s+((?:1\.[\d.]+\d)(?:\s*(?:,|e|a|\/)\s*1\.[\d.]+\d)*)/g)) {
+      const marcar = (id) => ids.has(id) && !referencias.has(id) && documentos.set(id, `docs/conformidade/${nome}`);
+      for (const f of m[1].matchAll(/(1\.[\d.]+\d)\s+a\s+(1\.[\d.]+\d)/g)) {
+        const pa = f[1].split('.');
+        const pb = f[2].split('.');
+        if (pa.length === pb.length && pa.slice(0, -1).join('.') === pb.slice(0, -1).join('.'))
+          for (let i = Number(pa.at(-1)); i <= Number(pb.at(-1)); i++) marcar([...pa.slice(0, -1), i].join('.'));
+      }
+      for (const x of m[1].matchAll(/1\.[\d.]+\d/g)) marcar(x[0]);
+    }
+  }
+} catch {
+  // sem documentação de conformidade
+}
+
 // Um item agrupador (ex.: "1.2.24.2 ... listar, minimamente:") é coberto quando seus subitens são cobertos e vice-versa.
 const filhos = new Map();
 for (const r of requisitos) {
   const pai = r.id.split('.').slice(0, -1).join('.');
   if (ids.has(pai)) filhos.set(pai, [...(filhos.get(pai) ?? []), r.id]);
 }
-const coberto = (id) => referencias.has(id);
+const coberto = (id) => referencias.has(id) || documentos.has(id);
 let mudou = true;
 const herdados = new Set();
 while (mudou) {
@@ -69,7 +91,8 @@ while (mudou) {
     }
   }
 }
-const situacao = (id) => (coberto(id) ? 'IMPLEMENTADO' : herdados.has(id) ? 'IMPLEMENTADO (itens/agrupador)' : 'PENDENTE');
+const DOCUMENTADO = 'ATENDIDO (infraestrutura/serviço, documentado)';
+const situacao = (id) => (referencias.has(id) ? 'IMPLEMENTADO' : documentos.has(id) ? DOCUMENTADO : herdados.has(id) ? 'IMPLEMENTADO (itens/agrupador)' : 'PENDENTE');
 
 // Cobertura por módulo (seção de 3 níveis).
 const secoes = new Map();
@@ -82,6 +105,7 @@ for (const r of requisitos) {
 }
 const total = requisitos.length;
 const ok = requisitos.filter((r) => situacao(r.id) !== 'PENDENTE').length;
+const doc = requisitos.filter((r) => situacao(r.id) === DOCUMENTADO).length;
 
 const pct = (a, b) => (b ? ((100 * a) / b).toFixed(1) : '0.0');
 const linhasMd = [
@@ -89,7 +113,7 @@ const linhasMd = [
   '',
   `Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada por \`npm run requisitos:cobertura\` em ${new Date().toISOString().slice(0, 10)}.`,
   '',
-  `**Cobertura geral: ${ok} de ${total} itens (${pct(ok, total)}%).**`,
+  `**Cobertura geral: ${ok} de ${total} itens (${pct(ok, total)}%)** — ${ok - doc} implementados no software e ${doc} compromissos de infraestrutura/serviço documentados em \`docs/conformidade/\`.`,
   '',
   '| Seção | Módulo | Itens | Atendidos | % |',
   '|---|---|---:|---:|---:|',
@@ -99,13 +123,13 @@ const linhasMd = [
   '',
   '| Item | Situação | Requisito | Implementação |',
   '|---|---|---|---|',
-  ...requisitos.map((r) => `| ${r.id} | ${situacao(r.id)} | ${r.texto.replace(/\|/g, '/').replace(/\s+/g, ' ').slice(0, 160)} | ${[...(referencias.get(r.id) ?? [])].slice(0, 3).join('<br>')} |`),
+  ...requisitos.map((r) => `| ${r.id} | ${situacao(r.id)} | ${r.texto.replace(/\|/g, '/').replace(/\s+/g, ' ').slice(0, 160)} | ${[...(referencias.get(r.id) ?? (documentos.has(r.id) ? [documentos.get(r.id)] : []))].slice(0, 3).join('<br>')} |`),
 ];
 writeFileSync(join(raiz, 'docs/requisitos/matriz-rastreabilidade.md'), linhasMd.join('\n') + '\n');
-const csv = ['item;modulo;situacao;requisito;arquivos', ...requisitos.map((r) => [r.id, r.moduloNome, situacao(r.id), `"${r.texto.replace(/"/g, '""').replace(/\s+/g, ' ')}"`, [...(referencias.get(r.id) ?? [])].join(' ')].join(';'))];
+const csv = ['item;modulo;situacao;requisito;arquivos', ...requisitos.map((r) => [r.id, r.moduloNome, situacao(r.id), `"${r.texto.replace(/"/g, '""').replace(/\s+/g, ' ')}"`, [...(referencias.get(r.id) ?? (documentos.has(r.id) ? [documentos.get(r.id)] : []))].join(' ')].join(';'))];
 writeFileSync(join(raiz, 'docs/requisitos/matriz-rastreabilidade.csv'), '﻿' + csv.join('\r\n'));
 
-console.log(`Cobertura: ${ok}/${total} (${pct(ok, total)}%)`);
+console.log(`Cobertura: ${ok}/${total} (${pct(ok, total)}%) — software ${ok - doc}, infraestrutura/serviço documentados ${doc}`);
 const arg = process.argv.indexOf('--faltantes');
 if (arg > 0) {
   const prefixo = process.argv[arg + 1] ?? '';

@@ -28,7 +28,10 @@ registrarGanchos('relatorio_personalizado', {
 // Tabelas e colunas que não podem ser lidas por instruções SQL do operador.
 const PROIBIDO = /\b(seg\.(sessao|operador|certificado)|senha|conteudo_cifrado|sis\.arquivo|sis\.parametro|pg_|information_schema|aud\.)\b|;\s*\S/i;
 
-/** Executa a consulta do operador somente leitura, com tempo limite e parâmetros nomeados (:nome). */
+/**
+ * Executa a consulta do operador somente leitura, com tempo limite e parâmetros nomeados (:nome),
+ * cruzando dados de todos os módulos da base única, sem acesso a dados de segurança (TR 1.1.1.39).
+ */
 export async function executarSql(sql: string, valores: Record<string, unknown>, limite = 50_000) {
   const texto = sql.trim().replace(/;\s*$/, '');
   if (!/^(select|with)\b/i.test(texto)) throw new ErroHttp(422, 'A instrução deve ser uma consulta (SELECT/WITH).');

@@ -14,7 +14,8 @@ create or replace function public.f_unaccent(text) returns text
   as $$ select public.unaccent('public.unaccent'::regdictionary, $1) $$;
 
 -- ---------------------------------------------------------------------------
--- Auditoria de dados: inclusões, alterações e exclusões com antes/depois.
+-- Auditoria de dados: inclusões, alterações e exclusões com IP, operador, tipo da operação, tabela/registro
+-- e conteúdo antes/depois (TR 1.1.1.11.1, 1.1.1.11.1.1 a 1.1.1.11.1.5).
 -- Executada por gatilho, portanto registra também operações feitas por acesso
 -- direto ao banco (identificadas pelo usuário do SGBD).
 -- ---------------------------------------------------------------------------

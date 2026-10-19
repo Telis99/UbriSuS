@@ -1,3 +1,6 @@
+// Interface em português do Brasil (textos, datas e calendários) com componentes que dão retorno visual imediato,
+// diferenciam opções habilitadas/desabilitadas e organizam as telas em áreas delimitadas.
+// TR 1.1.2.1.22, 1.1.2.1.24, 1.1.2.1.27, 1.1.2.1.28.
 import '@mantine/core/styles.css';
 import '@mantine/dates/styles.css';
 import '@mantine/notifications/styles.css';

@@ -176,6 +176,7 @@ export function Layout() {
 
   return (
     <CtxMetas.Provider value={metas}>
+      {/* Leiaute responsivo: computadores, tablets e celulares com acesso à internet (TR 1.1.2.1.34). */}
       <AppShell header={{ height: 52 }} navbar={{ width: 270, breakpoint: 'sm', collapsed: { mobile: !menuAberto, desktop: !menuAberto } }} padding={0}>
         <AppShell.Header bg="#1c5aa8" c="white">
           <Group h="100%" px="sm" justify="space-between" wrap="nowrap">

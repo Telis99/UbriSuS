@@ -1,5 +1,5 @@
 // Reconhecimento de voz "Speech to Text" em português para ditar textos em qualquer
-// campo de texto do sistema (TR 1.1.2.1.59). Usa a Web Speech API do navegador.
+// campo de texto do sistema (TR 1.1.2.1.59), disponível desde a implantação (TR 1.1.2.1.59.2). Usa a Web Speech API do navegador.
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import { ActionIcon, Tooltip } from '@mantine/core';
 import { notifications } from '@mantine/notifications';

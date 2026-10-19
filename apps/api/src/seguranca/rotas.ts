@@ -16,6 +16,7 @@ import {
   limparCacheSessao,
 } from './usuario.js';
 
+// Bloqueio do acesso após 3 tentativas inválidas (TR 1.1.1.29.3, 1.1.1.83).
 const MAX_TENTATIVAS = 3;
 
 export async function logAcesso(req: FastifyRequest, evento: string, operadorId: number | null, login: string, detalhe?: string) {

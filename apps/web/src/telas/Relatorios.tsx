@@ -101,6 +101,9 @@ function GraficoResultado({ r }: { r: Resultado }) {
   );
 }
 
+// Relatórios visualizados em tela (tabela e gráfico), gravados em arquivo no formato escolhido ou abertos em PDF
+// para impressão na impressora selecionada no navegador; emissões longas seguem em segundo plano com aviso ao
+// concluir (TR 1.1.2.1.15, 1.1.2.1.31).
 function TelaRelatorios({ modulo, inicial }: { modulo: string; inicial?: string }) {
   useTituloJanela(`Relatórios - ${NOMES_MODULO[modulo] ?? modulo}`);
   const [lista, setLista] = useState<Relatorio[]>([]);

@@ -29,6 +29,7 @@ import { api, urlArquivo } from '@/api';
 import { BotaoDitado } from '@/voz/Ditado';
 import type { Campo } from '@/tipos';
 
+// Máscaras e exemplos de preenchimento identificam o formato de cada campo (TR 1.1.2.1.25).
 export const MASCARAS: Record<string, (d: string) => string> = {
   cpf: (d) => d.slice(0, 11).replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})\.(\d{3})(\d)/, '$1.$2.$3').replace(/\.(\d{3})(\d{1,2})$/, '.$1-$2'),
   cns: (d) => d.slice(0, 15).replace(/(\d{3})(\d)/, '$1 $2').replace(/(\d{3}) (\d{4})(\d)/, '$1 $2 $3').replace(/(\d{4}) (\d{4})(\d)/, '$1 $2 $3'),
@@ -102,6 +103,8 @@ export interface PropsCampo {
   registro?: Record<string, any>;
 }
 
+// Entrada padronizada: a digitação é bloqueada no tamanho máximo do campo, com contador (TR 1.1.2.1.26);
+// referências com busca incremental, valores padrão e ditado agilizam o preenchimento (TR 1.1.2.1.30).
 export const EntradaCampo = forwardRef<HTMLInputElement, PropsCampo>(function EntradaCampo(
   { campo: c, valor, aoMudar, erro, rotuloRef, desabilitado, registro },
   ref,

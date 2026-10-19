@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Button, Group, PasswordInput, Stack, Text, Textarea, TextInput } from '@mantine/core';
 import { modals } from '@mantine/modals';
 
+/** Confirmação antes de operações de risco (exclusões, cancelamentos, envios em massa) (TR 1.1.2.1.29). */
 export function confirmar(titulo: string, mensagem: string, rotuloConfirmar = 'Confirmar', perigo = false): Promise<boolean> {
   return new Promise((resolve) => {
     modals.openConfirmModal({
