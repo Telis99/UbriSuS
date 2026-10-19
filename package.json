@@ -8,14 +8,16 @@
     "apps/web"
   ],
   "scripts": {
-    "dev": "npm run dev -w apps/api & npm run dev -w apps/web",
+    "dev": "node scripts/dev.mjs",
     "build": "npm run build -w apps/api && npm run build -w apps/web",
     "db:migrate": "npm run db:migrate -w apps/api",
     "db:seed": "npm run db:seed -w apps/api",
     "test": "npm test -w apps/api",
     "typecheck": "npm run typecheck -w apps/api && npm run typecheck -w apps/web",
     "requisitos:extrair": "node scripts/extrair-requisitos.mjs",
-    "requisitos:cobertura": "node scripts/cobertura-requisitos.mjs"
+    "requisitos:cobertura": "node scripts/cobertura-requisitos.mjs",
+    "db:demo": "npm run db:demo -w apps/api",
+    "setup": "npm run db:migrate && npm run db:demo"
   },
   "engines": {
     "node": ">=20"

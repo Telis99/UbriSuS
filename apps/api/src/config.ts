@@ -1,5 +1,12 @@
 import { randomBytes } from 'node:crypto';
 
+// Variáveis do arquivo .env na raiz do projeto (opcional; as do ambiente têm precedência).
+try {
+  process.loadEnvFile(new URL('../../../.env', import.meta.url));
+} catch {
+  // sem .env: usa as variáveis do ambiente e os padrões abaixo
+}
+
 function env(nome: string, padrao?: string): string {
   const v = process.env[nome] ?? padrao;
   if (v === undefined) throw new Error(`Variável de ambiente obrigatória ausente: ${nome}`);

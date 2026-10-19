@@ -1,0 +1,17 @@
+# Banco de dados PostgreSQL 16 para desenvolvimento e demonstração local.
+# Uso: docker compose up -d   (dados persistidos no volume "ubrisus-dados")
+services:
+  banco:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ubrisus
+      TZ: America/Sao_Paulo
+    ports:
+      - "5432:5432"
+    volumes:
+      - ubrisus-dados:/var/lib/postgresql/data
+volumes:
+  ubrisus-dados:
