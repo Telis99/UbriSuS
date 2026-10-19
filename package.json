@@ -17,7 +17,9 @@
     "requisitos:extrair": "node scripts/extrair-requisitos.mjs",
     "requisitos:cobertura": "node scripts/cobertura-requisitos.mjs",
     "db:demo": "npm run db:demo -w apps/api",
-    "setup": "npm run db:migrate && npm run db:demo"
+    "setup": "npm run db:migrate && npm run db:demo",
+    "agente": "node ia-local/superagente.mjs",
+    "agente:verificar": "node ia-local/superagente.mjs --verificar"
   },
   "engines": {
     "node": ">=20"

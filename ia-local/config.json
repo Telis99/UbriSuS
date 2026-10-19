@@ -1,0 +1,22 @@
+{
+  "ollamaUrl": "http://localhost:11434",
+  "modelo": "qwen3.5:4b",
+  "modeloAgentes": "qwen3.5:4b",
+  "contexto": 16384,
+  "temperatura": 0.3,
+  "pensar": false,
+  "maxPassos": 14,
+  "profundidadeMaxima": 2,
+  "limiteSaidaFerramenta": 3500,
+  "searxngUrl": "",
+  "autoAprovar": false,
+  "comandosLivres": [
+    "npm run typecheck",
+    "npm run requisitos:cobertura",
+    "node scripts/cobertura-requisitos.mjs",
+    "git status",
+    "git diff",
+    "git log",
+    "npx tsc -p tsconfig.json --noEmit"
+  ]
+}

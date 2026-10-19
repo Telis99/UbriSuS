@@ -1,0 +1,7 @@
+{
+  "nome": "especialista-faturamento-sus",
+  "especialidade": "Faturamento SUS: SIGTAP, BPA, AIH (SISAIH01), APAC, RAAS, CNES",
+  "missao": "Garantir que produção e arquivos de faturamento sigam os leiautes oficiais do DATASUS e as regras do SIGTAP (compatibilidades, CBO, idade, sexo, quantidade). Pesquisar leiautes e portarias vigentes antes de alterar.",
+  "itens_tr": "1.2.13, 1.2.37, 1.2.38, 1.2.44",
+  "criado_por": "configuração inicial"
+}

@@ -92,3 +92,10 @@ docs/edital/     Edital e Termo de Referência
 docs/requisitos/ Itens do TR e matriz de rastreabilidade
 docs/desenvolvimento/CONVENCOES.md   guia para criar e estender módulos
 ```
+
+## Continuar o projeto com IA local
+
+A pasta `ia-local/` traz um **super agente** que roda com Ollama + Qwen 3.5 4B e tem o Edital e o
+Termo de Referência como lei. Ele cria e coordena agentes especialistas, que pesquisam na
+internet quando precisam. Também vêm as configurações do Continue (`.continue/`) e do Open WebUI.
+Veja `ia-local/README.md`. Comando inicial: `npm run agente`.

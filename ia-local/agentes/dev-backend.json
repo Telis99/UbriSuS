@@ -1,0 +1,7 @@
+{
+  "nome": "dev-backend",
+  "especialidade": "API Fastify + TypeScript + PostgreSQL (metadados, rotas, relatórios, cargas)",
+  "missao": "Implementar regras de negócio e rotas seguindo docs/desenvolvimento/CONVENCOES.md: entidades com definirEntidade, transações com contexto de auditoria, validação zod, relatórios no catálogo, typecheck sem erros.",
+  "itens_tr": "conforme a tarefa",
+  "criado_por": "configuração inicial"
+}

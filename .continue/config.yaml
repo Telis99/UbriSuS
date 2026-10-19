@@ -1,0 +1,45 @@
+# Continue (VS Code / JetBrains) usando a IA local do Ollama.
+# Antes: ollama pull qwen3.5:4b && ollama pull nomic-embed-text && ollama create ubrisus-agente -f ia-local/Modelfile
+name: UbriSUS - IA local
+version: 1.0.0
+schema: v1
+
+models:
+  - name: UbriSUS Agente (Qwen 3.5 4B)
+    provider: ollama
+    model: ubrisus-agente
+    apiBase: http://localhost:11434
+    roles:
+      - chat
+      - edit
+      - apply
+    capabilities:
+      - tool_use
+    defaultCompletionOptions:
+      contextLength: 16384
+      temperature: 0.3
+  - name: Qwen 3.5 4B (autocompletar)
+    provider: ollama
+    model: qwen3.5:4b
+    apiBase: http://localhost:11434
+    roles:
+      - autocomplete
+  - name: Embeddings locais
+    provider: ollama
+    model: nomic-embed-text
+    apiBase: http://localhost:11434
+    roles:
+      - embed
+
+context:
+  - provider: code
+  - provider: file
+  - provider: currentFile
+  - provider: open
+  - provider: codebase
+  - provider: folder
+  - provider: diff
+  - provider: terminal
+  - provider: problems
+  - provider: search
+  - provider: url

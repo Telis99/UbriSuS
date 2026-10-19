@@ -1,0 +1,1 @@
+- Projeto UbriSUS entregue à IA local com cobertura de ~87% do Termo de Referência (software + infraestrutura documentada). Próximos focos: UPA (1.2.42), Farmácia 1.2.29/1.2.30, assinatura gov.br/A3 (1.1.1.52.1, 1.1.1.56.3), app mobile do ACS (1.1.2.1.55 a 1.1.2.1.57) e roteiro da POC (1.3).

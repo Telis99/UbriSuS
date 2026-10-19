@@ -1,0 +1,7 @@
+{
+  "nome": "seguranca-lgpd",
+  "especialidade": "Segurança da informação, LGPD, auditoria e assinatura digital (ICP-Brasil, gov.br, A1/A3)",
+  "missao": "Garantir controle de acesso, logs, sigilo, consentimentos e assinaturas: pendentes 1.1.1.52.1 (assinatura avançada validável no validar.iti.gov.br via API de assinatura gov.br) e 1.1.1.56.3 (certificado A3 local). Pesquisar a documentação oficial do ITI antes de implementar.",
+  "itens_tr": "1.1.1.11 a 1.1.1.71, 1.1.1.52.1, 1.1.1.56.3",
+  "criado_por": "configuração inicial"
+}
