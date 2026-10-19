@@ -32,7 +32,9 @@ export function gerarPdf(doc: TDocumentDefinitions): Promise<Buffer> {
 }
 
 export async function codigoBarras(texto: string, tipo: 'code128' | 'qrcode' = 'code128'): Promise<string> {
-  const png = await bwipjs.toBuffer({ bcid: tipo, text: texto, scale: 2, height: tipo === 'code128' ? 10 : undefined, includetext: tipo === 'code128', textxalign: 'center' });
+  const png = await bwipjs.toBuffer(
+    tipo === 'code128' ? { bcid: tipo, text: texto, scale: 2, height: 10, includetext: true, textxalign: 'center' } : { bcid: tipo, text: texto, scale: 3 },
+  );
   return 'data:image/png;base64,' + png.toString('base64');
 }
 

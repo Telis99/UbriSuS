@@ -6,3 +6,4 @@ coverage/
 apps/api/storage/
 .DS_Store
 *.timestamp-*.mjs
+.dados/

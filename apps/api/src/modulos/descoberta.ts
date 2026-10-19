@@ -16,7 +16,12 @@ export async function importarDosModulos(arquivo: string): Promise<{ pasta: stri
     for (const ext of ['.ts', '.js']) {
       const f = join(dir, pasta, arquivo + ext);
       if (existsSync(f)) {
-        out.push({ pasta, modulo: await import(pathToFileURL(f).href) });
+        // Um módulo com falha de carga é registrado no log e não impede a subida dos demais.
+        try {
+          out.push({ pasta, modulo: await import(pathToFileURL(f).href) });
+        } catch (e) {
+          console.error(`[módulos] falha ao carregar ${pasta}/${arquivo}:`, (e as Error).message);
+        }
         break;
       }
     }

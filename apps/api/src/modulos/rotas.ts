@@ -19,7 +19,9 @@ export async function registrarRotasModulos(app: FastifyInstance) {
   await rotasImunizacao(app);
   await rotasFaturamento(app);
   // Módulos plugáveis: rotas.ts com export default async function (app).
-  for (const { modulo } of await importarDosModulos('rotas')) if (typeof modulo.default === 'function') await modulo.default(app);
+  for (const { pasta, modulo } of await importarDosModulos('rotas'))
+    if (typeof modulo.default === 'function')
+      await app.register(async (escopo) => modulo.default(escopo)).after((e) => e && console.error(`[módulos] rotas de ${pasta}:`, e.message));
   await rotasCatalogo(app);
 }
 

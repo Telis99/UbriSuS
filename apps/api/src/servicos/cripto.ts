@@ -1,9 +1,28 @@
 // Cifragem simétrica (AES-256-GCM) de segredos armazenados: certificados A1,
 // senhas de integrações e dados coletados offline (TR 1.2.49.10).
 import { createCipheriv, createDecipheriv, createHash, randomBytes } from 'node:crypto';
-import { config } from '../config.js';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
 
-const chave = () => createHash('sha256').update(process.env.CHAVE_CRIPTOGRAFIA ?? config.segredoCookie).digest();
+/**
+ * Chave mestra: variável CHAVE_CRIPTOGRAFIA em produção (cofre de segredos); em desenvolvimento,
+ * arquivo local gerado uma única vez, para que os dados cifrados sobrevivam a reinícios.
+ */
+let mestra: Buffer | null = null;
+const chave = () => {
+  if (mestra) return mestra;
+  let segredo = process.env.CHAVE_CRIPTOGRAFIA;
+  if (!segredo) {
+    const arq = resolve(process.env.ARQUIVO_CHAVE ?? '.dados/chave-criptografia');
+    if (!existsSync(arq)) {
+      mkdirSync(dirname(arq), { recursive: true });
+      writeFileSync(arq, randomBytes(32).toString('hex'), { mode: 0o600 });
+    }
+    segredo = readFileSync(arq, 'utf8').trim();
+  }
+  mestra = createHash('sha256').update(segredo).digest();
+  return mestra;
+};
 
 export function cifrar(dados: Buffer | string): string {
   const iv = randomBytes(12);
