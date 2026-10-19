@@ -32,7 +32,8 @@ export function Entrar() {
   const { recarregar } = useCidadao();
   const [login, setLogin] = useState('');
   const [senha, setSenha] = useState('');
-  const [erro, setErro] = useState<string | null>(null);
+  // Erro devolvido pelo retorno do login gov.br (?erro=...).
+  const [erro, setErro] = useState<string | null>(() => new URLSearchParams(window.location.search).get('erro'));
   const [enviando, setEnviando] = useState(false);
   const entrar = async () => {
     setEnviando(true);
@@ -59,6 +60,10 @@ export function Entrar() {
       <PasswordInput label="Senha" leftSection={<IconLock size={16} />} value={senha} onChange={(e) => setSenha(e.currentTarget.value)} autoComplete="current-password" onKeyDown={(e) => e.key === 'Enter' && entrar()} />
       <Button size="md" onClick={entrar} loading={enviando} disabled={somenteDigitos(login).length < 11 || !senha}>
         Entrar
+      </Button>
+      {/* Entrada com a conta gov.br, sem solicitação e liberação pela unidade (TR 1.1.1.29.5.1). */}
+      <Button component="a" href="/api/auth/govbr?destino=cidadao" variant="outline" size="md" color="dark">
+        Entrar com gov.br
       </Button>
       <Group justify="space-between">
         <Anchor component={Link} to="/cidadao/recuperar" size="sm">

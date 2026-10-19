@@ -1,0 +1,14 @@
+{
+  "name": "ACS - Agente Comunitário de Saúde",
+  "short_name": "ACS Saúde",
+  "description": "Cadastro domiciliar (Ficha A), visitas domiciliares e territoriais e sincronização com o sistema de gestão da saúde, com funcionamento off-line.",
+  "id": "/acs/",
+  "start_url": "/acs/",
+  "scope": "/acs/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "background_color": "#ffffff",
+  "theme_color": "#0c8599",
+  "icons": [{ "src": "/icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

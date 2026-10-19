@@ -81,7 +81,11 @@ function usePwaAcs() {
     navigator.serviceWorker.addEventListener('controllerchange', aoTrocar);
     void navigator.serviceWorker
       .register('/acs-sw.js', { scope: '/acs/' })
-      .then((r) => {
+      .then(async (r) => {
+        // Guarda no cache os módulos já carregados nesta abertura (uso off-line imediato).
+        const pronto = await navigator.serviceWorker.ready;
+        const urls = [location.origin + '/acs/', ...performance.getEntriesByType('resource').map((x) => x.name)];
+        pronto.active?.postMessage({ tipo: 'precache', urls });
         const t = setInterval(() => navigator.onLine && r.update().catch(() => {}), 30 * 60_000);
         return () => clearInterval(t);
       })

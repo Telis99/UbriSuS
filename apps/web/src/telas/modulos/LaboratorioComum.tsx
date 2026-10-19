@@ -118,6 +118,7 @@ export function FormResultado({
   aoConcluir?: () => void;
 }) {
   const ref = useRef<HTMLDivElement>(null);
+  const iniciado = Object.values(valores).some((x) => x !== null && x !== undefined && x !== '');
   // Enter avança para o próximo campo; no último, conclui (digitação sequencial).
   const proximo = (e: React.KeyboardEvent, idx: number) => {
     if (e.key !== 'Enter' || (e.target as HTMLElement).tagName === 'TEXTAREA') return;
@@ -156,7 +157,7 @@ export function FormResultado({
             const pendente = avaliacao?.pendentes?.includes(v.codigo);
             const calculado = v.tipo === 'CALCULO' && !v.permite_alterar_valor;
             const valor = calculado ? fmt(avaliacao?.valores?.[v.codigo] ?? valores[v.codigo], v.casas_decimais) : (valores[v.codigo] ?? '');
-            const comum = { size: 'xs' as const, disabled: bloqueado, 'data-campo': idx, onKeyDown: (e: React.KeyboardEvent) => proximo(e, idx), error: pendente && !bloqueado ? ' ' : undefined };
+            const comum = { size: 'xs' as const, disabled: bloqueado, 'data-campo': idx, onKeyDown: (e: React.KeyboardEvent) => proximo(e, idx), error: pendente && iniciado && !bloqueado ? ' ' : undefined };
             const textos = predefinidos.filter((p) => !p.variavel_codigo || p.variavel_codigo === v.codigo);
             let entrada: React.ReactNode;
             if (v.tipo === 'TEXTO_LONGO') entrada = <Textarea {...comum} autosize minRows={2} value={valor} onChange={(e) => aoMudar(v.codigo, e.currentTarget.value)} />;

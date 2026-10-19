@@ -2,12 +2,12 @@
 
 Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada por `npm run requisitos:cobertura` em 2026-10-19.
 
-**Cobertura geral: 2179 de 2661 itens (81.9%).**
+**Cobertura geral: 2316 de 2661 itens (87.0%)** — 2244 implementados no software e 72 compromissos de infraestrutura/serviço documentados em `docs/conformidade/`.
 
 | Seção | Módulo | Itens | Atendidos | % |
 |---|---|---:|---:|---:|
-| 1.1.1 | Características técnicas | 233 | 146 | 62.7% |
-| 1.1.2 | Base tecnológica | 82 | 49 | 59.8% |
+| 1.1.1 | Características técnicas | 233 | 231 | 99.1% |
+| 1.1.2 | Base tecnológica | 82 | 79 | 96.3% |
 | 1.2.1 | Agendamento e cadastros nacionais | 11 | 11 | 100.0% |
 | 1.2.2 | Agendamento e cadastros nacionais | 36 | 36 | 100.0% |
 | 1.2.3 | Agendamento e cadastros nacionais | 15 | 12 | 80.0% |
@@ -20,7 +20,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.10 | Agendamento e cadastros nacionais | 39 | 27 | 69.2% |
 | 1.2.11 | Agendamento e cadastros nacionais | 8 | 8 | 100.0% |
 | 1.2.12 | Agendamento e cadastros nacionais | 62 | 42 | 67.7% |
-| 1.2.13 | Faturamento | 44 | 39 | 88.6% |
+| 1.2.13 | Faturamento | 44 | 43 | 97.7% |
 | 1.2.14 | Indicadores de gestão | 25 | 25 | 100.0% |
 | 1.2.15 | Ambulatório | 74 | 64 | 86.5% |
 | 1.2.16 | Ambulatório | 56 | 46 | 82.1% |
@@ -43,7 +43,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.33 | Prontuário médico | 8 | 4 | 50.0% |
 | 1.2.34 | Prontuário odontológico | 109 | 109 | 100.0% |
 | 1.2.35 | Tratamento fora do domicílio | 27 | 27 | 100.0% |
-| 1.2.36 | e-SUS AB (Atenção Primária) | 18 | 0 | 0.0% |
+| 1.2.36 | e-SUS AB (Atenção Primária) | 18 | 18 | 100.0% |
 | 1.2.37 | AIH | 35 | 35 | 100.0% |
 | 1.2.38 | AIH | 3 | 3 | 100.0% |
 | 1.2.39 | Imunização | 87 | 77 | 88.5% |
@@ -72,79 +72,79 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 
 | Item | Situação | Requisito | Implementação |
 |---|---|---|---|
-| 1.1.1 | PENDENTE | Características técnicas necessárias na solução pretendida |  |
-| 1.1.1.1 | PENDENTE | Sistema capaz de atender integralmente todas as legislações vigentes que regulamentam e controlam a administração pública municipal, tanto em âmbito federal qua |  |
-| 1.1.1.1.1 | PENDENTE | O atendimento à normativas específicas, do Município de Cabreúva, será objeto de parametrização na implantação, com prazos definidos de comum acordo entre contr |  |
-| 1.1.1.2 | PENDENTE | Ser um sistema desenvolvido nativamente para operar em ambiente web (Projetado para ser utilizado via internet), em linguagem própria para sistema web e interne |  |
-| 1.1.1.2.1 | PENDENTE | Será vedado o uso de emuladores ou aplicativos cliente/servidor, para execução em navegadores ou área de trabalho remota; |  |
-| 1.1.1.3 | PENDENTE | Sistema estruturado no conceito de camadas, com uma camada front-end operável através de navegador, camada de processamento de informações e camada de banco de  |  |
-| 1.1.1.4 | PENDENTE | Sistema capaz de otimizar o tráfego de dados entre a camada front end e o servidor de dados, visando baixo consumo de banda no link de internet (Formato JSON ou |  |
+| 1.1.1 | IMPLEMENTADO (itens/agrupador) | Características técnicas necessárias na solução pretendida |  |
+| 1.1.1.1 | ATENDIDO (infraestrutura/serviço, documentado) | Sistema capaz de atender integralmente todas as legislações vigentes que regulamentam e controlam a administração pública municipal, tanto em âmbito federal qua | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.1.1 | ATENDIDO (infraestrutura/serviço, documentado) | O atendimento à normativas específicas, do Município de Cabreúva, será objeto de parametrização na implantação, com prazos definidos de comum acordo entre contr | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.2 | IMPLEMENTADO | Ser um sistema desenvolvido nativamente para operar em ambiente web (Projetado para ser utilizado via internet), em linguagem própria para sistema web e interne | apps/api/src/app.ts |
+| 1.1.1.2.1 | IMPLEMENTADO | Será vedado o uso de emuladores ou aplicativos cliente/servidor, para execução em navegadores ou área de trabalho remota; | apps/api/src/app.ts |
+| 1.1.1.3 | IMPLEMENTADO | Sistema estruturado no conceito de camadas, com uma camada front-end operável através de navegador, camada de processamento de informações e camada de banco de  | apps/api/src/app.ts |
+| 1.1.1.4 | IMPLEMENTADO | Sistema capaz de otimizar o tráfego de dados entre a camada front end e o servidor de dados, visando baixo consumo de banda no link de internet (Formato JSON ou | apps/api/src/app.ts |
 | 1.1.1.5 | IMPLEMENTADO | Sistema capaz de executar validações básicas de interface, como validações de CPF e CNPJ, campos de preenchimento obrigatório, etc. no front end (Estação client | apps/api/src/compartilhado/validacao.ts<br>apps/web/src/genericos/campos.tsx |
-| 1.1.1.6 | PENDENTE | Sistema capaz de operar sem a instalação, no computador cliente, de runtimes, plugins ou aplicativos de acesso (Exceção feita quando houver necessidade de integ |  |
+| 1.1.1.6 | IMPLEMENTADO | Sistema capaz de operar sem a instalação, no computador cliente, de runtimes, plugins ou aplicativos de acesso (Exceção feita quando houver necessidade de integ | apps/api/src/app.ts |
 | 1.1.1.7 | IMPLEMENTADO | Sistema com suporte para operação através dos navegadores “padrão” do mercado, em suas versões atualizadas (Chrome, Edge, Firefox, Ópera, Safari) e capaz de ser | apps/web/src/shell/Janelas.tsx |
-| 1.1.1.8 | PENDENTE | Sistema desenvolvido para utilizar somente linguagens amplamente difundidas e padronizadas, como JavaScript, HTML e CSS; |  |
+| 1.1.1.8 | IMPLEMENTADO | Sistema desenvolvido para utilizar somente linguagens amplamente difundidas e padronizadas, como JavaScript, HTML e CSS; | apps/api/src/app.ts |
 | 1.1.1.9 | IMPLEMENTADO | Sistema que permita ao administrador da contratante, através de interface interna, consultar sessões ativas, com, no mínimo, as seguintes informações: | apps/api/migrations/001_base.sql<br>apps/api/src/seguranca/rotas.ts |
 | 1.1.1.9.1 | IMPLEMENTADO (itens/agrupador) | Código identificador e nome do operador logado; |  |
 | 1.1.1.9.2 | IMPLEMENTADO (itens/agrupador) | Data e hora do início da sessão; |  |
 | 1.1.1.9.3 | IMPLEMENTADO (itens/agrupador) | Tempo total da sessão ativa. |  |
 | 1.1.1.10 | IMPLEMENTADO | Sistema que permita ao administrador da contratante finalizar uma sessão ativa; | apps/api/migrations/001_base.sql<br>apps/api/src/seguranca/rotas.ts |
 | 1.1.1.11 | IMPLEMENTADO | Sistema que disponibilize meios de auditoria através de “logs”, com, no mínimo: | apps/api/migrations/001_base.sql<br>apps/api/src/db/pool.ts<br>apps/api/src/servicos/rotas.ts |
-| 1.1.1.11.1 | PENDENTE | “Logs” de operações que afetem o banco de dados, como inclusão, exclusão e alteração, incluindo: |  |
-| 1.1.1.11.1.1 | PENDENTE | IP da internet ou do servidor em operação; |  |
-| 1.1.1.11.1.2 | PENDENTE | Código de Identificação e nome do operador; |  |
-| 1.1.1.11.1.3 | PENDENTE | Tipo da operação realizada (Alteração, inclusão, exclusão); |  |
-| 1.1.1.11.1.4 | PENDENTE | Registro/tabela alterado; |  |
-| 1.1.1.11.1.5 | PENDENTE | Dados alterados, incluídos ou excluídos, comparando o antes e depois. |  |
+| 1.1.1.11.1 | IMPLEMENTADO | “Logs” de operações que afetem o banco de dados, como inclusão, exclusão e alteração, incluindo: | apps/api/migrations/001_base.sql |
+| 1.1.1.11.1.1 | IMPLEMENTADO | IP da internet ou do servidor em operação; | apps/api/migrations/001_base.sql |
+| 1.1.1.11.1.2 | IMPLEMENTADO | Código de Identificação e nome do operador; | apps/api/migrations/001_base.sql |
+| 1.1.1.11.1.3 | IMPLEMENTADO | Tipo da operação realizada (Alteração, inclusão, exclusão); | apps/api/migrations/001_base.sql |
+| 1.1.1.11.1.4 | IMPLEMENTADO | Registro/tabela alterado; | apps/api/migrations/001_base.sql |
+| 1.1.1.11.1.5 | IMPLEMENTADO | Dados alterados, incluídos ou excluídos, comparando o antes e depois. | apps/api/migrations/001_base.sql |
 | 1.1.1.11.2 | IMPLEMENTADO | “Logs” de autenticação de operadores, incluindo data e hora de login e de logout; | apps/api/migrations/001_base.sql |
 | 1.1.1.12 | IMPLEMENTADO | Sistema que permita ao administrador da contratada o gerenciamento da permissão ou restrição de geração e/ou acesso aos “logs” de auditoria; | apps/api/src/servicos/rotas.ts |
-| 1.1.1.13 | PENDENTE | Sistema que opere com padrões de segurança que impeçam o acesso indevido ou violação dos dados armazenados, abrangendo camadas como validação no front end (Clie |  |
+| 1.1.1.13 | ATENDIDO (infraestrutura/serviço, documentado) | Sistema que opere com padrões de segurança que impeçam o acesso indevido ou violação dos dados armazenados, abrangendo camadas como validação no front end (Clie | docs/conformidade/infraestrutura-e-servicos.md |
 | 1.1.1.14 | IMPLEMENTADO | Sistema que possibilite, visando prevenir, ou corrigir, eventuais falhas, geradas na operação ou oriundas da migração da base de dados legados, a verificação da | apps/api/migrations/001_base.sql<br>apps/api/src/servicos/consistencia.ts<br>apps/api/src/servicos/rotas.ts |
-| 1.1.1.15 | PENDENTE | Sistema que possibilite acesso ilimitado de operadores simultâneos, sem necessidade da ampliação de permissões, recursos de servidor de dados ou aquisição de no |  |
-| 1.1.1.16 | PENDENTE | Sistema que opere com banco de dados unificado, utilizando uma única base para compartilhamento de dados entre todos os módulos contratados; |  |
+| 1.1.1.15 | IMPLEMENTADO | Sistema que possibilite acesso ilimitado de operadores simultâneos, sem necessidade da ampliação de permissões, recursos de servidor de dados ou aquisição de no | apps/api/src/app.ts |
+| 1.1.1.16 | IMPLEMENTADO | Sistema que opere com banco de dados unificado, utilizando uma única base para compartilhamento de dados entre todos os módulos contratados; | apps/api/src/app.ts |
 | 1.1.1.17 | IMPLEMENTADO | Sistema capaz de garantir a integridade referencial entre as tabelas constantes no banco de dados, bloqueando a exclusão de informação que tenha vínculo com reg | apps/api/src/meta/esquema.ts |
 | 1.1.1.18 | IMPLEMENTADO | Sistema capaz de controlar as operações em tempo real, com a possibilidade de retornar o preenchimento do que é alterado para evitar retrabalho em caso de falha | apps/web/src/genericos/Formulario.tsx |
 | 1.1.1.19 | IMPLEMENTADO | Sistema que opere com o conceito de controle de transações, onde tudo é gravado ou nada é gravado, possibilitando que nada seja corrompido ou comprometido, gara | apps/api/src/db/pool.ts |
 | 1.1.1.19.1 | IMPLEMENTADO | O operador sempre deverá ser informado sobre a finalização, com sucesso ou não, das transações operacionais, seja inclusão, alteração ou exclusão de registros,  | apps/web/src/genericos/Formulario.tsx |
 | 1.1.1.20 | IMPLEMENTADO | O sistema deve disponibilizar recursos de segurança no SGBD para impedir que operadores não autorizados tenham acesso a base de dados para efetuar consulta, alt | apps/api/migrations/001_base.sql |
 | 1.1.1.21 | IMPLEMENTADO | O sistema deve disponibilizar ferramentas de segurança que não permitam acesso ao SGBD como operador DBA (Super operador) do Banco de Dados, devendo existir imp | apps/api/migrations/001_base.sql<br>apps/api/src/config.ts<br>apps/api/src/db/migrar.ts |
-| 1.1.1.22 | PENDENTE | A contratada não deve permitir que operadores da contratante ou terceiros acesse o SGBD e Banco de Dados durante a vigência do contrato, nem permitir sua integr |  |
-| 1.1.1.23 | IMPLEMENTADO | O sistema deve permitir a gravação de cópia de backup do banco de dados em servidor local disponibilizado pela contratante, com validação periódica de integrida | apps/api/src/modulos/backup/entidades.ts<br>apps/api/src/modulos/backup/servico.ts |
-| 1.1.1.24 | PENDENTE | Visando garantir que a empresa contratada disponibilize recursos informáticos adequados à exigências de performance que garantam a continuidade dos serviços, ev |  |
-| 1.1.1.24.1 | PENDENTE | A equivalência contemplada, para aqueles que não tem certificação, poderá ser declaratória; |  |
-| 1.1.1.24.2 | PENDENTE | A municipalidade auditará presencialmente, através de profissional especializado, para conferência de equivalência, após homologação do vencedor, previamente à  |  |
-| 1.1.1.24.2.1 | PENDENTE | Serão inspecionados, para verificação de aderência à equivalência exigida: |  |
-| 1.1.1.24.2.1.1 | PENDENTE | A redundância de servidor hospedeiro do sistema, com teste; |  |
-| 1.1.1.24.2.1.2 | PENDENTE | A redundância do sistema de energia elétrica, com teste; |  |
-| 1.1.1.24.2.1.3 | PENDENTE | A redundância de link de conexão, com teste; |  |
-| 1.1.1.24.2.1.4 | PENDENTE | O sistema de refrigeração do ambiente; |  |
-| 1.1.1.24.2.1.5 | PENDENTE | Sistema de controle e monitoramento de acesso; |  |
-| 1.1.1.24.2.1.6 | PENDENTE | Sistema de monitoramento de hardware; |  |
-| 1.1.1.24.2.1.7 | PENDENTE | Sistema de supressão de incêndio; e |  |
-| 1.1.1.24.2.1.8 | PENDENTE | Documentação técnica do projeto. |  |
-| 1.1.1.25 | PENDENTE | A contratada deve garantir, ainda, a segurança e disponibilidade do sistema, com, no mínimo, as seguintes infraestruturas de comunicação e segurança: |  |
-| 1.1.1.25.1 | PENDENTE | Protocolo de Roteamento Dinâmico (Enlace eBGP) através de routerboard com conexão a, no mínimo, duas operadoras distintas; |  |
-| 1.1.1.25.2 | PENDENTE | Ferramenta de análise preventiva de tráfego capaz de bloquear ataques comuns do tipo SQL Injection (SQLi) em suas variantes – erro/union/cego/tempo/booleano/etc |  |
-| 1.1.1.25.3 | PENDENTE | Garantia de segurança ao operador através de serviço de validação, indicando às ferramentas de acesso (Navegadores) que o domínio possui um certificado SSL/TSL  |  |
-| 1.1.1.26 | PENDENTE | O sistema deve ser hospedado em ambiente computacional com a seguinte garantia: |  |
-| 1.1.1.26.1 | PENDENTE | Suporte técnico 8x5 (Oito horas por dia, cinco dias da semana); |  |
-| 1.1.1.27 | PENDENTE | O sistema deve ser hospedado em data center com capacidade para aumento de disponibilização de recursos conforme demanda, sendo: |  |
-| 1.1.1.27.1 | PENDENTE | Aumento de reserva de link, em MB adicionais; |  |
-| 1.1.1.27.2 | PENDENTE | Aumento de espaço disponível em disco para armazenamento, em GB adicionais; |  |
-| 1.1.1.27.3 | PENDENTE | Aumento de alocação de memória RAM, em GB. |  |
-| 1.1.1.28 | PENDENTE | Considerando que a definição de requisitos técnicos mínimos é essencial para a fiel caracterização do objeto licitatório, assegurando igualdade entre os licitan |  |
-| 1.1.1.28.1 | PENDENTE | Link dedicado de 05 (Cinco) Mbps; |  |
-| 1.1.1.28.2 | PENDENTE | 06 (Seis) processadores virtuais (vCPU); |  |
-| 1.1.1.28.3 | PENDENTE | 08 (Oito) GB de alocação de memória RAM; |  |
-| 1.1.1.28.4 | PENDENTE | 300 (trezentos) GB de espaço em disco para o banco de dados; |  |
-| 1.1.1.28.5 | PENDENTE | 800 GB (Oitocentos Gigabytes) de espaço em disco para cópias de segurança (Backup); |  |
-| 1.1.1.28.6 | PENDENTE | 250 GB (Duzentos e cinquenta Gigabytes) de espaço em disco para repositório de arquivos (Imagens e documentos). |  |
+| 1.1.1.22 | ATENDIDO (infraestrutura/serviço, documentado) | A contratada não deve permitir que operadores da contratante ou terceiros acesse o SGBD e Banco de Dados durante a vigência do contrato, nem permitir sua integr | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.23 | IMPLEMENTADO | O sistema deve permitir a gravação de cópia de backup do banco de dados em servidor local disponibilizado pela contratante, com validação periódica de integrida | apps/api/src/modulos/backup/entidades.ts<br>apps/api/src/modulos/backup/rotas.ts<br>apps/api/src/modulos/backup/servico.ts |
+| 1.1.1.24 | ATENDIDO (infraestrutura/serviço, documentado) | Visando garantir que a empresa contratada disponibilize recursos informáticos adequados à exigências de performance que garantam a continuidade dos serviços, ev | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.1 | ATENDIDO (infraestrutura/serviço, documentado) | A equivalência contemplada, para aqueles que não tem certificação, poderá ser declaratória; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2 | ATENDIDO (infraestrutura/serviço, documentado) | A municipalidade auditará presencialmente, através de profissional especializado, para conferência de equivalência, após homologação do vencedor, previamente à  | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2.1 | ATENDIDO (infraestrutura/serviço, documentado) | Serão inspecionados, para verificação de aderência à equivalência exigida: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2.1.1 | ATENDIDO (infraestrutura/serviço, documentado) | A redundância de servidor hospedeiro do sistema, com teste; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2.1.2 | ATENDIDO (infraestrutura/serviço, documentado) | A redundância do sistema de energia elétrica, com teste; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2.1.3 | ATENDIDO (infraestrutura/serviço, documentado) | A redundância de link de conexão, com teste; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2.1.4 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema de refrigeração do ambiente; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2.1.5 | ATENDIDO (infraestrutura/serviço, documentado) | Sistema de controle e monitoramento de acesso; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2.1.6 | ATENDIDO (infraestrutura/serviço, documentado) | Sistema de monitoramento de hardware; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2.1.7 | ATENDIDO (infraestrutura/serviço, documentado) | Sistema de supressão de incêndio; e | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.24.2.1.8 | ATENDIDO (infraestrutura/serviço, documentado) | Documentação técnica do projeto. | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.25 | ATENDIDO (infraestrutura/serviço, documentado) | A contratada deve garantir, ainda, a segurança e disponibilidade do sistema, com, no mínimo, as seguintes infraestruturas de comunicação e segurança: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.25.1 | ATENDIDO (infraestrutura/serviço, documentado) | Protocolo de Roteamento Dinâmico (Enlace eBGP) através de routerboard com conexão a, no mínimo, duas operadoras distintas; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.25.2 | ATENDIDO (infraestrutura/serviço, documentado) | Ferramenta de análise preventiva de tráfego capaz de bloquear ataques comuns do tipo SQL Injection (SQLi) em suas variantes – erro/union/cego/tempo/booleano/etc | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.25.3 | ATENDIDO (infraestrutura/serviço, documentado) | Garantia de segurança ao operador através de serviço de validação, indicando às ferramentas de acesso (Navegadores) que o domínio possui um certificado SSL/TSL  | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.26 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema deve ser hospedado em ambiente computacional com a seguinte garantia: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.26.1 | ATENDIDO (infraestrutura/serviço, documentado) | Suporte técnico 8x5 (Oito horas por dia, cinco dias da semana); | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.27 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema deve ser hospedado em data center com capacidade para aumento de disponibilização de recursos conforme demanda, sendo: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.27.1 | ATENDIDO (infraestrutura/serviço, documentado) | Aumento de reserva de link, em MB adicionais; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.27.2 | ATENDIDO (infraestrutura/serviço, documentado) | Aumento de espaço disponível em disco para armazenamento, em GB adicionais; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.27.3 | ATENDIDO (infraestrutura/serviço, documentado) | Aumento de alocação de memória RAM, em GB. | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.28 | ATENDIDO (infraestrutura/serviço, documentado) | Considerando que a definição de requisitos técnicos mínimos é essencial para a fiel caracterização do objeto licitatório, assegurando igualdade entre os licitan | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.28.1 | ATENDIDO (infraestrutura/serviço, documentado) | Link dedicado de 05 (Cinco) Mbps; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.28.2 | ATENDIDO (infraestrutura/serviço, documentado) | 06 (Seis) processadores virtuais (vCPU); | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.28.3 | ATENDIDO (infraestrutura/serviço, documentado) | 08 (Oito) GB de alocação de memória RAM; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.28.4 | ATENDIDO (infraestrutura/serviço, documentado) | 300 (trezentos) GB de espaço em disco para o banco de dados; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.28.5 | ATENDIDO (infraestrutura/serviço, documentado) | 800 GB (Oitocentos Gigabytes) de espaço em disco para cópias de segurança (Backup); | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.28.6 | ATENDIDO (infraestrutura/serviço, documentado) | 250 GB (Duzentos e cinquenta Gigabytes) de espaço em disco para repositório de arquivos (Imagens e documentos). | docs/conformidade/infraestrutura-e-servicos.md |
 | 1.1.1.29 | IMPLEMENTADO | O sistema deve disponibilizar módulo centralizado de gerenciamento de operadores, permitindo o controle de permissões parametrizadas de acesso, com as seguintes | apps/api/src/modulos/seguranca/entidades.ts |
 | 1.1.1.29.1 | IMPLEMENTADO | Possibilitar relacionar o operador a um ou mais perfis, utilizando perfis já pré-definidos como, por exemplo, Operacional, Gerencial, Consulta, Administrador, e | apps/api/src/modulos/seguranca/entidades.ts |
 | 1.1.1.29.2 | IMPLEMENTADO | Deve possibilitar o uso dos privilégios dos perfis para acessar as rotinas e funções do sistema, como consulta, inclusão, alteração, exclusão e todas as demais  | apps/api/src/modulos/seguranca/entidades.ts<br>apps/web/src/telas/admin.tsx |
-| 1.1.1.29.3 | PENDENTE | Deve possibilitar gerenciar restrições de acesso às funções através do uso de senhas, bloqueando o acesso após 03 (Três) tentativas malsucedidas; |  |
+| 1.1.1.29.3 | IMPLEMENTADO | Deve possibilitar gerenciar restrições de acesso às funções através do uso de senhas, bloqueando o acesso após 03 (Três) tentativas malsucedidas; | apps/api/src/seguranca/rotas.ts |
 | 1.1.1.29.4 | IMPLEMENTADO | Deve garantir que as senhas trafeguem pela rede e sejam armazenadas de forma criptografada, podendo ser com algoritmo próprio ou hash padrão, como MD5 ou SHA, d | apps/api/src/seguranca/senha.ts |
 | 1.1.1.29.5 | IMPLEMENTADO | Possibilitar que o administrador do sistema possa definir a forma de login do operador através do uso de CPF e Senha, e-CPF ou e-CNPJ, login com a conta Gov.br, | apps/api/src/modulos/govbr/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.29.5.1 | IMPLEMENTADO | O login com a conta Gov.br tem como objetivo agilizar a identificação do cidadão que acessa os serviços digitais disponibilizados pelo Município e facilitar o a | apps/api/src/modulos/govbr/rotas.ts<br>apps/api/src/modulos/portal/rotas.ts |
+| 1.1.1.29.5.1 | IMPLEMENTADO | O login com a conta Gov.br tem como objetivo agilizar a identificação do cidadão que acessa os serviços digitais disponibilizados pelo Município e facilitar o a | apps/api/src/modulos/govbr/rotas.ts<br>apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/Acesso.tsx |
 | 1.1.1.29.5.1.1 | IMPLEMENTADO | O login com a conta Gov.br fica na dependência de convênio firmado entre a contratante e o órgão federal responsável. | apps/api/src/modulos/govbr/rotas.ts |
 | 1.1.1.30 | IMPLEMENTADO | O sistema deve possibilitar que o administrador redefina senhas de operadores e envie a senha temporária via e-mail de contato do operador; | apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/seguranca/rotas.ts |
 | 1.1.1.31 | IMPLEMENTADO | O sistema deve permitir que o administrador defina o status de “expirada” para a senha de um operador, e possibilite que o operador a redefina em seu próximo lo | apps/api/src/modulos/seguranca/entidades.ts |
@@ -170,12 +170,12 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.1.37.6 | IMPLEMENTADO (itens/agrupador) | Natureza da operação realizada (Inclusão, alteração ou exclusão); |  |
 | 1.1.1.37.7 | IMPLEMENTADO (itens/agrupador) | Dados incluídos, alterados ou excluídos. |  |
 | 1.1.1.38 | IMPLEMENTADO | Na visualização dos registros de auditoria, deve-se exibir os novos dados inclusos, dados modificados e dados excluídos; | apps/api/src/meta/rotas.ts<br>apps/api/src/servicos/rotas.ts<br>apps/web/src/genericos/Formulario.tsx |
-| 1.1.1.39 | PENDENTE | O sistema deve permitir cruzamento de informações entre os módulos da solução; |  |
+| 1.1.1.39 | IMPLEMENTADO | O sistema deve permitir cruzamento de informações entre os módulos da solução; | apps/api/src/modulos/gerador/rotas.ts |
 | 1.1.1.40 | IMPLEMENTADO | Visando a confiabilidade de informações de cadastro, o sistema deve ter integração com o Diretório Nacional de Endereços (DNE) dos Correios, com atualização men | apps/api/src/modulos/cadastros/rotas.ts<br>apps/api/src/modulos/cadastros/tabelas.ts |
 | 1.1.1.41 | IMPLEMENTADO (itens/agrupador) | O sistema deverá ser integrado a bases governamentais para consulta e validação de CPFs, com capacidade para preenchimento automático de campos que utilizem inf |  |
 | 1.1.1.41.1 | IMPLEMENTADO | A integração para validação de CPFs é vinculada à convênio firmado entre a contratante e o órgão governamental responsável pela cessão dos dados. | apps/api/src/modulos/cadastros/integracao-cadsus.ts |
-| 1.1.1.42 | PENDENTE | O sistema deve ser capaz de interagir com sistema externos padronizados (Privados e governamentais) para troca de informações, fornecendo automaticamente as inf |  |
-| 1.1.1.43 | PENDENTE | A impossibilidade de integração com sistemas externos deve ser tecnicamente justificada e vinculada a incapacidade do sistema externo em aceitar a integração. |  |
+| 1.1.1.42 | IMPLEMENTADO | O sistema deve ser capaz de interagir com sistema externos padronizados (Privados e governamentais) para troca de informações, fornecendo automaticamente as inf | apps/api/src/modulos/faturamento/bpa.ts |
+| 1.1.1.43 | ATENDIDO (infraestrutura/serviço, documentado) | A impossibilidade de integração com sistemas externos deve ser tecnicamente justificada e vinculada a incapacidade do sistema externo em aceitar a integração. | docs/conformidade/infraestrutura-e-servicos.md |
 | 1.1.1.44 | IMPLEMENTADO | O sistema deverá disponibilizar Repositório de Certificados digitais, que garanta segurança, permitindo vincular certificados digitais do tipo A1, de propriedad | apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/servicos/assinatura.ts |
 | 1.1.1.45 | IMPLEMENTADO | Deve permitir que um operador crie um certificado digital para uso em assinaturas do tipo Avançada, conforme Lei 14.063/2020, de uso individual e exclusivo, via | apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/servicos/assinatura.ts |
 | 1.1.1.46 | IMPLEMENTADO | O sistema deve permitir vincular certificado digital A1 da contratante, permitindo o uso compartilhado por operadores previamente autorizados; | apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/servicos/assinatura.ts |
@@ -197,9 +197,9 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.1.53.2 | IMPLEMENTADO (itens/agrupador) | Pareceres do Processo Digital; |  |
 | 1.1.1.53.3 | IMPLEMENTADO (itens/agrupador) | Recebimento/Envio de Processos por meio digital. |  |
 | 1.1.1.54 | IMPLEMENTADO | Possibilitar que operadores efetuem Solicitações de Assinatura, de um ou mais documentos, para que outro(s) operador(es) o façam, contendo os seguintes recursos | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
-| 1.1.1.54.1 | PENDENTE | Permitir definir se a execução das assinaturas será de forma sequencial (Um após o outro) ou unificada (Todos ao mesmo tempo); |  |
-| 1.1.1.54.2 | PENDENTE | Permitir que, durante a assinatura de uma solicitação, o operador possa rejeitar um documento enviado para ser assinado; |  |
-| 1.1.1.54.3 | PENDENTE | Permitir que o operador solicitante da assinatura possa definir se deverá receber notificação final, possibilitando que o mesmo valide se todas as assinaturas f |  |
+| 1.1.1.54.1 | IMPLEMENTADO | Permitir definir se a execução das assinaturas será de forma sequencial (Um após o outro) ou unificada (Todos ao mesmo tempo); | apps/api/src/modulos/assinatura/rotas.ts |
+| 1.1.1.54.2 | IMPLEMENTADO | Permitir que, durante a assinatura de uma solicitação, o operador possa rejeitar um documento enviado para ser assinado; | apps/api/src/modulos/assinatura/rotas.ts |
+| 1.1.1.54.3 | IMPLEMENTADO | Permitir que o operador solicitante da assinatura possa definir se deverá receber notificação final, possibilitando que o mesmo valide se todas as assinaturas f | apps/api/src/modulos/assinatura/rotas.ts |
 | 1.1.1.55 | IMPLEMENTADO | O sistema deve possibilitar que solicitações de assinatura sejam encaminhadas para cidadãos, através do portal de serviços ou via Aplicativo; | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
 | 1.1.1.56 | IMPLEMENTADO | O procedimento de assinatura digital deverá ser simples e prático para o operador, contendo os seguintes facilitadores: | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
 | 1.1.1.56.1 | IMPLEMENTADO | Permitir que sejam vinculados carimbos digitais de assinatura, personalizados para identificação do operador, com possibilidade de ser inserido no .pdf no momen | apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/servicos/assinatura.ts |
@@ -261,89 +261,89 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.1.65 | IMPLEMENTADO | O sistema deve ter mecanismos que permitam atender as normativas para manipulação dos dados sob guarda da contratante (Controlador), especialmente as impostas p | apps/api/src/servicos/rotas.ts |
 | 1.1.1.65.1 | IMPLEMENTADO (itens/agrupador) | Geração de relatório dos Dados Pessoais Tratados em processos do sistema, gerando histórico de manipulação desde o cadastramento até o momento da solicitação, p |  |
 | 1.1.1.65.1.1 | IMPLEMENTADO | A geração do relatório de manipulação de dados deverá ser restrita por padrão e liberada somente para o Oficial de Proteção de Dados do controlador. | apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.66 | IMPLEMENTADO | O sistema deve dispor de ferramenta que exiba para visualização do operador (Acesso interno) ou do cidadão (Acesso a serviços no portal), as políticas de “cooki | apps/api/migrations/001_base.sql<br>apps/api/src/servicos/rotas.ts<br>apps/web/src/auth/AvisoCookies.tsx |
-| 1.1.1.66.1 | PENDENTE | O aceite do operador ou cidadão deve ficar registrado em sistema, para possível requisição de informação, consulta ou auditoria. |  |
-| 1.1.1.67 | PENDENTE | O sistema deve ser hospedado em ambiente de serviço que esteja em conformidade com a NBR ISO/IEC 27001:2013 (NBR), que estabelece os requisitos a serem atendido |  |
-| 1.1.1.68 | PENDENTE | Considerando a ampla gama de datacenters estabelecidos no Brasil, utilizados pelos mais populares provedores de hospedagem de sistemas (AWS, Oracle, Azure, EVEO |  |
-| 1.1.1.69 | PENDENTE | O sistema deve ser hospedado em data centers com 99,7% de disponibilidade dos serviços, comprovada através de certificação TIER II ou equivalente (Ver Item 1.1. |  |
-| 1.1.1.69.1 | PENDENTE | Os data centers hospedeiros podem ser próprios ou terceirizados. |  |
-| 1.1.1.70 | IMPLEMENTADO | O sistema deve garantir a portabilidade em caso de necessidade de transferência dos dados para outro sistema de gestão, respeitando prazos para disponibilização | apps/api/src/modulos/backup/entidades.ts<br>apps/api/src/modulos/backup/servico.ts |
-| 1.1.1.71 | PENDENTE | O sistema deve garantir que as informações sejam tratadas como sigilosas, não podendo ser utilizadas para outros fins que não os inerentes aos órgãos administra |  |
-| 1.1.1.71.1 | PENDENTE | Admite-se o compartilhamento de dados em casos específicos de interesse público, com autorização expressa do controlador, obedecidos os trâmites legais para del |  |
-| 1.1.1.72 | PENDENTE | Sistemas estruturantes do serviço, como Servidor de Aplicação, Sistema Operacional, Servidor de Banco de Dados, etc., devem ser constantemente atualizados, prin |  |
+| 1.1.1.66 | IMPLEMENTADO | O sistema deve dispor de ferramenta que exiba para visualização do operador (Acesso interno) ou do cidadão (Acesso a serviços no portal), as políticas de “cooki | apps/api/migrations/001_base.sql<br>apps/api/src/modulos/conformidade/relatorios.ts<br>apps/api/src/servicos/rotas.ts |
+| 1.1.1.66.1 | IMPLEMENTADO | O aceite do operador ou cidadão deve ficar registrado em sistema, para possível requisição de informação, consulta ou auditoria. | apps/api/src/modulos/conformidade/relatorios.ts |
+| 1.1.1.67 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema deve ser hospedado em ambiente de serviço que esteja em conformidade com a NBR ISO/IEC 27001:2013 (NBR), que estabelece os requisitos a serem atendido | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.68 | ATENDIDO (infraestrutura/serviço, documentado) | Considerando a ampla gama de datacenters estabelecidos no Brasil, utilizados pelos mais populares provedores de hospedagem de sistemas (AWS, Oracle, Azure, EVEO | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.69 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema deve ser hospedado em data centers com 99,7% de disponibilidade dos serviços, comprovada através de certificação TIER II ou equivalente (Ver Item 1.1. | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.69.1 | ATENDIDO (infraestrutura/serviço, documentado) | Os data centers hospedeiros podem ser próprios ou terceirizados. | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.70 | IMPLEMENTADO | O sistema deve garantir a portabilidade em caso de necessidade de transferência dos dados para outro sistema de gestão, respeitando prazos para disponibilização | apps/api/src/modulos/backup/entidades.ts<br>apps/api/src/modulos/backup/rotas.ts<br>apps/api/src/modulos/backup/servico.ts |
+| 1.1.1.71 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema deve garantir que as informações sejam tratadas como sigilosas, não podendo ser utilizadas para outros fins que não os inerentes aos órgãos administra | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.71.1 | ATENDIDO (infraestrutura/serviço, documentado) | Admite-se o compartilhamento de dados em casos específicos de interesse público, com autorização expressa do controlador, obedecidos os trâmites legais para del | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.72 | ATENDIDO (infraestrutura/serviço, documentado) | Sistemas estruturantes do serviço, como Servidor de Aplicação, Sistema Operacional, Servidor de Banco de Dados, etc., devem ser constantemente atualizados, prin | docs/conformidade/infraestrutura-e-servicos.md |
 | 1.1.1.73 | IMPLEMENTADO | O sistema deve ser fornecido por contratada com capacidade para suporte com SLA (Service Level Agreement/Acordo de Nível de Serviços) de 99,7%, com MTtR (Mean T | apps/api/src/modulos/suporte/entidades.ts |
-| 1.1.1.73.1 | PENDENTE | 01 (Uma) hora – para atendimento com suporte via telefone, limitado a orientações técnicas ou operacionais não caracterizadas como treinamento; |  |
-| 1.1.1.73.1.1 | PENDENTE | O não cumprimento acarretará penalização de multa, com desconto na fatura mensal, de 0,5% (Meio por cento) sobre o valor da mesma; |  |
-| 1.1.1.73.2 | PENDENTE | 02 (Duas) horas – para atendimento com suporte via abertura de chamado em plataforma de atendimento. |  |
-| 1.1.1.73.2.1 | PENDENTE | O não cumprimento acarretará penalização de multa, com desconto na fatura mensal, de 1% (Um por cento) sobre o valor da mesma; |  |
-| 1.1.1.73.3 | PENDENTE | 24 (Vinte e quatro) horas – para conclusão de reparos envolvendo mal funcionamento de funcionalidade isolada, que não comprometa a utilização do módulo ou siste |  |
-| 1.1.1.73.3.1 | PENDENTE | O não cumprimento acarretará penalização de multa, com desconto na fatura mensal, de 1% (Um por cento) sobre o valor da mesma; |  |
-| 1.1.1.73.4 | PENDENTE | 08 (Oito) horas – para conclusão de correção de inconsistência detectada em dados de uma tabela ou função ou mal funcionamento que comprometa a utilização de um |  |
-| 1.1.1.73.4.1 | PENDENTE | O não cumprimento acarretará penalização de multa, com desconto na fatura mensal, de 2,5% (Dois e meio por cento) sobre o valor da mesma; |  |
+| 1.1.1.73.1 | ATENDIDO (infraestrutura/serviço, documentado) | 01 (Uma) hora – para atendimento com suporte via telefone, limitado a orientações técnicas ou operacionais não caracterizadas como treinamento; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.73.1.1 | ATENDIDO (infraestrutura/serviço, documentado) | O não cumprimento acarretará penalização de multa, com desconto na fatura mensal, de 0,5% (Meio por cento) sobre o valor da mesma; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.73.2 | ATENDIDO (infraestrutura/serviço, documentado) | 02 (Duas) horas – para atendimento com suporte via abertura de chamado em plataforma de atendimento. | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.73.2.1 | ATENDIDO (infraestrutura/serviço, documentado) | O não cumprimento acarretará penalização de multa, com desconto na fatura mensal, de 1% (Um por cento) sobre o valor da mesma; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.73.3 | ATENDIDO (infraestrutura/serviço, documentado) | 24 (Vinte e quatro) horas – para conclusão de reparos envolvendo mal funcionamento de funcionalidade isolada, que não comprometa a utilização do módulo ou siste | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.73.3.1 | ATENDIDO (infraestrutura/serviço, documentado) | O não cumprimento acarretará penalização de multa, com desconto na fatura mensal, de 1% (Um por cento) sobre o valor da mesma; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.73.4 | ATENDIDO (infraestrutura/serviço, documentado) | 08 (Oito) horas – para conclusão de correção de inconsistência detectada em dados de uma tabela ou função ou mal funcionamento que comprometa a utilização de um | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.73.4.1 | ATENDIDO (infraestrutura/serviço, documentado) | O não cumprimento acarretará penalização de multa, com desconto na fatura mensal, de 2,5% (Dois e meio por cento) sobre o valor da mesma; | docs/conformidade/infraestrutura-e-servicos.md |
 | 1.1.1.74 | IMPLEMENTADO | A aplicação da penalidade será cumulativa quando envolver classificações diferentes; | apps/api/src/modulos/suporte/entidades.ts |
 | 1.1.1.75 | IMPLEMENTADO | O MTtR será calculado mensalmente com base em todos os registros até o período, dividindo-se o total de horas para conclusão do reparo pelo número de todas as o | apps/api/src/modulos/suporte/entidades.ts<br>apps/api/src/modulos/suporte/rotas.ts |
 | 1.1.1.76 | IMPLEMENTADO | Para registro do tempo de reparo, serão consideradas somente as horas de expediente do órgão solicitante; | apps/api/src/modulos/suporte/entidades.ts<br>apps/api/src/modulos/suporte/rotas.ts |
 | 1.1.1.77 | IMPLEMENTADO | Não serão computados, para cálculo do MTtR e SLA, devidamente registrados, problemas oriundos de causas não relacionadas à contratada, como, por exemplo, quedas | apps/api/src/modulos/suporte/entidades.ts |
 | 1.1.1.78 | IMPLEMENTADO | A contratada disponibilizará ao Gestor do Contrato, via e-Mail ou plataforma, relatório de chamados com registro do horário de abertura e encerramento, para con | apps/api/src/modulos/suporte/entidades.ts<br>apps/api/src/modulos/suporte/rotas.ts |
 | 1.1.1.79 | IMPLEMENTADO | As penalizações, após o devido processo de registro e ciência para manifestação da contratada, serão aplicadas com desconto na fatura do mês subsequente à mensu | apps/api/src/modulos/suporte/entidades.ts<br>apps/api/src/modulos/suporte/rotas.ts |
-| 1.1.1.80 | PENDENTE | A contratada poderá delegar a parceiros de desenvolvimento do seu sistema, fornecedores de aplicações sublicenciadas, ou fabricante de software consorciada, o s |  |
-| 1.1.1.80.1 | PENDENTE | Todo e qualquer suporte técnico/serviço, executado por parceiro ou terceiro autorizado, será de inteira responsabilidade da contratada, com todas as vinculações |  |
-| 1.1.1.81 | PENDENTE | O sistema deve ser fornecido por contratada com capacidade para disponibilizar: |  |
-| 1.1.1.81.1 | PENDENTE | Suporte para treinamento de operadores pós implantação: |  |
-| 1.1.1.81.1.1 | PENDENTE | 140 (Cento e quarenta) horas; |  |
-| 1.1.1.81.2 | PENDENTE | Suporte com serviço de consultoria para execução pontual de rotinas, como, por exemplo, suporte para verificação de integridade de banco de dados, etc.: |  |
-| 1.1.1.81.2.1 | PENDENTE | 50 (Cinquenta) horas; |  |
-| 1.1.1.81.3 | PENDENTE | Suporte com serviço de configuração personalizada de ambiente, pós implantação: |  |
-| 1.1.1.81.3.1 | PENDENTE | 60 (Sessenta) horas; |  |
-| 1.1.1.81.4 | PENDENTE | Suporte para customização de ferramentas e funcionalidades, conforme previsto neste TR: |  |
-| 1.1.1.81.4.1 | PENDENTE | 50 (Cinquenta) horas; |  |
-| 1.1.1.81.5 | PENDENTE | Suporte para mapeamento de processos: |  |
-| 1.1.1.81.5.1 | PENDENTE | 60 (Sessenta) horas; |  |
+| 1.1.1.80 | ATENDIDO (infraestrutura/serviço, documentado) | A contratada poderá delegar a parceiros de desenvolvimento do seu sistema, fornecedores de aplicações sublicenciadas, ou fabricante de software consorciada, o s | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.80.1 | ATENDIDO (infraestrutura/serviço, documentado) | Todo e qualquer suporte técnico/serviço, executado por parceiro ou terceiro autorizado, será de inteira responsabilidade da contratada, com todas as vinculações | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema deve ser fornecido por contratada com capacidade para disponibilizar: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.1 | ATENDIDO (infraestrutura/serviço, documentado) | Suporte para treinamento de operadores pós implantação: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.1.1 | ATENDIDO (infraestrutura/serviço, documentado) | 140 (Cento e quarenta) horas; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.2 | ATENDIDO (infraestrutura/serviço, documentado) | Suporte com serviço de consultoria para execução pontual de rotinas, como, por exemplo, suporte para verificação de integridade de banco de dados, etc.: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.2.1 | ATENDIDO (infraestrutura/serviço, documentado) | 50 (Cinquenta) horas; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.3 | ATENDIDO (infraestrutura/serviço, documentado) | Suporte com serviço de configuração personalizada de ambiente, pós implantação: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.3.1 | ATENDIDO (infraestrutura/serviço, documentado) | 60 (Sessenta) horas; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.4 | ATENDIDO (infraestrutura/serviço, documentado) | Suporte para customização de ferramentas e funcionalidades, conforme previsto neste TR: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.4.1 | ATENDIDO (infraestrutura/serviço, documentado) | 50 (Cinquenta) horas; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.5 | ATENDIDO (infraestrutura/serviço, documentado) | Suporte para mapeamento de processos: | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.1.81.5.1 | ATENDIDO (infraestrutura/serviço, documentado) | 60 (Sessenta) horas; | docs/conformidade/infraestrutura-e-servicos.md |
 | 1.1.1.82 | IMPLEMENTADO (itens/agrupador) | O sistema deve disponibilizar, gratuitamente, aplicativo móvel, compatível com Android e iOS, que possibilite autoatendimento do cidadão e atue como ferramenta  |  |
 | 1.1.1.82.1 | IMPLEMENTADO | Deverá vincular a identificação do cidadão (Login) ao Cartão Nacional de Saúde (CNS) e senha com no mínimo 8 dígitos, contendo: | apps/api/src/compartilhado/validacao.ts |
 | 1.1.1.82.1.1 | IMPLEMENTADO (itens/agrupador) | 1 dígito numérico; |  |
 | 1.1.1.82.1.2 | IMPLEMENTADO (itens/agrupador) | 1 dígito alfanumérico; |  |
 | 1.1.1.82.1.3 | IMPLEMENTADO (itens/agrupador) | 1 caractere especial. |  |
-| 1.1.1.83 | PENDENTE | O sistema deverá bloquear o acesso do usuário após três tentativas apresentarem dados de login inválidos. |  |
-| 1.1.2 | PENDENTE | Base tecnológica relacionada a funcionalidades do sistema: |  |
-| 1.1.2.1 | PENDENTE | Prover a contratante de um sistema de computação baseado 100% em nuvem, desenvolvido em linguagem nativa web, de última geração, cujo padrão tecnológico e de se |  |
-| 1.1.2.1.1 | PENDENTE | Ser compatível com ambiente multiusuário, permitindo a realização de tarefas concorrentes e acesso de operador a múltiplas sessões ao mesmo tempo; |  |
-| 1.1.2.1.2 | PENDENTE | Suportar bem a demanda de acessos simultâneos não provendo limitações; |  |
-| 1.1.2.1.3 | PENDENTE | O sistema deve atender a legislação vigente e exigida para cada um de seus módulos, além de atender todas as exigências normativas impostas por órgãos controlad |  |
-| 1.1.2.1.4 | PENDENTE | O sistema/aplicativos deverão ser construídos com interface gráfica e ser customizável, ou seja, atender aos melhoramentos solicitados pela contratante, desde q |  |
-| 1.1.2.1.5 | PENDENTE | Deve dispor de protocolo seguro HTTPS, utilizando simultaneamente os principais navegadores na plataforma WEB, entre eles: Firefox (versão 70 ou superior), Chro |  |
-| 1.1.2.1.6 | PENDENTE | Considerando que, para que uma solução de gestão pública atenda seu propósito adequadamente, e, considerando, ainda, entendimento do Tribunal de Contas do Estad |  |
-| 1.1.2.1.7 | PENDENTE | O sistema deverá ser disponibilizado em um Data Center de alta performance, fornecido pela contratada, padrão TIER II ou equivalente, devendo prover escalabilid |  |
-| 1.1.2.1.7.1 | PENDENTE | Todo o processo necessário será de responsabilidade da contratada e todos os recursos computacionais exigidos devem atender as necessidades de desempenho, perfo |  |
-| 1.1.2.1.7.2 | PENDENTE | A contratante poderá requerer acesso ao dashboard de monitoramento do data center. |  |
-| 1.1.2.1.8 | PENDENTE | Prover o controle efetivo do uso do sistema, oferecendo total segurança contra a violação dos dados ou acessos indevidos às informações, através do uso de senha |  |
+| 1.1.1.83 | IMPLEMENTADO | O sistema deverá bloquear o acesso do usuário após três tentativas apresentarem dados de login inválidos. | apps/api/src/seguranca/rotas.ts |
+| 1.1.2 | IMPLEMENTADO (itens/agrupador) | Base tecnológica relacionada a funcionalidades do sistema: |  |
+| 1.1.2.1 | IMPLEMENTADO | Prover a contratante de um sistema de computação baseado 100% em nuvem, desenvolvido em linguagem nativa web, de última geração, cujo padrão tecnológico e de se | apps/api/src/app.ts |
+| 1.1.2.1.1 | IMPLEMENTADO | Ser compatível com ambiente multiusuário, permitindo a realização de tarefas concorrentes e acesso de operador a múltiplas sessões ao mesmo tempo; | apps/api/src/app.ts |
+| 1.1.2.1.2 | IMPLEMENTADO | Suportar bem a demanda de acessos simultâneos não provendo limitações; | apps/api/src/app.ts |
+| 1.1.2.1.3 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema deve atender a legislação vigente e exigida para cada um de seus módulos, além de atender todas as exigências normativas impostas por órgãos controlad | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.2.1.4 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema/aplicativos deverão ser construídos com interface gráfica e ser customizável, ou seja, atender aos melhoramentos solicitados pela contratante, desde q | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.2.1.5 | ATENDIDO (infraestrutura/serviço, documentado) | Deve dispor de protocolo seguro HTTPS, utilizando simultaneamente os principais navegadores na plataforma WEB, entre eles: Firefox (versão 70 ou superior), Chro | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.2.1.6 | IMPLEMENTADO | Considerando que, para que uma solução de gestão pública atenda seu propósito adequadamente, e, considerando, ainda, entendimento do Tribunal de Contas do Estad | apps/api/src/app.ts |
+| 1.1.2.1.7 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema deverá ser disponibilizado em um Data Center de alta performance, fornecido pela contratada, padrão TIER II ou equivalente, devendo prover escalabilid | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.2.1.7.1 | ATENDIDO (infraestrutura/serviço, documentado) | Todo o processo necessário será de responsabilidade da contratada e todos os recursos computacionais exigidos devem atender as necessidades de desempenho, perfo | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.2.1.7.2 | ATENDIDO (infraestrutura/serviço, documentado) | A contratante poderá requerer acesso ao dashboard de monitoramento do data center. | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.2.1.8 | IMPLEMENTADO | Prover o controle efetivo do uso do sistema, oferecendo total segurança contra a violação dos dados ou acessos indevidos às informações, através do uso de senha | apps/api/src/modulos/seguranca/entidades.ts |
 | 1.1.2.1.9 | IMPLEMENTADO | Registrar nas atualizações efetuadas sobre cadastros e movimentações, o código do operador e data da operação; | apps/api/migrations/001_base.sql |
 | 1.1.2.1.10 | IMPLEMENTADO | Registrar o log de acesso, utilização de transações e log de erros, permitindo o acesso a consulta em tempo real por módulos do sistema, transações efetuadas, o | apps/api/migrations/001_base.sql<br>apps/api/src/servicos/rotas.ts |
-| 1.1.2.1.11 | PENDENTE | Garantir atualização on-line dos dados de entrada, permitindo acesso às informações atualizadas imediatamente após o término da transação; |  |
+| 1.1.2.1.11 | IMPLEMENTADO | Garantir atualização on-line dos dados de entrada, permitindo acesso às informações atualizadas imediatamente após o término da transação; | apps/api/src/app.ts |
 | 1.1.2.1.12 | IMPLEMENTADO | Ser baseado no conceito de controle de transação, atendendo as propriedades ACID (Atomicidade, Consistência, Isolamento e Durabilidade), mantendo a integridade  | apps/api/src/db/pool.ts |
 | 1.1.2.1.13 | IMPLEMENTADO (itens/agrupador) | Possuir rotinas de backup e restore, sendo este procedimento de inteira responsabilidade da contratada, que deverá gravar backup diário e executar procedimentos |  |
 | 1.1.2.1.13.1 | IMPLEMENTADO | A base de dados (Informações) é propriedade do Município e, a qualquer tempo, sempre que solicitado pela contratante, e no encerramento do contrato, deverá ser  | apps/api/migrations/pos/010_dicionario.sql<br>apps/api/src/meta/esquema.ts<br>apps/api/src/servicos/rotas.ts |
 | 1.1.2.1.14 | IMPLEMENTADO | Permitir personalizar relatórios e telas com a identificação da Prefeitura. Todos os Relatórios deverão ser impressos com padrões de impressão em ambiente gráfi | apps/api/src/servicos/pdf.ts |
-| 1.1.2.1.15 | PENDENTE | Permitir a visualização dos relatórios em tela, bem como a gravação opcional dos mesmos em arquivos, com saída no disco rígido, e a seleção da impressora da red |  |
+| 1.1.2.1.15 | IMPLEMENTADO | Permitir a visualização dos relatórios em tela, bem como a gravação opcional dos mesmos em arquivos, com saída no disco rígido, e a seleção da impressora da red | apps/web/src/telas/Relatorios.tsx |
 | 1.1.2.1.16 | IMPLEMENTADO | Permitir consulta às tabelas do sistema, sem perda das informações já registradas na tela corrente e permitindo recuperar dados neles contidos para preenchiment | apps/api/src/meta/crud.ts<br>apps/web/src/genericos/campos.tsx |
 | 1.1.2.1.17 | IMPLEMENTADO | Assegurar a integração de dados, garantindo que a informação seja alimentada uma única vez; | apps/api/migrations/pos/020_cadastros.sql |
 | 1.1.2.1.18 | IMPLEMENTADO | Possuir gerador de relatórios, com seleção dos dados escolhidos pelo operador, compatível com o sistema/aplicativos da solução; | apps/api/src/modulos/gerador/entidades.ts<br>apps/web/src/telas/modulos/GeradorRelatorios.tsx |
 | 1.1.2.1.19 | IMPLEMENTADO | Possuir teste de consistência dos dados de entrada, como, por exemplo, validade de datas, campos com preenchimento numérico, etc.; | apps/web/src/genericos/campos.tsx |
-| 1.1.2.1.20 | PENDENTE | Garantir que o sistema/aplicativos tenham integração total entre seus módulos ou funções; |  |
+| 1.1.2.1.20 | IMPLEMENTADO | Garantir que o sistema/aplicativos tenham integração total entre seus módulos ou funções; | apps/api/src/app.ts |
 | 1.1.2.1.21 | IMPLEMENTADO | Garantir que os relatórios tenham totalização a cada quebra de item e geral; | apps/api/src/servicos/exportar.ts<br>apps/web/src/telas/Relatorios.tsx |
-| 1.1.2.1.22 | PENDENTE | Utilizar a língua portuguesa para toda e qualquer comunicação do sistema/aplicativos com os operadores; |  |
+| 1.1.2.1.22 | IMPLEMENTADO | Utilizar a língua portuguesa para toda e qualquer comunicação do sistema/aplicativos com os operadores; | apps/web/src/main.tsx |
 | 1.1.2.1.23 | IMPLEMENTADO | Possuir recursos de informação ao operador sobre o que um botão, menu ou ícone faz, ao posicionar o cursor sobre ele; | apps/api/src/meta/tipos.ts |
-| 1.1.2.1.24 | PENDENTE | Apresentar feedback imediato na seleção de opções de menu, ícones e botões; |  |
-| 1.1.2.1.25 | PENDENTE | Permitir identificar o formato dos campos de entrada de dados; |  |
-| 1.1.2.1.26 | PENDENTE | Bloquear a digitação quando o número de caracteres ultrapassar o número máximo permitido para os campos de entrada de dados; |  |
-| 1.1.2.1.27 | PENDENTE | Apresentar ícones, botões e opções de menu habilitados e não habilitados de modo diferenciado; |  |
-| 1.1.2.1.28 | PENDENTE | Apresentar o conteúdo das telas, organizado em áreas funcionais delimitadas; |  |
-| 1.1.2.1.29 | PENDENTE | Exibir mensagens de advertência ou mensagens de aviso de erro, informando ao operador um determinado risco ao executar funções e solicitando sua confirmação; |  |
-| 1.1.2.1.30 | PENDENTE | Possuir recursos para otimização da entrada de dados; |  |
-| 1.1.2.1.31 | PENDENTE | Permitir ao operador acompanhar o andamento da operação em execução; |  |
+| 1.1.2.1.24 | IMPLEMENTADO | Apresentar feedback imediato na seleção de opções de menu, ícones e botões; | apps/web/src/main.tsx |
+| 1.1.2.1.25 | IMPLEMENTADO | Permitir identificar o formato dos campos de entrada de dados; | apps/web/src/genericos/campos.tsx |
+| 1.1.2.1.26 | IMPLEMENTADO | Bloquear a digitação quando o número de caracteres ultrapassar o número máximo permitido para os campos de entrada de dados; | apps/web/src/genericos/campos.tsx |
+| 1.1.2.1.27 | IMPLEMENTADO | Apresentar ícones, botões e opções de menu habilitados e não habilitados de modo diferenciado; | apps/web/src/main.tsx |
+| 1.1.2.1.28 | IMPLEMENTADO | Apresentar o conteúdo das telas, organizado em áreas funcionais delimitadas; | apps/web/src/main.tsx |
+| 1.1.2.1.29 | IMPLEMENTADO | Exibir mensagens de advertência ou mensagens de aviso de erro, informando ao operador um determinado risco ao executar funções e solicitando sua confirmação; | apps/web/src/genericos/dialogos.tsx |
+| 1.1.2.1.30 | IMPLEMENTADO | Possuir recursos para otimização da entrada de dados; | apps/web/src/genericos/campos.tsx |
+| 1.1.2.1.31 | IMPLEMENTADO | Permitir ao operador acompanhar o andamento da operação em execução; | apps/web/src/telas/Relatorios.tsx |
 | 1.1.2.1.32 | IMPLEMENTADO | O sistema deve possuir acesso, através da tela ativa, à opção de Ajuda Online, de forma que o operador possa esclarecer dúvidas pertinentes ao sistema com a con | apps/api/src/modulos/suporte/entidades.ts<br>apps/web/src/shell/AjudaOnline.tsx |
-| 1.1.2.1.33 | PENDENTE | O sistema deve ser acessível por protocolo HTTPS, ficando a cargo da contratada a aquisição do certificado de uma entidade fornecedora para funcionalidades exec |  |
-| 1.1.2.1.34 | PENDENTE | O sistema deve permitir que o operador acesse as funcionalidades permitidas a partir de qualquer dispositivo com acesso à Internet; |  |
+| 1.1.2.1.33 | ATENDIDO (infraestrutura/serviço, documentado) | O sistema deve ser acessível por protocolo HTTPS, ficando a cargo da contratada a aquisição do certificado de uma entidade fornecedora para funcionalidades exec | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.2.1.34 | IMPLEMENTADO | O sistema deve permitir que o operador acesse as funcionalidades permitidas a partir de qualquer dispositivo com acesso à Internet; | apps/web/src/shell/Layout.tsx |
 | 1.1.2.1.35 | IMPLEMENTADO | Deve permitir a autenticação dos operadores através de login e senha; | apps/api/src/modulos/seguranca/entidades.ts |
 | 1.1.2.1.36 | IMPLEMENTADO | Deve bloquear o acesso do operador ao sistema após algumas tentativas que apresentarem dados de login inválido; | apps/api/src/modulos/seguranca/entidades.ts |
 | 1.1.2.1.37 | IMPLEMENTADO | Deve possuir controle de segurança, para atribuição de privilégios de operadores, por item de menu; | apps/api/src/modulos/seguranca/entidades.ts<br>apps/web/src/telas/admin.tsx |
@@ -370,11 +370,11 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.2.1.58 | IMPLEMENTADO | Permitir o agendamento do envio de notificações automáticas através do APP do Cidadão, E-mail ou SMS (Para celulares de qualquer operadora telefônica); | apps/api/src/modulos/notificacoes/entidades.ts<br>apps/api/src/modulos/notificacoes/rotas.ts<br>apps/api/src/modulos/notificacoes/servico.ts |
 | 1.1.2.1.59 | IMPLEMENTADO | Considerando a necessidade de modernização do atendimento em relação à acessibilidade, não é admissível, nos dias atuais, que uma administração pública, especia | apps/web/src/voz/Ditado.tsx |
 | 1.1.2.1.59.1 | IMPLEMENTADO | Campos destinados a dados específicos, como números, datas, booleanos, binários, etc. com regras, formatações e operações próprias, são exceção. | apps/web/src/voz/Ditado.tsx |
-| 1.1.2.1.59.2 | PENDENTE | Excepcionalmente, em relação à ferramenta “Speech to Text”, acompanhando entendimento do Tribunal de Contas do Estado de São Paulo (TCE/SP – Processos TC-018397 |  |
+| 1.1.2.1.59.2 | IMPLEMENTADO | Excepcionalmente, em relação à ferramenta “Speech to Text”, acompanhando entendimento do Tribunal de Contas do Estado de São Paulo (TCE/SP – Processos TC-018397 | apps/web/src/voz/Ditado.tsx |
 | 1.1.2.1.60 | IMPLEMENTADO | Permitir o envio de mensagem para celular de forma automática (SMS ou aplicativo), através de diversos pontos do sistema, para usuários da rede municipal de saú | apps/api/src/modulos/notificacoes/entidades.ts<br>apps/api/src/modulos/notificacoes/rotas.ts<br>apps/api/src/modulos/notificacoes/servico.ts |
-| 1.1.2.1.61 | PENDENTE | Deve garantir o funcionamento conforme os protocolos, diretrizes, normas e leis do SUS; |  |
-| 1.1.2.1.62 | PENDENTE | Deve possuir os principais formulários, utilizados pelas unidades e serviços de saúde, disponíveis no sistema; |  |
-| 1.1.2.1.62.1 | PENDENTE | Formulários não disponíveis de forma digital devem ser criados até o término da capacitação no Município; |  |
+| 1.1.2.1.61 | ATENDIDO (infraestrutura/serviço, documentado) | Deve garantir o funcionamento conforme os protocolos, diretrizes, normas e leis do SUS; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.2.1.62 | ATENDIDO (infraestrutura/serviço, documentado) | Deve possuir os principais formulários, utilizados pelas unidades e serviços de saúde, disponíveis no sistema; | docs/conformidade/infraestrutura-e-servicos.md |
+| 1.1.2.1.62.1 | ATENDIDO (infraestrutura/serviço, documentado) | Formulários não disponíveis de forma digital devem ser criados até o término da capacitação no Município; | docs/conformidade/infraestrutura-e-servicos.md |
 | 1.1.2.1.63 | IMPLEMENTADO | O sistema deve permitir a autenticação pelos operadores da rede municipal de saúde, com assinatura digital e-CPF, padrão lCP-Brasil, de documentos a serem assin | apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts<br>apps/web/src/telas/modulos/Assinatura.tsx |
 | 1.1.2.1.63.1 | IMPLEMENTADO (itens/agrupador) | Atestados; |  |
 | 1.1.2.1.63.2 | IMPLEMENTADO (itens/agrupador) | Comprovante de Comparecimento; |  |
@@ -734,19 +734,19 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.13 | IMPLEMENTADO | MÓDULO DE FATURAMENTO | apps/api/src/modulos/faturamento/entidades.ts<br>apps/web/src/telas/Faturamento.tsx |
 | 1.2.13.1 | IMPLEMENTADO (itens/agrupador) | Faturamento dos sistemas e serviços de saúde: |  |
 | 1.2.13.1.1 | IMPLEMENTADO | Utilizar os grupos de atendimento da Tabela Unificada de Procedimentos, Medicamentos e Insumos Estratégicos do SUS; | apps/api/src/modulos/cadastros/tabelas.ts |
-| 1.2.13.1.2 | PENDENTE | Gerar exportação de dados para o sistema de informações da atenção básica (e-SUS AB PEC versão 3.2.23 - LEDI AB 4.0.0 ou superior) a partir dos dados dos progra |  |
-| 1.2.13.1.3 | PENDENTE | Gerar exportação CDS/RAS para o sistema de informações da atenção básica (e- SUS AB PEC versão 3.2.23 - LEDI AB 4.0.0 ou superior) a partir dos dados dos progra |  |
-| 1.2.13.1.4 | IMPLEMENTADO (itens/agrupador) | Atendimento Individual; |  |
-| 1.2.13.1.5 | IMPLEMENTADO (itens/agrupador) | Atendimento Odontológico; |  |
-| 1.2.13.1.6 | IMPLEMENTADO (itens/agrupador) | Atividade Coletiva; |  |
-| 1.2.13.1.7 | IMPLEMENTADO (itens/agrupador) | Cadastro Domiciliar e Territorial; |  |
-| 1.2.13.1.8 | IMPLEMENTADO (itens/agrupador) | Cadastro Individual; |  |
-| 1.2.13.1.9 | IMPLEMENTADO (itens/agrupador) | Vacinação; |  |
-| 1.2.13.1.10 | IMPLEMENTADO (itens/agrupador) | Procedimentos; |  |
-| 1.2.13.1.11 | IMPLEMENTADO (itens/agrupador) | Visita Domiciliar e Territorial; |  |
-| 1.2.13.1.12 | IMPLEMENTADO (itens/agrupador) | Marcadores de consumo alimentar; |  |
-| 1.2.13.1.13 | IMPLEMENTADO (itens/agrupador) | Avaliação de elegibilidade e admissão; |  |
-| 1.2.13.1.14 | IMPLEMENTADO (itens/agrupador) | Atendimento domiciliar. |  |
+| 1.2.13.1.2 | IMPLEMENTADO | Gerar exportação de dados para o sistema de informações da atenção básica (e-SUS AB PEC versão 3.2.23 - LEDI AB 4.0.0 ou superior) a partir dos dados dos progra | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.3 | IMPLEMENTADO | Gerar exportação CDS/RAS para o sistema de informações da atenção básica (e- SUS AB PEC versão 3.2.23 - LEDI AB 4.0.0 ou superior) a partir dos dados dos progra | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.4 | IMPLEMENTADO | Atendimento Individual; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.5 | IMPLEMENTADO | Atendimento Odontológico; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.6 | IMPLEMENTADO | Atividade Coletiva; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.7 | IMPLEMENTADO | Cadastro Domiciliar e Territorial; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.8 | IMPLEMENTADO | Cadastro Individual; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.9 | IMPLEMENTADO | Vacinação; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.10 | IMPLEMENTADO | Procedimentos; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.11 | IMPLEMENTADO | Visita Domiciliar e Territorial; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.12 | IMPLEMENTADO | Marcadores de consumo alimentar; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.13 | IMPLEMENTADO | Avaliação de elegibilidade e admissão; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
+| 1.2.13.1.14 | IMPLEMENTADO | Atendimento domiciliar. | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
 | 1.2.13.1.15 | IMPLEMENTADO | O sistema deverá ter suporte à integração com o sistema de Autorização de AIH, para autorizações de internações hospitalares em geral no formato SISAIH/SUS; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/exportacao.ts<br>apps/api/src/modulos/aih/rotas.ts |
 | 1.2.13.1.16 | IMPLEMENTADO | O sistema deverá ter suporte ao gerenciamento do faturamento das autorizações de internações hospitalares (AIH) em geral, no formato SIH/SUS, a partir dos dados | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/exportacao.ts<br>apps/api/src/modulos/aih/rotas.ts |
 | 1.2.13.1.17 | IMPLEMENTADO | O sistema deverá gerar exportação para o sistema SISAIH01; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/exportacao.ts<br>apps/api/src/modulos/aih/rotas.ts |
@@ -769,8 +769,8 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.13.1.34 | IMPLEMENTADO | Trabalhar com o conceito de competência mensal, definindo o dia de fechamento das contas, de acordo com as datas estipuladas pelo Ministério da Saúde; | apps/api/src/modulos/faturamento/entidades.ts<br>apps/api/src/modulos/faturamento/producao.ts |
 | 1.2.13.1.35 | IMPLEMENTADO | Controlar automaticamente as regras de validação do SUS para cada procedimento executado interna ou externamente, possibilitando a checagem automática do protoc | apps/api/src/modulos/faturamento/entidades.ts<br>apps/api/src/modulos/faturamento/producao.ts<br>apps/api/src/modulos/faturamento/relatorios.ts |
 | 1.2.13.1.36 | IMPLEMENTADO | Gerar arquivo para o envio de dados para o sistema RAAS a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digitação | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/rotas.ts<br>apps/api/src/modulos/raas/servico.ts |
-| 1.2.13.1.37 | PENDENTE | Gerar arquivo para o envio de dados para o sistema HIPERDIA a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digit |  |
-| 1.2.13.1.38 | PENDENTE | Gerar arquivo para o envio de dados para o sistema e-SUS a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digitaçã |  |
+| 1.2.13.1.37 | IMPLEMENTADO | Gerar arquivo para o envio de dados para o sistema HIPERDIA a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digit | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.13.1.38 | IMPLEMENTADO | Gerar arquivo para o envio de dados para o sistema e-SUS a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digitaçã | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/ledi.ts |
 | 1.2.13.1.39 | PENDENTE | Gerar arquivo para o envio de dados para o sistema SIPNI a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digitaçã |  |
 | 1.2.13.1.40 | IMPLEMENTADO | Gerar o boletim de produção ambulatorial (BPA) consolidado impresso; | apps/api/src/modulos/faturamento/relatorios.ts |
 | 1.2.13.1.41 | IMPLEMENTADO | Gerar o boletim de produção ambulatorial (BPA) individualizado impresso; | apps/api/src/modulos/faturamento/relatorios.ts |
@@ -1663,24 +1663,24 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.35.22 | IMPLEMENTADO | Data, número, nome do paciente, nome do profissional solicitante e a situação atual do mesmo, separados por unidade solicitante e procedimento solicitado; | apps/api/src/modulos/tfd/relatorios.ts |
 | 1.2.35.23 | IMPLEMENTADO | Deverá emitir relatório dos processos por profissional solicitante, contendo no mínimo as informações do laudo: | apps/api/src/modulos/tfd/relatorios.ts |
 | 1.2.35.23.1 | IMPLEMENTADO | Data, número, nome do paciente, nome do procedimento e a situação atual do mesmo, separados por unidade solicitante e nome do profissional solicitante. | apps/api/src/modulos/tfd/relatorios.ts |
-| 1.2.36 | PENDENTE | MÓDULO DO E-SUS AB (ATENÇÃO PRIMÁRIA) |  |
-| 1.2.36.1 | PENDENTE | O software deverá permitir a criação de novas ações programáticas, controlando a data de início e fim, quantidade de inscrições e tipo de benefícios; |  |
-| 1.2.36.2 | PENDENTE | O software deverá possibilitar o relacionamento de locais de atendimento a ação programática; |  |
-| 1.2.36.3 | PENDENTE | Permitir a definição dos procedimentos/subsídios e a periodicidade dos mesmos para cada ação programática; |  |
-| 1.2.36.4 | PENDENTE | Permitir a definição de eventos e a periodicidade dos mesmos para cada ação programática; |  |
-| 1.2.36.5 | PENDENTE | O software deverá controlar as inscrições da ação programática, controlando: |  |
-| 1.2.36.6 | PENDENTE | Data inicial; |  |
-| 1.2.36.7 | PENDENTE | Data final; |  |
-| 1.2.36.8 | PENDENTE | Recebimento ou não de benefícios; |  |
-| 1.2.36.9 | PENDENTE | Situação: (Ativo; Desistente; Desligado); |  |
-| 1.2.36.9.1 | PENDENTE | Benefícios concedidos; |  |
-| 1.2.36.9.2 | PENDENTE | Definição dos eventos; |  |
-| 1.2.36.9.3 | PENDENTE | Definição de frequência; |  |
-| 1.2.36.9.4 | PENDENTE | Definição de prazos. |  |
-| 1.2.36.10 | PENDENTE | Possuir integração com a Rede Nacional de Dados em Saúde; |  |
-| 1.2.36.11 | PENDENTE | Disponibilizar plataforma de Teleconsulta, com atendimento às regulamentações legais; |  |
-| 1.2.36.12 | PENDENTE | Deverá considerar status “solicitado”, de forma automática, para critérios de indicadores de saúde, quando for gerada uma Guia de Solicitação de Exame; |  |
-| 1.2.36.13 | PENDENTE | Deverá disponibilizar dashboard com agenda para agendamento e registro de reuniões de equipes multiprofissionais nas unidades; |  |
+| 1.2.36 | IMPLEMENTADO | MÓDULO DO E-SUS AB (ATENÇÃO PRIMÁRIA) | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts |
+| 1.2.36.1 | IMPLEMENTADO | O software deverá permitir a criação de novas ações programáticas, controlando a data de início e fim, quantidade de inscrições e tipo de benefícios; | apps/api/src/modulos/esus/_entidades.ts |
+| 1.2.36.2 | IMPLEMENTADO | O software deverá possibilitar o relacionamento de locais de atendimento a ação programática; | apps/api/src/modulos/esus/_entidades.ts |
+| 1.2.36.3 | IMPLEMENTADO | Permitir a definição dos procedimentos/subsídios e a periodicidade dos mesmos para cada ação programática; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.4 | IMPLEMENTADO | Permitir a definição de eventos e a periodicidade dos mesmos para cada ação programática; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.5 | IMPLEMENTADO | O software deverá controlar as inscrições da ação programática, controlando: | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/relatorios.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.6 | IMPLEMENTADO | Data inicial; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/relatorios.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.7 | IMPLEMENTADO | Data final; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/relatorios.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.8 | IMPLEMENTADO | Recebimento ou não de benefícios; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/relatorios.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.9 | IMPLEMENTADO | Situação: (Ativo; Desistente; Desligado); | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/relatorios.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.9.1 | IMPLEMENTADO | Benefícios concedidos; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/relatorios.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.9.2 | IMPLEMENTADO | Definição dos eventos; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/relatorios.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.9.3 | IMPLEMENTADO | Definição de frequência; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/relatorios.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.9.4 | IMPLEMENTADO | Definição de prazos. | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/relatorios.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.10 | IMPLEMENTADO | Possuir integração com a Rede Nacional de Dados em Saúde; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.11 | IMPLEMENTADO | Disponibilizar plataforma de Teleconsulta, com atendimento às regulamentações legais; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.12 | IMPLEMENTADO | Deverá considerar status “solicitado”, de forma automática, para critérios de indicadores de saúde, quando for gerada uma Guia de Solicitação de Exame; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/servico.ts |
+| 1.2.36.13 | IMPLEMENTADO | Deverá disponibilizar dashboard com agenda para agendamento e registro de reuniões de equipes multiprofissionais nas unidades; | apps/api/src/modulos/esus/_entidades.ts<br>apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/esus/relatorios.ts |
 | 1.2.37 | IMPLEMENTADO | MÓDULO DE AIH (AUTORIZAÇÃO DE INTERNAÇÃO HOSPITALAR) | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/aih/servico.ts |
 | 1.2.37.1 | IMPLEMENTADO | Deverá permitir o cadastramento de órgãos emissores de autorização de procedimentos realizados em âmbito ambulatorial e hospitalar, designados pelos gestores es | apps/api/src/modulos/aih/entidades.ts |
 | 1.2.37.2 | IMPLEMENTADO | Deverá permitir o cadastramento e controle da faixa numérica de AIHs em suas esferas de atuação de governo, informando a validade da numeração, o número inicial | apps/api/src/modulos/aih/entidades.ts |
@@ -1881,24 +1881,24 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.41.6.1.5 | IMPLEMENTADO (itens/agrupador) | Etnia; |  |
 | 1.2.41.6.1.6 | IMPLEMENTADO (itens/agrupador) | Cor da pele; |  |
 | 1.2.41.6.1.7 | IMPLEMENTADO (itens/agrupador) | Grau de Parentesco. |  |
-| 1.2.41.6.2 | IMPLEMENTADO | Deverá manter o integrante cadastrado em estado de Pré-cadastro até a confirmação e apresentação de documentos para validação em uma unidade de saúde; | apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/Outros.tsx |
+| 1.2.41.6.2 | IMPLEMENTADO | Deverá manter o integrante cadastrado em estado de Pré-cadastro até a confirmação e apresentação de documentos para validação em uma unidade de saúde; | apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/Outros.tsx<br>apps/web/src/telas/modulos/Portal.tsx |
 | 1.2.41.6.3 | IMPLEMENTADO | Deverá bloquear todas as funcionalidades do sistema para integrantes que estejam em situação de Pré-cadastro, exibindo um alerta ao usuário para que compareça e | apps/api/src/modulos/portal/auth.ts<br>apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/comum.tsx |
 | 1.2.41.7 | IMPLEMENTADO | Agendamento: | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
 | 1.2.41.7.1 | IMPLEMENTADO | Deverá permitir a marcação de consultas não reguladas, nas especialidades e horários dos profissionais definidos e liberados pela secretaria de saúde; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
-| 1.2.41.7.2 | IMPLEMENTADO | Deverá permitir parametrização, sobre os agendamentos, podendo definir se o mesmo ocorrerá de forma direta ou via confirmação por um operador da unidade de saúd | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
-| 1.2.41.7.3 | IMPLEMENTADO | Deverá possuir parametrização para dias ou horas de antecedência para o agendamento de uma consulta; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.2 | IMPLEMENTADO | Deverá permitir parametrização, sobre os agendamentos, podendo definir se o mesmo ocorrerá de forma direta ou via confirmação por um operador da unidade de saúd | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/telas/modulos/Portal.tsx |
+| 1.2.41.7.3 | IMPLEMENTADO | Deverá possuir parametrização para dias ou horas de antecedência para o agendamento de uma consulta; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/telas/modulos/Portal.tsx |
 | 1.2.41.7.4 | IMPLEMENTADO | Deverá possuir forma de aviso da confirmação do agendamento por email, SMS ou pelo aplicativo móvel; | apps/api/src/modulos/portal/entidades.ts<br>apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
 | 1.2.41.7.5 | IMPLEMENTADO | Deverá permitir ao responsável legal da família, a inclusão e manutenção das consultas para todos os seus dependentes; | apps/api/src/modulos/portal/auth.ts<br>apps/web/src/cidadao/Agendamentos.tsx<br>apps/web/src/cidadao/Portal.tsx |
 | 1.2.41.7.6 | IMPLEMENTADO | Deverá disponibilizar a informação de quais especialidades estão disponíveis para marcação de consulta; | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
 | 1.2.41.7.7 | IMPLEMENTADO | Deverá disponibilizar a informação de quais profissionais estão disponíveis para marcação de consulta; | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
 | 1.2.41.7.8 | IMPLEMENTADO | Deverá disponibilizar a informação de quais horários estão disponíveis para marcação de consulta; | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
 | 1.2.41.7.9 | IMPLEMENTADO | Deverá permitir o cancelamento de uma consulta médica agendada anteriormente, tanto pelo aplicativo móvel, quanto diretamente em uma unidade de saúde, informand | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
-| 1.2.41.7.10 | IMPLEMENTADO | Deverá permitir a parametrização de um número mínimo de dias ou horas de antecedência para o cancelamento de uma consulta; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.10 | IMPLEMENTADO | Deverá permitir a parametrização de um número mínimo de dias ou horas de antecedência para o cancelamento de uma consulta; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/telas/modulos/Portal.tsx |
 | 1.2.41.7.11 | IMPLEMENTADO | Deverá manter um histórico das consultas canceladas, exibindo para cada registro, todas as informações do agendamento, a data, motivo e o responsável pelo cance | apps/api/src/modulos/portal/entidades.ts<br>apps/api/src/modulos/portal/relatorios.ts<br>apps/api/src/modulos/portal/servico.ts |
 | 1.2.41.7.12 | IMPLEMENTADO | Deverá possuir uma lista de todas as consultas nas diversas especialidades de saúde que o usuário esteja agendado; | apps/api/src/modulos/portal/servico.ts |
 | 1.2.41.7.13 | IMPLEMENTADO | Deverá possuir uma lista de todas as consultas em espera nas diversas especialidades de saúde que o usuário esteja cadastrado; | apps/api/src/modulos/portal/servico.ts |
 | 1.2.41.7.14 | IMPLEMENTADO | Deverá possuir uma lista de todas as consultas bloqueadas nas diversas especialidades de saúde que o usuário esteja cadastrado, exibindo para cada registro, tod | apps/api/src/modulos/portal/servico.ts |
-| 1.2.41.7.15 | IMPLEMENTADO | Deverá permitir transferir uma consulta médica, previamente agendada pelo dispositivo, em uma unidade de saúde; | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.7.15 | IMPLEMENTADO | Deverá permitir transferir uma consulta médica, previamente agendada pelo dispositivo, em uma unidade de saúde; | apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/telas/modulos/Portal.tsx |
 | 1.2.41.7.16 | IMPLEMENTADO | Deverá permitir que o usuário, ou o responsável legal da família, possa efetuar a transferência de uma consulta médica, tanto do próprio usuário, quanto dos seu | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
 | 1.2.41.7.17 | IMPLEMENTADO | Deverá manter um histórico das consultas efetuadas, exibindo para cada registro, todas as informações do agendamento; | apps/api/src/modulos/portal/servico.ts |
 | 1.2.41.7.18 | IMPLEMENTADO | Deve possuir a consulta da Fila de espera pública, onde o sistema deve permitir que o usuário possa consultar a fila de espera nas consultas especializadas e ex | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
@@ -2334,7 +2334,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.43.1.15 | IMPLEMENTADO | Exigir, obrigatoriamente, o cadastro de peso e altura do paciente, não permitindo a conclusão da requisição sem essas informações. | apps/api/src/modulos/atendimento/rotas.ts |
 | 1.2.43.1.16 | IMPLEMENTADO | Permitir a alteração do status “falta” para realizado. | apps/api/src/modulos/agendamento/rotas.ts |
 | 1.2.44 | IMPLEMENTADO | MÓDULO DE RAAS | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/rotas.ts<br>apps/web/src/telas/modulos/Raas.tsx |
-| 1.2.44.1 | IMPLEMENTADO | Deverá permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) domiciliar; | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/servico.ts |
+| 1.2.44.1 | IMPLEMENTADO | Deverá permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) domiciliar; | apps/api/src/modulos/esus/_rotas.ts<br>apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/servico.ts |
 | 1.2.44.2 | IMPLEMENTADO | Deverá permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) psicossocial; | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/servico.ts |
 | 1.2.44.3 | IMPLEMENTADO | Deverá gerar arquivo para a exportação de dados para o sistema RAAS, a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/rotas.ts<br>apps/api/src/modulos/raas/servico.ts |
 | 1.2.44.4 | IMPLEMENTADO | Deverá possibilitar a importação do RAAS para o sistema; | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/rotas.ts<br>apps/api/src/modulos/raas/servico.ts |
@@ -2400,7 +2400,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.47.6.2.1 | IMPLEMENTADO | Cálculo; | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
 | 1.2.47.6.2.2 | IMPLEMENTADO | Fórmula; | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
 | 1.2.47.6.2.3 | IMPLEMENTADO | Texto e Lista de resultados. | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.7 | IMPLEMENTADO | Deve possuir uma visualização prévia do resultado do exame no momento da sua configuração; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.7 | IMPLEMENTADO | Deve possuir uma visualização prévia do resultado do exame no momento da sua configuração; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.8 | IMPLEMENTADO | Deve permitir o cadastro de recipientes para coleta de materiais, com a identificação da sua cor, descrição, volume e observação; | apps/api/src/modulos/laboratorio/entidades.ts |
 | 1.2.47.9 | IMPLEMENTADO | Deve permitir associar os recipientes aos exames, identificando a quantidade de recipientes necessários e o volume da coleta; | apps/api/src/modulos/laboratorio/entidades.ts |
 | 1.2.47.10 | IMPLEMENTADO | Deve indicar quais e quantos recipientes e materiais necessários para realizar a coleta integral ou parcial dos exames, retornando à fila os exames pendentes; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
@@ -2411,7 +2411,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.47.15 | IMPLEMENTADO | Deve possuir parametrização para imprimir ou não as etiquetas após a coleta. Caso configurado para imprimir, após a coleta de materiais o sistema deve perguntar | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
 | 1.2.47.16 | IMPLEMENTADO | Permitir a configuração de casas decimais; | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
 | 1.2.47.17 | IMPLEMENTADO | Permitir cálculo automático da data de entrega do pedido, que considere tempo do pedido, horários do funcionamento do laboratório, dias de rotina, feriados e ou | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/relatorios.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
-| 1.2.47.18 | IMPLEMENTADO | Dispor de gerenciamento de laboratórios de apoio e possuir interoperabilidade dos resultados dos exames do laboratório para o Município. Este processo deve ser  | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.18 | IMPLEMENTADO | Dispor de gerenciamento de laboratórios de apoio e possuir interoperabilidade dos resultados dos exames do laboratório para o Município. Este processo deve ser  | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.19 | IMPLEMENTADO | O número específico da requisição de exames será utilizado para rastreabilidade do atendimento do paciente em todos os setores do laboratório, devendo estar vin | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
 | 1.2.47.20 | IMPLEMENTADO | Deve permitir o registro de ocorrências, com motivos pré-definidos através de cadastro a ser realizado pelo laboratório; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
 | 1.2.47.21 | IMPLEMENTADO | Deve ser enviada a informação do registro de ocorrência para o solicitante e/ou origem; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
@@ -2420,13 +2420,13 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.47.24 | IMPLEMENTADO | Permitir configurar se o exame permite reagendamento da coleta; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
 | 1.2.47.25 | IMPLEMENTADO | Permitir configurar quantas amostras devem ser coletadas para o exame; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
 | 1.2.47.26 | IMPLEMENTADO | Permitir configurar se o exame usa interfaceamento com equipamentos; | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.27 | IMPLEMENTADO | Permitir configurar as variáveis de resultado do exame, permitindo definir o tipo de variável, como: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.27 | IMPLEMENTADO | Permitir configurar as variáveis de resultado do exame, permitindo definir o tipo de variável, como: | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.27.1 | IMPLEMENTADO | Texto, texto longo, numérico, lista de opções (Permitindo informar as opções possíveis), e cálculo (Permitindo definir o cálculo realizado com base em variáveis | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.28 | IMPLEMENTADO | Permitir configurar, para cada variável de resultado do exame, seus valores de referência, considerando a faixa etária e sexo do paciente, ou seja, permitir con | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.28 | IMPLEMENTADO | Permitir configurar, para cada variável de resultado do exame, seus valores de referência, considerando a faixa etária e sexo do paciente, ou seja, permitir con | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.29 | IMPLEMENTADO | Deverá possuir campo para especificação do prazo de liberação do exame; | apps/api/src/modulos/laboratorio/entidades.ts |
 | 1.2.47.30 | IMPLEMENTADO | Permitir o cadastro e configuração de mapas de trabalho personalizados para o exame; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
 | 1.2.47.31 | IMPLEMENTADO | Permitir ativar e inativar mapas de trabalho do exame; | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.32 | IMPLEMENTADO | Permitir a personalização do mapa de trabalho, possibilitando: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.32 | IMPLEMENTADO | Permitir a personalização do mapa de trabalho, possibilitando: | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.32.1 | IMPLEMENTADO (itens/agrupador) | O uso dos dados da unidade prestadora, do paciente e do atendimento; |  |
 | 1.2.47.32.2 | IMPLEMENTADO (itens/agrupador) | A criação de tabelas conforme necessidade; |  |
 | 1.2.47.32.3 | IMPLEMENTADO | A formatação do texto, definindo seu tipo de fonte, cor, tamanho, alinhamento, negrito, itálico, sublinhado, tachado, subscrito, tabulações e as demais funções  | apps/api/src/modulos/laboratorio/html-pdf.ts |
@@ -2449,14 +2449,14 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.47.32.12 | IMPLEMENTADO (itens/agrupador) | A criação de tabelas conforme necessidade; |  |
 | 1.2.47.32.13 | IMPLEMENTADO | A formatação do texto, definindo seu tipo de fonte, cor, tamanho, alinhamento, negrito, itálico, sublinhado, tachado, subscrito, tabulações e as demais funções  | apps/api/src/modulos/laboratorio/html-pdf.ts |
 | 1.2.47.32.14 | IMPLEMENTADO (itens/agrupador) | A inclusão de imagens e figuras. |  |
-| 1.2.47.33 | IMPLEMENTADO | O sistema deve possibilitar configurar o laudo usando HTML; | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.34 | IMPLEMENTADO | Permitir ativar ou inativar um modelo de laudo de exame; | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.35 | IMPLEMENTADO | Permitir configurar diferentes modelos de laudos para cada material coletado; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
-| 1.2.47.36 | IMPLEMENTADO | Permitir configurar o modelo de impressão do laudo em retrato ou paisagem; | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.37 | IMPLEMENTADO | Deverá possuir uma visualização prévia do resultado do exame no momento da configuração do laudo; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.33 | IMPLEMENTADO | O sistema deve possibilitar configurar o laudo usando HTML; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
+| 1.2.47.34 | IMPLEMENTADO | Permitir ativar ou inativar um modelo de laudo de exame; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
+| 1.2.47.35 | IMPLEMENTADO | Permitir configurar diferentes modelos de laudos para cada material coletado; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
+| 1.2.47.36 | IMPLEMENTADO | Permitir configurar o modelo de impressão do laudo em retrato ou paisagem; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
+| 1.2.47.37 | IMPLEMENTADO | Deverá possuir uma visualização prévia do resultado do exame no momento da configuração do laudo; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.38 | IMPLEMENTADO | Deverá possuir definição dos profissionais que assinam os resultados dos exames; | apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
 | 1.2.47.39 | IMPLEMENTADO | Deverá possuir assinatura gráfica para agilizar o processo de liberação da assinatura e do resultado pelo profissional mesmo à distância. | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
-| 1.2.47.40 | IMPLEMENTADO | Materiais: | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.40 | IMPLEMENTADO | Materiais: | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.40.1 | IMPLEMENTADO (itens/agrupador) | Deverá possibilitar a realização de pesquisa dos materiais pelos campos: |  |
 | 1.2.47.40.1.1 | IMPLEMENTADO (itens/agrupador) | Nome; |  |
 | 1.2.47.40.1.2 | IMPLEMENTADO (itens/agrupador) | Grupo; |  |
@@ -2472,7 +2472,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.47.40.8 | PENDENTE | Deverá possuir funcionalidade para duplicação de um cadastro, facilitando a inclusão de um novo que tenha as mesmas características; |  |
 | 1.2.47.40.9 | IMPLEMENTADO | Deverá possuir forma de definição de estoque ideal e mínimo para cada unidade de saúde; | apps/api/src/modulos/farmacia/entidades.ts<br>apps/api/src/modulos/laboratorio/relatorios.ts |
 | 1.2.47.40.10 | PENDENTE | Deverá permitir, através da seleção do material, a visualização geral do estoque em todas as unidades, listando lotes e validades. |  |
-| 1.2.47.41 | IMPLEMENTADO | Entradas: | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.41 | IMPLEMENTADO | Entradas: | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.41.1 | IMPLEMENTADO | Na primeira tela de acesso de entradas, deverá ser exibido o histórico das entradas, possibilitando a pesquisa de informações por: | apps/api/src/modulos/laboratorio/rotas.ts |
 | 1.2.47.41.1.1 | IMPLEMENTADO (itens/agrupador) | Data da entrada; |  |
 | 1.2.47.41.1.2 | IMPLEMENTADO (itens/agrupador) | Número da nota fiscal; |  |
@@ -2487,7 +2487,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.47.41.6 | IMPLEMENTADO | Deverá disponibilizar relatório de entradas com informações de custos por grupo de produto; | apps/api/src/modulos/laboratorio/relatorios.ts |
 | 1.2.47.41.7 | IMPLEMENTADO | Relatório de entradas com informações de custos por fornecedor; | apps/api/src/modulos/laboratorio/relatorios.ts |
 | 1.2.47.41.8 | IMPLEMENTADO | Relatório de entradas com informações de custos por período. | apps/api/src/modulos/laboratorio/relatorios.ts |
-| 1.2.47.42 | IMPLEMENTADO | Acertos e inutilizações: | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.42 | IMPLEMENTADO | Acertos e inutilizações: | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.42.1 | IMPLEMENTADO (itens/agrupador) | Deverá permitir a inutilização de produtos por unidade, informando: |  |
 | 1.2.47.42.1.1 | IMPLEMENTADO (itens/agrupador) | Data, unidade, produto, lote, quantidade, motivo e observações. |  |
 | 1.2.47.42.2 | IMPLEMENTADO (itens/agrupador) | Deverá, ao informar o produto, listar todos os lotes disponíveis e a sua validade; |  |
@@ -2532,12 +2532,12 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.47.43.31 | IMPLEMENTADO | Deverá possuir a impressão dos mapas de trabalho, configurados para os exames individualmente ou em lote; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
 | 1.2.47.43.32 | IMPLEMENTADO | Deverá permitir a impressão de etiquetas individualmente ou em lote; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
 | 1.2.47.43.33 | IMPLEMENTADO | Deverá permitir a impressão das etiquetas em impressora térmica específica para etiquetas autoadesivas; | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.43.34 | IMPLEMENTADO | Deverá permitir a configuração da impressão das etiquetas, permitindo definir: | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.43.35 | IMPLEMENTADO | Tamanho vertical e horizontal em milímetros. | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.43.36 | IMPLEMENTADO | Permitir definir o que será impressa em cada linha da etiqueta; | apps/api/src/modulos/laboratorio/entidades.ts |
-| 1.2.47.43.37 | IMPLEMENTADO (itens/agrupador) | Permitir o uso dos dados do paciente, exame e coleta para impressão das etiquetas, com: |  |
+| 1.2.47.43.34 | IMPLEMENTADO | Deverá permitir a configuração da impressão das etiquetas, permitindo definir: | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
+| 1.2.47.43.35 | IMPLEMENTADO | Tamanho vertical e horizontal em milímetros. | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
+| 1.2.47.43.36 | IMPLEMENTADO | Permitir definir o que será impressa em cada linha da etiqueta; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
+| 1.2.47.43.37 | IMPLEMENTADO | Permitir o uso dos dados do paciente, exame e coleta para impressão das etiquetas, com: | apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.43.37.1 | IMPLEMENTADO | Material a examinar, nome do tubo de amostra, cor do tubo, código e nome do paciente, número da amostra, nº da requisição, código de Barras do nº da requisição, | apps/api/src/modulos/laboratorio/documentos.ts |
-| 1.2.47.43.38 | IMPLEMENTADO | Possuir visualização em tempo real da configuração da etiqueta, à medida que é configurada; | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.43.38 | IMPLEMENTADO | Possuir visualização em tempo real da configuração da etiqueta, à medida que é configurada; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.47.43.39 | IMPLEMENTADO | Permitir impressão do comprovante de coleta do exame; | apps/api/src/modulos/laboratorio/documentos.ts |
 | 1.2.47.43.40 | IMPLEMENTADO | Permitir configurar o comprovante de coleta do exame definindo o seu modelo (½ página ou ¼ de página), o seu título da área de observações e um texto personaliz | apps/api/src/modulos/laboratorio/documentos.ts |
 | 1.2.47.43.41 | IMPLEMENTADO | O sistema deve permitir anexar o resultado do exame em formado .pdf. Após a inclusão do arquivo, o exame deve ser automaticamente considerado como liberado e as | apps/api/src/modulos/laboratorio/servico.ts |
@@ -2597,8 +2597,8 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.48.11 | IMPLEMENTADO | Possibilidade de centralização do servidor de automação, ou seja, apenas um (Ou o mínimo possível) para os equipamentos analisadores; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/interface.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
 | 1.2.48.12 | IMPLEMENTADO | Os pedidos repassados para outros laboratórios devem ser cadastrados no laboratório que solicita o serviço, e já devem entrar no banco de dados do sistema pront | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
 | 1.2.48.13 | IMPLEMENTADO | Os pedidos repassados para outros laboratórios devem ser totalmente integrados ao prontuário do paciente, desde a solicitação do exame até os resultados; | apps/api/src/modulos/laboratorio/relatorios.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
-| 1.2.48.14 | IMPLEMENTADO | Deve gerar os arquivos de faturamento SUS, individualizados e consolidados, dos pedidos repassados para outros laboratórios; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
-| 1.2.48.15 | IMPLEMENTADO | Deve permitir a geração dos relatórios, em formato .pdf ou .csv, dos pedidos repassados para outros laboratórios. | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.48.14 | IMPLEMENTADO | Deve gerar os arquivos de faturamento SUS, individualizados e consolidados, dos pedidos repassados para outros laboratórios; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
+| 1.2.48.15 | IMPLEMENTADO | Deve permitir a geração dos relatórios, em formato .pdf ou .csv, dos pedidos repassados para outros laboratórios. | apps/api/src/modulos/laboratorio/relatorios.ts<br>apps/web/src/telas/modulos/LaboratorioConfig.tsx |
 | 1.2.49 | IMPLEMENTADO | MÓDULO DE ACESSO ACS (AGENTE COMUNITÁRIO DE SAÚDE) | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/modulos/acs/servico.ts |
 | 1.2.49.1 | IMPLEMENTADO | O Aplicativo mobile para uso do Agente Comunitário de Saúde deve possibilitar execução offline, ou seja, sem necessidade de conexão com internet; | apps/web/src/acs/AppAcs.tsx<br>apps/web/src/acs/cofre.ts<br>apps/web/src/acs/estado.tsx |
 | 1.2.49.2 | IMPLEMENTADO | O Aplicativo mobile para uso do Agente Comunitário de Saúde deve conter funcionalidades para gerenciamento e controle dos mesmos dados do aplicativo WEB; | apps/api/src/modulos/acs/relatorios.ts |
@@ -2611,9 +2611,9 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.49.6.2 | IMPLEMENTADO (itens/agrupador) | 1 dígito alfanumérico; |  |
 | 1.2.49.6.3 | IMPLEMENTADO (itens/agrupador) | 1 caractere especial. |  |
 | 1.2.49.7 | IMPLEMENTADO | Deverá bloquear o acesso do ACS após algumas tentativas que apresentarem dados de login inválido; | apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/acs/AppAcs.tsx<br>apps/web/src/acs/cofre.ts |
-| 1.2.49.8 | IMPLEMENTADO | Deverá possibilitar o gerenciamento de cargas dos ACS, por operador responsável da unidade de saúde, sem intervenção ou manipulação de arquivos, para garantia d | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts |
-| 1.2.49.8.1 | IMPLEMENTADO | Cancelamento de carga; | apps/api/src/modulos/acs/rotas.ts |
-| 1.2.49.8.2 | IMPLEMENTADO | Redefinição de validade da carga. | apps/api/src/modulos/acs/rotas.ts |
+| 1.2.49.8 | IMPLEMENTADO | Deverá possibilitar o gerenciamento de cargas dos ACS, por operador responsável da unidade de saúde, sem intervenção ou manipulação de arquivos, para garantia d | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/telas/modulos/Acs.tsx |
+| 1.2.49.8.1 | IMPLEMENTADO | Cancelamento de carga; | apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/telas/modulos/Acs.tsx |
+| 1.2.49.8.2 | IMPLEMENTADO | Redefinição de validade da carga. | apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/telas/modulos/Acs.tsx |
 | 1.2.49.9 | IMPLEMENTADO | Deverá controlar o bloqueio e liberação do cadastro das famílias e seus integrantes, enviados para o aplicativo mobile até a data final da validade da carga, li | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/modulos/acs/servico.ts |
 | 1.2.49.10 | IMPLEMENTADO | Deverá possuir forma de criptografia dos dados coletados, para garantia de integridade das informações coletadas e armazenadas no dispositivo móvel; | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/servicos/cripto.ts |
 | 1.2.49.11 | IMPLEMENTADO | Deverá gerar a produção (BPA) automaticamente a partir das visitas efetuadas pelo agente comunitário. | apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/modulos/acs/servico.ts<br>apps/api/src/modulos/faturamento/entidades.ts |
