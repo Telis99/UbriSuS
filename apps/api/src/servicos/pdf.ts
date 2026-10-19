@@ -45,10 +45,44 @@ export interface Identidade {
   marcaDagua?: string;
   papelTimbrado?: string;
   rodape?: string;
+  formato?: FormatoRelatorio | null;
+}
+
+/** Formato de página configurável pelo operador (TR 1.1.1.64.1). */
+export interface FormatoRelatorio {
+  tamanho: string;
+  orientacao: 'AUTO' | 'portrait' | 'landscape';
+  margem_superior: number;
+  margem_inferior: number;
+  margem_esquerda: number;
+  margem_direita: number;
+  fonte: number;
+  exibir_cabecalho: boolean;
+  exibir_rodape: boolean;
+  exibir_brasao: boolean;
+  exibir_nome_entidade: boolean;
+  exibir_numero_pagina: boolean;
+  texto_cabecalho?: string | null;
+  texto_rodape?: string | null;
+}
+
+async function formatoDe(relatorio?: string, formatoId?: number | null): Promise<FormatoRelatorio | null> {
+  try {
+    return (
+      (await consultarUm<FormatoRelatorio>(
+        `select * from sis.formato_relatorio
+          where ativo and (id = $2 or $1 = any(string_to_array(replace(coalesce(relatorios, ''), chr(13), ''), chr(10))) or padrao)
+          order by (id = $2) desc nulls last, ($1 = any(string_to_array(replace(coalesce(relatorios, ''), chr(13), ''), chr(10)))) desc, padrao desc limit 1`,
+        [relatorio ?? '', formatoId ?? null],
+      )) ?? null
+    );
+  } catch {
+    return null;
+  }
 }
 
 /** Identidade visual configurada em Parâmetros (brasão, marca d'água, papel timbrado). */
-export async function obterIdentidade(): Promise<Identidade> {
+export async function obterIdentidade(relatorio?: string, formatoId?: number | null): Promise<Identidade> {
   const img = async (chave: string) => {
     const r = await consultarUm(
       `select a.tipo_mime, encode(a.conteudo, 'base64') as b64 from sis.parametro p
@@ -66,6 +100,7 @@ export async function obterIdentidade(): Promise<Identidade> {
     marcaDagua: await img('relatorio.marca_dagua'),
     papelTimbrado: await img('relatorio.papel_timbrado'),
     rodape: await texto('relatorio.rodape', ''),
+    formato: await formatoDe(relatorio, formatoId),
   };
 }
 
@@ -90,16 +125,21 @@ export function urlValidacao(codigo: string) {
 
 export function documentoPadrao(id: Identidade, o: OpcoesDocumento, conteudo: Content[]): TDocumentDefinitions {
   const quando = (o.emitidoEm ?? new Date()).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' });
-  const cabecalho: Content = o.semCabecalho
+  const f = id.formato;
+  const semCabecalho = o.semCabecalho || f?.exibir_cabecalho === false;
+  const semRodape = o.semRodape || f?.exibir_rodape === false;
+  const [me, md] = [f?.margem_esquerda ?? 36, f?.margem_direita ?? 36];
+  const cabecalho: Content = semCabecalho
     ? []
     : {
-        margin: [36, 20, 36, 0],
+        margin: [me, 20, md, 0],
         columns: [
-          id.brasao ? { image: id.brasao, fit: [48, 48], width: 56 } : { text: '', width: 0 },
+          id.brasao && f?.exibir_brasao !== false ? { image: id.brasao, fit: [48, 48], width: 56 } : { text: '', width: 0 },
           {
             stack: [
-              { text: id.entidade, style: 'entidade' },
+              ...(f?.exibir_nome_entidade === false ? [] : [{ text: id.entidade, style: 'entidade' }]),
               { text: id.secretaria, style: 'secretaria' },
+              ...(f?.texto_cabecalho ? [{ text: f.texto_cabecalho, fontSize: 8 }] : []),
               { text: o.titulo, style: 'tituloRel', margin: [0, 4, 0, 0] },
               ...(o.subtitulo ? [{ text: o.subtitulo, fontSize: 8 }] : []),
               ...(o.filtros?.length ? [{ text: 'Filtros: ' + o.filtros.join('; '), fontSize: 7, color: '#555' }] : []),
@@ -108,10 +148,10 @@ export function documentoPadrao(id: Identidade, o: OpcoesDocumento, conteudo: Co
         ],
       };
   return {
-    pageSize: (o.tamanho ?? 'A4') as any,
-    pageOrientation: o.orientacao ?? 'portrait',
-    pageMargins: o.margens ?? [36, o.semCabecalho ? 30 : 100, 36, o.semRodape ? 30 : 56],
-    defaultStyle: { font: 'Roboto', fontSize: 9 },
+    pageSize: (o.tamanho ?? f?.tamanho ?? 'A4') as any,
+    pageOrientation: f && f.orientacao !== 'AUTO' && !o.tamanho ? f.orientacao : (o.orientacao ?? 'portrait'),
+    pageMargins: o.margens ?? [me, semCabecalho ? 30 : (f?.margem_superior ?? 100), md, semRodape ? 30 : (f?.margem_inferior ?? 56)],
+    defaultStyle: { font: 'Roboto', fontSize: f?.fonte ?? 9 },
     info: { title: o.titulo, author: id.entidade, creator: 'UbriSUS' },
     header: () => cabecalho,
     background: (_pagina: number, tam: ContextPageSize) => {
@@ -122,10 +162,10 @@ export function documentoPadrao(id: Identidade, o: OpcoesDocumento, conteudo: Co
       }
       return camadas;
     },
-    footer: o.semRodape
+    footer: semRodape
       ? undefined
       : (pagina: number, total: number) => ({
-          margin: [36, 6, 36, 0],
+          margin: [me, 6, md, 0],
           columns: [
             o.codigo ? { qr: urlValidacao(o.codigo), fit: 44, width: 50 } : { text: '', width: 0 },
             {
@@ -135,9 +175,10 @@ export function documentoPadrao(id: Identidade, o: OpcoesDocumento, conteudo: Co
                 o.codigo ? { text: `Código de emissão: ${o.codigo}  ·  Valide em ${urlValidacao(o.codigo)}` } : '',
                 { text: `Emitido por ${o.operador ?? '-'} em ${quando}` },
                 ...(id.rodape ? [{ text: id.rodape }] : []),
+                ...(f?.texto_rodape ? [{ text: f.texto_rodape }] : []),
               ],
             },
-            { text: `Página ${pagina} de ${total}`, alignment: 'right', fontSize: 7, width: 70 },
+            f?.exibir_numero_pagina === false ? { text: '', width: 0 } : { text: `Página ${pagina} de ${total}`, alignment: 'right', fontSize: 7, width: 70 },
           ],
         }),
     content: conteudo,

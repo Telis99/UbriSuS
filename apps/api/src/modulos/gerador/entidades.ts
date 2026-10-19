@@ -1,0 +1,82 @@
+// Formatos de relatório e gerador de relatórios/consultas pelo operador (TR 1.1.1.64.1 a 1.1.1.64.8, 1.1.2.1.18).
+import { campoAtivo, campoNome, definirEntidade } from '../../meta/registro.js';
+import { MODULOS_SISTEMA } from '../seguranca/entidades.js';
+
+definirEntidade({
+  nome: 'formato_relatorio',
+  tabela: 'sis.formato_relatorio',
+  titulo: 'Formatos de relatórios',
+  tituloSingular: 'Formato de relatório',
+  modulo: 'TEC',
+  menu: 'Administração/Relatórios',
+  rotulo: ['nome'],
+  ordemPadrao: 'nome',
+  clonavel: true,
+  tr: ['1.1.1.64.1', '1.1.1.64.1.1', '1.1.1.64.1.2', '1.1.1.64.1.3', '1.1.1.64.1.4', '1.1.1.64.1.4.1', '1.1.1.64.1.4.2', '1.1.1.64.1.4.4'],
+  abas: ['Página', 'Conteúdo fixo'],
+  campos: [
+    campoNome(80, { aba: 'Página' }),
+    { nome: 'tamanho', tipo: 'opcao', rotulo: 'Tamanho da página', opcoes: [['A4', 'A4'], ['A5', 'A5'], ['A3', 'A3'], ['LETTER', 'Carta'], ['LEGAL', 'Ofício']], padrao: 'A4', lista: true, aba: 'Página' },
+    { nome: 'orientacao', tipo: 'opcao', rotulo: 'Orientação', opcoes: [['AUTO', 'Automática (conforme colunas)'], ['portrait', 'Retrato'], ['landscape', 'Paisagem']], padrao: 'AUTO', lista: true, aba: 'Página' },
+    { nome: 'margem_superior', tipo: 'inteiro', rotulo: 'Margem superior (pt)', padrao: 100, aba: 'Página' },
+    { nome: 'margem_inferior', tipo: 'inteiro', rotulo: 'Margem inferior (pt)', padrao: 56, aba: 'Página' },
+    { nome: 'margem_esquerda', tipo: 'inteiro', rotulo: 'Margem esquerda (pt)', padrao: 36, aba: 'Página' },
+    { nome: 'margem_direita', tipo: 'inteiro', rotulo: 'Margem direita (pt)', padrao: 36, aba: 'Página' },
+    { nome: 'fonte', tipo: 'inteiro', rotulo: 'Tamanho da fonte', padrao: 9, aba: 'Página' },
+    { nome: 'exibir_cabecalho', tipo: 'booleano', rotulo: 'Exibir cabeçalho', padrao: true, aba: 'Conteúdo fixo' },
+    { nome: 'exibir_rodape', tipo: 'booleano', rotulo: 'Exibir rodapé', padrao: true, aba: 'Conteúdo fixo' },
+    { nome: 'exibir_brasao', tipo: 'booleano', rotulo: 'Brasão da contratante', padrao: true, aba: 'Conteúdo fixo' },
+    { nome: 'exibir_nome_entidade', tipo: 'booleano', rotulo: 'Nome da entidade', padrao: true, aba: 'Conteúdo fixo' },
+    { nome: 'exibir_numero_pagina', tipo: 'booleano', rotulo: 'Número da página', padrao: true, aba: 'Conteúdo fixo' },
+    { nome: 'texto_cabecalho', tipo: 'texto', rotulo: 'Texto adicional do cabeçalho', max: 200, aba: 'Conteúdo fixo' },
+    { nome: 'texto_rodape', tipo: 'texto', rotulo: 'Texto adicional do rodapé', max: 200, aba: 'Conteúdo fixo' },
+    { nome: 'relatorios', tipo: 'texto_longo', rotulo: 'Relatórios que usam este formato (identificadores, um por linha; vazio = conforme padrão)', aba: 'Conteúdo fixo' },
+    { nome: 'padrao', tipo: 'booleano', rotulo: 'Formato padrão do sistema', padrao: false, lista: true, aba: 'Página' },
+    campoAtivo,
+  ],
+});
+
+const FORMATOS_CAMPO: [string, string][] = [
+  ['texto', 'Texto'],
+  ['inteiro', 'Inteiro'],
+  ['decimal', 'Decimal'],
+  ['moeda', 'Moeda'],
+  ['data', 'Data'],
+  ['data_hora', 'Data e hora'],
+  ['percentual', 'Percentual'],
+  ['booleano', 'Sim/Não'],
+];
+export { FORMATOS_CAMPO };
+
+definirEntidade({
+  nome: 'relatorio_personalizado',
+  tabela: 'sis.relatorio_personalizado',
+  titulo: 'Gerador de relatórios e consultas',
+  tituloSingular: 'Relatório personalizado',
+  modulo: 'TEC',
+  rotulo: ['titulo', 'versao'],
+  ordemPadrao: 'codigo, versao desc',
+  tr: ['1.1.1.64.3', '1.1.1.64.4', '1.1.1.64.5', '1.1.1.64.6', '1.1.1.64.7', '1.1.1.64.8', '1.1.2.1.18'],
+  campos: [
+    { nome: 'codigo', tipo: 'texto', rotulo: 'Identificador', max: 40, obrigatorio: true, lista: true, busca: true },
+    { nome: 'versao', tipo: 'inteiro', rotulo: 'Versão', padrao: 1, lista: true },
+    { nome: 'situacao', tipo: 'opcao', rotulo: 'Situação', opcoes: [['RASCUNHO', 'Rascunho (em edição)'], ['PUBLICADO', 'Publicado'], ['ARQUIVADO', 'Versão anterior']], padrao: 'RASCUNHO', lista: true },
+    { nome: 'titulo', tipo: 'texto', rotulo: 'Título', max: 150, obrigatorio: true, lista: true, busca: true },
+    { nome: 'modulo', tipo: 'opcao', rotulo: 'Módulo (menu)', opcoes: MODULOS_SISTEMA, obrigatorio: true, lista: true },
+    { nome: 'grupo', tipo: 'texto', rotulo: 'Grupo no menu de relatórios', max: 60 },
+    { nome: 'origem', tipo: 'opcao', rotulo: 'Origem dos dados', opcoes: [['ENTIDADE', 'Estrutura de dados (metadados)'], ['SQL', 'Instrução SQL'], ['RELATORIO', 'Cópia de relatório existente']], obrigatorio: true, lista: true },
+    { nome: 'entidade', tipo: 'texto', rotulo: 'Estrutura de dados', max: 60 },
+    { nome: 'relatorio_base', tipo: 'texto', rotulo: 'Relatório de origem (cópia)', max: 60 },
+    { nome: 'sql', tipo: 'texto_longo', rotulo: 'Instrução SQL (somente consulta; parâmetros como :nome)' },
+    { nome: 'colunas', tipo: 'json', rotulo: 'Colunas', oculto: true },
+    { nome: 'filtros', tipo: 'json', rotulo: 'Filtros', oculto: true },
+    { nome: 'agrupar', tipo: 'json', rotulo: 'Agrupamentos', oculto: true },
+    { nome: 'grafico', tipo: 'json', rotulo: 'Gráfico', oculto: true },
+    { nome: 'ordem', tipo: 'texto', rotulo: 'Ordenação', max: 120 },
+    { nome: 'formato_id', tipo: 'ref', ref: 'formato_relatorio', rotulo: 'Formato de impressão' },
+    { nome: 'perfis', tipo: 'json', rotulo: 'Perfis com acesso (vazio = todos com acesso ao módulo)', oculto: true },
+    { nome: 'observacao', tipo: 'texto_longo', rotulo: 'Notas da versão' },
+    campoAtivo,
+  ],
+  unicos: [['codigo', 'versao']],
+});

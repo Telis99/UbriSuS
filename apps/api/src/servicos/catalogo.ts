@@ -24,6 +24,7 @@ export interface ResultadoRelatorio {
   grafico?: Grafico;
   filtrosTexto?: string[];
   orientacao?: 'portrait' | 'landscape';
+  formatoId?: number | null;
 }
 
 export interface DefinicaoRelatorio {
@@ -43,6 +44,23 @@ export function registrarRelatorio(d: DefinicaoRelatorio) {
   catalogo.set(d.id, d);
 }
 export const listarRelatorios = () => [...catalogo.values()];
+export const obterRelatorio = (id: string) => catalogo.get(id);
+
+/** Fontes de relatórios criados em tempo de execução (gerador de relatórios do operador). */
+type Fonte = { listar: (u: Usuario) => Promise<DefinicaoRelatorio[]>; obter: (id: string, u: Usuario) => Promise<DefinicaoRelatorio | null> };
+const fontes: Fonte[] = [];
+export function registrarFonteRelatorios(f: Fonte) {
+  fontes.push(f);
+}
+async function localizar(id: string, u: Usuario) {
+  const d = catalogo.get(id);
+  if (d) return d;
+  for (const f of fontes) {
+    const r = await f.obter(id, u);
+    if (r) return r;
+  }
+  return null;
+}
 
 /** Filtros de período usados por quase todos os relatórios. */
 export const PERIODO: FiltroRelatorio[] = [
@@ -55,16 +73,17 @@ export async function rotasCatalogo(app: FastifyInstance) {
   app.get('/api/catalogo-relatorios', async (req) => {
     const u = exigirUsuario(req);
     const modulo = (req.query as any).modulo as string | undefined;
-    return listarRelatorios()
-      .filter((r) => (!modulo || r.modulo === modulo) && temPermissao(u, r.permissao))
+    const dinamicos = (await Promise.all(fontes.map((f) => f.listar(u)))).flat();
+    return [...listarRelatorios(), ...dinamicos]
+      .filter((r) => (!modulo || r.modulo === modulo) && (r.permissao === 'livre' || temPermissao(u, r.permissao)))
       .map(({ gerar: _g, ...r }) => r);
   });
 
   app.post('/api/catalogo-relatorios/:id', async (req, reply) => {
     const u = exigirUsuario(req);
-    const d = catalogo.get((req.params as any).id);
+    const d = await localizar((req.params as any).id, u);
     if (!d) throw new ErroHttp(404, 'Relatório inexistente.');
-    if (!temPermissao(u, d.permissao)) throw new ErroHttp(403, 'Operador sem permissão para este relatório.');
+    if (d.permissao !== 'livre' && !temPermissao(u, d.permissao)) throw new ErroHttp(403, 'Operador sem permissão para este relatório.');
     const b = z
       .object({ filtros: z.record(z.any()).default({}), formato: z.enum([...FORMATOS, 'json'] as [string, ...string[]]).default('pdf'), segundoPlano: z.boolean().default(false), zebrado: z.boolean().optional() })
       .parse(req.body);
@@ -78,7 +97,7 @@ export async function rotasCatalogo(app: FastifyInstance) {
         .map((f) => `${f.rotulo}: ${f.tipo === 'data' ? fmtData(b.filtros[f.nome]) : (b.filtros[`${f.nome}__rotulo`] ?? b.filtros[f.nome])}`);
     const emitir = () =>
       emitirTabela(
-        { relatorio: d.id, titulo: d.titulo, formato: b.formato as Formato, filtros: b.filtros, filtrosTexto, orientacao: r.orientacao },
+        { relatorio: d.id, titulo: d.titulo, formato: b.formato as Formato, filtros: b.filtros, filtrosTexto, orientacao: r.orientacao, formatoId: r.formatoId },
         { titulo: d.titulo, colunas: r.colunas, linhas: r.linhas, agrupar: r.agrupar, grafico: r.grafico, zebrado: b.zebrado },
         u,
       );

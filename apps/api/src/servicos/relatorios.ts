@@ -26,6 +26,8 @@ export interface PedidoEmissao {
   filtros?: Record<string, unknown>;
   filtrosTexto?: string[];
   orientacao?: 'portrait' | 'landscape';
+  /** Formato de impressão específico (gerador de relatórios). */
+  formatoId?: number | null;
 }
 
 export interface ResultadoEmissao {
@@ -75,7 +77,7 @@ async function falhar(regId: string, e: unknown) {
 export async function emitirTabela(p: PedidoEmissao, tabela: Tabela, u?: Usuario): Promise<ResultadoEmissao> {
   const reg = (await registrar(p, u))!;
   try {
-    const ident = await obterIdentidade();
+    const ident = await obterIdentidade(p.relatorio, p.formatoId);
     const conteudo = await exportarTabela(tabela, p.formato, ident, {
       titulo: p.titulo,
       filtros: p.filtrosTexto,
@@ -101,7 +103,7 @@ export async function emitirDocumento(
   const pedido: PedidoEmissao = { ...p, formato: 'pdf' };
   const reg = (await registrar(pedido, u))!;
   try {
-    const ident = await obterIdentidade();
+    const ident = await obterIdentidade(p.relatorio, p.formatoId);
     const corpo = typeof conteudo === 'function' ? await conteudo(reg.codigo) : conteudo;
     const doc = documentoPadrao(ident, { titulo: p.titulo, filtros: p.filtrosTexto, codigo: reg.codigo, operador: u?.nome, ...opcoes }, corpo);
     ajustar?.(doc);
