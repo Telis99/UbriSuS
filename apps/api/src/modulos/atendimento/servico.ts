@@ -295,7 +295,15 @@ export async function finalizar(c: pg.PoolClient, atendimentoId: number, b: { de
   if (!observacao) {
     const esp = at.especialidade_id ? (await c.query(`select procedimento_id from cad.especialidade where id = $1`, [at.especialidade_id])).rows[0] : null;
     const procConsulta = esp?.procedimento_id ?? (at.tipo_unidade === 'UPA' ? (await c.query(`select id from cad.procedimento where codigo = '0301060096'`)).rows[0]?.id : null);
-    if (procConsulta) await lancarProducao(c, { ...base, procedimentoId: procConsulta, origem: at.tipo_unidade === 'ODONTOLOGIA' ? 'ODONTOLOGIA' : 'ATENDIMENTO' });
+    // A primeira consulta odontológica programática só é faturada quando registrada como tal na ficha de saúde bucal.
+    const primeiraOdonto = procConsulta
+      ? (await c.query(`select codigo = '0301010153' e from cad.procedimento where id = $1`, [procConsulta])).rows[0]?.e
+      : false;
+    const faturarConsulta =
+      procConsulta &&
+      (!primeiraOdonto ||
+        (await c.query(`select 1 from odo.atendimento_odonto where atendimento_id = $1 and tipo_consulta = 'PRIMEIRA_PROGRAMATICA'`, [at.id])).rowCount);
+    if (faturarConsulta) await lancarProducao(c, { ...base, procedimentoId: procConsulta, origem: at.tipo_unidade === 'ODONTOLOGIA' ? 'ODONTOLOGIA' : 'ATENDIMENTO' });
   }
   for (const p of b.procedimentos ?? []) await lancarProducao(c, { ...base, procedimentoId: p.procedimentoId, quantidade: p.quantidade, origem: 'PROCEDIMENTO' });
 

@@ -106,7 +106,7 @@ export const PERFIS: { nome: string; categoria: string; grupo: string | null; de
     categoria: 'OPERACIONAL',
     grupo: 'ODONTOLOGIA',
     descricao: 'Atendimento odontológico e odontograma',
-    permissoes: ['AGE:consultar', 'paciente:consultar', 'paciente:alterar', 'ODO:*', 'AMB:consultar', 'FAR:consultar'],
+    permissoes: ['AGE:consultar', 'paciente:consultar', 'paciente:alterar', 'ODO:*', 'AMB:consultar', 'FAR:consultar', 'atendimento_clinico:executar', 'prontuario:consultar', 'prontuario:exportar', 'sigiloso:consultar'],
   },
   {
     nome: 'Agente comunitário de saúde',
