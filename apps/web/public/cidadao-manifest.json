@@ -1,0 +1,14 @@
+{
+  "name": "Saúde Cidadão - Secretaria Municipal de Saúde",
+  "short_name": "Saúde Cidadão",
+  "description": "Agendamento de consultas, exames, vacinas, medicamentos e histórico de atendimentos do SUS municipal.",
+  "id": "/cidadao/",
+  "start_url": "/cidadao/",
+  "scope": "/cidadao/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "background_color": "#ffffff",
+  "theme_color": "#1c5aa8",
+  "icons": [{ "src": "/icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

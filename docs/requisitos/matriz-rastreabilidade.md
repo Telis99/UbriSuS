@@ -2,14 +2,14 @@
 
 Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada por `npm run requisitos:cobertura` em 2026-10-19.
 
-**Cobertura geral: 1414 de 2661 itens (53.1%).**
+**Cobertura geral: 2179 de 2661 itens (81.9%).**
 
 | Seção | Módulo | Itens | Atendidos | % |
 |---|---|---:|---:|---:|
-| 1.1.1 | Características técnicas | 233 | 124 | 53.2% |
-| 1.1.2 | Base tecnológica | 82 | 38 | 46.3% |
+| 1.1.1 | Características técnicas | 233 | 146 | 62.7% |
+| 1.1.2 | Base tecnológica | 82 | 49 | 59.8% |
 | 1.2.1 | Agendamento e cadastros nacionais | 11 | 11 | 100.0% |
-| 1.2.2 | Agendamento e cadastros nacionais | 36 | 30 | 83.3% |
+| 1.2.2 | Agendamento e cadastros nacionais | 36 | 36 | 100.0% |
 | 1.2.3 | Agendamento e cadastros nacionais | 15 | 12 | 80.0% |
 | 1.2.4 | Agendamento e cadastros nacionais | 19 | 18 | 94.7% |
 | 1.2.5 | Agendamento e cadastros nacionais | 24 | 17 | 70.8% |
@@ -20,8 +20,8 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.10 | Agendamento e cadastros nacionais | 39 | 27 | 69.2% |
 | 1.2.11 | Agendamento e cadastros nacionais | 8 | 8 | 100.0% |
 | 1.2.12 | Agendamento e cadastros nacionais | 62 | 42 | 67.7% |
-| 1.2.13 | Faturamento | 44 | 33 | 75.0% |
-| 1.2.14 | Indicadores de gestão | 25 | 0 | 0.0% |
+| 1.2.13 | Faturamento | 44 | 39 | 88.6% |
+| 1.2.14 | Indicadores de gestão | 25 | 25 | 100.0% |
 | 1.2.15 | Ambulatório | 74 | 64 | 86.5% |
 | 1.2.16 | Ambulatório | 56 | 46 | 82.1% |
 | 1.2.17 | Ambulatório | 82 | 64 | 78.0% |
@@ -41,23 +41,23 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.31 | Prontuário médico | 24 | 16 | 66.7% |
 | 1.2.32 | Prontuário médico | 181 | 146 | 80.7% |
 | 1.2.33 | Prontuário médico | 8 | 4 | 50.0% |
-| 1.2.34 | Prontuário odontológico | 109 | 8 | 7.3% |
-| 1.2.35 | Tratamento fora do domicílio | 27 | 0 | 0.0% |
+| 1.2.34 | Prontuário odontológico | 109 | 109 | 100.0% |
+| 1.2.35 | Tratamento fora do domicílio | 27 | 27 | 100.0% |
 | 1.2.36 | e-SUS AB (Atenção Primária) | 18 | 0 | 0.0% |
-| 1.2.37 | AIH | 35 | 0 | 0.0% |
-| 1.2.38 | AIH | 3 | 0 | 0.0% |
+| 1.2.37 | AIH | 35 | 35 | 100.0% |
+| 1.2.38 | AIH | 3 | 3 | 100.0% |
 | 1.2.39 | Imunização | 87 | 77 | 88.5% |
-| 1.2.40 | Transporte sanitário | 57 | 1 | 1.8% |
-| 1.2.41 | Atendimento remoto e autoatendimento | 125 | 4 | 3.2% |
+| 1.2.40 | Transporte sanitário | 57 | 57 | 100.0% |
+| 1.2.41 | Atendimento remoto e autoatendimento | 125 | 119 | 95.2% |
 | 1.2.42 | UPA | 322 | 200 | 62.1% |
-| 1.2.43 | Regulação | 23 | 9 | 39.1% |
-| 1.2.44 | RAAS | 8 | 0 | 0.0% |
-| 1.2.45 | Radiologia | 35 | 1 | 2.9% |
-| 1.2.46 | Ambulatório de saúde mental (CAPS) | 10 | 0 | 0.0% |
-| 1.2.47 | Laboratório | 196 | 3 | 1.5% |
-| 1.2.48 | Interfaceamento | 17 | 0 | 0.0% |
-| 1.2.49 | Acesso ACS | 75 | 35 | 46.7% |
-| 1.2.50 | Ecografia | 50 | 0 | 0.0% |
+| 1.2.43 | Regulação | 23 | 23 | 100.0% |
+| 1.2.44 | RAAS | 8 | 8 | 100.0% |
+| 1.2.45 | Radiologia | 35 | 35 | 100.0% |
+| 1.2.46 | Ambulatório de saúde mental (CAPS) | 10 | 10 | 100.0% |
+| 1.2.47 | Laboratório | 196 | 190 | 96.9% |
+| 1.2.48 | Interfaceamento | 17 | 17 | 100.0% |
+| 1.2.49 | Acesso ACS | 75 | 73 | 97.3% |
+| 1.2.50 | Ecografia | 50 | 50 | 100.0% |
 | 1.3.1 | Prova de conceito | 1 | 0 | 0.0% |
 | 1.3.2 | Prova de conceito | 1 | 0 | 0.0% |
 | 1.3.3 | Prova de conceito | 1 | 0 | 0.0% |
@@ -108,7 +108,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.1.20 | IMPLEMENTADO | O sistema deve disponibilizar recursos de segurança no SGBD para impedir que operadores não autorizados tenham acesso a base de dados para efetuar consulta, alt | apps/api/migrations/001_base.sql |
 | 1.1.1.21 | IMPLEMENTADO | O sistema deve disponibilizar ferramentas de segurança que não permitam acesso ao SGBD como operador DBA (Super operador) do Banco de Dados, devendo existir imp | apps/api/migrations/001_base.sql<br>apps/api/src/config.ts<br>apps/api/src/db/migrar.ts |
 | 1.1.1.22 | PENDENTE | A contratada não deve permitir que operadores da contratante ou terceiros acesse o SGBD e Banco de Dados durante a vigência do contrato, nem permitir sua integr |  |
-| 1.1.1.23 | PENDENTE | O sistema deve permitir a gravação de cópia de backup do banco de dados em servidor local disponibilizado pela contratante, com validação periódica de integrida |  |
+| 1.1.1.23 | IMPLEMENTADO | O sistema deve permitir a gravação de cópia de backup do banco de dados em servidor local disponibilizado pela contratante, com validação periódica de integrida | apps/api/src/modulos/backup/entidades.ts<br>apps/api/src/modulos/backup/servico.ts |
 | 1.1.1.24 | PENDENTE | Visando garantir que a empresa contratada disponibilize recursos informáticos adequados à exigências de performance que garantam a continuidade dos serviços, ev |  |
 | 1.1.1.24.1 | PENDENTE | A equivalência contemplada, para aqueles que não tem certificação, poderá ser declaratória; |  |
 | 1.1.1.24.2 | PENDENTE | A municipalidade auditará presencialmente, através de profissional especializado, para conferência de equivalência, após homologação do vencedor, previamente à  |  |
@@ -143,9 +143,9 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.1.29.2 | IMPLEMENTADO | Deve possibilitar o uso dos privilégios dos perfis para acessar as rotinas e funções do sistema, como consulta, inclusão, alteração, exclusão e todas as demais  | apps/api/src/modulos/seguranca/entidades.ts<br>apps/web/src/telas/admin.tsx |
 | 1.1.1.29.3 | PENDENTE | Deve possibilitar gerenciar restrições de acesso às funções através do uso de senhas, bloqueando o acesso após 03 (Três) tentativas malsucedidas; |  |
 | 1.1.1.29.4 | IMPLEMENTADO | Deve garantir que as senhas trafeguem pela rede e sejam armazenadas de forma criptografada, podendo ser com algoritmo próprio ou hash padrão, como MD5 ou SHA, d | apps/api/src/seguranca/senha.ts |
-| 1.1.1.29.5 | IMPLEMENTADO | Possibilitar que o administrador do sistema possa definir a forma de login do operador através do uso de CPF e Senha, e-CPF ou e-CNPJ, login com a conta Gov.br, | apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.29.5.1 | PENDENTE | O login com a conta Gov.br tem como objetivo agilizar a identificação do cidadão que acessa os serviços digitais disponibilizados pelo Município e facilitar o a |  |
-| 1.1.1.29.5.1.1 | PENDENTE | O login com a conta Gov.br fica na dependência de convênio firmado entre a contratante e o órgão federal responsável. |  |
+| 1.1.1.29.5 | IMPLEMENTADO | Possibilitar que o administrador do sistema possa definir a forma de login do operador através do uso de CPF e Senha, e-CPF ou e-CNPJ, login com a conta Gov.br, | apps/api/src/modulos/govbr/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts |
+| 1.1.1.29.5.1 | IMPLEMENTADO | O login com a conta Gov.br tem como objetivo agilizar a identificação do cidadão que acessa os serviços digitais disponibilizados pelo Município e facilitar o a | apps/api/src/modulos/govbr/rotas.ts<br>apps/api/src/modulos/portal/rotas.ts |
+| 1.1.1.29.5.1.1 | IMPLEMENTADO | O login com a conta Gov.br fica na dependência de convênio firmado entre a contratante e o órgão federal responsável. | apps/api/src/modulos/govbr/rotas.ts |
 | 1.1.1.30 | IMPLEMENTADO | O sistema deve possibilitar que o administrador redefina senhas de operadores e envie a senha temporária via e-mail de contato do operador; | apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/seguranca/rotas.ts |
 | 1.1.1.31 | IMPLEMENTADO | O sistema deve permitir que o administrador defina o status de “expirada” para a senha de um operador, e possibilite que o operador a redefina em seu próximo lo | apps/api/src/modulos/seguranca/entidades.ts |
 | 1.1.1.32 | IMPLEMENTADO | O sistema deve possibilitar, visando a garantia de segurança de acesso, as seguintes parametrizações: | apps/api/src/modulos/seguranca/entidades.ts |
@@ -176,39 +176,39 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.1.41.1 | IMPLEMENTADO | A integração para validação de CPFs é vinculada à convênio firmado entre a contratante e o órgão governamental responsável pela cessão dos dados. | apps/api/src/modulos/cadastros/integracao-cadsus.ts |
 | 1.1.1.42 | PENDENTE | O sistema deve ser capaz de interagir com sistema externos padronizados (Privados e governamentais) para troca de informações, fornecendo automaticamente as inf |  |
 | 1.1.1.43 | PENDENTE | A impossibilidade de integração com sistemas externos deve ser tecnicamente justificada e vinculada a incapacidade do sistema externo em aceitar a integração. |  |
-| 1.1.1.44 | IMPLEMENTADO | O sistema deverá disponibilizar Repositório de Certificados digitais, que garanta segurança, permitindo vincular certificados digitais do tipo A1, de propriedad | apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.45 | IMPLEMENTADO | Deve permitir que um operador crie um certificado digital para uso em assinaturas do tipo Avançada, conforme Lei 14.063/2020, de uso individual e exclusivo, via | apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.46 | IMPLEMENTADO | O sistema deve permitir vincular certificado digital A1 da contratante, permitindo o uso compartilhado por operadores previamente autorizados; | apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.47 | IMPLEMENTADO | O sistema deverá permitir a assinatura de documentos .pdf por operador logado, dentro do próprio sistema, sem necessidade de download e upload de arquivos ou ut | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.48 | IMPLEMENTADO | O sistema deve manter controle da validade dos certificados armazenados no repositório, alertando o operador da necessidade de renovação; | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.49 | IMPLEMENTADO | O sistema deverá registrar um log específico toda vez que um certificado for utilizado, informando: | apps/api/migrations/001_base.sql<br>apps/api/migrations/002_assinatura.sql |
+| 1.1.1.44 | IMPLEMENTADO | O sistema deverá disponibilizar Repositório de Certificados digitais, que garanta segurança, permitindo vincular certificados digitais do tipo A1, de propriedad | apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.45 | IMPLEMENTADO | Deve permitir que um operador crie um certificado digital para uso em assinaturas do tipo Avançada, conforme Lei 14.063/2020, de uso individual e exclusivo, via | apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.46 | IMPLEMENTADO | O sistema deve permitir vincular certificado digital A1 da contratante, permitindo o uso compartilhado por operadores previamente autorizados; | apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.47 | IMPLEMENTADO | O sistema deverá permitir a assinatura de documentos .pdf por operador logado, dentro do próprio sistema, sem necessidade de download e upload de arquivos ou ut | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts |
+| 1.1.1.48 | IMPLEMENTADO | O sistema deve manter controle da validade dos certificados armazenados no repositório, alertando o operador da necessidade de renovação; | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/modulos/seguranca/entidades.ts |
+| 1.1.1.49 | IMPLEMENTADO | O sistema deverá registrar um log específico toda vez que um certificado for utilizado, informando: | apps/api/migrations/001_base.sql<br>apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts |
 | 1.1.1.49.1 | IMPLEMENTADO (itens/agrupador) | Dados do operador logado; |  |
 | 1.1.1.49.2 | IMPLEMENTADO (itens/agrupador) | Data e hora; |  |
 | 1.1.1.49.3 | IMPLEMENTADO (itens/agrupador) | Módulo utilizado; |  |
 | 1.1.1.49.4 | IMPLEMENTADO (itens/agrupador) | Título do documento. |  |
-| 1.1.1.50 | IMPLEMENTADO | O sistema deve permitir a assinatura de documentos utilizando certificados instalados na máquina do operador; | apps/api/migrations/002_assinatura.sql |
-| 1.1.1.51 | IMPLEMENTADO | Os certificados encontrados devem ser listados para o operador, para conferência prévia à assinatura; | apps/api/migrations/002_assinatura.sql |
-| 1.1.1.52 | IMPLEMENTADO | Visando a otimização de tempo de operação e garantia de confiabilidade, com a dispensa da necessidade de download e upload de documentos, e evitando contrataçõe | apps/api/migrations/002_assinatura.sql |
+| 1.1.1.50 | IMPLEMENTADO | O sistema deve permitir a assinatura de documentos utilizando certificados instalados na máquina do operador; | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.51 | IMPLEMENTADO | Os certificados encontrados devem ser listados para o operador, para conferência prévia à assinatura; | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.52 | IMPLEMENTADO | Visando a otimização de tempo de operação e garantia de confiabilidade, com a dispensa da necessidade de download e upload de documentos, e evitando contrataçõe | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
 | 1.1.1.52.1 | PENDENTE | A Assinatura Avançada disponibilizada pelo sistema deve ser passível de validação na plataforma validar.itil, para garantia de conformidade. |  |
-| 1.1.1.52.2 | PENDENTE | Deve permitir configuração para o uso de Assinatura Digital, exclusivamente na modalidade Qualificada (conforme Lei 14.063/2020) no seguinte procedimento: |  |
+| 1.1.1.52.2 | IMPLEMENTADO | Deve permitir configuração para o uso de Assinatura Digital, exclusivamente na modalidade Qualificada (conforme Lei 14.063/2020) no seguinte procedimento: | apps/api/src/servicos/assinatura.ts |
 | 1.1.1.52.3 | IMPLEMENTADO (itens/agrupador) | Login no Sistema. |  |
-| 1.1.1.53 | IMPLEMENTADO | Possibilitar a utilização de assinatura digital, nas modalidades Básica, Avançada e Qualificada (Conforme Lei 14.063/2020), nos seguintes processos: | apps/api/migrations/002_assinatura.sql |
-| 1.1.1.53.1 | IMPLEMENTADO (itens/agrupador) | Após a emissão de relatórios, permitindo assinar o documento emitido; |  |
+| 1.1.1.53 | IMPLEMENTADO | Possibilitar a utilização de assinatura digital, nas modalidades Básica, Avançada e Qualificada (Conforme Lei 14.063/2020), nos seguintes processos: | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.53.1 | IMPLEMENTADO | Após a emissão de relatórios, permitindo assinar o documento emitido; | apps/api/src/servicos/assinatura.ts |
 | 1.1.1.53.2 | IMPLEMENTADO (itens/agrupador) | Pareceres do Processo Digital; |  |
 | 1.1.1.53.3 | IMPLEMENTADO (itens/agrupador) | Recebimento/Envio de Processos por meio digital. |  |
-| 1.1.1.54 | IMPLEMENTADO | Possibilitar que operadores efetuem Solicitações de Assinatura, de um ou mais documentos, para que outro(s) operador(es) o façam, contendo os seguintes recursos | apps/api/migrations/002_assinatura.sql |
+| 1.1.1.54 | IMPLEMENTADO | Possibilitar que operadores efetuem Solicitações de Assinatura, de um ou mais documentos, para que outro(s) operador(es) o façam, contendo os seguintes recursos | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
 | 1.1.1.54.1 | PENDENTE | Permitir definir se a execução das assinaturas será de forma sequencial (Um após o outro) ou unificada (Todos ao mesmo tempo); |  |
 | 1.1.1.54.2 | PENDENTE | Permitir que, durante a assinatura de uma solicitação, o operador possa rejeitar um documento enviado para ser assinado; |  |
 | 1.1.1.54.3 | PENDENTE | Permitir que o operador solicitante da assinatura possa definir se deverá receber notificação final, possibilitando que o mesmo valide se todas as assinaturas f |  |
-| 1.1.1.55 | IMPLEMENTADO | O sistema deve possibilitar que solicitações de assinatura sejam encaminhadas para cidadãos, através do portal de serviços ou via Aplicativo; | apps/api/migrations/002_assinatura.sql |
-| 1.1.1.56 | IMPLEMENTADO | O procedimento de assinatura digital deverá ser simples e prático para o operador, contendo os seguintes facilitadores: | apps/api/migrations/002_assinatura.sql |
-| 1.1.1.56.1 | IMPLEMENTADO | Permitir que sejam vinculados carimbos digitais de assinatura, personalizados para identificação do operador, com possibilidade de ser inserido no .pdf no momen | apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.56.2 | PENDENTE | O sistema deve alertar o operador quando um documento já foi anteriormente assinado por ele, com opção de recusar a solicitação com base nesse motivo; |  |
+| 1.1.1.55 | IMPLEMENTADO | O sistema deve possibilitar que solicitações de assinatura sejam encaminhadas para cidadãos, através do portal de serviços ou via Aplicativo; | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.56 | IMPLEMENTADO | O procedimento de assinatura digital deverá ser simples e prático para o operador, contendo os seguintes facilitadores: | apps/api/migrations/002_assinatura.sql<br>apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.56.1 | IMPLEMENTADO | Permitir que sejam vinculados carimbos digitais de assinatura, personalizados para identificação do operador, com possibilidade de ser inserido no .pdf no momen | apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.56.2 | IMPLEMENTADO | O sistema deve alertar o operador quando um documento já foi anteriormente assinado por ele, com opção de recusar a solicitação com base nesse motivo; | apps/api/src/servicos/assinatura.ts |
 | 1.1.1.56.3 | PENDENTE | Permitir realizar assinatura digital com certificados do repositório ou instalados localmente na máquina do operador, tanto no padrão A1 ou A3; |  |
-| 1.1.1.56.4 | IMPLEMENTADO | O sistema deve possibilitar que o operador veja com clareza quando um certificado está vencido; | apps/api/src/modulos/seguranca/entidades.ts |
-| 1.1.1.56.5 | PENDENTE | A ação de assinatura digital deverá ser transparente para o operador, em uma interface padronizada em todos os módulos, facilitando o suporte e a curva de apren |  |
-| 1.1.1.56.6 | PENDENTE | A ação de assinatura digital deverá exibir o documento com solicitação no ato da mesma (Quando individual) ou permitir a visualização da relação de documentos r |  |
-| 1.1.1.56.7 | IMPLEMENTADO | Todo documento .pdf assinado digitalmente, deverá conter “carimbo” automático com informações que possibilitem a consulta de autenticidade do mesmo, incluindo e | apps/api/src/servicos/rotas.ts |
+| 1.1.1.56.4 | IMPLEMENTADO | O sistema deve possibilitar que o operador veja com clareza quando um certificado está vencido; | apps/api/src/modulos/seguranca/entidades.ts<br>apps/api/src/servicos/assinatura.ts |
+| 1.1.1.56.5 | IMPLEMENTADO | A ação de assinatura digital deverá ser transparente para o operador, em uma interface padronizada em todos os módulos, facilitando o suporte e a curva de apren | apps/web/src/telas/modulos/Assinatura.tsx |
+| 1.1.1.56.6 | IMPLEMENTADO | A ação de assinatura digital deverá exibir o documento com solicitação no ato da mesma (Quando individual) ou permitir a visualização da relação de documentos r | apps/web/src/telas/modulos/Assinatura.tsx |
+| 1.1.1.56.7 | IMPLEMENTADO | Todo documento .pdf assinado digitalmente, deverá conter “carimbo” automático com informações que possibilitem a consulta de autenticidade do mesmo, incluindo e | apps/api/src/servicos/assinatura.ts<br>apps/api/src/servicos/rotas.ts |
 | 1.1.1.57 | IMPLEMENTADO | O sistema deverá utilizar uma base de dados de cadastro única, sem dependência de integração com outras soluções via API, compartilhada e manipulada em tempo re | apps/api/migrations/001_base.sql<br>apps/api/migrations/pos/020_cadastros.sql |
 | 1.1.1.57.1 | IMPLEMENTADO | Cadastro de pessoas; | apps/api/src/modulos/cadastros/pessoas.ts |
 | 1.1.1.57.2 | IMPLEMENTADO | Cadastro de famílias; | apps/api/src/modulos/cadastros/pessoas.ts |
@@ -225,22 +225,22 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.1.62 | IMPLEMENTADO | O sistema deve ser capaz de gerar arquivos digitais dos resultados das consultas nos formatos .pdf, .docx, .doc, .xlsx, .xls, .csv, .xml, .html e .txt; | apps/api/src/meta/rotas.ts<br>apps/api/src/servicos/exportar.ts<br>apps/web/src/genericos/Consulta.tsx |
 | 1.1.1.63 | IMPLEMENTADO | O sistema deve possibilitar que o operador salve preferências de consulta personalizadas, baseadas em consulta efetuada com sucesso; | apps/api/migrations/001_base.sql<br>apps/api/src/servicos/rotas.ts<br>apps/web/src/genericos/Consulta.tsx |
 | 1.1.1.64 | IMPLEMENTADO | O sistema deve disponibilizar gerador de relatórios, com as seguintes características: | apps/api/src/servicos/pdf.ts |
-| 1.1.1.64.1 | PENDENTE | Disponibilizar um cadastro de “Formatos de Relatórios” configuráveis, podendo parametrizar: |  |
-| 1.1.1.64.1.1 | PENDENTE | Tamanho de página; |  |
-| 1.1.1.64.1.2 | PENDENTE | Margens do Documento; |  |
-| 1.1.1.64.1.3 | PENDENTE | Cabeçalho e rodapé; |  |
-| 1.1.1.64.1.4 | PENDENTE | Conteúdo fixo: |  |
-| 1.1.1.64.1.4.1 | PENDENTE | Brasão da contratante; |  |
-| 1.1.1.64.1.4.2 | PENDENTE | Número da página; |  |
+| 1.1.1.64.1 | IMPLEMENTADO | Disponibilizar um cadastro de “Formatos de Relatórios” configuráveis, podendo parametrizar: | apps/api/src/modulos/gerador/entidades.ts<br>apps/api/src/servicos/pdf.ts |
+| 1.1.1.64.1.1 | IMPLEMENTADO | Tamanho de página; | apps/api/src/modulos/gerador/entidades.ts |
+| 1.1.1.64.1.2 | IMPLEMENTADO | Margens do Documento; | apps/api/src/modulos/gerador/entidades.ts |
+| 1.1.1.64.1.3 | IMPLEMENTADO | Cabeçalho e rodapé; | apps/api/src/modulos/gerador/entidades.ts |
+| 1.1.1.64.1.4 | IMPLEMENTADO | Conteúdo fixo: | apps/api/src/modulos/gerador/entidades.ts |
+| 1.1.1.64.1.4.1 | IMPLEMENTADO | Brasão da contratante; | apps/api/src/modulos/gerador/entidades.ts |
+| 1.1.1.64.1.4.2 | IMPLEMENTADO | Número da página; | apps/api/src/modulos/gerador/entidades.ts |
 | 1.1.1.64.1.4.3 | IMPLEMENTADO | Filtros utilizados; | apps/web/src/genericos/grade.ts |
-| 1.1.1.64.1.4.4 | PENDENTE | Nome da entidade. |  |
-| 1.1.1.64.2 | IMPLEMENTADO (itens/agrupador) | Adição de marca d´água através de upload de imagem. |  |
-| 1.1.1.64.3 | PENDENTE | Editar relatórios atuais ou adição de novos relatórios de forma avançada, contendo recursos como formatação de campos, adição de imagens ao corpo do relatório,  |  |
-| 1.1.1.64.4 | PENDENTE | Permitir que novos layouts sejam criados/alterados para os relatórios disponíveis no sistema, podendo esses layouts novos serem criados com base em cópia de lay |  |
-| 1.1.1.64.5 | PENDENTE | Selecionar as informações a partir de metadados (estruturas de dados) conforme modelagem do sistema ou então através de instruções SQL, definindo as característ |  |
-| 1.1.1.64.6 | PENDENTE | Disponibilizar acesso diretamente dos menus dos módulos e também na barra de acesso rápido às funções do operador; |  |
-| 1.1.1.64.7 | PENDENTE | Definir privilégios para os relatórios e consultas gerados a partir do gerador de relatórios e consultas; |  |
-| 1.1.1.64.8 | PENDENTE | Permitir gerenciar os relatórios por versões, permitindo que uma nova versão do relatório seja criada e esta não afete o uso da aplicação pelos operadores enqua |  |
+| 1.1.1.64.1.4.4 | IMPLEMENTADO | Nome da entidade. | apps/api/src/modulos/gerador/entidades.ts |
+| 1.1.1.64.2 | IMPLEMENTADO | Adição de marca d´água através de upload de imagem. | apps/api/src/modulos/gerador/entidades.ts |
+| 1.1.1.64.3 | IMPLEMENTADO | Editar relatórios atuais ou adição de novos relatórios de forma avançada, contendo recursos como formatação de campos, adição de imagens ao corpo do relatório,  | apps/api/src/modulos/gerador/entidades.ts<br>apps/api/src/modulos/gerador/rotas.ts<br>apps/web/src/telas/modulos/GeradorRelatorios.tsx |
+| 1.1.1.64.4 | IMPLEMENTADO | Permitir que novos layouts sejam criados/alterados para os relatórios disponíveis no sistema, podendo esses layouts novos serem criados com base em cópia de lay | apps/api/src/modulos/gerador/entidades.ts<br>apps/api/src/modulos/gerador/rotas.ts<br>apps/web/src/telas/modulos/GeradorRelatorios.tsx |
+| 1.1.1.64.5 | IMPLEMENTADO | Selecionar as informações a partir de metadados (estruturas de dados) conforme modelagem do sistema ou então através de instruções SQL, definindo as característ | apps/api/src/modulos/gerador/entidades.ts<br>apps/api/src/modulos/gerador/rotas.ts<br>apps/web/src/telas/modulos/GeradorRelatorios.tsx |
+| 1.1.1.64.6 | IMPLEMENTADO | Disponibilizar acesso diretamente dos menus dos módulos e também na barra de acesso rápido às funções do operador; | apps/api/src/modulos/gerador/entidades.ts<br>apps/api/src/modulos/gerador/rotas.ts<br>apps/web/src/telas/modulos/GeradorRelatorios.tsx |
+| 1.1.1.64.7 | IMPLEMENTADO | Definir privilégios para os relatórios e consultas gerados a partir do gerador de relatórios e consultas; | apps/api/src/modulos/gerador/entidades.ts<br>apps/api/src/modulos/gerador/rotas.ts<br>apps/web/src/telas/modulos/GeradorRelatorios.tsx |
+| 1.1.1.64.8 | IMPLEMENTADO | Permitir gerenciar os relatórios por versões, permitindo que uma nova versão do relatório seja criada e esta não afete o uso da aplicação pelos operadores enqua | apps/api/src/modulos/gerador/entidades.ts<br>apps/api/src/modulos/gerador/rotas.ts<br>apps/web/src/telas/modulos/GeradorRelatorios.tsx |
 | 1.1.1.64.9 | IMPLEMENTADO | Deve permitir que um operador salve a configuração de um relatório personalizado e, também, compartilhe a configuração com outro operador que tenha os mesmos pr | apps/api/src/servicos/rotas.ts |
 | 1.1.1.64.10 | IMPLEMENTADO (itens/agrupador) | O sistema deve possibilitar a inclusão de papel timbrado da contratante nos relatórios; |  |
 | 1.1.1.64.11 | IMPLEMENTADO | O sistema deve ter suporte a emissão de mais de um relatório, ao mesmo tempo, pelo mesmo operador; | apps/api/src/servicos/relatorios.ts |
@@ -267,7 +267,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.1.68 | PENDENTE | Considerando a ampla gama de datacenters estabelecidos no Brasil, utilizados pelos mais populares provedores de hospedagem de sistemas (AWS, Oracle, Azure, EVEO |  |
 | 1.1.1.69 | PENDENTE | O sistema deve ser hospedado em data centers com 99,7% de disponibilidade dos serviços, comprovada através de certificação TIER II ou equivalente (Ver Item 1.1. |  |
 | 1.1.1.69.1 | PENDENTE | Os data centers hospedeiros podem ser próprios ou terceirizados. |  |
-| 1.1.1.70 | PENDENTE | O sistema deve garantir a portabilidade em caso de necessidade de transferência dos dados para outro sistema de gestão, respeitando prazos para disponibilização |  |
+| 1.1.1.70 | IMPLEMENTADO | O sistema deve garantir a portabilidade em caso de necessidade de transferência dos dados para outro sistema de gestão, respeitando prazos para disponibilização | apps/api/src/modulos/backup/entidades.ts<br>apps/api/src/modulos/backup/servico.ts |
 | 1.1.1.71 | PENDENTE | O sistema deve garantir que as informações sejam tratadas como sigilosas, não podendo ser utilizadas para outros fins que não os inerentes aos órgãos administra |  |
 | 1.1.1.71.1 | PENDENTE | Admite-se o compartilhamento de dados em casos específicos de interesse público, com autorização expressa do controlador, obedecidos os trâmites legais para del |  |
 | 1.1.1.72 | PENDENTE | Sistemas estruturantes do serviço, como Servidor de Aplicação, Sistema Operacional, Servidor de Banco de Dados, etc., devem ser constantemente atualizados, prin |  |
@@ -327,7 +327,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.2.1.15 | PENDENTE | Permitir a visualização dos relatórios em tela, bem como a gravação opcional dos mesmos em arquivos, com saída no disco rígido, e a seleção da impressora da red |  |
 | 1.1.2.1.16 | IMPLEMENTADO | Permitir consulta às tabelas do sistema, sem perda das informações já registradas na tela corrente e permitindo recuperar dados neles contidos para preenchiment | apps/api/src/meta/crud.ts<br>apps/web/src/genericos/campos.tsx |
 | 1.1.2.1.17 | IMPLEMENTADO | Assegurar a integração de dados, garantindo que a informação seja alimentada uma única vez; | apps/api/migrations/pos/020_cadastros.sql |
-| 1.1.2.1.18 | PENDENTE | Possuir gerador de relatórios, com seleção dos dados escolhidos pelo operador, compatível com o sistema/aplicativos da solução; |  |
+| 1.1.2.1.18 | IMPLEMENTADO | Possuir gerador de relatórios, com seleção dos dados escolhidos pelo operador, compatível com o sistema/aplicativos da solução; | apps/api/src/modulos/gerador/entidades.ts<br>apps/web/src/telas/modulos/GeradorRelatorios.tsx |
 | 1.1.2.1.19 | IMPLEMENTADO | Possuir teste de consistência dos dados de entrada, como, por exemplo, validade de datas, campos com preenchimento numérico, etc.; | apps/web/src/genericos/campos.tsx |
 | 1.1.2.1.20 | PENDENTE | Garantir que o sistema/aplicativos tenham integração total entre seus módulos ou funções; |  |
 | 1.1.2.1.21 | IMPLEMENTADO | Garantir que os relatórios tenham totalização a cada quebra de item e geral; | apps/api/src/servicos/exportar.ts<br>apps/web/src/telas/Relatorios.tsx |
@@ -367,26 +367,26 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.1.2.1.55 | PENDENTE | O sistema de plataforma mobile online/off-line deve ser desenvolvido em linguagem que permita também a sua operação via internet e seja acessível diretamente em |  |
 | 1.1.2.1.56 | PENDENTE | O sistema para plataforma mobile online/off-line deve suportar atualização automática, dispensando a necessidade de intervenção do usuário ou técnico para que e |  |
 | 1.1.2.1.57 | PENDENTE | O sistema de plataforma mobile online/off-line deve permitir o gerenciamento das informações (Envio e recebimento de carga de dados) sem a intervenção ou manipu |  |
-| 1.1.2.1.58 | PENDENTE | Permitir o agendamento do envio de notificações automáticas através do APP do Cidadão, E-mail ou SMS (Para celulares de qualquer operadora telefônica); |  |
+| 1.1.2.1.58 | IMPLEMENTADO | Permitir o agendamento do envio de notificações automáticas através do APP do Cidadão, E-mail ou SMS (Para celulares de qualquer operadora telefônica); | apps/api/src/modulos/notificacoes/entidades.ts<br>apps/api/src/modulos/notificacoes/rotas.ts<br>apps/api/src/modulos/notificacoes/servico.ts |
 | 1.1.2.1.59 | IMPLEMENTADO | Considerando a necessidade de modernização do atendimento em relação à acessibilidade, não é admissível, nos dias atuais, que uma administração pública, especia | apps/web/src/voz/Ditado.tsx |
 | 1.1.2.1.59.1 | IMPLEMENTADO | Campos destinados a dados específicos, como números, datas, booleanos, binários, etc. com regras, formatações e operações próprias, são exceção. | apps/web/src/voz/Ditado.tsx |
 | 1.1.2.1.59.2 | PENDENTE | Excepcionalmente, em relação à ferramenta “Speech to Text”, acompanhando entendimento do Tribunal de Contas do Estado de São Paulo (TCE/SP – Processos TC-018397 |  |
-| 1.1.2.1.60 | PENDENTE | Permitir o envio de mensagem para celular de forma automática (SMS ou aplicativo), através de diversos pontos do sistema, para usuários da rede municipal de saú |  |
+| 1.1.2.1.60 | IMPLEMENTADO | Permitir o envio de mensagem para celular de forma automática (SMS ou aplicativo), através de diversos pontos do sistema, para usuários da rede municipal de saú | apps/api/src/modulos/notificacoes/entidades.ts<br>apps/api/src/modulos/notificacoes/rotas.ts<br>apps/api/src/modulos/notificacoes/servico.ts |
 | 1.1.2.1.61 | PENDENTE | Deve garantir o funcionamento conforme os protocolos, diretrizes, normas e leis do SUS; |  |
 | 1.1.2.1.62 | PENDENTE | Deve possuir os principais formulários, utilizados pelas unidades e serviços de saúde, disponíveis no sistema; |  |
 | 1.1.2.1.62.1 | PENDENTE | Formulários não disponíveis de forma digital devem ser criados até o término da capacitação no Município; |  |
-| 1.1.2.1.63 | PENDENTE | O sistema deve permitir a autenticação pelos operadores da rede municipal de saúde, com assinatura digital e-CPF, padrão lCP-Brasil, de documentos a serem assin |  |
-| 1.1.2.1.63.1 | PENDENTE | Atestados; |  |
-| 1.1.2.1.63.2 | PENDENTE | Comprovante de Comparecimento; |  |
-| 1.1.2.1.63.3 | PENDENTE | Receitas; |  |
-| 1.1.2.1.63.4 | PENDENTE | Requisição de exames; |  |
-| 1.1.2.1.63.5 | PENDENTE | Encaminhamento; |  |
-| 1.1.2.1.63.6 | PENDENTE | Resumo de atendimento. |  |
+| 1.1.2.1.63 | IMPLEMENTADO | O sistema deve permitir a autenticação pelos operadores da rede municipal de saúde, com assinatura digital e-CPF, padrão lCP-Brasil, de documentos a serem assin | apps/api/src/modulos/assinatura/rotas.ts<br>apps/api/src/servicos/assinatura.ts<br>apps/web/src/telas/modulos/Assinatura.tsx |
+| 1.1.2.1.63.1 | IMPLEMENTADO (itens/agrupador) | Atestados; |  |
+| 1.1.2.1.63.2 | IMPLEMENTADO (itens/agrupador) | Comprovante de Comparecimento; |  |
+| 1.1.2.1.63.3 | IMPLEMENTADO (itens/agrupador) | Receitas; |  |
+| 1.1.2.1.63.4 | IMPLEMENTADO (itens/agrupador) | Requisição de exames; |  |
+| 1.1.2.1.63.5 | IMPLEMENTADO (itens/agrupador) | Encaminhamento; |  |
+| 1.1.2.1.63.6 | IMPLEMENTADO (itens/agrupador) | Resumo de atendimento. |  |
 | 1.1.2.1.64 | IMPLEMENTADO | Permitir que o usuário salve suas preferências de filtro e ordenação das telas de consulta do sistema de saúde, montando, assim, o seu perfil de trabalho; | apps/api/migrations/001_base.sql<br>apps/api/src/servicos/rotas.ts<br>apps/web/src/genericos/Consulta.tsx |
 | 1.1.2.1.65 | IMPLEMENTADO | Permitir que operadores do sistema de saúde cadastrem avisos aos pacientes, para serem exibidos em tela, aos grupos de operadores indicados (Médicos, enfermeiro | apps/api/src/modulos/cadastros/alertas.ts<br>apps/api/src/modulos/cadastros/pessoas.ts |
 | 1.1.2.1.65.1 | IMPLEMENTADO | Permitir ao usuário que marque um aviso com a tag "avisado" e opção para que este não seja mais exibido; | apps/api/src/modulos/cadastros/pessoas.ts |
 | 1.1.2.1.66 | IMPLEMENTADO | Permitir que o operador visualize o histórico de avisos do paciente; | apps/api/src/modulos/cadastros/pessoas.ts |
-| 1.1.2.1.67 | PENDENTE | Permitir o agendamento do envio de notificações automáticas através do APP do Cidadão, Email ou SMS (Para celulares de qualquer operadora de telefonia); |  |
+| 1.1.2.1.67 | IMPLEMENTADO | Permitir o agendamento do envio de notificações automáticas através do APP do Cidadão, Email ou SMS (Para celulares de qualquer operadora de telefonia); | apps/api/src/modulos/notificacoes/entidades.ts<br>apps/api/src/modulos/notificacoes/rotas.ts<br>apps/web/src/telas/modulos/Notificacoes.tsx |
 | 1.2.1 | IMPLEMENTADO | MÓDULO DE AGENDAMENTO E CADASTROS NACIONAIS | apps/api/src/modulos/cadastros/rotas.ts |
 | 1.2.1.1 | IMPLEMENTADO | Cadastros e funcionalidades gerais: | apps/api/src/db/carga/basicos.ts |
 | 1.2.1.1.1 | IMPLEMENTADO | Deverá possuir o cadastro de municípios já povoado; | apps/api/src/modulos/cadastros/tabelas.ts |
@@ -400,7 +400,7 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.1.1.9 | IMPLEMENTADO | Deverá possuir o cadastro de CBO (Cadastro Brasileiro de Ocupações) já povoado. | apps/api/src/modulos/cadastros/tabelas.ts |
 | 1.2.2 | IMPLEMENTADO | Notificações e avisos: | apps/api/src/modulos/agendamento/entidades.ts<br>apps/api/src/modulos/agendamento/servico.ts<br>apps/api/src/modulos/cadastros/rotas.ts |
 | 1.2.2.1 | IMPLEMENTADO | Deverá permitir o agendamento do envio de notificações automáticas através de E-mail, Push APP, SMS (Short Message Service) para celulares de qualquer operadora | apps/api/src/modulos/agendamento/entidades.ts |
-| 1.2.2.2 | IMPLEMENTADO | Deverá permitir a personalização do assunto e conteúdo das mensagens de Email e SMS; | apps/api/src/modulos/agendamento/entidades.ts |
+| 1.2.2.2 | IMPLEMENTADO | Deverá permitir a personalização do assunto e conteúdo das mensagens de Email e SMS; | apps/api/src/modulos/agendamento/entidades.ts<br>apps/api/src/modulos/notificacoes/entidades.ts |
 | 1.2.2.3 | IMPLEMENTADO | Deverá relacionar os eventos para os quais o sistema realizará o envio automático de notificações para os pacientes. Os eventos são: | apps/api/src/modulos/agendamento/entidades.ts |
 | 1.2.2.3.1 | IMPLEMENTADO (itens/agrupador) | Agendamento; |  |
 | 1.2.2.3.2 | IMPLEMENTADO (itens/agrupador) | Agendamento através da lista de espera; |  |
@@ -419,20 +419,20 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.2.6 | IMPLEMENTADO | Deverá permitir a criação de diversos critérios, possibilitando relacionar um ou mais critérios aos eventos, ou vice-versa; | apps/api/src/modulos/agendamento/entidades.ts |
 | 1.2.2.7 | IMPLEMENTADO | Deverá criar critérios de notificação distintos para cada meio de envio da notificação (SMS, Email, Push APP, ou todos); | apps/api/src/modulos/agendamento/entidades.ts |
 | 1.2.2.8 | IMPLEMENTADO | Deverá permitir a configuração de notificações para alertar quando a data da realização da consulta ou do procedimento se aproxima, inclusive definido a quantid | apps/api/src/modulos/agendamento/entidades.ts<br>apps/api/src/modulos/agendamento/rotas.ts |
-| 1.2.2.9 | PENDENTE | Deverá permitir que, no cadastro do paciente, seja possível habilitar ou desabilitar o envio de notificações para o e-mail, celular ou ambos; |  |
-| 1.2.2.10 | PENDENTE | Deverá permitir que sejam enviadas notificações manuais (avulsas), pelo operador, para o paciente, permitindo editar o assunto e o texto da mensagem, por E-mail |  |
-| 1.2.2.11 | IMPLEMENTADO | Deve possuir um gerenciador de notificações que centralize todas as notificações enviadas aos pacientes, automáticas ou manuais, em que constem as seguintes inf | apps/api/migrations/001_base.sql |
-| 1.2.2.11.1 | PENDENTE | Situação: Recebida pelo destinatário; falha de envio, aguardando envio, enviada e agendada; |  |
-| 1.2.2.11.2 | IMPLEMENTADO (itens/agrupador) | Data/Hora de Envio: Data e hora em que a notificação foi gerada; |  |
-| 1.2.2.11.3 | PENDENTE | Data/Hora de Processamento: Data e hora em que a notificação foi processada e enviada pelo Gerenciador de Notificações; |  |
-| 1.2.2.11.4 | IMPLEMENTADO (itens/agrupador) | Paciente: Identificação do paciente para o qual foi enviada a mensagem; |  |
-| 1.2.2.11.5 | IMPLEMENTADO (itens/agrupador) | Código Único da Mensagem no Sistema (ID); |  |
-| 1.2.2.11.6 | PENDENTE | Destinatário: Número do telefone celular ou endereço de e-mail para o qual a mensagem foi enviada; |  |
-| 1.2.2.11.7 | IMPLEMENTADO (itens/agrupador) | Modo de Envio: E-mail ou SMS; |  |
-| 1.2.2.11.8 | IMPLEMENTADO (itens/agrupador) | Assunto da Mensagem; |  |
+| 1.2.2.9 | IMPLEMENTADO | Deverá permitir que, no cadastro do paciente, seja possível habilitar ou desabilitar o envio de notificações para o e-mail, celular ou ambos; | apps/api/src/modulos/cadastros/pessoas.ts<br>apps/api/src/modulos/notificacoes/servico.ts |
+| 1.2.2.10 | IMPLEMENTADO | Deverá permitir que sejam enviadas notificações manuais (avulsas), pelo operador, para o paciente, permitindo editar o assunto e o texto da mensagem, por E-mail | apps/api/src/modulos/notificacoes/rotas.ts<br>apps/api/src/modulos/notificacoes/servico.ts<br>apps/web/src/componentes/MensagemPaciente.tsx |
+| 1.2.2.11 | IMPLEMENTADO | Deve possuir um gerenciador de notificações que centralize todas as notificações enviadas aos pacientes, automáticas ou manuais, em que constem as seguintes inf | apps/api/migrations/001_base.sql<br>apps/api/src/modulos/notificacoes/relatorios.ts<br>apps/api/src/modulos/notificacoes/rotas.ts |
+| 1.2.2.11.1 | IMPLEMENTADO | Situação: Recebida pelo destinatário; falha de envio, aguardando envio, enviada e agendada; | apps/api/src/modulos/notificacoes/relatorios.ts<br>apps/api/src/modulos/notificacoes/rotas.ts |
+| 1.2.2.11.2 | IMPLEMENTADO | Data/Hora de Envio: Data e hora em que a notificação foi gerada; | apps/api/src/modulos/notificacoes/relatorios.ts |
+| 1.2.2.11.3 | IMPLEMENTADO | Data/Hora de Processamento: Data e hora em que a notificação foi processada e enviada pelo Gerenciador de Notificações; | apps/api/src/modulos/notificacoes/relatorios.ts |
+| 1.2.2.11.4 | IMPLEMENTADO | Paciente: Identificação do paciente para o qual foi enviada a mensagem; | apps/api/src/modulos/notificacoes/relatorios.ts |
+| 1.2.2.11.5 | IMPLEMENTADO | Código Único da Mensagem no Sistema (ID); | apps/api/src/modulos/notificacoes/relatorios.ts |
+| 1.2.2.11.6 | IMPLEMENTADO | Destinatário: Número do telefone celular ou endereço de e-mail para o qual a mensagem foi enviada; | apps/api/src/modulos/notificacoes/relatorios.ts |
+| 1.2.2.11.7 | IMPLEMENTADO | Modo de Envio: E-mail ou SMS; | apps/api/src/modulos/notificacoes/relatorios.ts |
+| 1.2.2.11.8 | IMPLEMENTADO | Assunto da Mensagem; | apps/api/src/modulos/notificacoes/relatorios.ts |
 | 1.2.2.11.9 | IMPLEMENTADO (itens/agrupador) | Texto da Mensagem. |  |
-| 1.2.2.11.10 | IMPLEMENTADO (itens/agrupador) | Respostas: Dados das mensagens respondidas pelos pacientes; |  |
-| 1.2.2.11.11 | PENDENTE | Data/Hora: Data e hora em que a mensagem de resposta do paciente foi processada pelo Gerenciador de Notificações; |  |
+| 1.2.2.11.10 | IMPLEMENTADO | Respostas: Dados das mensagens respondidas pelos pacientes; | apps/api/src/modulos/notificacoes/rotas.ts |
+| 1.2.2.11.11 | IMPLEMENTADO | Data/Hora: Data e hora em que a mensagem de resposta do paciente foi processada pelo Gerenciador de Notificações; | apps/api/src/modulos/notificacoes/rotas.ts |
 | 1.2.2.11.12 | IMPLEMENTADO (itens/agrupador) | Mensagem: Texto da mensagem enviada pelo paciente ao sistema. |  |
 | 1.2.3 | IMPLEMENTADO | Cadastro de Unidades de Atendimento: | apps/api/src/modulos/cadastros/rotas.ts |
 | 1.2.3.1 | IMPLEMENTADO | Deverá possuir importação/atualização das unidades de saúde do sistema SCNES do Ministério da Saúde, instalado no município através de arquivos XML que possam s | apps/api/src/modulos/cadastros/rotas.ts |
@@ -747,59 +747,59 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.13.1.12 | IMPLEMENTADO (itens/agrupador) | Marcadores de consumo alimentar; |  |
 | 1.2.13.1.13 | IMPLEMENTADO (itens/agrupador) | Avaliação de elegibilidade e admissão; |  |
 | 1.2.13.1.14 | IMPLEMENTADO (itens/agrupador) | Atendimento domiciliar. |  |
-| 1.2.13.1.15 | PENDENTE | O sistema deverá ter suporte à integração com o sistema de Autorização de AIH, para autorizações de internações hospitalares em geral no formato SISAIH/SUS; |  |
-| 1.2.13.1.16 | PENDENTE | O sistema deverá ter suporte ao gerenciamento do faturamento das autorizações de internações hospitalares (AIH) em geral, no formato SIH/SUS, a partir dos dados |  |
-| 1.2.13.1.17 | IMPLEMENTADO (itens/agrupador) | O sistema deverá gerar exportação para o sistema SISAIH01; |  |
-| 1.2.13.1.18 | IMPLEMENTADO (itens/agrupador) | O sistema deverá gerar laudos de autorização de APAC; |  |
-| 1.2.13.1.19 | PENDENTE | O sistema deverá ser capaz de gerenciar o faturamento das autorizações de internações hospitalares (APAC) geral, em formato APAC/SUS, a partir dos dados dos pro |  |
-| 1.2.13.1.20 | IMPLEMENTADO (itens/agrupador) | O sistema deverá gerar exportação para sistema APAC; |  |
-| 1.2.13.1.21 | PENDENTE | O sistema deverá ser capaz de gerenciar o faturamento das autorizações de internações hospitalares (CIHA01) geral, em formato CIHA/SUS, a partir dos dados dos p |  |
-| 1.2.13.1.22 | PENDENTE | A ferramenta de gerenciamento do CIHA01 poderá ficar pendente de disponibilização em até 120 dias após a implantação do sistema, não sendo considerada na Prova  |  |
-| 1.2.13.1.23 | IMPLEMENTADO (itens/agrupador) | O sistema deverá gerar exportação para o sistema CIHA01; |  |
+| 1.2.13.1.15 | IMPLEMENTADO | O sistema deverá ter suporte à integração com o sistema de Autorização de AIH, para autorizações de internações hospitalares em geral no formato SISAIH/SUS; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/exportacao.ts<br>apps/api/src/modulos/aih/rotas.ts |
+| 1.2.13.1.16 | IMPLEMENTADO | O sistema deverá ter suporte ao gerenciamento do faturamento das autorizações de internações hospitalares (AIH) em geral, no formato SIH/SUS, a partir dos dados | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/exportacao.ts<br>apps/api/src/modulos/aih/rotas.ts |
+| 1.2.13.1.17 | IMPLEMENTADO | O sistema deverá gerar exportação para o sistema SISAIH01; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/exportacao.ts<br>apps/api/src/modulos/aih/rotas.ts |
+| 1.2.13.1.18 | IMPLEMENTADO | O sistema deverá gerar laudos de autorização de APAC; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/apac/entidades.ts |
+| 1.2.13.1.19 | IMPLEMENTADO | O sistema deverá ser capaz de gerenciar o faturamento das autorizações de internações hospitalares (APAC) geral, em formato APAC/SUS, a partir dos dados dos pro | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/apac/entidades.ts |
+| 1.2.13.1.20 | IMPLEMENTADO | O sistema deverá gerar exportação para sistema APAC; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/apac/entidades.ts |
+| 1.2.13.1.21 | IMPLEMENTADO | O sistema deverá ser capaz de gerenciar o faturamento das autorizações de internações hospitalares (CIHA01) geral, em formato CIHA/SUS, a partir dos dados dos p | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/exportacao.ts<br>apps/api/src/modulos/aih/rotas.ts |
+| 1.2.13.1.22 | IMPLEMENTADO | A ferramenta de gerenciamento do CIHA01 poderá ficar pendente de disponibilização em até 120 dias após a implantação do sistema, não sendo considerada na Prova  | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/web/src/telas/modulos/Aih.tsx |
+| 1.2.13.1.23 | IMPLEMENTADO | O sistema deverá gerar exportação para o sistema CIHA01; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/exportacao.ts<br>apps/api/src/modulos/aih/rotas.ts |
 | 1.2.13.1.24 | IMPLEMENTADO | Gerar e gerenciar o faturamento do boletim de produção ambulatorial (BPA) consolidado e individualizado em formato SIASUS, a partir dos dados dos programas a se | apps/api/src/modulos/faturamento/entidades.ts<br>apps/api/src/modulos/faturamento/rotas.ts |
 | 1.2.13.1.25 | IMPLEMENTADO | Permitir a geração do arquivo de faturamento do boletim de produção ambulatorial (BPA) das unidades do município de forma agrupada (Apenas um arquivo para todas | apps/api/src/modulos/faturamento/entidades.ts<br>apps/api/src/modulos/faturamento/rotas.ts |
 | 1.2.13.1.26 | IMPLEMENTADO | Importação do boletim de produção ambulatorial (BPA) do sistema de prestadores e do Ministério da Saúde, gerando as críticas necessárias referente aos cadastros | apps/api/src/modulos/faturamento/bpa.ts |
 | 1.2.13.1.27 | IMPLEMENTADO | Acompanhamento dos gastos do paciente, desde o ato do seu atendimento, em qualquer caráter (Internação, ambulatorial ou atendimentos para realização de exames,  | apps/api/src/modulos/faturamento/relatorios.ts |
 | 1.2.13.1.28 | IMPLEMENTADO | Emitir prévias de faturamento das unidades de saúde, profissionais e em geral; | apps/api/src/modulos/faturamento/relatorios.ts |
 | 1.2.13.1.29 | IMPLEMENTADO | Permitir a digitação da produção das unidades de saúde (durante a implantação dos programas) que ainda não foram informatizadas; | apps/api/src/modulos/faturamento/entidades.ts<br>apps/api/src/modulos/faturamento/rotas.ts |
-| 1.2.13.1.30 | IMPLEMENTADO (itens/agrupador) | Permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) domiciliar; |  |
-| 1.2.13.1.31 | IMPLEMENTADO (itens/agrupador) | Permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) psicossocial; |  |
+| 1.2.13.1.30 | IMPLEMENTADO | Permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) domiciliar; | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/servico.ts<br>apps/web/src/telas/modulos/Raas.tsx |
+| 1.2.13.1.31 | IMPLEMENTADO | Permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) psicossocial; | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/servico.ts<br>apps/web/src/telas/modulos/Raas.tsx |
 | 1.2.13.1.32 | IMPLEMENTADO | Possuir modo de atualização dos valores diferenciados de repasse financeiro (valores fora de tabela unificada) de procedimentos; | apps/api/src/modulos/cadastros/tabelas.ts |
 | 1.2.13.1.33 | IMPLEMENTADO | Fazer uso dos procedimentos referentes à tabela unificada de procedimentos, medicamentos e insumos estratégicos do SUS, ou seja, do sistema de faturamento do SU | apps/api/src/modulos/cadastros/tabelas.ts |
 | 1.2.13.1.34 | IMPLEMENTADO | Trabalhar com o conceito de competência mensal, definindo o dia de fechamento das contas, de acordo com as datas estipuladas pelo Ministério da Saúde; | apps/api/src/modulos/faturamento/entidades.ts<br>apps/api/src/modulos/faturamento/producao.ts |
 | 1.2.13.1.35 | IMPLEMENTADO | Controlar automaticamente as regras de validação do SUS para cada procedimento executado interna ou externamente, possibilitando a checagem automática do protoc | apps/api/src/modulos/faturamento/entidades.ts<br>apps/api/src/modulos/faturamento/producao.ts<br>apps/api/src/modulos/faturamento/relatorios.ts |
-| 1.2.13.1.36 | PENDENTE | Gerar arquivo para o envio de dados para o sistema RAAS a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digitação |  |
+| 1.2.13.1.36 | IMPLEMENTADO | Gerar arquivo para o envio de dados para o sistema RAAS a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digitação | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/rotas.ts<br>apps/api/src/modulos/raas/servico.ts |
 | 1.2.13.1.37 | PENDENTE | Gerar arquivo para o envio de dados para o sistema HIPERDIA a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digit |  |
 | 1.2.13.1.38 | PENDENTE | Gerar arquivo para o envio de dados para o sistema e-SUS a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digitaçã |  |
 | 1.2.13.1.39 | PENDENTE | Gerar arquivo para o envio de dados para o sistema SIPNI a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma de digitaçã |  |
 | 1.2.13.1.40 | IMPLEMENTADO | Gerar o boletim de produção ambulatorial (BPA) consolidado impresso; | apps/api/src/modulos/faturamento/relatorios.ts |
 | 1.2.13.1.41 | IMPLEMENTADO | Gerar o boletim de produção ambulatorial (BPA) individualizado impresso; | apps/api/src/modulos/faturamento/relatorios.ts |
 | 1.2.13.1.42 | IMPLEMENTADO | Gerar a prévia do boletim de produção ambulatorial (BPA) impresso. | apps/api/src/modulos/faturamento/relatorios.ts |
-| 1.2.14 | PENDENTE | Indicadores de gestão da Saúde: |  |
-| 1.2.14.1 | PENDENTE | Painel gráfico que mostre a evolução das dispensações de medicamentos realizadas por uma faixa determinada de anos, permitindo a comparação entre os meses; |  |
-| 1.2.14.2 | PENDENTE | Painel gráfico que mostre a evolução dos atendimentos farmacêuticos realizados por uma faixa determinada de anos, permitindo a comparação entre os meses; |  |
-| 1.2.14.3 | PENDENTE | Painel gráfico que mostre a quantidade de produtos dispensados pelas unidades de assistência farmacêutica, podendo definir um ou mais produtos para a comparação |  |
-| 1.2.14.4 | PENDENTE | Painel gráfico que mostre um número determinado de produtos com maior índice de demanda reprimida e suas respectivas quantidades em uma determinada competência; |  |
-| 1.2.14.5 | PENDENTE | Painel gráfico que mostre um número determinado de produtos com maior índice de movimentação, listando o número saídas, entradas e demanda reprimida em uma dete |  |
-| 1.2.14.6 | PENDENTE | Painel gráfico que mostre a evolução das consultas médicas agendadas por uma faixa determinada de anos, permitindo a comparação entre os meses; |  |
-| 1.2.14.7 | PENDENTE | Painel gráfico que mostre a evolução das consultas odontológicas agendadas por uma faixa determinada de anos, permitindo a comparação entre os meses; |  |
-| 1.2.14.8 | PENDENTE | Painel gráfico que mostre o número de dias necessários para o agendamento de uma especialidade em nível eletivo e de urgência; |  |
-| 1.2.14.9 | PENDENTE | Painel gráfico que mostre o número de pacientes cadastrados por faixa etária; |  |
-| 1.2.14.10 | PENDENTE | Painel gráfico que mostre o índice de cobertura vacinal da população por uma faixa determinada de anos com a possibilidade da definição dos imunobiológicos dese |  |
-| 1.2.14.11 | PENDENTE | Relatórios de índice de cadastramento e atualização do cadastro da população em uma terminada faixa anual; |  |
-| 1.2.14.12 | PENDENTE | Relatório da evolução dos agendamentos de consultas em uma determinada faixa de anos, listando por ano, a competência, o número de agendamentos, o percentual de |  |
-| 1.2.14.13 | PENDENTE | Relatório sintético de agendamentos realizados por bairro, listando o bairro, número de consultas, número de retornos, número de avaliações e o total do bairro; |  |
-| 1.2.14.14 | PENDENTE | Relatório gráfico de agendamentos de consultas por faixa etária e sexo, totalizando o número de consultas por faixa etária e sexo, consultas, retornos e avaliaç |  |
-| 1.2.14.15 | PENDENTE | Painel indicador com o número de consultas efetuadas na atenção básica em um período; |  |
-| 1.2.14.16 | PENDENTE | Painel indicador com o número de consultas perdidas na atenção básica em um período; |  |
-| 1.2.14.17 | PENDENTE | Painel indicador com o número de consultas efetuadas na atenção especializada em um período; |  |
-| 1.2.14.18 | PENDENTE | Painel indicador com o número de consultas perdidas na atenção especializada em um período; |  |
-| 1.2.14.19 | PENDENTE | Painel indicador com o número de atendimentos domiciliares em um período; |  |
-| 1.2.14.20 | PENDENTE | Painel indicador com o número de visitas realizadas pelos ACS (Agentes Comunitários de Saúde) em um período; |  |
-| 1.2.14.21 | PENDENTE | Painel indicador com o número de procedimentos odontológicos realizados em um período; |  |
-| 1.2.14.22 | PENDENTE | Painel indicador com o número de procedimentos de enfermagem realizados em um período; |  |
-| 1.2.14.23 | PENDENTE | Painel indicador com o número de exames solicitados em um período; |  |
-| 1.2.14.24 | PENDENTE | Painel indicador com o número de vacinas aplicadas em um período. |  |
+| 1.2.14 | IMPLEMENTADO | Indicadores de gestão da Saúde: | apps/web/src/telas/modulos/Indicadores.tsx |
+| 1.2.14.1 | IMPLEMENTADO | Painel gráfico que mostre a evolução das dispensações de medicamentos realizadas por uma faixa determinada de anos, permitindo a comparação entre os meses; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.2 | IMPLEMENTADO | Painel gráfico que mostre a evolução dos atendimentos farmacêuticos realizados por uma faixa determinada de anos, permitindo a comparação entre os meses; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.3 | IMPLEMENTADO | Painel gráfico que mostre a quantidade de produtos dispensados pelas unidades de assistência farmacêutica, podendo definir um ou mais produtos para a comparação | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.4 | IMPLEMENTADO | Painel gráfico que mostre um número determinado de produtos com maior índice de demanda reprimida e suas respectivas quantidades em uma determinada competência; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.5 | IMPLEMENTADO | Painel gráfico que mostre um número determinado de produtos com maior índice de movimentação, listando o número saídas, entradas e demanda reprimida em uma dete | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.6 | IMPLEMENTADO | Painel gráfico que mostre a evolução das consultas médicas agendadas por uma faixa determinada de anos, permitindo a comparação entre os meses; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.7 | IMPLEMENTADO | Painel gráfico que mostre a evolução das consultas odontológicas agendadas por uma faixa determinada de anos, permitindo a comparação entre os meses; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.8 | IMPLEMENTADO | Painel gráfico que mostre o número de dias necessários para o agendamento de uma especialidade em nível eletivo e de urgência; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.9 | IMPLEMENTADO | Painel gráfico que mostre o número de pacientes cadastrados por faixa etária; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.10 | IMPLEMENTADO | Painel gráfico que mostre o índice de cobertura vacinal da população por uma faixa determinada de anos com a possibilidade da definição dos imunobiológicos dese | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.11 | IMPLEMENTADO | Relatórios de índice de cadastramento e atualização do cadastro da população em uma terminada faixa anual; | apps/api/src/modulos/indicadores/relatorios.ts<br>apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.12 | IMPLEMENTADO | Relatório da evolução dos agendamentos de consultas em uma determinada faixa de anos, listando por ano, a competência, o número de agendamentos, o percentual de | apps/api/src/modulos/indicadores/relatorios.ts<br>apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.13 | IMPLEMENTADO | Relatório sintético de agendamentos realizados por bairro, listando o bairro, número de consultas, número de retornos, número de avaliações e o total do bairro; | apps/api/src/modulos/indicadores/relatorios.ts<br>apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.14 | IMPLEMENTADO | Relatório gráfico de agendamentos de consultas por faixa etária e sexo, totalizando o número de consultas por faixa etária e sexo, consultas, retornos e avaliaç | apps/api/src/modulos/indicadores/relatorios.ts<br>apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.15 | IMPLEMENTADO | Painel indicador com o número de consultas efetuadas na atenção básica em um período; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.16 | IMPLEMENTADO | Painel indicador com o número de consultas perdidas na atenção básica em um período; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.17 | IMPLEMENTADO | Painel indicador com o número de consultas efetuadas na atenção especializada em um período; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.18 | IMPLEMENTADO | Painel indicador com o número de consultas perdidas na atenção especializada em um período; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.19 | IMPLEMENTADO | Painel indicador com o número de atendimentos domiciliares em um período; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.20 | IMPLEMENTADO | Painel indicador com o número de visitas realizadas pelos ACS (Agentes Comunitários de Saúde) em um período; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.21 | IMPLEMENTADO | Painel indicador com o número de procedimentos odontológicos realizados em um período; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.22 | IMPLEMENTADO | Painel indicador com o número de procedimentos de enfermagem realizados em um período; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.23 | IMPLEMENTADO | Painel indicador com o número de exames solicitados em um período; | apps/api/src/modulos/indicadores/rotas.ts |
+| 1.2.14.24 | IMPLEMENTADO | Painel indicador com o número de vacinas aplicadas em um período. | apps/api/src/modulos/indicadores/rotas.ts |
 | 1.2.15 | IMPLEMENTADO | MÓDULO DE AMBULATÓRIO | apps/api/src/modulos/atendimento/entidades.ts<br>apps/web/src/telas/Recepcao.tsx |
 | 1.2.15.1 | IMPLEMENTADO (itens/agrupador) | Recepção de pacientes: |  |
 | 1.2.15.2 | IMPLEMENTADO (itens/agrupador) | Realizar a pesquisa do paciente pelos campos: |  |
@@ -1527,142 +1527,142 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.33.5 | PENDENTE | Alertar o profissional no momento da requisição, caso o paciente já possua casos de absenteísmo (Falta ou atraso); |  |
 | 1.2.33.6 | PENDENTE | Permitir a exclusão de uma requisição de exames, perante a informação de uma justificativa que deverá estar disponível junto ao histórico de cancelamentos do pa |  |
 | 1.2.33.7 | PENDENTE | Deve controlar para que os exames regulados sejam inseridos em lista de espera automaticamente e estejam prontos para serem regulados; |  |
-| 1.2.34 | PENDENTE | MÓDULO DE PRONTUÁRIO ODONTOLÓGICO |  |
-| 1.2.34.1 | PENDENTE | Deverá permitir, em uma área restrita a administradores e técnicos, a configuração da impressão das receitas, com as seguintes opções: |  |
-| 1.2.34.1.1 | PENDENTE | Exibir ou ocultar o cabeçalho das receitas (Para os casos de papéis com cabeçalho préimpresso); |  |
-| 1.2.34.1.2 | PENDENTE | Exibir ou ocultar o rodapé das receitas (Para os casos de papéis com rodapé pré-impresso); |  |
-| 1.2.34.1.3 | PENDENTE | Exibir ou ocultar o logo do SUS; |  |
-| 1.2.34.1.4 | PENDENTE | Imprimir duas vias da receita na mesma página; |  |
-| 1.2.34.1.5 | PENDENTE | Imprimir duas vias da receita simples; |  |
-| 1.2.34.1.6 | PENDENTE | Imprimir duas vias da receita de outros medicamentos e recomendações; |  |
-| 1.2.34.1.7 | PENDENTE | Alterar o texto do cabeçalho da receita. |  |
-| 1.2.34.2 | PENDENTE | Deverá permitir a classificação da prioridade de atendimento do paciente no momento da inclusão dele na fila; |  |
-| 1.2.34.3 | PENDENTE | Deverá destacar na fila de atendimento os pacientes com idade inferior a 2 (dois) anos e superior a 60 (sessenta) anos, em negrito ou identificação visual difer |  |
-| 1.2.34.4 | PENDENTE | Deverá permitir a ordenação dos pacientes na tela por data, hora ou idade; |  |
-| 1.2.34.5 | PENDENTE | Possuir funcionalidade de registro de pacientes não atendidos, com espaço para a justificativa do não atendimento pelo profissional; |  |
-| 1.2.34.6 | PENDENTE | Deverá permitir a busca de um paciente da lista pelo nome; |  |
-| 1.2.34.7 | PENDENTE | Deverá permitir a chamada dos pacientes através do painel de chamadas; |  |
-| 1.2.34.8 | PENDENTE | Deverá possuir forma de atualização automática da lista de pacientes exibidos na tela, por tempo parametrizado, facilitando a visualização de novos pacientes na |  |
-| 1.2.34.9 | PENDENTE | Deverá permitir que o profissional possa listar apenas os pacientes que não foram atendidos; |  |
-| 1.2.34.10 | PENDENTE | Deverá permitir que o profissional possa listar apenas os pacientes que já foram atendidos; |  |
-| 1.2.34.11 | PENDENTE | Deverá permitir o registro do atendimento odontológico a partir de um paciente da lista; |  |
-| 1.2.34.12 | PENDENTE | Deverá exibir ao profissional as seguintes informações do atendimento e paciente: |  |
-| 1.2.34.12.1 | PENDENTE | Data do atendimento; |  |
-| 1.2.34.12.2 | PENDENTE | Unidade do atendimento; |  |
-| 1.2.34.12.3 | PENDENTE | Nome do profissional; |  |
-| 1.2.34.12.4 | PENDENTE | Especialidade do profissional; |  |
-| 1.2.34.12.5 | PENDENTE | Nome completo e foto do paciente (Se disponível); |  |
-| 1.2.34.12.6 | PENDENTE | Idade (Em anos, meses e dias); |  |
-| 1.2.34.12.7 | PENDENTE | Número do prontuário; |  |
-| 1.2.34.12.8 | PENDENTE | Restrições alérgicas; |  |
-| 1.2.34.12.9 | PENDENTE | Nome da mãe; |  |
-| 1.2.34.12.10 | PENDENTE | Nome do pai. |  |
-| 1.2.34.13 | PENDENTE | Deverá disponibilizar acesso a anamnese do paciente, com opção de preenchimento de uma nova anamnese ou consulta ao histórico de anamneses preenchidas anteriorm |  |
-| 1.2.34.14 | PENDENTE | Deverá disponibilizar acesso as informações de doenças e agravantes do paciente em conformidade com as exigências das fichas da atenção básica e e-SUS; |  |
-| 1.2.34.15 | PENDENTE | Deverá disponibilizar acesso as informações familiares do paciente; |  |
-| 1.2.34.16 | PENDENTE | Deverá disponibilizar acesso ao prontuário médico; |  |
-| 1.2.34.17 | PENDENTE | Deverá disponibilizar acesso aos resultados de exames, com opção de impressão deles; |  |
-| 1.2.34.18 | PENDENTE | Deverá disponibilizar acesso a todos os medicamentos que o paciente retirou na rede municipal; |  |
-| 1.2.34.19 | PENDENTE | Deverá disponibilizar acesso aos registros de informações sigilosas do paciente liberadas para o operador; |  |
-| 1.2.34.20 | PENDENTE | Deverá disponibilizar acesso aos medicamentos de uso contínuo; |  |
-| 1.2.34.21 | PENDENTE | Deverá disponibilizar acesso a carteira de vacinação do paciente; |  |
-| 1.2.34.22 | PENDENTE | Deverá alertar o profissional sobre vacinas atrasadas; |  |
-| 1.2.34.23 | PENDENTE | Deverá alertar o profissional caso o paciente (Sexo feminino) possua exame do preventivo em atraso; |  |
-| 1.2.34.24 | PENDENTE | Deverá alertar o profissional caso o paciente (Sexo feminino) possua exame de mamografia em atraso, com faixa de idade inicial e final parametrizável; |  |
-| 1.2.34.25 | PENDENTE | Deverá disponibilizar acesso ao prontuário do paciente com informações referente a todos os atendimentos registrados para o mesmo, contendo no mínimo as seguint |  |
-| 1.2.34.25.1 | PENDENTE | Unidade do atendimento; |  |
-| 1.2.34.25.2 | PENDENTE | Profissional responsável pelo atendimento, sua especialidade e registro; |  |
-| 1.2.34.25.3 | PENDENTE | Registros coletados durante os atendimentos; |  |
-| 1.2.34.25.4 | PENDENTE | Procedimentos realizados; |  |
-| 1.2.34.25.5 | PENDENTE | Exames requisitados; |  |
-| 1.2.34.25.6 | PENDENTE | Prescrições efetuadas; |  |
-| 1.2.34.25.7 | PENDENTE | Atestados e declarações impressas. |  |
-| 1.2.34.26 | PENDENTE | Deverá possuir Odontograma que permita ao profissional clicar sobre qualquer elemento dentário para definir a situação em que ele se encontra; |  |
-| 1.2.34.27 | PENDENTE | Deve possuir diferenciação entre Arcada adulto e infantil; |  |
-| 1.2.34.28 | PENDENTE | Deve permitir que seja escolhido o tipo de marcação, que pode ser Dente, Arcada, quadrante e boca, para casos de informação de procedimentos de limpeza e demais |  |
-| 1.2.34.29 | PENDENTE | Deverá permitir a seleção de procedimentos previamente cadastrados ao clicar sobre qualquer elemento dentário, automatizando os registros e facilitando a inform |  |
-| 1.2.34.30 | PENDENTE | Deverá permitir o registro dos procedimentos efetuados, validando todas as regras da tabela de procedimentos do SIGTAP evitando críticas posteriores na produção |  |
-| 1.2.34.31 | PENDENTE | Deverá permitir o registro da informação do tipo e grupo de atendimento conforme padrão do sistema SIA do Ministério da Saúde; |  |
-| 1.2.34.32 | PENDENTE | Deverá permitir o registro do CID principal, possibilitando a consulta do CID por nome ou código; |  |
-| 1.2.34.33 | PENDENTE | Deverá permitir o registro do CIAP, possibilitando a consulta do mesmo por nome ou código; |  |
-| 1.2.34.34 | PENDENTE | Deverá permitir o registro de CID secundário, possibilitando a consulta do CID por nome ou código; |  |
-| 1.2.34.35 | PENDENTE | Deverá ser possível informar os dados referentes a Vigilância em Saúde Bucal, contendo minimamente: |  |
-| 1.2.34.35.1 | PENDENTE | Abscesso Dento alveolar; |  |
-| 1.2.34.35.2 | PENDENTE | Alteração em Tecidos Moles; |  |
-| 1.2.34.35.3 | PENDENTE | Dor de Dente; |  |
-| 1.2.34.35.4 | PENDENTE | Fendas ou Fissuras Lábio Palatais; |  |
-| 1.2.34.35.5 | PENDENTE | Fluorose Dentária Moderada ou Severa; |  |
-| 1.2.34.35.6 | PENDENTE | Traumatismo Dento alveolar e Não Identificado. |  |
-| 1.2.34.36 | PENDENTE | Deve ser possível registrar os dados de Fornecimento de Material Odontológico, contendo minimamente: |  |
-| 1.2.34.37 | PENDENTE | Escova Dental, Creme Dental, Fio Dental. |  |
-| 1.2.34.38 | IMPLEMENTADO | Deverá gerar automaticamente aviso de agravos ao setor de epidemiologia em casos de doenças notificáveis; | apps/api/src/modulos/atendimento/entidades.ts |
-| 1.2.34.39 | PENDENTE | Deve possibilitar o preenchimento das fichas de notificação de agravo em conformidade com e-SUS; |  |
-| 1.2.34.40 | PENDENTE | Deverá permitir que as informações coletadas durante o atendimento sejam registradas em área específica no prontuário do paciente; |  |
+| 1.2.34 | IMPLEMENTADO | MÓDULO DE PRONTUÁRIO ODONTOLÓGICO | apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.1 | IMPLEMENTADO | Deverá permitir, em uma área restrita a administradores e técnicos, a configuração da impressão das receitas, com as seguintes opções: | apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.1.1 | IMPLEMENTADO | Exibir ou ocultar o cabeçalho das receitas (Para os casos de papéis com cabeçalho préimpresso); | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.1.2 | IMPLEMENTADO | Exibir ou ocultar o rodapé das receitas (Para os casos de papéis com rodapé pré-impresso); | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.1.3 | IMPLEMENTADO | Exibir ou ocultar o logo do SUS; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.1.4 | IMPLEMENTADO | Imprimir duas vias da receita na mesma página; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.1.5 | IMPLEMENTADO | Imprimir duas vias da receita simples; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.1.6 | IMPLEMENTADO | Imprimir duas vias da receita de outros medicamentos e recomendações; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.1.7 | IMPLEMENTADO | Alterar o texto do cabeçalho da receita. | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.2 | IMPLEMENTADO | Deverá permitir a classificação da prioridade de atendimento do paciente no momento da inclusão dele na fila; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.3 | IMPLEMENTADO | Deverá destacar na fila de atendimento os pacientes com idade inferior a 2 (dois) anos e superior a 60 (sessenta) anos, em negrito ou identificação visual difer | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.4 | IMPLEMENTADO | Deverá permitir a ordenação dos pacientes na tela por data, hora ou idade; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.5 | IMPLEMENTADO | Possuir funcionalidade de registro de pacientes não atendidos, com espaço para a justificativa do não atendimento pelo profissional; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.6 | IMPLEMENTADO | Deverá permitir a busca de um paciente da lista pelo nome; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.7 | IMPLEMENTADO | Deverá permitir a chamada dos pacientes através do painel de chamadas; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.8 | IMPLEMENTADO | Deverá possuir forma de atualização automática da lista de pacientes exibidos na tela, por tempo parametrizado, facilitando a visualização de novos pacientes na | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.9 | IMPLEMENTADO | Deverá permitir que o profissional possa listar apenas os pacientes que não foram atendidos; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.10 | IMPLEMENTADO | Deverá permitir que o profissional possa listar apenas os pacientes que já foram atendidos; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.11 | IMPLEMENTADO | Deverá permitir o registro do atendimento odontológico a partir de um paciente da lista; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12 | IMPLEMENTADO | Deverá exibir ao profissional as seguintes informações do atendimento e paciente: | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.1 | IMPLEMENTADO | Data do atendimento; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.2 | IMPLEMENTADO | Unidade do atendimento; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.3 | IMPLEMENTADO | Nome do profissional; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.4 | IMPLEMENTADO | Especialidade do profissional; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.5 | IMPLEMENTADO | Nome completo e foto do paciente (Se disponível); | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.6 | IMPLEMENTADO | Idade (Em anos, meses e dias); | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.7 | IMPLEMENTADO | Número do prontuário; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.8 | IMPLEMENTADO | Restrições alérgicas; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.9 | IMPLEMENTADO | Nome da mãe; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.12.10 | IMPLEMENTADO | Nome do pai. | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.13 | IMPLEMENTADO | Deverá disponibilizar acesso a anamnese do paciente, com opção de preenchimento de uma nova anamnese ou consulta ao histórico de anamneses preenchidas anteriorm | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.14 | IMPLEMENTADO | Deverá disponibilizar acesso as informações de doenças e agravantes do paciente em conformidade com as exigências das fichas da atenção básica e e-SUS; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.15 | IMPLEMENTADO | Deverá disponibilizar acesso as informações familiares do paciente; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.16 | IMPLEMENTADO | Deverá disponibilizar acesso ao prontuário médico; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.17 | IMPLEMENTADO | Deverá disponibilizar acesso aos resultados de exames, com opção de impressão deles; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.18 | IMPLEMENTADO | Deverá disponibilizar acesso a todos os medicamentos que o paciente retirou na rede municipal; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.19 | IMPLEMENTADO | Deverá disponibilizar acesso aos registros de informações sigilosas do paciente liberadas para o operador; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.20 | IMPLEMENTADO | Deverá disponibilizar acesso aos medicamentos de uso contínuo; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.21 | IMPLEMENTADO | Deverá disponibilizar acesso a carteira de vacinação do paciente; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.22 | IMPLEMENTADO | Deverá alertar o profissional sobre vacinas atrasadas; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.23 | IMPLEMENTADO | Deverá alertar o profissional caso o paciente (Sexo feminino) possua exame do preventivo em atraso; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.24 | IMPLEMENTADO | Deverá alertar o profissional caso o paciente (Sexo feminino) possua exame de mamografia em atraso, com faixa de idade inicial e final parametrizável; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.25 | IMPLEMENTADO | Deverá disponibilizar acesso ao prontuário do paciente com informações referente a todos os atendimentos registrados para o mesmo, contendo no mínimo as seguint | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.25.1 | IMPLEMENTADO | Unidade do atendimento; | apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.25.2 | IMPLEMENTADO | Profissional responsável pelo atendimento, sua especialidade e registro; | apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.25.3 | IMPLEMENTADO | Registros coletados durante os atendimentos; | apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.25.4 | IMPLEMENTADO | Procedimentos realizados; | apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.25.5 | IMPLEMENTADO | Exames requisitados; | apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.25.6 | IMPLEMENTADO | Prescrições efetuadas; | apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.25.7 | IMPLEMENTADO | Atestados e declarações impressas. | apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.26 | IMPLEMENTADO | Deverá possuir Odontograma que permita ao profissional clicar sobre qualquer elemento dentário para definir a situação em que ele se encontra; | apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts<br>apps/api/src/modulos/odontologia/servico.ts |
+| 1.2.34.27 | IMPLEMENTADO | Deve possuir diferenciação entre Arcada adulto e infantil; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/api/src/modulos/odontologia/servico.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.28 | IMPLEMENTADO | Deve permitir que seja escolhido o tipo de marcação, que pode ser Dente, Arcada, quadrante e boca, para casos de informação de procedimentos de limpeza e demais | apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts<br>apps/api/src/modulos/odontologia/servico.ts |
+| 1.2.34.29 | IMPLEMENTADO | Deverá permitir a seleção de procedimentos previamente cadastrados ao clicar sobre qualquer elemento dentário, automatizando os registros e facilitando a inform | apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts<br>apps/api/src/modulos/odontologia/servico.ts |
+| 1.2.34.30 | IMPLEMENTADO | Deverá permitir o registro dos procedimentos efetuados, validando todas as regras da tabela de procedimentos do SIGTAP evitando críticas posteriores na produção | apps/api/src/modulos/odontologia/carga.ts<br>apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.31 | IMPLEMENTADO | Deverá permitir o registro da informação do tipo e grupo de atendimento conforme padrão do sistema SIA do Ministério da Saúde; | apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.32 | IMPLEMENTADO | Deverá permitir o registro do CID principal, possibilitando a consulta do CID por nome ou código; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.33 | IMPLEMENTADO | Deverá permitir o registro do CIAP, possibilitando a consulta do mesmo por nome ou código; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.34 | IMPLEMENTADO | Deverá permitir o registro de CID secundário, possibilitando a consulta do CID por nome ou código; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.35 | IMPLEMENTADO | Deverá ser possível informar os dados referentes a Vigilância em Saúde Bucal, contendo minimamente: | apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.35.1 | IMPLEMENTADO | Abscesso Dento alveolar; | apps/api/src/modulos/odontologia/entidades.ts |
+| 1.2.34.35.2 | IMPLEMENTADO | Alteração em Tecidos Moles; | apps/api/src/modulos/odontologia/entidades.ts |
+| 1.2.34.35.3 | IMPLEMENTADO | Dor de Dente; | apps/api/src/modulos/odontologia/entidades.ts |
+| 1.2.34.35.4 | IMPLEMENTADO | Fendas ou Fissuras Lábio Palatais; | apps/api/src/modulos/odontologia/entidades.ts |
+| 1.2.34.35.5 | IMPLEMENTADO | Fluorose Dentária Moderada ou Severa; | apps/api/src/modulos/odontologia/entidades.ts |
+| 1.2.34.35.6 | IMPLEMENTADO | Traumatismo Dento alveolar e Não Identificado. | apps/api/src/modulos/odontologia/entidades.ts |
+| 1.2.34.36 | IMPLEMENTADO | Deve ser possível registrar os dados de Fornecimento de Material Odontológico, contendo minimamente: | apps/api/src/modulos/odontologia/carga.ts<br>apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.37 | IMPLEMENTADO | Escova Dental, Creme Dental, Fio Dental. | apps/api/src/modulos/odontologia/carga.ts<br>apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts |
+| 1.2.34.38 | IMPLEMENTADO | Deverá gerar automaticamente aviso de agravos ao setor de epidemiologia em casos de doenças notificáveis; | apps/api/src/modulos/atendimento/entidades.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.39 | IMPLEMENTADO | Deve possibilitar o preenchimento das fichas de notificação de agravo em conformidade com e-SUS; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.40 | IMPLEMENTADO | Deverá permitir que as informações coletadas durante o atendimento sejam registradas em área específica no prontuário do paciente; | apps/api/src/modulos/odontologia/entidades.ts<br>apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
 | 1.2.34.41 | IMPLEMENTADO | Deverá disponibilizar ao profissional uma forma de visualização do prontuário antigo do paciente em formato de imagem .jpeg, .png ou .pdf; | apps/api/src/modulos/cadastros/pessoas.ts |
 | 1.2.34.42 | IMPLEMENTADO | Deverá permitir que o profissional anexe documentos digitalizados ao prontuário do paciente em formato de imagem .jpeg e .png; | apps/api/src/modulos/cadastros/pessoas.ts |
-| 1.2.34.43 | PENDENTE | Deverá permitir o registro dos dados clínicos do paciente para a requisição de procedimentos; |  |
+| 1.2.34.43 | IMPLEMENTADO | Deverá permitir o registro dos dados clínicos do paciente para a requisição de procedimentos; | apps/web/src/telas/modulos/Odontologia.tsx |
 | 1.2.34.44 | IMPLEMENTADO | Deverá permitir, no momento da solicitação de exames, a seleção de um plano de diagnóstico previamente cadastrado e relacionado à especialidade do profissional. | apps/api/src/modulos/atendimento/entidades.ts |
-| 1.2.34.45 | PENDENTE | Deverá obrigar a informação de uma justificativa do profissional para a solicitação de exames acima de um número parametrizado pela SMS; |  |
-| 1.2.34.46 | PENDENTE | Deverá alertar o profissional no momento da solicitação de exames a repetição, alertando sobre exames já solicitados ou que já estejam agendados; |  |
-| 1.2.34.47 | PENDENTE | Deverá permitir a informação do material a examinar para cada exame solicitado; |  |
-| 1.2.34.48 | PENDENTE | Deverá permitir que os exames estejam prontos para serem agendados/regulados após a confirmação do atendimento; |  |
-| 1.2.34.49 | PENDENTE | Deverá possibilitar a consulta e visualização dos resultados de exames já liberados pelos Laboratórios, bem como os prestadores de serviços terceirizados; |  |
+| 1.2.34.45 | IMPLEMENTADO | Deverá obrigar a informação de uma justificativa do profissional para a solicitação de exames acima de um número parametrizado pela SMS; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.46 | IMPLEMENTADO | Deverá alertar o profissional no momento da solicitação de exames a repetição, alertando sobre exames já solicitados ou que já estejam agendados; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.47 | IMPLEMENTADO | Deverá permitir a informação do material a examinar para cada exame solicitado; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.48 | IMPLEMENTADO | Deverá permitir que os exames estejam prontos para serem agendados/regulados após a confirmação do atendimento; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.49 | IMPLEMENTADO | Deverá possibilitar a consulta e visualização dos resultados de exames já liberados pelos Laboratórios, bem como os prestadores de serviços terceirizados; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
 | 1.2.34.50 | IMPLEMENTADO | Deverá permitir a prescrição de medicamentos através da seleção de receitas previamente cadastradas e relacionadas à especialidade do profissional. Ao seleciona | apps/api/src/modulos/atendimento/entidades.ts |
-| 1.2.34.51 | PENDENTE | Deverá possuir a pesquisa do medicamento através do nome comercial ou do seu princípio ativo; |  |
-| 1.2.34.52 | PENDENTE | Deverá permitir a prescrição de medicamentos da farmácia básica informando: |  |
-| 1.2.34.52.1 | PENDENTE | Quantidade; |  |
-| 1.2.34.52.2 | PENDENTE | Posologia; |  |
-| 1.2.34.52.3 | PENDENTE | Tipo de uso; |  |
-| 1.2.34.52.4 | PENDENTE | Dose posológica; |  |
-| 1.2.34.52.5 | PENDENTE | Se é de uso contínuo. |  |
-| 1.2.34.53 | PENDENTE | Deverá exibir o saldo do medicamento prescrito, porém, não deverá restringir a prescrição uma vez que não exista saldo na unidade de saúde; |  |
-| 1.2.34.54 | PENDENTE | Deverá informar a reserva dos medicamentos prescritos na rede de farmácia básica (Enquanto não for feita a dispensação ou a receita possuir validade); |  |
-| 1.2.34.55 | PENDENTE | Deverá permitir que as receitas estejam prontas para serem dispensadas na farmácia após a confirmação do atendimento; |  |
+| 1.2.34.51 | IMPLEMENTADO | Deverá possuir a pesquisa do medicamento através do nome comercial ou do seu princípio ativo; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.52 | IMPLEMENTADO | Deverá permitir a prescrição de medicamentos da farmácia básica informando: | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.52.1 | IMPLEMENTADO | Quantidade; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.52.2 | IMPLEMENTADO | Posologia; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.52.3 | IMPLEMENTADO | Tipo de uso; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.52.4 | IMPLEMENTADO | Dose posológica; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.52.5 | IMPLEMENTADO | Se é de uso contínuo. | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.53 | IMPLEMENTADO | Deverá exibir o saldo do medicamento prescrito, porém, não deverá restringir a prescrição uma vez que não exista saldo na unidade de saúde; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.54 | IMPLEMENTADO | Deverá informar a reserva dos medicamentos prescritos na rede de farmácia básica (Enquanto não for feita a dispensação ou a receita possuir validade); | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.55 | IMPLEMENTADO | Deverá permitir que as receitas estejam prontas para serem dispensadas na farmácia após a confirmação do atendimento; | apps/web/src/telas/modulos/Odontologia.tsx |
 | 1.2.34.56 | IMPLEMENTADO | Deverá permitir o cadastro e manutenção de restrições alérgicas; | apps/api/src/modulos/cadastros/pessoas.ts |
-| 1.2.34.57 | PENDENTE | Deverá alertar o profissional em relação a medicamentos aos quais paciente possua restrição alérgica a algum princípio ativo da fórmula; |  |
-| 1.2.34.58 | PENDENTE | Deverá permitir a prescrição de medicamentos que não estejam cadastrados na farmácia básica selecionando o tipo de receita que será gerada; |  |
-| 1.2.34.59 | PENDENTE | Deverá permitir que o profissional possa renovar uma receita de medicamento de uso contínuo através do seu histórico de medicamentos de uso contínuo. O profissi |  |
-| 1.2.34.60 | PENDENTE | Deverá permitir que várias receitas sejam emitidas durante o atendimento do paciente, separando os medicamentos em suas respectivas receitas no momento da impre |  |
-| 1.2.34.61 | PENDENTE | Deverá permitir a impressão da FAO (Ficha de Atendimento Odontológico) já preenchida com todos os dados do paciente; |  |
+| 1.2.34.57 | IMPLEMENTADO | Deverá alertar o profissional em relação a medicamentos aos quais paciente possua restrição alérgica a algum princípio ativo da fórmula; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.58 | IMPLEMENTADO | Deverá permitir a prescrição de medicamentos que não estejam cadastrados na farmácia básica selecionando o tipo de receita que será gerada; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.59 | IMPLEMENTADO | Deverá permitir que o profissional possa renovar uma receita de medicamento de uso contínuo através do seu histórico de medicamentos de uso contínuo. O profissi | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.60 | IMPLEMENTADO | Deverá permitir que várias receitas sejam emitidas durante o atendimento do paciente, separando os medicamentos em suas respectivas receitas no momento da impre | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.61 | IMPLEMENTADO | Deverá permitir a impressão da FAO (Ficha de Atendimento Odontológico) já preenchida com todos os dados do paciente; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
 | 1.2.34.62 | IMPLEMENTADO | Deverá possuir impressão de declaração de comparecimento para o paciente e acompanhante; | apps/api/src/modulos/atendimento/entidades.ts |
 | 1.2.34.63 | IMPLEMENTADO | Deverá possuir impressão de atestado odontológico; | apps/api/src/modulos/atendimento/entidades.ts |
-| 1.2.34.64 | PENDENTE | Deverá possuir impressão de requisição de exames, separando automaticamente os exames por grupos de procedimentos, direcionando assim cada requisição para o dev |  |
-| 1.2.34.65 | PENDENTE | Deverá possuir impressão de receita odontológica com código de barras; |  |
-| 1.2.34.66 | PENDENTE | Deverá permitir o agendamento do retorno do paciente após o término do atendimento; |  |
-| 1.2.34.67 | PENDENTE | Registro de solicitação de exames: |  |
-| 1.2.34.68 | PENDENTE | Disponibilizar o acesso ao histórico dos exames do paciente; |  |
-| 1.2.34.69 | PENDENTE | Possuir impressão de requisição de exames; |  |
-| 1.2.34.70 | PENDENTE | Possuir campo para carimbo e assinatura do médico solicitante. |  |
-| 1.2.34.71 | PENDENTE | Alertar o profissional, no momento da requisição, caso o paciente já possua requisição para o mesmo procedimento, informando a situação atual, se requisitado ou |  |
-| 1.2.34.72 | PENDENTE | Alertar o profissional no momento da requisição, caso o paciente já possua casos de absenteísmo (Falta ou atraso); |  |
-| 1.2.34.73 | PENDENTE | Permitir a exclusão de uma requisição de exames, perante a informação de uma justificativa que deverá estar disponível junto ao histórico de cancelamentos do pa |  |
-| 1.2.35 | PENDENTE | MÓDULO DE CONTROLE DE TRATAMENTO FORA DO DOMICÍLIO (TFD) |  |
-| 1.2.35.1 | PENDENTE | Deverá permitir a inclusão de laudos de TFD, contendo: |  |
-| 1.2.35.1.1 | PENDENTE | A unidade e profissional solicitante, informações do paciente, justificativa para a necessidade de acompanhante, CID, procedimento para o tratamento, diagnóstic |  |
-| 1.2.35.2 | PENDENTE | Deverá permitir a impressão do laudo TFD automaticamente após a sua inclusão; |  |
-| 1.2.35.3 | PENDENTE | Deverá permitir a reimpressão do laudo TFD; |  |
-| 1.2.35.4 | PENDENTE | Deverá permitir a inclusão de complementos ao laudo após a sua inclusão, registrando automaticamente a data, hora e o nome do usuário que efetuou o complemento; |  |
-| 1.2.35.5 | PENDENTE | Deverá permitir a localização de um laudo no mínimo por data de abertura, número do laudo, nome do paciente e nome do profissional solicitante; |  |
-| 1.2.35.6 | PENDENTE | Deverá permitir alterar o laudo após a sua inclusão, registrando automaticamente a data, hora e o nome do usuário que efetuou a alteração; |  |
-| 1.2.35.7 | PENDENTE | Deverá permitir aprovar o laudo após a sua inclusão, registrando automaticamente a data, hora e o nome do usuário que efetuou a aprovação; |  |
-| 1.2.35.8 | PENDENTE | Deverá permitir glosar o laudo após a sua inclusão, registrando automaticamente a data, hora, o motivo da glosa e o nome do usuário que efetuou a glosa; |  |
-| 1.2.35.9 | PENDENTE | Deverá permitir arquivar o laudo após a sua inclusão, registrando automaticamente a data, hora, o motivo do arquivamento e o nome do usuário que arquivou; |  |
-| 1.2.35.10 | PENDENTE | Deverá permitir negar o laudo após a sua aprovação, registrando automaticamente a data, hora, o motivo da negação e o nome do usuário que efetuou a negação do t |  |
-| 1.2.35.11 | PENDENTE | Deverá permitir autorizar o laudo após a sua aprovação, registrando automaticamente a data, hora e o nome do usuário que efetuou a autorização do tratamento; |  |
-| 1.2.35.12 | PENDENTE | Deverá permitir a impressão do pedido de TFD após a autorização do tratamento; |  |
-| 1.2.35.13 | PENDENTE | Deverá permitir o cancelamento da autorização do pedido de TFD após a autorização do tratamento, registrando automaticamente a data, hora e o nome do usuário qu |  |
-| 1.2.35.14 | PENDENTE | Deverá permitir negar o tratamento após a sua aprovação, registrando automaticamente a data, hora e o nome do usuário que efetuou a negação do tratamento; |  |
-| 1.2.35.15 | PENDENTE | Deverá permitir autorizar o tratamento após a sua aprovação, obrigando a informação do local de tratamento e o motivo. O sistema deverá ainda registrar automati |  |
-| 1.2.35.16 | PENDENTE | Deverá permitir o cancelamento da autorização do tratamento após a autorização, registrando automaticamente a data, hora e o nome do usuário que efetuou o cance |  |
-| 1.2.35.17 | PENDENTE | Deverá liberar o agendamento do transporte após a autorização do tratamento direcionando o usuário diretamente a rotina de agendamento de transporte; |  |
-| 1.2.35.18 | PENDENTE | Deverá permitir a visualização de todos os trâmites ocorridos no processo de TFD do paciente; |  |
-| 1.2.35.19 | PENDENTE | Deverá emitir relatório dos processos por unidade solicitante, contendo no mínimo as informações do laudo: |  |
-| 1.2.35.19.1 | PENDENTE | Data, número, nome do paciente, nome do profissional solicitante, procedimento e a situação atual do mesmo; |  |
-| 1.2.35.20 | PENDENTE | Deverá emitir relatório dos processos agendados por destino, contendo no mínimo as informações de data e hora do agendamento, data e número do laudo, nome do pa |  |
-| 1.2.35.21 | PENDENTE | Deverá emitir relatório dos processos por procedimento, contendo no mínimo as informações do laudo: |  |
-| 1.2.35.22 | PENDENTE | Data, número, nome do paciente, nome do profissional solicitante e a situação atual do mesmo, separados por unidade solicitante e procedimento solicitado; |  |
-| 1.2.35.23 | PENDENTE | Deverá emitir relatório dos processos por profissional solicitante, contendo no mínimo as informações do laudo: |  |
-| 1.2.35.23.1 | PENDENTE | Data, número, nome do paciente, nome do procedimento e a situação atual do mesmo, separados por unidade solicitante e nome do profissional solicitante. |  |
+| 1.2.34.64 | IMPLEMENTADO | Deverá possuir impressão de requisição de exames, separando automaticamente os exames por grupos de procedimentos, direcionando assim cada requisição para o dev | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.65 | IMPLEMENTADO | Deverá possuir impressão de receita odontológica com código de barras; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.66 | IMPLEMENTADO | Deverá permitir o agendamento do retorno do paciente após o término do atendimento; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.67 | IMPLEMENTADO | Registro de solicitação de exames: | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.68 | IMPLEMENTADO | Disponibilizar o acesso ao histórico dos exames do paciente; | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.69 | IMPLEMENTADO | Possuir impressão de requisição de exames; | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.70 | IMPLEMENTADO | Possuir campo para carimbo e assinatura do médico solicitante. | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.71 | IMPLEMENTADO | Alertar o profissional, no momento da requisição, caso o paciente já possua requisição para o mesmo procedimento, informando a situação atual, se requisitado ou | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.72 | IMPLEMENTADO | Alertar o profissional no momento da requisição, caso o paciente já possua casos de absenteísmo (Falta ou atraso); | apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.34.73 | IMPLEMENTADO | Permitir a exclusão de uma requisição de exames, perante a informação de uma justificativa que deverá estar disponível junto ao histórico de cancelamentos do pa | apps/api/src/modulos/odontologia/rotas.ts<br>apps/web/src/telas/modulos/Odontologia.tsx |
+| 1.2.35 | IMPLEMENTADO | MÓDULO DE CONTROLE DE TRATAMENTO FORA DO DOMICÍLIO (TFD) | apps/api/src/modulos/tfd/entidades.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.1 | IMPLEMENTADO | Deverá permitir a inclusão de laudos de TFD, contendo: | apps/api/src/modulos/tfd/entidades.ts |
+| 1.2.35.1.1 | IMPLEMENTADO | A unidade e profissional solicitante, informações do paciente, justificativa para a necessidade de acompanhante, CID, procedimento para o tratamento, diagnóstic | apps/api/src/modulos/tfd/entidades.ts |
+| 1.2.35.2 | IMPLEMENTADO | Deverá permitir a impressão do laudo TFD automaticamente após a sua inclusão; | apps/api/src/modulos/tfd/rotas.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.3 | IMPLEMENTADO | Deverá permitir a reimpressão do laudo TFD; | apps/api/src/modulos/tfd/rotas.ts |
+| 1.2.35.4 | IMPLEMENTADO | Deverá permitir a inclusão de complementos ao laudo após a sua inclusão, registrando automaticamente a data, hora e o nome do usuário que efetuou o complemento; | apps/api/src/modulos/tfd/entidades.ts<br>apps/api/src/modulos/tfd/rotas.ts<br>apps/api/src/modulos/tfd/servico.ts |
+| 1.2.35.5 | IMPLEMENTADO | Deverá permitir a localização de um laudo no mínimo por data de abertura, número do laudo, nome do paciente e nome do profissional solicitante; | apps/api/src/modulos/tfd/entidades.ts<br>apps/api/src/modulos/tfd/rotas.ts<br>apps/api/src/modulos/tfd/servico.ts |
+| 1.2.35.6 | IMPLEMENTADO | Deverá permitir alterar o laudo após a sua inclusão, registrando automaticamente a data, hora e o nome do usuário que efetuou a alteração; | apps/api/src/modulos/tfd/entidades.ts<br>apps/api/src/modulos/tfd/rotas.ts<br>apps/api/src/modulos/tfd/servico.ts |
+| 1.2.35.7 | IMPLEMENTADO | Deverá permitir aprovar o laudo após a sua inclusão, registrando automaticamente a data, hora e o nome do usuário que efetuou a aprovação; | apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.8 | IMPLEMENTADO | Deverá permitir glosar o laudo após a sua inclusão, registrando automaticamente a data, hora, o motivo da glosa e o nome do usuário que efetuou a glosa; | apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.9 | IMPLEMENTADO | Deverá permitir arquivar o laudo após a sua inclusão, registrando automaticamente a data, hora, o motivo do arquivamento e o nome do usuário que arquivou; | apps/api/src/modulos/tfd/rotas.ts<br>apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.10 | IMPLEMENTADO | Deverá permitir negar o laudo após a sua aprovação, registrando automaticamente a data, hora, o motivo da negação e o nome do usuário que efetuou a negação do t | apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.11 | IMPLEMENTADO | Deverá permitir autorizar o laudo após a sua aprovação, registrando automaticamente a data, hora e o nome do usuário que efetuou a autorização do tratamento; | apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.12 | IMPLEMENTADO | Deverá permitir a impressão do pedido de TFD após a autorização do tratamento; | apps/api/src/modulos/tfd/rotas.ts<br>apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.13 | IMPLEMENTADO | Deverá permitir o cancelamento da autorização do pedido de TFD após a autorização do tratamento, registrando automaticamente a data, hora e o nome do usuário qu | apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.14 | IMPLEMENTADO | Deverá permitir negar o tratamento após a sua aprovação, registrando automaticamente a data, hora e o nome do usuário que efetuou a negação do tratamento; | apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.15 | IMPLEMENTADO | Deverá permitir autorizar o tratamento após a sua aprovação, obrigando a informação do local de tratamento e o motivo. O sistema deverá ainda registrar automati | apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.16 | IMPLEMENTADO | Deverá permitir o cancelamento da autorização do tratamento após a autorização, registrando automaticamente a data, hora e o nome do usuário que efetuou o cance | apps/api/src/modulos/tfd/servico.ts<br>apps/web/src/telas/modulos/Tfd.tsx |
+| 1.2.35.17 | IMPLEMENTADO | Deverá liberar o agendamento do transporte após a autorização do tratamento direcionando o usuário diretamente a rotina de agendamento de transporte; | apps/api/src/modulos/tfd/carga.ts<br>apps/api/src/modulos/tfd/entidades.ts<br>apps/api/src/modulos/tfd/servico.ts |
+| 1.2.35.18 | IMPLEMENTADO | Deverá permitir a visualização de todos os trâmites ocorridos no processo de TFD do paciente; | apps/api/src/modulos/tfd/entidades.ts<br>apps/api/src/modulos/tfd/rotas.ts<br>apps/api/src/modulos/tfd/servico.ts |
+| 1.2.35.19 | IMPLEMENTADO | Deverá emitir relatório dos processos por unidade solicitante, contendo no mínimo as informações do laudo: | apps/api/src/modulos/tfd/relatorios.ts |
+| 1.2.35.19.1 | IMPLEMENTADO | Data, número, nome do paciente, nome do profissional solicitante, procedimento e a situação atual do mesmo; | apps/api/src/modulos/tfd/relatorios.ts |
+| 1.2.35.20 | IMPLEMENTADO | Deverá emitir relatório dos processos agendados por destino, contendo no mínimo as informações de data e hora do agendamento, data e número do laudo, nome do pa | apps/api/src/modulos/tfd/relatorios.ts<br>apps/api/src/modulos/tfd/servico.ts |
+| 1.2.35.21 | IMPLEMENTADO | Deverá emitir relatório dos processos por procedimento, contendo no mínimo as informações do laudo: | apps/api/src/modulos/tfd/relatorios.ts |
+| 1.2.35.22 | IMPLEMENTADO | Data, número, nome do paciente, nome do profissional solicitante e a situação atual do mesmo, separados por unidade solicitante e procedimento solicitado; | apps/api/src/modulos/tfd/relatorios.ts |
+| 1.2.35.23 | IMPLEMENTADO | Deverá emitir relatório dos processos por profissional solicitante, contendo no mínimo as informações do laudo: | apps/api/src/modulos/tfd/relatorios.ts |
+| 1.2.35.23.1 | IMPLEMENTADO | Data, número, nome do paciente, nome do procedimento e a situação atual do mesmo, separados por unidade solicitante e nome do profissional solicitante. | apps/api/src/modulos/tfd/relatorios.ts |
 | 1.2.36 | PENDENTE | MÓDULO DO E-SUS AB (ATENÇÃO PRIMÁRIA) |  |
 | 1.2.36.1 | PENDENTE | O software deverá permitir a criação de novas ações programáticas, controlando a data de início e fim, quantidade de inscrições e tipo de benefícios; |  |
 | 1.2.36.2 | PENDENTE | O software deverá possibilitar o relacionamento de locais de atendimento a ação programática; |  |
@@ -1681,44 +1681,44 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.36.11 | PENDENTE | Disponibilizar plataforma de Teleconsulta, com atendimento às regulamentações legais; |  |
 | 1.2.36.12 | PENDENTE | Deverá considerar status “solicitado”, de forma automática, para critérios de indicadores de saúde, quando for gerada uma Guia de Solicitação de Exame; |  |
 | 1.2.36.13 | PENDENTE | Deverá disponibilizar dashboard com agenda para agendamento e registro de reuniões de equipes multiprofissionais nas unidades; |  |
-| 1.2.37 | PENDENTE | MÓDULO DE AIH (AUTORIZAÇÃO DE INTERNAÇÃO HOSPITALAR) |  |
-| 1.2.37.1 | PENDENTE | Deverá permitir o cadastramento de órgãos emissores de autorização de procedimentos realizados em âmbito ambulatorial e hospitalar, designados pelos gestores es |  |
-| 1.2.37.2 | PENDENTE | Deverá permitir o cadastramento e controle da faixa numérica de AIHs em suas esferas de atuação de governo, informando a validade da numeração, o número inicial |  |
-| 1.2.37.3 | PENDENTE | Deverá permitir a inclusão de laudos de AIH, contendo a data e hora, unidade solicitante, informações do paciente, número do prontuário, causas externas (Aciden |  |
-| 1.2.37.4 | PENDENTE | Deverá permitir a impressão do laudo de AIH automaticamente após a sua inclusão; |  |
-| 1.2.37.5 | PENDENTE | Deverá permitir a reimpressão do laudo de AIH; |  |
-| 1.2.37.6 | PENDENTE | Deverá permitir a identificação manualmente das AIHs que foram pagas; |  |
-| 1.2.37.7 | PENDENTE | Deverá permitir aprovar o laudo após a sua inclusão, registrando automaticamente a data, hora e o nome do usuário que efetuou a aprovação; |  |
-| 1.2.37.8 | PENDENTE | Deverá permitir a glosa do laudo após a sua aprovação, retornando ao status de não aprovado, registrando automaticamente a data, hora e o nome do usuário que ef |  |
-| 1.2.37.9 | PENDENTE | Deverá permitir o arquivamento do laudo após a sua aprovação, registrando automaticamente a data, hora e o nome do usuário que efetuou o arquivamento; |  |
-| 1.2.37.10 | PENDENTE | Deverá possuir funcionalidade que permita, no momento da autorização individual de laudos de AIH, que este traga a próxima AIH disponível já pré-carregada, faci |  |
-| 1.2.37.11 | PENDENTE | Deverá possuir funcionalidade que permita a autorização de laudos de AIH em massa, onde o profissional auditor selecione todos os laudos que ele deseja autoriza |  |
-| 1.2.37.12 | PENDENTE | Deverá possuir impressão da autorização de AIH em duas vias, contendo as informações do paciente, informações da solicitação / Autorização, informações do autor |  |
-| 1.2.37.13 | PENDENTE | Deverá permitir o cancelamento de uma autorização de AIH após a sua autorização, registrando automaticamente a data, hora e o nome do operador que efetuou o can |  |
-| 1.2.37.14 | PENDENTE | Deverá possuir parametrização para que seja solicitado ou não senha de um operador liberador para efetivar o cancelamento da autorização; |  |
-| 1.2.37.15 | PENDENTE | Deverá permitir a inclusão de uma AIH já autorizada, dispensando todos os trâmites anteriores; |  |
-| 1.2.37.16 | PENDENTE | Deverá permitir o registro de saída do paciente e em caso de alta por óbito, permitir o registro do falecimento e automaticamente alterar a situação do paciente |  |
-| 1.2.37.17 | PENDENTE | Relatórios: |  |
-| 1.2.37.17.1 | PENDENTE | Relatório de laudos de internação por unidade solicitante listando por unidade executante o nome do paciente, a data de emissão, o caráter de internação, o núme |  |
-| 1.2.37.17.2 | PENDENTE | Relatório de laudos de internação por unidade executante, listando, por unidade executante, o nome do paciente, a data de emissão, o caráter de internação, o nú |  |
-| 1.2.37.17.3 | PENDENTE | Relatório de laudos de internação por profissional solicitante, listando, por unidade executante, o nome do paciente, a data de emissão, o caráter de internação |  |
-| 1.2.37.17.4 | PENDENTE | Relatório de laudos de internação por profissional executante, listando, por unidade executante, o nome do paciente, a data de emissão, o caráter de internação, |  |
-| 1.2.37.17.5 | PENDENTE | Relatório analítico de laudos de internação por município solicitante, listando por unidade executante o nome do paciente, a data de emissão, o caráter de inter |  |
-| 1.2.37.17.6 | PENDENTE | Relatório sintético de laudos de internação por município solicitante, listando o município, a quantidade de procedimentos e o valor, totalizando o valor dos la |  |
-| 1.2.37.17.7 | PENDENTE | Relatório sintético de laudos de internação por data da solicitação, listando a data, a quantidade de procedimentos e o valor, totalizando o valor dos laudos; |  |
-| 1.2.37.17.8 | PENDENTE | Relatório sintético de laudos de internação por CID, listando a CID, a quantidade de procedimentos e o valor, totalizando o valor dos laudos; |  |
-| 1.2.37.17.9 | PENDENTE | Relatório de AIHs por unidade solicitante, listando, por unidade executante, o nome do paciente, a data de autorização, o caráter de internação, o número do pro |  |
-| 1.2.37.17.10 | PENDENTE | Relatório de AIHs por unidade executante listando por unidade solicitante o nome do paciente, a data de autorização, o caráter de internação, o número do prontu |  |
-| 1.2.37.17.11 | PENDENTE | Relatório de AIHs por profissional solicitante listando por unidade executante o nome do paciente, a data de autorização, o caráter de internação, o número do p |  |
-| 1.2.37.17.12 | PENDENTE | Relatório de AIHs por profissional executante listando por unidade solicitante o nome do paciente, a data de autorização, o caráter de internação, o número do p |  |
-| 1.2.37.17.13 | PENDENTE | Relatório analítico de AIHs por município solicitante listando por unidade executante o nome do paciente, a data de autorização, o caráter de internação, o núme |  |
-| 1.2.37.17.14 | PENDENTE | Relatório sintético de AIHs por município solicitante, listando o município, a quantidade de procedimentos, o valor hospitalar e o valor profissional. Totalizan |  |
-| 1.2.37.17.15 | PENDENTE | Relatório sintético de AIHs por CID, listando por unidade executante, a CID e a quantidade de procedimentos; |  |
-| 1.2.37.17.16 | PENDENTE | Relatório analítico de AIHs por bairro, listando por unidade executante, o nome do paciente, o endereço, a CID, o procedimento, o número da AIH a data de nascim |  |
-| 1.2.37.17.17 | PENDENTE | Emissão de etiquetas com a numeração de cada AIH autorizada, contendo, no mínimo, o número da AIH e o nome do paciente. |  |
-| 1.2.38 | PENDENTE | Integrações: |  |
-| 1.2.38.1 | PENDENTE | Deverá permitir receber Laudos AIH enviados por sistema de terceiros, através de WebService, contendo as informações do estabelecimento solicitante, executante, |  |
-| 1.2.38.2 | PENDENTE | Deverá possuir, em uma área restrita aos administradores e técnicos, a configuração do WebService, permitindo ativá-lo e desativá-lo e configurar usuários e sen |  |
+| 1.2.37 | IMPLEMENTADO | MÓDULO DE AIH (AUTORIZAÇÃO DE INTERNAÇÃO HOSPITALAR) | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/aih/servico.ts |
+| 1.2.37.1 | IMPLEMENTADO | Deverá permitir o cadastramento de órgãos emissores de autorização de procedimentos realizados em âmbito ambulatorial e hospitalar, designados pelos gestores es | apps/api/src/modulos/aih/entidades.ts |
+| 1.2.37.2 | IMPLEMENTADO | Deverá permitir o cadastramento e controle da faixa numérica de AIHs em suas esferas de atuação de governo, informando a validade da numeração, o número inicial | apps/api/src/modulos/aih/entidades.ts |
+| 1.2.37.3 | IMPLEMENTADO | Deverá permitir a inclusão de laudos de AIH, contendo a data e hora, unidade solicitante, informações do paciente, número do prontuário, causas externas (Aciden | apps/api/src/modulos/aih/entidades.ts |
+| 1.2.37.4 | IMPLEMENTADO | Deverá permitir a impressão do laudo de AIH automaticamente após a sua inclusão; | apps/api/src/modulos/aih/documentos.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/web/src/telas/modulos/Aih.tsx |
+| 1.2.37.5 | IMPLEMENTADO | Deverá permitir a reimpressão do laudo de AIH; | apps/api/src/modulos/aih/documentos.ts<br>apps/api/src/modulos/aih/rotas.ts |
+| 1.2.37.6 | IMPLEMENTADO | Deverá permitir a identificação manualmente das AIHs que foram pagas; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/relatorios.ts<br>apps/api/src/modulos/aih/rotas.ts |
+| 1.2.37.7 | IMPLEMENTADO | Deverá permitir aprovar o laudo após a sua inclusão, registrando automaticamente a data, hora e o nome do usuário que efetuou a aprovação; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/servico.ts |
+| 1.2.37.8 | IMPLEMENTADO | Deverá permitir a glosa do laudo após a sua aprovação, retornando ao status de não aprovado, registrando automaticamente a data, hora e o nome do usuário que ef | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/servico.ts |
+| 1.2.37.9 | IMPLEMENTADO | Deverá permitir o arquivamento do laudo após a sua aprovação, registrando automaticamente a data, hora e o nome do usuário que efetuou o arquivamento; | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/servico.ts |
+| 1.2.37.10 | IMPLEMENTADO | Deverá possuir funcionalidade que permita, no momento da autorização individual de laudos de AIH, que este traga a próxima AIH disponível já pré-carregada, faci | apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/aih/servico.ts<br>apps/web/src/telas/modulos/Aih.tsx |
+| 1.2.37.11 | IMPLEMENTADO | Deverá possuir funcionalidade que permita a autorização de laudos de AIH em massa, onde o profissional auditor selecione todos os laudos que ele deseja autoriza | apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/aih/servico.ts |
+| 1.2.37.12 | IMPLEMENTADO | Deverá possuir impressão da autorização de AIH em duas vias, contendo as informações do paciente, informações da solicitação / Autorização, informações do autor | apps/api/src/modulos/aih/documentos.ts<br>apps/api/src/modulos/aih/rotas.ts |
+| 1.2.37.13 | IMPLEMENTADO | Deverá permitir o cancelamento de uma autorização de AIH após a sua autorização, registrando automaticamente a data, hora e o nome do operador que efetuou o can | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/aih/servico.ts |
+| 1.2.37.14 | IMPLEMENTADO | Deverá possuir parametrização para que seja solicitado ou não senha de um operador liberador para efetivar o cancelamento da autorização; | apps/api/src/modulos/aih/carga.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/aih/servico.ts |
+| 1.2.37.15 | IMPLEMENTADO | Deverá permitir a inclusão de uma AIH já autorizada, dispensando todos os trâmites anteriores; | apps/api/src/modulos/aih/rotas.ts<br>apps/web/src/telas/modulos/Aih.tsx |
+| 1.2.37.16 | IMPLEMENTADO | Deverá permitir o registro de saída do paciente e em caso de alta por óbito, permitir o registro do falecimento e automaticamente alterar a situação do paciente | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/api/src/modulos/aih/servico.ts |
+| 1.2.37.17 | IMPLEMENTADO (itens/agrupador) | Relatórios: |  |
+| 1.2.37.17.1 | IMPLEMENTADO | Relatório de laudos de internação por unidade solicitante listando por unidade executante o nome do paciente, a data de emissão, o caráter de internação, o núme | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.2 | IMPLEMENTADO | Relatório de laudos de internação por unidade executante, listando, por unidade executante, o nome do paciente, a data de emissão, o caráter de internação, o nú | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.3 | IMPLEMENTADO | Relatório de laudos de internação por profissional solicitante, listando, por unidade executante, o nome do paciente, a data de emissão, o caráter de internação | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.4 | IMPLEMENTADO | Relatório de laudos de internação por profissional executante, listando, por unidade executante, o nome do paciente, a data de emissão, o caráter de internação, | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.5 | IMPLEMENTADO | Relatório analítico de laudos de internação por município solicitante, listando por unidade executante o nome do paciente, a data de emissão, o caráter de inter | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.6 | IMPLEMENTADO | Relatório sintético de laudos de internação por município solicitante, listando o município, a quantidade de procedimentos e o valor, totalizando o valor dos la | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.7 | IMPLEMENTADO | Relatório sintético de laudos de internação por data da solicitação, listando a data, a quantidade de procedimentos e o valor, totalizando o valor dos laudos; | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.8 | IMPLEMENTADO | Relatório sintético de laudos de internação por CID, listando a CID, a quantidade de procedimentos e o valor, totalizando o valor dos laudos; | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.9 | IMPLEMENTADO | Relatório de AIHs por unidade solicitante, listando, por unidade executante, o nome do paciente, a data de autorização, o caráter de internação, o número do pro | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.10 | IMPLEMENTADO | Relatório de AIHs por unidade executante listando por unidade solicitante o nome do paciente, a data de autorização, o caráter de internação, o número do prontu | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.11 | IMPLEMENTADO | Relatório de AIHs por profissional solicitante listando por unidade executante o nome do paciente, a data de autorização, o caráter de internação, o número do p | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.12 | IMPLEMENTADO | Relatório de AIHs por profissional executante listando por unidade solicitante o nome do paciente, a data de autorização, o caráter de internação, o número do p | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.13 | IMPLEMENTADO | Relatório analítico de AIHs por município solicitante listando por unidade executante o nome do paciente, a data de autorização, o caráter de internação, o núme | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.14 | IMPLEMENTADO | Relatório sintético de AIHs por município solicitante, listando o município, a quantidade de procedimentos, o valor hospitalar e o valor profissional. Totalizan | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.15 | IMPLEMENTADO | Relatório sintético de AIHs por CID, listando por unidade executante, a CID e a quantidade de procedimentos; | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.16 | IMPLEMENTADO | Relatório analítico de AIHs por bairro, listando por unidade executante, o nome do paciente, o endereço, a CID, o procedimento, o número da AIH a data de nascim | apps/api/src/modulos/aih/relatorios.ts |
+| 1.2.37.17.17 | IMPLEMENTADO | Emissão de etiquetas com a numeração de cada AIH autorizada, contendo, no mínimo, o número da AIH e o nome do paciente. | apps/api/src/modulos/aih/documentos.ts |
+| 1.2.38 | IMPLEMENTADO | Integrações: | apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts<br>apps/web/src/telas/modulos/Aih.tsx |
+| 1.2.38.1 | IMPLEMENTADO | Deverá permitir receber Laudos AIH enviados por sistema de terceiros, através de WebService, contendo as informações do estabelecimento solicitante, executante, | apps/api/src/modulos/aih/rotas.ts |
+| 1.2.38.2 | IMPLEMENTADO | Deverá possuir, em uma área restrita aos administradores e técnicos, a configuração do WebService, permitindo ativá-lo e desativá-lo e configurar usuários e sen | apps/api/src/modulos/aih/carga.ts<br>apps/api/src/modulos/aih/entidades.ts<br>apps/api/src/modulos/aih/rotas.ts |
 | 1.2.39 | IMPLEMENTADO | MÓDULO DE IMUNIZAÇÕES | apps/api/src/modulos/imunizacao/entidades.ts<br>apps/web/src/telas/Imunizacao.tsx |
 | 1.2.39.1 | IMPLEMENTADO (itens/agrupador) | Controle de vacinas/imunobiológicos: |  |
 | 1.2.39.1.1 | IMPLEMENTADO | Deverá permitir o cadastro dos diversos imunobiológicos existentes e o seu tipo de via de administração; | apps/api/src/modulos/imunizacao/entidades.ts |
@@ -1806,188 +1806,188 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.39.2.10.3 | IMPLEMENTADO (itens/agrupador) | Movimentação de imunobiológicos. |  |
 | 1.2.39.2.11 | IMPLEMENTADO (itens/agrupador) | Deve possuir a integração com o Prontuário Eletrônico do paciente; |  |
 | 1.2.39.2.12 | IMPLEMENTADO (itens/agrupador) | Deve possuir a integração com o sistema e-SUS, enviando os dados da ficha de vacinação. |  |
-| 1.2.40 | PENDENTE | MÓDULO DE TRANSPORTE SANITÁRIO |  |
-| 1.2.40.1 | PENDENTE | Deverá possuir cadastro de tipos de veículos já povoado com os principais tipos de veículos do mercado; |  |
-| 1.2.40.2 | PENDENTE | Deverá possuir cadastro de marcas de veículos já povoado com as principais marcas de veículos do mercado; |  |
-| 1.2.40.3 | PENDENTE | Deverá permitir o cadastro de veículos com as informações do veículo e as informações de capacidade de passageiros, macas e cadeiras de roda; |  |
-| 1.2.40.4 | PENDENTE | Deverá permitir o cadastro dos locais de destino das viagens; |  |
-| 1.2.40.5 | PENDENTE | Deverá permitir o cadastro dos motivos das viagens; |  |
-| 1.2.40.6 | PENDENTE | Deverá permitir o cadastro de despesas por grupos; |  |
-| 1.2.40.7 | PENDENTE | Deverá permitir o cadastro dos condutores, com informação do número da CNH; |  |
-| 1.2.40.8 | PENDENTE | Deverá permitir a criação de rotas, identificando no mínimo: |  |
-| 1.2.40.8.1 | PENDENTE | Nome da Rota; |  |
-| 1.2.40.8.2 | PENDENTE | Município de destino (Identificando a ordem de parada em cada um deles); |  |
-| 1.2.40.8.3 | PENDENTE | Local; |  |
-| 1.2.40.8.4 | PENDENTE | Motivo; |  |
-| 1.2.40.8.5 | PENDENTE | Veículo. |  |
-| 1.2.40.9 | PENDENTE | Deverá permitir a definição de um valor para cada viagem, gerando um custo do transporte de cada paciente em todas as viagens; |  |
-| 1.2.40.10 | PENDENTE | Deverá permitir a inclusão da lista de municípios onde haverá paradas na rota do veículo; |  |
-| 1.2.40.11 | PENDENTE | Deverá permitir a criação e manutenção de agenda de transporte para cada rota, com as definições: |  |
-| 1.2.40.11.1 | PENDENTE | Rota; |  |
-| 1.2.40.11.2 | PENDENTE | Veículo; |  |
-| 1.2.40.11.3 | PENDENTE | Número de vagas; |  |
-| 1.2.40.11.4 | PENDENTE | Horário de saída; |  |
-| 1.2.40.11.5 | PENDENTE | Data inicial e final; |  |
-| 1.2.40.11.6 | PENDENTE | Dias da semana. |  |
-| 1.2.40.12 | PENDENTE | Deverá possuir formulário de agendamento de viagem com interface simples, onde, ao selecionar um município de destino, liste as rotas disponíveis, ao selecionar |  |
-| 1.2.40.13 | PENDENTE | Deverá permitir que, no momento do agendamento, seja definido se o paciente ocupa uma vaga ou não. Caso não ocupe, o sistema não deverá computa-lo no cálculo do |  |
-| 1.2.40.14 | PENDENTE | Deverá permitir a inclusão dos acompanhantes do paciente na viagem; |  |
-| 1.2.40.15 | PENDENTE | Deverá permitir a reserva de vagas para os acompanhantes dos pacientes sem defini-los, para os casos em que o paciente ainda não definiu a pessoa que o acompanh |  |
-| 1.2.40.16 | PENDENTE | Deverá permitir a definição do tipo de viagem para o acompanhante, se é somente de Ida, somente de Volta ou de Ida e Volta, assim como se ele ocupa vaga, ou sej |  |
-| 1.2.40.17 | PENDENTE | Deverá permitir o cadastro de viagens sem agendamento prévio, informando o motivo, destino final, o veículo, o condutor, os pacientes que serão levados, e o des |  |
-| 1.2.40.18 | PENDENTE | Possibilitar no agendamento ou inclusão do paciente na viagem: |  |
-| 1.2.40.18.1 | PENDENTE | Local de destino; |  |
-| 1.2.40.18.2 | PENDENTE | Motivo do transporte; |  |
-| 1.2.40.18.3 | PENDENTE | Local do embarque; |  |
-| 1.2.40.18.4 | PENDENTE | Horário de saída; |  |
-| 1.2.40.18.5 | PENDENTE | Acompanhante; |  |
-| 1.2.40.18.6 | PENDENTE | Poltrona; |  |
-| 1.2.40.18.7 | PENDENTE | Tipo da viagem. |  |
-| 1.2.40.19 | PENDENTE | Deverá possuir forma de confirmação das viagens, para os casos em que não houver lotação do veículo ou qualquer outro motivo. Somente permitir a inclusão de pac |  |
-| 1.2.40.20 | PENDENTE | Deverá tratar para que não seja possível concluir uma viagem cujo paciente possua acompanhantes indefinidos, ou seja, deve ser necessário identificá-los para qu |  |
-| 1.2.40.21 | PENDENTE | Deverá permitir o lançamento de adiantamento de viagem; |  |
-| 1.2.40.22 | PENDENTE | Deverá possibilitar o fechamento da viagem com a informação da data e horário de chegada e Km final do veículo, assim como deverá conter a prestação de contas c |  |
-| 1.2.40.23 | PENDENTE | Deverá possuir impressão de requisição de adiantamento; |  |
-| 1.2.40.24 | PENDENTE | Deverá disponibilizar impressão da relação de passageiros; |  |
-| 1.2.40.25 | PENDENTE | Deverá disponibilizar impressão da ordem de tráfego; |  |
-| 1.2.40.26 | PENDENTE | Deverá disponibilizar a opção de impressão dos comprovantes de agendamento em impressora padrão ou térmica conforme parametrização; |  |
-| 1.2.40.27 | IMPLEMENTADO | Deverá possuir cadastro de feriados com definição das rotas que serão afetadas pelo feriado, como, por exemplo, (Nenhuma, todas, rotas do município, rotas para  | apps/api/src/modulos/cadastros/tabelas.ts |
-| 1.2.40.28 | PENDENTE | Deverá bloquear no momento do agendamento, as rotas afetadas pelos feriados devidamente cadastrados. |  |
-| 1.2.40.29 | PENDENTE | Relatórios: |  |
-| 1.2.40.29.1 | PENDENTE | Relatório de evolução mensal dos transportes listando a cada mês o número de pacientes transportados, o percentual de evolução em relação ao mês anterior, o val |  |
-| 1.2.40.29.2 | PENDENTE | Relatório de absenteísmo por paciente, listando o destino, a data, o horário, a rota, o local de destino, o motivo do transporte e observação sobre a ausência; |  |
-| 1.2.40.29.3 | PENDENTE | Relatório de despesas de viagem, agrupando por rota, veículo, motorista e viagem, listando as despesas com descrição, data, quantidade, valor unitário e valor t |  |
-| 1.2.40.29.4 | PENDENTE | Relatório de viagens por motivo, agrupando o motivo da viagem, o local de destino e o veículo, listando a data, a rota, o número de passageiros e quilômetros ro |  |
-| 1.2.40.29.5 | PENDENTE | Relatório de viagens por paciente, agrupando o paciente, o destino, o motorista e o veículo, listando a data, a rota, o local de destino e o motivo; |  |
-| 1.2.40.29.6 | PENDENTE | Relatório gráfico de viagens por município; |  |
-| 1.2.40.29.7 | PENDENTE | Relatório gráfico de viagens por motivo; |  |
-| 1.2.40.29.8 | PENDENTE | Relatório consolidado de viagens efetuadas e pacientes transportados por mês e município de destino; |  |
-| 1.2.40.29.9 | PENDENTE | Relatório de viagens por data, listando o nome do motorista, o veículo, a rota, o município e horário. |  |
-| 1.2.41 | PENDENTE | MÓDULO DE ATENDIMENTO REMOTO E AUTO ATENDIMENTO DE PACIENTES (APLICATIVO MOBILE E WEB VIA NAVEGADOR) |  |
-| 1.2.41.1 | PENDENTE | Considerando que é prática salutar dos órgãos públicos disponibilizar ferramentas com o máximo de facilitadores para o cidadão, quando se trata de autoatendimen |  |
-| 1.2.41.2 | PENDENTE | O sistema deve permitir atendimento, com as mesmas funcionalidades do aplicativo Móbile, via Internet com acesso pelos principais navegadores, como, por exemplo |  |
-| 1.2.41.3 | PENDENTE | O sistema deverá possibilitar ao usuário a solicitação de acesso diretamente pelo aplicativo. A liberação do acesso ocorrerá somente após a devida liberação por |  |
-| 1.2.41.4 | IMPLEMENTADO | Deverá vincular a identificação do cidadão (Login) ao Cartão Nacional de Saúde (CNS) e senha com no mínimo 8 dígitos, contendo: | apps/api/src/compartilhado/validacao.ts |
+| 1.2.40 | IMPLEMENTADO | MÓDULO DE TRANSPORTE SANITÁRIO | apps/api/src/modulos/transporte/entidades.ts<br>apps/web/src/telas/modulos/Transporte.tsx |
+| 1.2.40.1 | IMPLEMENTADO | Deverá possuir cadastro de tipos de veículos já povoado com os principais tipos de veículos do mercado; | apps/api/src/modulos/transporte/carga.ts<br>apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.2 | IMPLEMENTADO | Deverá possuir cadastro de marcas de veículos já povoado com as principais marcas de veículos do mercado; | apps/api/src/modulos/transporte/carga.ts<br>apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.3 | IMPLEMENTADO | Deverá permitir o cadastro de veículos com as informações do veículo e as informações de capacidade de passageiros, macas e cadeiras de roda; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.4 | IMPLEMENTADO (itens/agrupador) | Deverá permitir o cadastro dos locais de destino das viagens; |  |
+| 1.2.40.5 | IMPLEMENTADO (itens/agrupador) | Deverá permitir o cadastro dos motivos das viagens; |  |
+| 1.2.40.6 | IMPLEMENTADO | Deverá permitir o cadastro de despesas por grupos; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.7 | IMPLEMENTADO | Deverá permitir o cadastro dos condutores, com informação do número da CNH; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.8 | IMPLEMENTADO | Deverá permitir a criação de rotas, identificando no mínimo: | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.8.1 | IMPLEMENTADO | Nome da Rota; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.8.2 | IMPLEMENTADO | Município de destino (Identificando a ordem de parada em cada um deles); | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.8.3 | IMPLEMENTADO | Local; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.8.4 | IMPLEMENTADO | Motivo; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.8.5 | IMPLEMENTADO | Veículo. | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.9 | IMPLEMENTADO | Deverá permitir a definição de um valor para cada viagem, gerando um custo do transporte de cada paciente em todas as viagens; | apps/api/src/modulos/transporte/carga.ts<br>apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/relatorios.ts |
+| 1.2.40.10 | IMPLEMENTADO | Deverá permitir a inclusão da lista de municípios onde haverá paradas na rota do veículo; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.11 | IMPLEMENTADO | Deverá permitir a criação e manutenção de agenda de transporte para cada rota, com as definições: | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.11.1 | IMPLEMENTADO | Rota; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.11.2 | IMPLEMENTADO | Veículo; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.11.3 | IMPLEMENTADO | Número de vagas; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.11.4 | IMPLEMENTADO | Horário de saída; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.11.5 | IMPLEMENTADO | Data inicial e final; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.11.6 | IMPLEMENTADO | Dias da semana. | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.12 | IMPLEMENTADO | Deverá possuir formulário de agendamento de viagem com interface simples, onde, ao selecionar um município de destino, liste as rotas disponíveis, ao selecionar | apps/api/src/modulos/transporte/rotas.ts<br>apps/api/src/modulos/transporte/servico.ts<br>apps/web/src/telas/modulos/Transporte.tsx |
+| 1.2.40.13 | IMPLEMENTADO | Deverá permitir que, no momento do agendamento, seja definido se o paciente ocupa uma vaga ou não. Caso não ocupe, o sistema não deverá computa-lo no cálculo do | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/servico.ts<br>apps/web/src/telas/modulos/Transporte.tsx |
+| 1.2.40.14 | IMPLEMENTADO | Deverá permitir a inclusão dos acompanhantes do paciente na viagem; | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/servico.ts<br>apps/web/src/telas/modulos/Transporte.tsx |
+| 1.2.40.15 | IMPLEMENTADO | Deverá permitir a reserva de vagas para os acompanhantes dos pacientes sem defini-los, para os casos em que o paciente ainda não definiu a pessoa que o acompanh | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/rotas.ts<br>apps/api/src/modulos/transporte/servico.ts |
+| 1.2.40.16 | IMPLEMENTADO | Deverá permitir a definição do tipo de viagem para o acompanhante, se é somente de Ida, somente de Volta ou de Ida e Volta, assim como se ele ocupa vaga, ou sej | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/servico.ts<br>apps/web/src/telas/modulos/Transporte.tsx |
+| 1.2.40.17 | IMPLEMENTADO | Deverá permitir o cadastro de viagens sem agendamento prévio, informando o motivo, destino final, o veículo, o condutor, os pacientes que serão levados, e o des | apps/api/src/modulos/transporte/carga.ts<br>apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/rotas.ts |
+| 1.2.40.18 | IMPLEMENTADO | Possibilitar no agendamento ou inclusão do paciente na viagem: | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/servico.ts<br>apps/web/src/telas/modulos/Transporte.tsx |
+| 1.2.40.18.1 | IMPLEMENTADO | Local de destino; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.18.2 | IMPLEMENTADO | Motivo do transporte; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.18.3 | IMPLEMENTADO | Local do embarque; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.18.4 | IMPLEMENTADO | Horário de saída; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.18.5 | IMPLEMENTADO | Acompanhante; | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.18.6 | IMPLEMENTADO | Poltrona; | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/rotas.ts<br>apps/web/src/telas/modulos/Transporte.tsx |
+| 1.2.40.18.7 | IMPLEMENTADO | Tipo da viagem. | apps/api/src/modulos/transporte/entidades.ts |
+| 1.2.40.19 | IMPLEMENTADO | Deverá possuir forma de confirmação das viagens, para os casos em que não houver lotação do veículo ou qualquer outro motivo. Somente permitir a inclusão de pac | apps/api/src/modulos/transporte/carga.ts<br>apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/rotas.ts |
+| 1.2.40.20 | IMPLEMENTADO | Deverá tratar para que não seja possível concluir uma viagem cujo paciente possua acompanhantes indefinidos, ou seja, deve ser necessário identificá-los para qu | apps/api/src/modulos/transporte/rotas.ts<br>apps/api/src/modulos/transporte/servico.ts<br>apps/web/src/telas/modulos/Transporte.tsx |
+| 1.2.40.21 | IMPLEMENTADO | Deverá permitir o lançamento de adiantamento de viagem; | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/rotas.ts |
+| 1.2.40.22 | IMPLEMENTADO | Deverá possibilitar o fechamento da viagem com a informação da data e horário de chegada e Km final do veículo, assim como deverá conter a prestação de contas c | apps/api/src/modulos/transporte/carga.ts<br>apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/rotas.ts |
+| 1.2.40.23 | IMPLEMENTADO | Deverá possuir impressão de requisição de adiantamento; | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/rotas.ts |
+| 1.2.40.24 | IMPLEMENTADO | Deverá disponibilizar impressão da relação de passageiros; | apps/api/src/modulos/transporte/rotas.ts |
+| 1.2.40.25 | IMPLEMENTADO | Deverá disponibilizar impressão da ordem de tráfego; | apps/api/src/modulos/transporte/rotas.ts |
+| 1.2.40.26 | IMPLEMENTADO | Deverá disponibilizar a opção de impressão dos comprovantes de agendamento em impressora padrão ou térmica conforme parametrização; | apps/api/src/modulos/transporte/carga.ts<br>apps/api/src/modulos/transporte/rotas.ts<br>apps/web/src/telas/modulos/Transporte.tsx |
+| 1.2.40.27 | IMPLEMENTADO | Deverá possuir cadastro de feriados com definição das rotas que serão afetadas pelo feriado, como, por exemplo, (Nenhuma, todas, rotas do município, rotas para  | apps/api/src/modulos/cadastros/tabelas.ts<br>apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/rotas.ts |
+| 1.2.40.28 | IMPLEMENTADO | Deverá bloquear no momento do agendamento, as rotas afetadas pelos feriados devidamente cadastrados. | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/rotas.ts<br>apps/api/src/modulos/transporte/servico.ts |
+| 1.2.40.29 | IMPLEMENTADO (itens/agrupador) | Relatórios: |  |
+| 1.2.40.29.1 | IMPLEMENTADO | Relatório de evolução mensal dos transportes listando a cada mês o número de pacientes transportados, o percentual de evolução em relação ao mês anterior, o val | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/relatorios.ts |
+| 1.2.40.29.2 | IMPLEMENTADO | Relatório de absenteísmo por paciente, listando o destino, a data, o horário, a rota, o local de destino, o motivo do transporte e observação sobre a ausência; | apps/api/src/modulos/transporte/relatorios.ts<br>apps/api/src/modulos/transporte/servico.ts |
+| 1.2.40.29.3 | IMPLEMENTADO | Relatório de despesas de viagem, agrupando por rota, veículo, motorista e viagem, listando as despesas com descrição, data, quantidade, valor unitário e valor t | apps/api/src/modulos/transporte/entidades.ts<br>apps/api/src/modulos/transporte/relatorios.ts |
+| 1.2.40.29.4 | IMPLEMENTADO | Relatório de viagens por motivo, agrupando o motivo da viagem, o local de destino e o veículo, listando a data, a rota, o número de passageiros e quilômetros ro | apps/api/src/modulos/transporte/relatorios.ts |
+| 1.2.40.29.5 | IMPLEMENTADO | Relatório de viagens por paciente, agrupando o paciente, o destino, o motorista e o veículo, listando a data, a rota, o local de destino e o motivo; | apps/api/src/modulos/transporte/relatorios.ts |
+| 1.2.40.29.6 | IMPLEMENTADO | Relatório gráfico de viagens por município; | apps/api/src/modulos/transporte/relatorios.ts |
+| 1.2.40.29.7 | IMPLEMENTADO | Relatório gráfico de viagens por motivo; | apps/api/src/modulos/transporte/relatorios.ts |
+| 1.2.40.29.8 | IMPLEMENTADO | Relatório consolidado de viagens efetuadas e pacientes transportados por mês e município de destino; | apps/api/src/modulos/transporte/relatorios.ts |
+| 1.2.40.29.9 | IMPLEMENTADO | Relatório de viagens por data, listando o nome do motorista, o veículo, a rota, o município e horário. | apps/api/src/modulos/transporte/relatorios.ts |
+| 1.2.41 | IMPLEMENTADO | MÓDULO DE ATENDIMENTO REMOTO E AUTO ATENDIMENTO DE PACIENTES (APLICATIVO MOBILE E WEB VIA NAVEGADOR) | apps/api/src/modulos/portal/entidades.ts<br>apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/Portal.tsx |
+| 1.2.41.1 | IMPLEMENTADO | Considerando que é prática salutar dos órgãos públicos disponibilizar ferramentas com o máximo de facilitadores para o cidadão, quando se trata de autoatendimen | apps/web/src/cidadao/Portal.tsx |
+| 1.2.41.2 | IMPLEMENTADO | O sistema deve permitir atendimento, com as mesmas funcionalidades do aplicativo Móbile, via Internet com acesso pelos principais navegadores, como, por exemplo | apps/web/src/cidadao/Portal.tsx |
+| 1.2.41.3 | IMPLEMENTADO | O sistema deverá possibilitar ao usuário a solicitação de acesso diretamente pelo aplicativo. A liberação do acesso ocorrerá somente após a devida liberação por | apps/api/src/modulos/portal/entidades.ts<br>apps/api/src/modulos/portal/relatorios.ts<br>apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.4 | IMPLEMENTADO | Deverá vincular a identificação do cidadão (Login) ao Cartão Nacional de Saúde (CNS) e senha com no mínimo 8 dígitos, contendo: | apps/api/src/compartilhado/validacao.ts<br>apps/api/src/modulos/portal/auth.ts<br>apps/api/src/modulos/portal/entidades.ts |
 | 1.2.41.4.1 | IMPLEMENTADO (itens/agrupador) | 1 dígito numérico; |  |
 | 1.2.41.4.2 | IMPLEMENTADO (itens/agrupador) | 1 dígito alfanumérico; |  |
 | 1.2.41.4.3 | IMPLEMENTADO (itens/agrupador) | 1 caractere especial. |  |
-| 1.2.41.5 | PENDENTE | Deverá bloquear o acesso do usuário após três tentativas que apresentarem dados de login inválidos. |  |
-| 1.2.41.6 | PENDENTE | Cadastros: |  |
-| 1.2.41.6.1 | PENDENTE | Deverá permitir ao cidadão, responsável legal da família, a inclusão de seus dependentes, informando seus dados principais (Deverá possuir a família cadastrada  |  |
-| 1.2.41.6.1.1 | PENDENTE | Nome; |  |
-| 1.2.41.6.1.2 | PENDENTE | Sexo; |  |
-| 1.2.41.6.1.3 | PENDENTE | Data de nascimento; |  |
-| 1.2.41.6.1.4 | PENDENTE | Nome da mãe; |  |
-| 1.2.41.6.1.5 | PENDENTE | Etnia; |  |
-| 1.2.41.6.1.6 | PENDENTE | Cor da pele; |  |
-| 1.2.41.6.1.7 | PENDENTE | Grau de Parentesco. |  |
-| 1.2.41.6.2 | PENDENTE | Deverá manter o integrante cadastrado em estado de Pré-cadastro até a confirmação e apresentação de documentos para validação em uma unidade de saúde; |  |
-| 1.2.41.6.3 | PENDENTE | Deverá bloquear todas as funcionalidades do sistema para integrantes que estejam em situação de Pré-cadastro, exibindo um alerta ao usuário para que compareça e |  |
-| 1.2.41.7 | PENDENTE | Agendamento: |  |
-| 1.2.41.7.1 | PENDENTE | Deverá permitir a marcação de consultas não reguladas, nas especialidades e horários dos profissionais definidos e liberados pela secretaria de saúde; |  |
-| 1.2.41.7.2 | PENDENTE | Deverá permitir parametrização, sobre os agendamentos, podendo definir se o mesmo ocorrerá de forma direta ou via confirmação por um operador da unidade de saúd |  |
-| 1.2.41.7.3 | PENDENTE | Deverá possuir parametrização para dias ou horas de antecedência para o agendamento de uma consulta; |  |
-| 1.2.41.7.4 | PENDENTE | Deverá possuir forma de aviso da confirmação do agendamento por email, SMS ou pelo aplicativo móvel; |  |
-| 1.2.41.7.5 | PENDENTE | Deverá permitir ao responsável legal da família, a inclusão e manutenção das consultas para todos os seus dependentes; |  |
-| 1.2.41.7.6 | PENDENTE | Deverá disponibilizar a informação de quais especialidades estão disponíveis para marcação de consulta; |  |
-| 1.2.41.7.7 | PENDENTE | Deverá disponibilizar a informação de quais profissionais estão disponíveis para marcação de consulta; |  |
-| 1.2.41.7.8 | PENDENTE | Deverá disponibilizar a informação de quais horários estão disponíveis para marcação de consulta; |  |
-| 1.2.41.7.9 | PENDENTE | Deverá permitir o cancelamento de uma consulta médica agendada anteriormente, tanto pelo aplicativo móvel, quanto diretamente em uma unidade de saúde, informand |  |
-| 1.2.41.7.10 | PENDENTE | Deverá permitir a parametrização de um número mínimo de dias ou horas de antecedência para o cancelamento de uma consulta; |  |
-| 1.2.41.7.11 | PENDENTE | Deverá manter um histórico das consultas canceladas, exibindo para cada registro, todas as informações do agendamento, a data, motivo e o responsável pelo cance |  |
-| 1.2.41.7.12 | PENDENTE | Deverá possuir uma lista de todas as consultas nas diversas especialidades de saúde que o usuário esteja agendado; |  |
-| 1.2.41.7.13 | PENDENTE | Deverá possuir uma lista de todas as consultas em espera nas diversas especialidades de saúde que o usuário esteja cadastrado; |  |
-| 1.2.41.7.14 | PENDENTE | Deverá possuir uma lista de todas as consultas bloqueadas nas diversas especialidades de saúde que o usuário esteja cadastrado, exibindo para cada registro, tod |  |
-| 1.2.41.7.15 | PENDENTE | Deverá permitir transferir uma consulta médica, previamente agendada pelo dispositivo, em uma unidade de saúde; |  |
-| 1.2.41.7.16 | PENDENTE | Deverá permitir que o usuário, ou o responsável legal da família, possa efetuar a transferência de uma consulta médica, tanto do próprio usuário, quanto dos seu |  |
-| 1.2.41.7.17 | PENDENTE | Deverá manter um histórico das consultas efetuadas, exibindo para cada registro, todas as informações do agendamento; |  |
-| 1.2.41.7.18 | PENDENTE | Deve possuir a consulta da Fila de espera pública, onde o sistema deve permitir que o usuário possa consultar a fila de espera nas consultas especializadas e ex |  |
-| 1.2.41.8 | PENDENTE | Vacinas: |  |
-| 1.2.41.8.1 | PENDENTE | Deve possuir a consulta de Histórico de Vacinas, onde o usuário visualize o seu histórico de vacinação; |  |
-| 1.2.41.8.2 | PENDENTE | Deverá permitir impressão da carteira de vacinação tanto do próprio usuário, quanto dos seus dependentes; |  |
-| 1.2.41.8.3 | PENDENTE | Deverá conter a informação das próximas vacinas indicadas e de aprazamentos; |  |
-| 1.2.41.8.4 | PENDENTE | Deverá exibir as campanhas em aberto e as vacinas indicadas tanto do próprio usuário, quanto dos seus dependentes. |  |
-| 1.2.41.9 | PENDENTE | Medicamentos: |  |
-| 1.2.41.9.1 | PENDENTE | Deverá exibir uma lista de todos os medicamentos que estão em uso pelo paciente; |  |
-| 1.2.41.9.2 | PENDENTE | Deverá manter um histórico de todos os medicamentos usados pelo paciente, informando a sua posologia, início e término do consumo; |  |
-| 1.2.41.9.3 | PENDENTE | Deverá possuir uma lista de todos os medicamentos disponíveis nas farmácias do município (deverá possuir parametrização para cada item). |  |
-| 1.2.41.10 | PENDENTE | Exames: |  |
-| 1.2.41.10.1 | PENDENTE | Deve possuir a consulta do Histórico dos exames, onde o usuário possa consultar visualmente seus pedidos de exames e a situação dos mesmos; |  |
-| 1.2.41.10.2 | PENDENTE | Deverá possuir uma lista de todos os exames agendados, tanto do próprio usuário, quanto dos seus dependentes; |  |
-| 1.2.41.10.3 | PENDENTE | Deverá permitir visualização das orientações para coleta de cada exame agendado; |  |
-| 1.2.41.10.4 | PENDENTE | Deverá possuir uma lista de todos os exames realizados, tanto do próprio usuário, quanto dos seus dependentes; |  |
-| 1.2.41.10.5 | PENDENTE | Deverá permitir que o usuário possa visualizar o resultado dos exames realizados, tanto do próprio usuário, quanto dos seus dependentes; |  |
-| 1.2.41.10.6 | PENDENTE | Deverá permitir que o usuário possa imprimir o resultado dos exames, tanto do próprio usuário, quanto dos seus dependentes. |  |
-| 1.2.41.11 | PENDENTE | Histórico de atendimentos médicos: |  |
-| 1.2.41.11.1 | PENDENTE | Deverá disponibilizar informações sobre o atendimento: |  |
-| 1.2.41.11.1.1 | PENDENTE | Unidade; |  |
-| 1.2.41.11.1.2 | PENDENTE | Profissional; |  |
-| 1.2.41.11.1.3 | PENDENTE | Especialidade; |  |
-| 1.2.41.11.1.4 | PENDENTE | Registro do Profissional; |  |
-| 1.2.41.11.1.5 | PENDENTE | CID; |  |
-| 1.2.41.11.1.6 | PENDENTE | Prontuário. |  |
-| 1.2.41.11.2 | PENDENTE | Deverá disponibilizar informações sobre a triagem: |  |
-| 1.2.41.11.2.1 | PENDENTE | Profissional; |  |
-| 1.2.41.11.2.2 | PENDENTE | Especialidade; |  |
-| 1.2.41.11.2.3 | PENDENTE | Registro do Profissional; |  |
-| 1.2.41.11.2.4 | PENDENTE | Altura; |  |
-| 1.2.41.11.2.5 | PENDENTE | Cintura; |  |
-| 1.2.41.11.2.6 | PENDENTE | Abdômen; |  |
-| 1.2.41.11.2.7 | PENDENTE | Quadril; |  |
-| 1.2.41.11.2.8 | PENDENTE | Perímetro Encefálico; |  |
-| 1.2.41.11.2.9 | PENDENTE | Peso; |  |
-| 1.2.41.11.2.10 | PENDENTE | Pressão Sistólica; |  |
-| 1.2.41.11.2.11 | PENDENTE | Pressão Diastólica; |  |
-| 1.2.41.11.2.12 | PENDENTE | Temperatura; |  |
-| 1.2.41.11.2.13 | PENDENTE | Frequência Cardíaca; |  |
-| 1.2.41.11.2.14 | PENDENTE | Frequência Respiratória; |  |
-| 1.2.41.11.2.15 | PENDENTE | Saturação O2; |  |
-| 1.2.41.11.2.16 | PENDENTE | Glicemia. |  |
-| 1.2.41.11.3 | PENDENTE | Deverá conter as informações sobre os procedimentos efetuados; |  |
-| 1.2.41.11.4 | PENDENTE | Deverá conter as informações sobre os procedimentos e exames solicitados; |  |
+| 1.2.41.5 | IMPLEMENTADO | Deverá bloquear o acesso do usuário após três tentativas que apresentarem dados de login inválidos. | apps/api/src/modulos/portal/auth.ts<br>apps/api/src/modulos/portal/entidades.ts<br>apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.6 | IMPLEMENTADO | Cadastros: | apps/api/src/modulos/portal/auth.ts<br>apps/web/src/cidadao/Outros.tsx |
+| 1.2.41.6.1 | IMPLEMENTADO | Deverá permitir ao cidadão, responsável legal da família, a inclusão de seus dependentes, informando seus dados principais (Deverá possuir a família cadastrada  | apps/api/src/modulos/portal/auth.ts<br>apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/Outros.tsx |
+| 1.2.41.6.1.1 | IMPLEMENTADO (itens/agrupador) | Nome; |  |
+| 1.2.41.6.1.2 | IMPLEMENTADO (itens/agrupador) | Sexo; |  |
+| 1.2.41.6.1.3 | IMPLEMENTADO (itens/agrupador) | Data de nascimento; |  |
+| 1.2.41.6.1.4 | IMPLEMENTADO (itens/agrupador) | Nome da mãe; |  |
+| 1.2.41.6.1.5 | IMPLEMENTADO (itens/agrupador) | Etnia; |  |
+| 1.2.41.6.1.6 | IMPLEMENTADO (itens/agrupador) | Cor da pele; |  |
+| 1.2.41.6.1.7 | IMPLEMENTADO (itens/agrupador) | Grau de Parentesco. |  |
+| 1.2.41.6.2 | IMPLEMENTADO | Deverá manter o integrante cadastrado em estado de Pré-cadastro até a confirmação e apresentação de documentos para validação em uma unidade de saúde; | apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/Outros.tsx |
+| 1.2.41.6.3 | IMPLEMENTADO | Deverá bloquear todas as funcionalidades do sistema para integrantes que estejam em situação de Pré-cadastro, exibindo um alerta ao usuário para que compareça e | apps/api/src/modulos/portal/auth.ts<br>apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/comum.tsx |
+| 1.2.41.7 | IMPLEMENTADO | Agendamento: | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
+| 1.2.41.7.1 | IMPLEMENTADO | Deverá permitir a marcação de consultas não reguladas, nas especialidades e horários dos profissionais definidos e liberados pela secretaria de saúde; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
+| 1.2.41.7.2 | IMPLEMENTADO | Deverá permitir parametrização, sobre os agendamentos, podendo definir se o mesmo ocorrerá de forma direta ou via confirmação por um operador da unidade de saúd | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.3 | IMPLEMENTADO | Deverá possuir parametrização para dias ou horas de antecedência para o agendamento de uma consulta; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.4 | IMPLEMENTADO | Deverá possuir forma de aviso da confirmação do agendamento por email, SMS ou pelo aplicativo móvel; | apps/api/src/modulos/portal/entidades.ts<br>apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.5 | IMPLEMENTADO | Deverá permitir ao responsável legal da família, a inclusão e manutenção das consultas para todos os seus dependentes; | apps/api/src/modulos/portal/auth.ts<br>apps/web/src/cidadao/Agendamentos.tsx<br>apps/web/src/cidadao/Portal.tsx |
+| 1.2.41.7.6 | IMPLEMENTADO | Deverá disponibilizar a informação de quais especialidades estão disponíveis para marcação de consulta; | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
+| 1.2.41.7.7 | IMPLEMENTADO | Deverá disponibilizar a informação de quais profissionais estão disponíveis para marcação de consulta; | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
+| 1.2.41.7.8 | IMPLEMENTADO | Deverá disponibilizar a informação de quais horários estão disponíveis para marcação de consulta; | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
+| 1.2.41.7.9 | IMPLEMENTADO | Deverá permitir o cancelamento de uma consulta médica agendada anteriormente, tanto pelo aplicativo móvel, quanto diretamente em uma unidade de saúde, informand | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.10 | IMPLEMENTADO | Deverá permitir a parametrização de um número mínimo de dias ou horas de antecedência para o cancelamento de uma consulta; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.11 | IMPLEMENTADO | Deverá manter um histórico das consultas canceladas, exibindo para cada registro, todas as informações do agendamento, a data, motivo e o responsável pelo cance | apps/api/src/modulos/portal/entidades.ts<br>apps/api/src/modulos/portal/relatorios.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.12 | IMPLEMENTADO | Deverá possuir uma lista de todas as consultas nas diversas especialidades de saúde que o usuário esteja agendado; | apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.13 | IMPLEMENTADO | Deverá possuir uma lista de todas as consultas em espera nas diversas especialidades de saúde que o usuário esteja cadastrado; | apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.14 | IMPLEMENTADO | Deverá possuir uma lista de todas as consultas bloqueadas nas diversas especialidades de saúde que o usuário esteja cadastrado, exibindo para cada registro, tod | apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.15 | IMPLEMENTADO | Deverá permitir transferir uma consulta médica, previamente agendada pelo dispositivo, em uma unidade de saúde; | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.7.16 | IMPLEMENTADO | Deverá permitir que o usuário, ou o responsável legal da família, possa efetuar a transferência de uma consulta médica, tanto do próprio usuário, quanto dos seu | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
+| 1.2.41.7.17 | IMPLEMENTADO | Deverá manter um histórico das consultas efetuadas, exibindo para cada registro, todas as informações do agendamento; | apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.7.18 | IMPLEMENTADO | Deve possuir a consulta da Fila de espera pública, onde o sistema deve permitir que o usuário possa consultar a fila de espera nas consultas especializadas e ex | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Agendamentos.tsx |
+| 1.2.41.8 | IMPLEMENTADO | Vacinas: | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.8.1 | IMPLEMENTADO | Deve possuir a consulta de Histórico de Vacinas, onde o usuário visualize o seu histórico de vacinação; | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.8.2 | IMPLEMENTADO | Deverá permitir impressão da carteira de vacinação tanto do próprio usuário, quanto dos seus dependentes; | apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.8.3 | IMPLEMENTADO | Deverá conter a informação das próximas vacinas indicadas e de aprazamentos; | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.8.4 | IMPLEMENTADO | Deverá exibir as campanhas em aberto e as vacinas indicadas tanto do próprio usuário, quanto dos seus dependentes. | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.9 | IMPLEMENTADO | Medicamentos: | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.9.1 | IMPLEMENTADO | Deverá exibir uma lista de todos os medicamentos que estão em uso pelo paciente; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.9.2 | IMPLEMENTADO | Deverá manter um histórico de todos os medicamentos usados pelo paciente, informando a sua posologia, início e término do consumo; | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts |
+| 1.2.41.9.3 | IMPLEMENTADO | Deverá possuir uma lista de todos os medicamentos disponíveis nas farmácias do município (deverá possuir parametrização para cada item). | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.10 | IMPLEMENTADO | Exames: | apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.10.1 | IMPLEMENTADO | Deve possuir a consulta do Histórico dos exames, onde o usuário possa consultar visualmente seus pedidos de exames e a situação dos mesmos; | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.10.2 | IMPLEMENTADO | Deverá possuir uma lista de todos os exames agendados, tanto do próprio usuário, quanto dos seus dependentes; | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.10.3 | IMPLEMENTADO | Deverá permitir visualização das orientações para coleta de cada exame agendado; | apps/api/src/modulos/portal/rotas.ts<br>apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.10.4 | IMPLEMENTADO | Deverá possuir uma lista de todos os exames realizados, tanto do próprio usuário, quanto dos seus dependentes; | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.10.5 | IMPLEMENTADO | Deverá permitir que o usuário possa visualizar o resultado dos exames realizados, tanto do próprio usuário, quanto dos seus dependentes; | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.10.6 | IMPLEMENTADO | Deverá permitir que o usuário possa imprimir o resultado dos exames, tanto do próprio usuário, quanto dos seus dependentes. | apps/api/src/modulos/portal/rotas.ts |
+| 1.2.41.11 | IMPLEMENTADO | Histórico de atendimentos médicos: | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.11.1 | IMPLEMENTADO (itens/agrupador) | Deverá disponibilizar informações sobre o atendimento: |  |
+| 1.2.41.11.1.1 | IMPLEMENTADO (itens/agrupador) | Unidade; |  |
+| 1.2.41.11.1.2 | IMPLEMENTADO (itens/agrupador) | Profissional; |  |
+| 1.2.41.11.1.3 | IMPLEMENTADO (itens/agrupador) | Especialidade; |  |
+| 1.2.41.11.1.4 | IMPLEMENTADO (itens/agrupador) | Registro do Profissional; |  |
+| 1.2.41.11.1.5 | IMPLEMENTADO (itens/agrupador) | CID; |  |
+| 1.2.41.11.1.6 | IMPLEMENTADO (itens/agrupador) | Prontuário. |  |
+| 1.2.41.11.2 | IMPLEMENTADO (itens/agrupador) | Deverá disponibilizar informações sobre a triagem: |  |
+| 1.2.41.11.2.1 | IMPLEMENTADO (itens/agrupador) | Profissional; |  |
+| 1.2.41.11.2.2 | IMPLEMENTADO (itens/agrupador) | Especialidade; |  |
+| 1.2.41.11.2.3 | IMPLEMENTADO (itens/agrupador) | Registro do Profissional; |  |
+| 1.2.41.11.2.4 | IMPLEMENTADO (itens/agrupador) | Altura; |  |
+| 1.2.41.11.2.5 | IMPLEMENTADO (itens/agrupador) | Cintura; |  |
+| 1.2.41.11.2.6 | IMPLEMENTADO (itens/agrupador) | Abdômen; |  |
+| 1.2.41.11.2.7 | IMPLEMENTADO (itens/agrupador) | Quadril; |  |
+| 1.2.41.11.2.8 | IMPLEMENTADO (itens/agrupador) | Perímetro Encefálico; |  |
+| 1.2.41.11.2.9 | IMPLEMENTADO (itens/agrupador) | Peso; |  |
+| 1.2.41.11.2.10 | IMPLEMENTADO (itens/agrupador) | Pressão Sistólica; |  |
+| 1.2.41.11.2.11 | IMPLEMENTADO (itens/agrupador) | Pressão Diastólica; |  |
+| 1.2.41.11.2.12 | IMPLEMENTADO (itens/agrupador) | Temperatura; |  |
+| 1.2.41.11.2.13 | IMPLEMENTADO (itens/agrupador) | Frequência Cardíaca; |  |
+| 1.2.41.11.2.14 | IMPLEMENTADO (itens/agrupador) | Frequência Respiratória; |  |
+| 1.2.41.11.2.15 | IMPLEMENTADO (itens/agrupador) | Saturação O2; |  |
+| 1.2.41.11.2.16 | IMPLEMENTADO (itens/agrupador) | Glicemia. |  |
+| 1.2.41.11.3 | IMPLEMENTADO (itens/agrupador) | Deverá conter as informações sobre os procedimentos efetuados; |  |
+| 1.2.41.11.4 | IMPLEMENTADO (itens/agrupador) | Deverá conter as informações sobre os procedimentos e exames solicitados; |  |
 | 1.2.41.11.5 | PENDENTE | Deverá conter as informações sobre as prescrições e outras recomendações efetuadas, contendo: |  |
 | 1.2.41.11.5.1 | PENDENTE | Medicamento; |  |
 | 1.2.41.11.5.2 | PENDENTE | Posologia. |  |
-| 1.2.41.12 | PENDENTE | Histórico de atendimentos odontológicos: |  |
-| 1.2.41.12.1 | PENDENTE | Deverá conter as seguintes informações sobre o atendimento: |  |
-| 1.2.41.12.1.1 | PENDENTE | Unidade; |  |
-| 1.2.41.12.1.2 | PENDENTE | Profissional; |  |
-| 1.2.41.12.1.3 | PENDENTE | Especialidade; |  |
-| 1.2.41.12.1.4 | PENDENTE | Registro do Profissional; |  |
-| 1.2.41.12.1.5 | PENDENTE | CID; |  |
-| 1.2.41.12.1.6 | PENDENTE | Prontuário. |  |
-| 1.2.41.12.2 | PENDENTE | Deverá conter as informações sobre os procedimentos efetuados; |  |
-| 1.2.41.12.3 | PENDENTE | Deverá conter as informações sobre os procedimentos e exames solicitados; |  |
+| 1.2.41.12 | IMPLEMENTADO | Histórico de atendimentos odontológicos: | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.12.1 | IMPLEMENTADO (itens/agrupador) | Deverá conter as seguintes informações sobre o atendimento: |  |
+| 1.2.41.12.1.1 | IMPLEMENTADO (itens/agrupador) | Unidade; |  |
+| 1.2.41.12.1.2 | IMPLEMENTADO (itens/agrupador) | Profissional; |  |
+| 1.2.41.12.1.3 | IMPLEMENTADO (itens/agrupador) | Especialidade; |  |
+| 1.2.41.12.1.4 | IMPLEMENTADO (itens/agrupador) | Registro do Profissional; |  |
+| 1.2.41.12.1.5 | IMPLEMENTADO (itens/agrupador) | CID; |  |
+| 1.2.41.12.1.6 | IMPLEMENTADO (itens/agrupador) | Prontuário. |  |
+| 1.2.41.12.2 | IMPLEMENTADO (itens/agrupador) | Deverá conter as informações sobre os procedimentos efetuados; |  |
+| 1.2.41.12.3 | IMPLEMENTADO (itens/agrupador) | Deverá conter as informações sobre os procedimentos e exames solicitados; |  |
 | 1.2.41.12.4 | PENDENTE | Deverá conter as informações sobre as prescrições e outras recomendações efetuadas, contendo: |  |
 | 1.2.41.12.4.1 | PENDENTE | Medicamento; |  |
 | 1.2.41.12.4.2 | PENDENTE | Posologia. |  |
-| 1.2.41.12.5 | PENDENTE | Deverá conter as informações, de forma visual, do Odontograma. |  |
-| 1.2.41.13 | PENDENTE | Histórico de atendimentos de enfermagem: |  |
-| 1.2.41.13.1 | PENDENTE | Deverá conter as seguintes informações sobre o atendimento: |  |
-| 1.2.41.13.1.1 | PENDENTE | Unidade; |  |
-| 1.2.41.13.1.2 | PENDENTE | Profissional; |  |
-| 1.2.41.13.1.3 | PENDENTE | Especialidade; |  |
-| 1.2.41.13.1.4 | PENDENTE | Registro do Profissional; |  |
-| 1.2.41.13.1.5 | PENDENTE | CID; |  |
-| 1.2.41.13.1.6 | PENDENTE | Prontuário. |  |
-| 1.2.41.13.2 | PENDENTE | Deverá conter as seguintes informações sobre a triagem: |  |
-| 1.2.41.13.2.1 | PENDENTE | Profissional; |  |
-| 1.2.41.13.2.2 | PENDENTE | Especialidade; |  |
-| 1.2.41.13.2.3 | PENDENTE | Registro do Profissional; |  |
-| 1.2.41.13.2.4 | PENDENTE | Altura; |  |
-| 1.2.41.13.2.5 | PENDENTE | Cintura; |  |
-| 1.2.41.13.2.6 | PENDENTE | Abdômen; |  |
-| 1.2.41.13.2.7 | PENDENTE | Quadril; |  |
-| 1.2.41.13.2.8 | PENDENTE | Perímetro encefálico; |  |
-| 1.2.41.13.2.9 | PENDENTE | Peso; |  |
-| 1.2.41.13.2.10 | PENDENTE | Pressão Sistólica; |  |
-| 1.2.41.13.2.11 | PENDENTE | Pressão Diastólica; |  |
-| 1.2.41.13.2.12 | PENDENTE | Temperatura; |  |
-| 1.2.41.13.2.13 | PENDENTE | Frequência Cardíaca; |  |
-| 1.2.41.13.2.14 | PENDENTE | Frequência Respiratória; |  |
-| 1.2.41.13.2.15 | PENDENTE | Saturação O2; |  |
-| 1.2.41.13.2.16 | PENDENTE | Glicemia. |  |
-| 1.2.41.13.3 | PENDENTE | Deverá conter as informações sobre os procedimentos efetuados. |  |
+| 1.2.41.12.5 | IMPLEMENTADO | Deverá conter as informações, de forma visual, do Odontograma. | apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.13 | IMPLEMENTADO | Histórico de atendimentos de enfermagem: | apps/api/src/modulos/portal/rotas.ts<br>apps/api/src/modulos/portal/servico.ts<br>apps/web/src/cidadao/Saude.tsx |
+| 1.2.41.13.1 | IMPLEMENTADO (itens/agrupador) | Deverá conter as seguintes informações sobre o atendimento: |  |
+| 1.2.41.13.1.1 | IMPLEMENTADO (itens/agrupador) | Unidade; |  |
+| 1.2.41.13.1.2 | IMPLEMENTADO (itens/agrupador) | Profissional; |  |
+| 1.2.41.13.1.3 | IMPLEMENTADO (itens/agrupador) | Especialidade; |  |
+| 1.2.41.13.1.4 | IMPLEMENTADO (itens/agrupador) | Registro do Profissional; |  |
+| 1.2.41.13.1.5 | IMPLEMENTADO (itens/agrupador) | CID; |  |
+| 1.2.41.13.1.6 | IMPLEMENTADO (itens/agrupador) | Prontuário. |  |
+| 1.2.41.13.2 | IMPLEMENTADO (itens/agrupador) | Deverá conter as seguintes informações sobre a triagem: |  |
+| 1.2.41.13.2.1 | IMPLEMENTADO (itens/agrupador) | Profissional; |  |
+| 1.2.41.13.2.2 | IMPLEMENTADO (itens/agrupador) | Especialidade; |  |
+| 1.2.41.13.2.3 | IMPLEMENTADO (itens/agrupador) | Registro do Profissional; |  |
+| 1.2.41.13.2.4 | IMPLEMENTADO (itens/agrupador) | Altura; |  |
+| 1.2.41.13.2.5 | IMPLEMENTADO (itens/agrupador) | Cintura; |  |
+| 1.2.41.13.2.6 | IMPLEMENTADO (itens/agrupador) | Abdômen; |  |
+| 1.2.41.13.2.7 | IMPLEMENTADO (itens/agrupador) | Quadril; |  |
+| 1.2.41.13.2.8 | IMPLEMENTADO (itens/agrupador) | Perímetro encefálico; |  |
+| 1.2.41.13.2.9 | IMPLEMENTADO (itens/agrupador) | Peso; |  |
+| 1.2.41.13.2.10 | IMPLEMENTADO (itens/agrupador) | Pressão Sistólica; |  |
+| 1.2.41.13.2.11 | IMPLEMENTADO (itens/agrupador) | Pressão Diastólica; |  |
+| 1.2.41.13.2.12 | IMPLEMENTADO (itens/agrupador) | Temperatura; |  |
+| 1.2.41.13.2.13 | IMPLEMENTADO (itens/agrupador) | Frequência Cardíaca; |  |
+| 1.2.41.13.2.14 | IMPLEMENTADO (itens/agrupador) | Frequência Respiratória; |  |
+| 1.2.41.13.2.15 | IMPLEMENTADO (itens/agrupador) | Saturação O2; |  |
+| 1.2.41.13.2.16 | IMPLEMENTADO (itens/agrupador) | Glicemia. |  |
+| 1.2.41.13.3 | IMPLEMENTADO (itens/agrupador) | Deverá conter as informações sobre os procedimentos efetuados. |  |
 | 1.2.42 | IMPLEMENTADO | MÓDULO UPA (UNIDADE DE PRONTO ATENDIMENTO) | apps/api/src/modulos/atendimento/entidades.ts |
 | 1.2.42.1 | IMPLEMENTADO | Recepção de pacientes: | apps/web/src/telas/Recepcao.tsx |
 | 1.2.42.1.1 | IMPLEMENTADO (itens/agrupador) | Propiciar realizar a pesquisa do paciente pelos campos: |  |
@@ -2310,329 +2310,329 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.42.7.12 | IMPLEMENTADO | Deve permitir o cadastro de salas de atendimento dentro de uma mesma unidade, permitindo o relacionamento de profissionais com as salas; | apps/api/src/modulos/cadastros/unidades.ts |
 | 1.2.42.7.13 | IMPLEMENTADO | Deve permitir que sejam gerados vários painéis para a mesma unidade com chamadas distintas; | apps/api/src/modulos/atendimento/entidades.ts |
 | 1.2.42.7.14 | PENDENTE | Deverá exibir, além do paciente que está sendo chamado para o atendimento, no mínimo os últimos três pacientes chamados anteriormente, informando o nome ou senh |  |
-| 1.2.43 | PENDENTE | MÓDULO DE REGULAÇÃO |  |
-| 1.2.43.1 | PENDENTE | Regulação de solicitação de exames: |  |
+| 1.2.43 | IMPLEMENTADO | MÓDULO DE REGULAÇÃO | apps/api/src/modulos/regulacao/entidades.ts |
+| 1.2.43.1 | IMPLEMENTADO | Regulação de solicitação de exames: | apps/api/src/modulos/regulacao/rotas.ts<br>apps/web/src/telas/modulos/Regulacao.tsx |
 | 1.2.43.1.1 | IMPLEMENTADO | Deve permitir encaminhamento automático das solicitações para fila de espera da regulação, conforme a definição do tipo da especialidade, exame ou procedimento; | apps/api/src/modulos/agendamento/entidades.ts<br>apps/api/src/modulos/cadastros/tabelas.ts |
-| 1.2.43.1.2 | IMPLEMENTADO | Deve permitir consultar a lista de espera regulada, visualizando na ordem da classificação realizada; | apps/api/src/modulos/agendamento/entidades.ts |
-| 1.2.43.1.3 | PENDENTE | Deve permitir o agendamento de consultas, exames e procedimentos, priorizados pelo médico auditor a partir da lista de espera regulada, obedecendo a classificaç |  |
-| 1.2.43.1.4 | IMPLEMENTADO | Deve permitir realizar agendamento da fila de espera, utilizando vagas pré-definidas na agenda para a regulação; | apps/api/src/modulos/agendamento/entidades.ts |
-| 1.2.43.1.5 | IMPLEMENTADO | Deve permitir processo para avaliação da fila de espera para a regulação, com, no mínimo, as seguintes características (Classificação por cores, com no mínimo a | apps/api/src/modulos/agendamento/entidades.ts |
+| 1.2.43.1.2 | IMPLEMENTADO | Deve permitir consultar a lista de espera regulada, visualizando na ordem da classificação realizada; | apps/api/src/modulos/agendamento/entidades.ts<br>apps/api/src/modulos/regulacao/rotas.ts |
+| 1.2.43.1.3 | IMPLEMENTADO | Deve permitir o agendamento de consultas, exames e procedimentos, priorizados pelo médico auditor a partir da lista de espera regulada, obedecendo a classificaç | apps/api/src/modulos/regulacao/entidades.ts<br>apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.4 | IMPLEMENTADO | Deve permitir realizar agendamento da fila de espera, utilizando vagas pré-definidas na agenda para a regulação; | apps/api/src/modulos/agendamento/entidades.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.5 | IMPLEMENTADO | Deve permitir processo para avaliação da fila de espera para a regulação, com, no mínimo, as seguintes características (Classificação por cores, com no mínimo a | apps/api/src/modulos/agendamento/entidades.ts<br>apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
 | 1.2.43.1.5.1 | IMPLEMENTADO (itens/agrupador) | Não Urgente (Azul); |  |
 | 1.2.43.1.5.2 | IMPLEMENTADO (itens/agrupador) | Urgente (Amarelo); |  |
 | 1.2.43.1.5.3 | IMPLEMENTADO (itens/agrupador) | Emergência (vermelho). |  |
-| 1.2.43.1.6 | PENDENTE | Possibilitar a alteração do tipo da consulta ou exame da solicitação para um novo tipo; |  |
-| 1.2.43.1.7 | PENDENTE | Consultar o prontuário do paciente; |  |
-| 1.2.43.1.8 | PENDENTE | Devolver a solicitação informando os motivos; |  |
-| 1.2.43.1.9 | PENDENTE | Visualizar detalhes da solicitação e encaminhamento; |  |
-| 1.2.43.1.10 | PENDENTE | Disponibilizar o acesso ao histórico dos exames do paciente; |  |
-| 1.2.43.1.11 | PENDENTE | Possuir impressão de requisição de exames; |  |
-| 1.2.43.1.12 | PENDENTE | Possuir campo para carimbo e assinatura do médico solicitante; |  |
-| 1.2.43.1.13 | PENDENTE | Alertar o profissional, no momento da requisição, caso o paciente já possui sua requisição para o mesmo procedimento, informando a situação atual: |  |
-| 1.2.43.1.13.1 | PENDENTE | Requisitado; |  |
-| 1.2.43.1.13.2 | PENDENTE | Agendado. |  |
-| 1.2.43.1.14 | PENDENTE | Permitir a exclusão de uma requisição de exames, perante a informação de uma justificativa que deverá estar disponível junto ao histórico de cancelamentos do pa |  |
+| 1.2.43.1.6 | IMPLEMENTADO | Possibilitar a alteração do tipo da consulta ou exame da solicitação para um novo tipo; | apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.7 | IMPLEMENTADO | Consultar o prontuário do paciente; | apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.8 | IMPLEMENTADO | Devolver a solicitação informando os motivos; | apps/api/src/modulos/regulacao/entidades.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.9 | IMPLEMENTADO | Visualizar detalhes da solicitação e encaminhamento; | apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.10 | IMPLEMENTADO | Disponibilizar o acesso ao histórico dos exames do paciente; | apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.11 | IMPLEMENTADO | Possuir impressão de requisição de exames; | apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.12 | IMPLEMENTADO | Possuir campo para carimbo e assinatura do médico solicitante; | apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.13 | IMPLEMENTADO | Alertar o profissional, no momento da requisição, caso o paciente já possui sua requisição para o mesmo procedimento, informando a situação atual: | apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
+| 1.2.43.1.13.1 | IMPLEMENTADO (itens/agrupador) | Requisitado; |  |
+| 1.2.43.1.13.2 | IMPLEMENTADO (itens/agrupador) | Agendado. |  |
+| 1.2.43.1.14 | IMPLEMENTADO | Permitir a exclusão de uma requisição de exames, perante a informação de uma justificativa que deverá estar disponível junto ao histórico de cancelamentos do pa | apps/api/src/modulos/regulacao/entidades.ts<br>apps/api/src/modulos/regulacao/rotas.ts<br>apps/api/src/modulos/regulacao/servico.ts |
 | 1.2.43.1.15 | IMPLEMENTADO | Exigir, obrigatoriamente, o cadastro de peso e altura do paciente, não permitindo a conclusão da requisição sem essas informações. | apps/api/src/modulos/atendimento/rotas.ts |
 | 1.2.43.1.16 | IMPLEMENTADO | Permitir a alteração do status “falta” para realizado. | apps/api/src/modulos/agendamento/rotas.ts |
-| 1.2.44 | PENDENTE | MÓDULO DE RAAS |  |
-| 1.2.44.1 | PENDENTE | Deverá permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) domiciliar; |  |
-| 1.2.44.2 | PENDENTE | Deverá permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) psicossocial; |  |
-| 1.2.44.3 | PENDENTE | Deverá gerar arquivo para a exportação de dados para o sistema RAAS, a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma |  |
-| 1.2.44.4 | PENDENTE | Deverá possibilitar a importação do RAAS para o sistema; |  |
-| 1.2.44.5 | PENDENTE | Deverá possibilitar registrar as ações realizadas no RAAS Domiciliar e Psicossocial; |  |
-| 1.2.44.6 | PENDENTE | Possibilitar gerar relatório com o espelho de atendimento domiciliar e psicossocial podendo escolher o destino; |  |
-| 1.2.44.7 | PENDENTE | Possibilitar gerar relatório das ações domiciliares e psicossociais, com data inicial e final das ações. |  |
-| 1.2.45 | PENDENTE | MÓDULO DE RADIOLOGIA |  |
-| 1.2.45.1 | PENDENTE | Deverá permitir o cadastro dos exames prestados com as seguintes informações e referências ao SIGTAP: |  |
-| 1.2.45.1.1 | PENDENTE | Nome; |  |
-| 1.2.45.1.2 | PENDENTE | Sexo; |  |
-| 1.2.45.1.3 | PENDENTE | Faixa etária; |  |
-| 1.2.45.1.4 | PENDENTE | CBO; |  |
-| 1.2.45.1.5 | PENDENTE | Instrumento de registro; |  |
-| 1.2.45.1.6 | PENDENTE | Habilitações; |  |
-| 1.2.45.1.7 | PENDENTE | Valor. |  |
-| 1.2.45.2 | PENDENTE | Deverá permitir o cadastro de estruturas e órgãos a examinar; |  |
-| 1.2.45.3 | PENDENTE | Deverá permitir cadastro de um ou mais modelos de resultado para cada exame, podendo ser totalmente personalizado pelo usuário de acordo com suas necessidades; |  |
-| 1.2.45.4 | PENDENTE | Deverá possuir uma visualização prévia do modelo de resultado; |  |
-| 1.2.45.5 | PENDENTE | Deverá possuir definição dos profissionais que assinam os resultados dos exames; |  |
-| 1.2.45.6 | IMPLEMENTADO | Deverá possuir assinatura gráfica para acelerar o processo de liberação da assinatura e do resultado pelo profissional, mesmo à distância; | apps/api/src/modulos/cadastros/unidades.ts |
-| 1.2.45.7 | PENDENTE | Deverá possuir configuração do cabeçalho a ser impresso no resultado do exame podendo ser para o solicitante ou para o prestador. |  |
-| 1.2.45.8 | PENDENTE | Recepção: |  |
-| 1.2.45.8.1 | PENDENTE | Na primeira tela de acesso à agenda de exames de radiografias, deverá listar os pacientes com exames agendados na data, listando Data, Nome do paciente, Número  |  |
-| 1.2.45.8.2 | PENDENTE | Deverá ser possível realizar a pesquisa do paciente pelos campos Código do paciente, Nome do paciente, Data, Número do prontuário, Unidade solicitante, Nome do  |  |
-| 1.2.45.8.3 | PENDENTE | Deverá ser possível realizar a pesquisa dos usuários de um determinado convênio; |  |
-| 1.2.45.8.4 | PENDENTE | Deverá ser possível realizar a pesquisa dos pacientes pelo status do laudo; |  |
-| 1.2.45.8.5 | PENDENTE | Deverá possuir área para o registro do resultado do exame; |  |
-| 1.2.45.8.6 | PENDENTE | Deverá permitir anexar digitalizações de imagens no resultado no exame; |  |
-| 1.2.45.8.7 | PENDENTE | Deverá possuir área para anexar o resultado do exame; |  |
-| 1.2.45.8.8 | PENDENTE | Deverá possibilitar a alteração do resultado do exame enquanto o mesmo não possuir assinatura ou não tenha resultado anexado; |  |
-| 1.2.45.8.9 | PENDENTE | Deverá possuir funcionalidade de assinatura dos resultados para resultados que não foram anexados; |  |
-| 1.2.45.8.10 | PENDENTE | Deverá liberar a impressão do resultado somente após a assinatura; |  |
-| 1.2.45.8.11 | PENDENTE | Deverá liberar a impressão do envelope somente após a assinatura; |  |
-| 1.2.45.8.12 | PENDENTE | Deverá disponibilizar o resultado dos exames no histórico do paciente; |  |
-| 1.2.45.8.13 | PENDENTE | Deverá disponibilizar os laudos liberados diretamente no prontuário do paciente para o fácil acesso do profissional solicitante (Médicos e demais profissionais) |  |
-| 1.2.45.8.14 | PENDENTE | Deverá possuir funcionalidade para cadastro de pacientes faltosos; |  |
-| 1.2.45.8.15 | PENDENTE | Deverá conter funcionalidade para cadastro de exames não retirados. |  |
-| 1.2.45.9 | PENDENTE | Relatórios: |  |
-| 1.2.45.9.1 | PENDENTE | Deverá conter relatório analítico de produção por unidade do prestador; |  |
-| 1.2.45.9.2 | PENDENTE | Deverá conter relatório sintético de produção por unidade do prestador; |  |
-| 1.2.45.9.3 | PENDENTE | Deverá conter relatório sintético de agendamentos de exames de radiografias; |  |
-| 1.2.46 | PENDENTE | MÓDULO DE AMBULATÓRIO DE SAÚDE MENTAL (CAPS) |  |
-| 1.2.46.1 | PENDENTE | Propiciar a visualização dos atendimentos, respeitando nível de acesso; |  |
-| 1.2.46.2 | PENDENTE | Propiciar a visualização dos medicamentos prescritos, respeitando nível de acesso; |  |
-| 1.2.46.3 | PENDENTE | Possibilitar o cadastro de programas; |  |
-| 1.2.46.4 | PENDENTE | Possibilitar criar as agendas dos programas; |  |
-| 1.2.46.5 | PENDENTE | Possibilitar criar os locais de atendimento; |  |
-| 1.2.46.6 | PENDENTE | Possibilitar associar as oficinas criadas aos programas cadastrados; |  |
-| 1.2.46.7 | PENDENTE | Possibilitar fazer atendimento relacionado a programas e oficinas; |  |
-| 1.2.46.8 | PENDENTE | Possibilitar gerar o acolhimento, respeitando níveis de acesso; |  |
-| 1.2.46.9 | PENDENTE | Gerar relatório mostrando os pacientes por programas e oficinas; |  |
-| 1.2.47 | PENDENTE | MÓDULO DE LABORATÓRIO |  |
-| 1.2.47.1 | PENDENTE | Deverá permitir o cadastro dos exames prestados com as seguintes informações e referências ao SIGTAP: |  |
-| 1.2.47.1.1 | PENDENTE | Nome, seção, sigla, prazo de entrega, validade do resultado, sexo, faixa etária, CBO, instrumento de registro, habilitações e valor. |  |
-| 1.2.47.2 | PENDENTE | Dispor de informações completas sobre os exames, como: |  |
-| 1.2.47.2.1 | PENDENTE | Código, materiais usados, data de coleta, custos, informações para a coleta e preparação das amostras, etc. |  |
-| 1.2.47.3 | PENDENTE | Deverá possuir cadastro de seções; |  |
-| 1.2.47.4 | PENDENTE | Deve possuir campo para especificação do prazo de liberação do exame; |  |
-| 1.2.47.5 | PENDENTE | Deve permitir o cadastro de resultados pré-definidos; |  |
-| 1.2.47.6 | PENDENTE | Deve possuir configuração do laudo para cada exame, podendo serem definidas as seguintes situações: |  |
-| 1.2.47.6.1 | PENDENTE | Texto de cada linha com possibilidade de alterar durante a digitação; |  |
-| 1.2.47.6.2 | PENDENTE | Posição do texto na linha e qual tipo de informação em cada linha, com possibilidade de utilização de parametrização e permissão do usuário para: |  |
-| 1.2.47.6.2.1 | PENDENTE | Cálculo; |  |
-| 1.2.47.6.2.2 | PENDENTE | Fórmula; |  |
-| 1.2.47.6.2.3 | PENDENTE | Texto e Lista de resultados. |  |
-| 1.2.47.7 | PENDENTE | Deve possuir uma visualização prévia do resultado do exame no momento da sua configuração; |  |
-| 1.2.47.8 | PENDENTE | Deve permitir o cadastro de recipientes para coleta de materiais, com a identificação da sua cor, descrição, volume e observação; |  |
-| 1.2.47.9 | PENDENTE | Deve permitir associar os recipientes aos exames, identificando a quantidade de recipientes necessários e o volume da coleta; |  |
-| 1.2.47.10 | PENDENTE | Deve indicar quais e quantos recipientes e materiais necessários para realizar a coleta integral ou parcial dos exames, retornando à fila os exames pendentes; |  |
-| 1.2.47.11 | PENDENTE | Deve permitir a impressão de etiquetas para identificação dos tubos de amostra, apresentando o material a examinar, o tipo de tubo, a cor do tubo, o código de b |  |
-| 1.2.47.12 | PENDENTE | Permitir a impressão das etiquetas, em quantidades calculadas automaticamente de acordo com o número de exames a serem realizados, contendo o número específico  |  |
-| 1.2.47.13 | PENDENTE | Deve permitir a impressão das etiquetas em impressora térmica específica para etiquetas autoadesivas; |  |
-| 1.2.47.14 | PENDENTE | Dispor de impressão de controle interno e etiqueta de protocolo; |  |
-| 1.2.47.15 | PENDENTE | Deve possuir parametrização para imprimir ou não as etiquetas após a coleta. Caso configurado para imprimir, após a coleta de materiais o sistema deve perguntar |  |
-| 1.2.47.16 | PENDENTE | Permitir a configuração de casas decimais; |  |
-| 1.2.47.17 | PENDENTE | Permitir cálculo automático da data de entrega do pedido, que considere tempo do pedido, horários do funcionamento do laboratório, dias de rotina, feriados e ou |  |
-| 1.2.47.18 | PENDENTE | Dispor de gerenciamento de laboratórios de apoio e possuir interoperabilidade dos resultados dos exames do laboratório para o Município. Este processo deve ser  |  |
-| 1.2.47.19 | PENDENTE | O número específico da requisição de exames será utilizado para rastreabilidade do atendimento do paciente em todos os setores do laboratório, devendo estar vin |  |
-| 1.2.47.20 | PENDENTE | Deve permitir o registro de ocorrências, com motivos pré-definidos através de cadastro a ser realizado pelo laboratório; |  |
-| 1.2.47.21 | PENDENTE | Deve ser enviada a informação do registro de ocorrência para o solicitante e/ou origem; |  |
-| 1.2.47.22 | PENDENTE | Deve ser possível a emissão de relatório dos registros de ocorrência por paciente, origem, período e seção; |  |
-| 1.2.47.23 | PENDENTE | Permitir configurar se o exame permite recoleta; |  |
-| 1.2.47.24 | PENDENTE | Permitir configurar se o exame permite reagendamento da coleta; |  |
-| 1.2.47.25 | PENDENTE | Permitir configurar quantas amostras devem ser coletadas para o exame; |  |
-| 1.2.47.26 | PENDENTE | Permitir configurar se o exame usa interfaceamento com equipamentos; |  |
-| 1.2.47.27 | PENDENTE | Permitir configurar as variáveis de resultado do exame, permitindo definir o tipo de variável, como: |  |
-| 1.2.47.27.1 | PENDENTE | Texto, texto longo, numérico, lista de opções (Permitindo informar as opções possíveis), e cálculo (Permitindo definir o cálculo realizado com base em variáveis |  |
-| 1.2.47.28 | PENDENTE | Permitir configurar, para cada variável de resultado do exame, seus valores de referência, considerando a faixa etária e sexo do paciente, ou seja, permitir con |  |
-| 1.2.47.29 | PENDENTE | Deverá possuir campo para especificação do prazo de liberação do exame; |  |
-| 1.2.47.30 | PENDENTE | Permitir o cadastro e configuração de mapas de trabalho personalizados para o exame; |  |
-| 1.2.47.31 | PENDENTE | Permitir ativar e inativar mapas de trabalho do exame; |  |
-| 1.2.47.32 | PENDENTE | Permitir a personalização do mapa de trabalho, possibilitando: |  |
-| 1.2.47.32.1 | PENDENTE | O uso dos dados da unidade prestadora, do paciente e do atendimento; |  |
-| 1.2.47.32.2 | PENDENTE | A criação de tabelas conforme necessidade; |  |
-| 1.2.47.32.3 | PENDENTE | A formatação do texto, definindo seu tipo de fonte, cor, tamanho, alinhamento, negrito, itálico, sublinhado, tachado, subscrito, tabulações e as demais funções  |  |
-| 1.2.47.32.4 | PENDENTE | A inclusão de imagens e figuras. |  |
-| 1.2.47.32.5 | PENDENTE | Possibilidade de configurar o mapa de trabalho usando HTML; |  |
-| 1.2.47.32.6 | PENDENTE | Deverá permitir o cadastro de recipientes para coleta de materiais, com a identificação da sua cor, descrição, volume e observação; |  |
-| 1.2.47.32.7 | PENDENTE | Deverá permitir o cadastro de materiais relacionados ao exame, definindo a quantidade necessária e em que etapa do processo é empregado: |  |
-| 1.2.47.32.7.1 | PENDENTE | Coleta, conservação de amostra, análise, entrega e outros; |  |
-| 1.2.47.32.8 | PENDENTE | Permitir o cadastro de modelos de laudo de exame, com layout totalmente personalizável, que permita: |  |
-| 1.2.47.32.8.1 | PENDENTE | O uso dos dados do cadastro do exame, como: |  |
-| 1.2.47.32.8.1.1 | PENDENTE | Nome do exame, procedimento, nome do procedimento e sigla. |  |
-| 1.2.47.32.8.2 | PENDENTE | O uso dos dados da amostra do material coletado, como: |  |
+| 1.2.44 | IMPLEMENTADO | MÓDULO DE RAAS | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/rotas.ts<br>apps/web/src/telas/modulos/Raas.tsx |
+| 1.2.44.1 | IMPLEMENTADO | Deverá permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) domiciliar; | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/servico.ts |
+| 1.2.44.2 | IMPLEMENTADO | Deverá permitir o Registro das Ações Ambulatoriais em Saúde (RAAS) psicossocial; | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/servico.ts |
+| 1.2.44.3 | IMPLEMENTADO | Deverá gerar arquivo para a exportação de dados para o sistema RAAS, a partir dos dados gerenciados pelos programas a serem fornecidos, sem qualquer outra forma | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/rotas.ts<br>apps/api/src/modulos/raas/servico.ts |
+| 1.2.44.4 | IMPLEMENTADO | Deverá possibilitar a importação do RAAS para o sistema; | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/rotas.ts<br>apps/api/src/modulos/raas/servico.ts |
+| 1.2.44.5 | IMPLEMENTADO | Deverá possibilitar registrar as ações realizadas no RAAS Domiciliar e Psicossocial; | apps/api/src/modulos/raas/entidades.ts<br>apps/api/src/modulos/raas/rotas.ts<br>apps/api/src/modulos/raas/servico.ts |
+| 1.2.44.6 | IMPLEMENTADO | Possibilitar gerar relatório com o espelho de atendimento domiciliar e psicossocial podendo escolher o destino; | apps/api/src/modulos/raas/relatorios.ts<br>apps/api/src/modulos/raas/rotas.ts |
+| 1.2.44.7 | IMPLEMENTADO | Possibilitar gerar relatório das ações domiciliares e psicossociais, com data inicial e final das ações. | apps/api/src/modulos/raas/relatorios.ts |
+| 1.2.45 | IMPLEMENTADO | MÓDULO DE RADIOLOGIA | apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/entidades.ts<br>apps/api/src/modulos/radiologia/imagem-rotas.ts |
+| 1.2.45.1 | IMPLEMENTADO | Deverá permitir o cadastro dos exames prestados com as seguintes informações e referências ao SIGTAP: | apps/api/src/modulos/radiologia/config.ts |
+| 1.2.45.1.1 | IMPLEMENTADO | Nome; | apps/api/src/modulos/radiologia/config.ts |
+| 1.2.45.1.2 | IMPLEMENTADO | Sexo; | apps/api/src/modulos/radiologia/config.ts |
+| 1.2.45.1.3 | IMPLEMENTADO | Faixa etária; | apps/api/src/modulos/radiologia/config.ts |
+| 1.2.45.1.4 | IMPLEMENTADO | CBO; | apps/api/src/modulos/radiologia/config.ts |
+| 1.2.45.1.5 | IMPLEMENTADO | Instrumento de registro; | apps/api/src/modulos/radiologia/config.ts |
+| 1.2.45.1.6 | IMPLEMENTADO | Habilitações; | apps/api/src/modulos/radiologia/config.ts |
+| 1.2.45.1.7 | IMPLEMENTADO | Valor. | apps/api/src/modulos/radiologia/config.ts |
+| 1.2.45.2 | IMPLEMENTADO | Deverá permitir o cadastro de estruturas e órgãos a examinar; | apps/api/src/modulos/radiologia/config.ts |
+| 1.2.45.3 | IMPLEMENTADO | Deverá permitir cadastro de um ou mais modelos de resultado para cada exame, podendo ser totalmente personalizado pelo usuário de acordo com suas necessidades; | apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.4 | IMPLEMENTADO | Deverá possuir uma visualização prévia do modelo de resultado; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.5 | IMPLEMENTADO | Deverá possuir definição dos profissionais que assinam os resultados dos exames; | apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.45.6 | IMPLEMENTADO | Deverá possuir assinatura gráfica para acelerar o processo de liberação da assinatura e do resultado pelo profissional, mesmo à distância; | apps/api/src/modulos/cadastros/unidades.ts<br>apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.45.7 | IMPLEMENTADO | Deverá possuir configuração do cabeçalho a ser impresso no resultado do exame podendo ser para o solicitante ou para o prestador. | apps/api/src/modulos/radiologia/carga.ts<br>apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.45.8 | IMPLEMENTADO (itens/agrupador) | Recepção: |  |
+| 1.2.45.8.1 | IMPLEMENTADO | Na primeira tela de acesso à agenda de exames de radiografias, deverá listar os pacientes com exames agendados na data, listando Data, Nome do paciente, Número  | apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.45.8.2 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa do paciente pelos campos Código do paciente, Nome do paciente, Data, Número do prontuário, Unidade solicitante, Nome do  | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.3 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos usuários de um determinado convênio; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.4 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos pacientes pelo status do laudo; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/api/src/modulos/radiologia/relatorios.ts |
+| 1.2.45.8.5 | IMPLEMENTADO | Deverá possuir área para o registro do resultado do exame; | apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.6 | IMPLEMENTADO | Deverá permitir anexar digitalizações de imagens no resultado no exame; | apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.7 | IMPLEMENTADO | Deverá possuir área para anexar o resultado do exame; | apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.8 | IMPLEMENTADO | Deverá possibilitar a alteração do resultado do exame enquanto o mesmo não possuir assinatura ou não tenha resultado anexado; | apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.9 | IMPLEMENTADO | Deverá possuir funcionalidade de assinatura dos resultados para resultados que não foram anexados; | apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.10 | IMPLEMENTADO | Deverá liberar a impressão do resultado somente após a assinatura; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.11 | IMPLEMENTADO | Deverá liberar a impressão do envelope somente após a assinatura; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.12 | IMPLEMENTADO | Deverá disponibilizar o resultado dos exames no histórico do paciente; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.13 | IMPLEMENTADO | Deverá disponibilizar os laudos liberados diretamente no prontuário do paciente para o fácil acesso do profissional solicitante (Médicos e demais profissionais) | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.45.8.14 | IMPLEMENTADO | Deverá possuir funcionalidade para cadastro de pacientes faltosos; | apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/api/src/modulos/radiologia/relatorios.ts |
+| 1.2.45.8.15 | IMPLEMENTADO | Deverá conter funcionalidade para cadastro de exames não retirados. | apps/api/src/modulos/radiologia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/api/src/modulos/radiologia/relatorios.ts |
+| 1.2.45.9 | IMPLEMENTADO (itens/agrupador) | Relatórios: |  |
+| 1.2.45.9.1 | IMPLEMENTADO | Deverá conter relatório analítico de produção por unidade do prestador; | apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/api/src/modulos/radiologia/relatorios.ts |
+| 1.2.45.9.2 | IMPLEMENTADO | Deverá conter relatório sintético de produção por unidade do prestador; | apps/api/src/modulos/radiologia/relatorios.ts |
+| 1.2.45.9.3 | IMPLEMENTADO | Deverá conter relatório sintético de agendamentos de exames de radiografias; | apps/api/src/modulos/radiologia/relatorios.ts |
+| 1.2.46 | IMPLEMENTADO | MÓDULO DE AMBULATÓRIO DE SAÚDE MENTAL (CAPS) | apps/api/src/modulos/saude_mental/entidades.ts<br>apps/web/src/telas/modulos/SaudeMental.tsx |
+| 1.2.46.1 | IMPLEMENTADO | Propiciar a visualização dos atendimentos, respeitando nível de acesso; | apps/api/src/modulos/saude_mental/entidades.ts<br>apps/api/src/modulos/saude_mental/rotas.ts |
+| 1.2.46.2 | IMPLEMENTADO | Propiciar a visualização dos medicamentos prescritos, respeitando nível de acesso; | apps/api/src/modulos/saude_mental/rotas.ts |
+| 1.2.46.3 | IMPLEMENTADO | Possibilitar o cadastro de programas; | apps/api/src/modulos/saude_mental/entidades.ts<br>apps/api/src/modulos/saude_mental/rotas.ts |
+| 1.2.46.4 | IMPLEMENTADO | Possibilitar criar as agendas dos programas; | apps/api/src/modulos/saude_mental/entidades.ts<br>apps/api/src/modulos/saude_mental/rotas.ts<br>apps/api/src/modulos/saude_mental/servico.ts |
+| 1.2.46.5 | IMPLEMENTADO | Possibilitar criar os locais de atendimento; | apps/api/src/modulos/saude_mental/entidades.ts<br>apps/api/src/modulos/saude_mental/rotas.ts |
+| 1.2.46.6 | IMPLEMENTADO | Possibilitar associar as oficinas criadas aos programas cadastrados; | apps/api/src/modulos/saude_mental/entidades.ts<br>apps/api/src/modulos/saude_mental/rotas.ts |
+| 1.2.46.7 | IMPLEMENTADO | Possibilitar fazer atendimento relacionado a programas e oficinas; | apps/api/src/modulos/saude_mental/entidades.ts<br>apps/api/src/modulos/saude_mental/relatorios.ts<br>apps/api/src/modulos/saude_mental/rotas.ts |
+| 1.2.46.8 | IMPLEMENTADO | Possibilitar gerar o acolhimento, respeitando níveis de acesso; | apps/api/src/modulos/saude_mental/entidades.ts<br>apps/api/src/modulos/saude_mental/relatorios.ts<br>apps/api/src/modulos/saude_mental/rotas.ts |
+| 1.2.46.9 | IMPLEMENTADO | Gerar relatório mostrando os pacientes por programas e oficinas; | apps/api/src/modulos/saude_mental/entidades.ts<br>apps/api/src/modulos/saude_mental/relatorios.ts<br>apps/api/src/modulos/saude_mental/rotas.ts |
+| 1.2.47 | IMPLEMENTADO | MÓDULO DE LABORATÓRIO | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.1 | IMPLEMENTADO | Deverá permitir o cadastro dos exames prestados com as seguintes informações e referências ao SIGTAP: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.1.1 | IMPLEMENTADO | Nome, seção, sigla, prazo de entrega, validade do resultado, sexo, faixa etária, CBO, instrumento de registro, habilitações e valor. | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.2 | IMPLEMENTADO | Dispor de informações completas sobre os exames, como: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.2.1 | IMPLEMENTADO | Código, materiais usados, data de coleta, custos, informações para a coleta e preparação das amostras, etc. | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.3 | IMPLEMENTADO | Deverá possuir cadastro de seções; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.4 | IMPLEMENTADO | Deve possuir campo para especificação do prazo de liberação do exame; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.5 | IMPLEMENTADO | Deve permitir o cadastro de resultados pré-definidos; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.6 | IMPLEMENTADO | Deve possuir configuração do laudo para cada exame, podendo serem definidas as seguintes situações: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.6.1 | IMPLEMENTADO | Texto de cada linha com possibilidade de alterar durante a digitação; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/LaboratorioComum.tsx |
+| 1.2.47.6.2 | IMPLEMENTADO | Posição do texto na linha e qual tipo de informação em cada linha, com possibilidade de utilização de parametrização e permissão do usuário para: | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.6.2.1 | IMPLEMENTADO | Cálculo; | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.6.2.2 | IMPLEMENTADO | Fórmula; | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.6.2.3 | IMPLEMENTADO | Texto e Lista de resultados. | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.7 | IMPLEMENTADO | Deve possuir uma visualização prévia do resultado do exame no momento da sua configuração; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.8 | IMPLEMENTADO | Deve permitir o cadastro de recipientes para coleta de materiais, com a identificação da sua cor, descrição, volume e observação; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.9 | IMPLEMENTADO | Deve permitir associar os recipientes aos exames, identificando a quantidade de recipientes necessários e o volume da coleta; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.10 | IMPLEMENTADO | Deve indicar quais e quantos recipientes e materiais necessários para realizar a coleta integral ou parcial dos exames, retornando à fila os exames pendentes; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.11 | IMPLEMENTADO | Deve permitir a impressão de etiquetas para identificação dos tubos de amostra, apresentando o material a examinar, o tipo de tubo, a cor do tubo, o código de b | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.12 | IMPLEMENTADO | Permitir a impressão das etiquetas, em quantidades calculadas automaticamente de acordo com o número de exames a serem realizados, contendo o número específico  | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.13 | IMPLEMENTADO | Deve permitir a impressão das etiquetas em impressora térmica específica para etiquetas autoadesivas; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.14 | IMPLEMENTADO | Dispor de impressão de controle interno e etiqueta de protocolo; | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.15 | IMPLEMENTADO | Deve possuir parametrização para imprimir ou não as etiquetas após a coleta. Caso configurado para imprimir, após a coleta de materiais o sistema deve perguntar | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.16 | IMPLEMENTADO | Permitir a configuração de casas decimais; | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.17 | IMPLEMENTADO | Permitir cálculo automático da data de entrega do pedido, que considere tempo do pedido, horários do funcionamento do laboratório, dias de rotina, feriados e ou | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/relatorios.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.18 | IMPLEMENTADO | Dispor de gerenciamento de laboratórios de apoio e possuir interoperabilidade dos resultados dos exames do laboratório para o Município. Este processo deve ser  | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.19 | IMPLEMENTADO | O número específico da requisição de exames será utilizado para rastreabilidade do atendimento do paciente em todos os setores do laboratório, devendo estar vin | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.20 | IMPLEMENTADO | Deve permitir o registro de ocorrências, com motivos pré-definidos através de cadastro a ser realizado pelo laboratório; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.21 | IMPLEMENTADO | Deve ser enviada a informação do registro de ocorrência para o solicitante e/ou origem; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.22 | IMPLEMENTADO | Deve ser possível a emissão de relatório dos registros de ocorrência por paciente, origem, período e seção; | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.23 | IMPLEMENTADO | Permitir configurar se o exame permite recoleta; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.24 | IMPLEMENTADO | Permitir configurar se o exame permite reagendamento da coleta; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.25 | IMPLEMENTADO | Permitir configurar quantas amostras devem ser coletadas para o exame; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.26 | IMPLEMENTADO | Permitir configurar se o exame usa interfaceamento com equipamentos; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.27 | IMPLEMENTADO | Permitir configurar as variáveis de resultado do exame, permitindo definir o tipo de variável, como: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.27.1 | IMPLEMENTADO | Texto, texto longo, numérico, lista de opções (Permitindo informar as opções possíveis), e cálculo (Permitindo definir o cálculo realizado com base em variáveis | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.28 | IMPLEMENTADO | Permitir configurar, para cada variável de resultado do exame, seus valores de referência, considerando a faixa etária e sexo do paciente, ou seja, permitir con | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.29 | IMPLEMENTADO | Deverá possuir campo para especificação do prazo de liberação do exame; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.30 | IMPLEMENTADO | Permitir o cadastro e configuração de mapas de trabalho personalizados para o exame; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.31 | IMPLEMENTADO | Permitir ativar e inativar mapas de trabalho do exame; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.32 | IMPLEMENTADO | Permitir a personalização do mapa de trabalho, possibilitando: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.32.1 | IMPLEMENTADO (itens/agrupador) | O uso dos dados da unidade prestadora, do paciente e do atendimento; |  |
+| 1.2.47.32.2 | IMPLEMENTADO (itens/agrupador) | A criação de tabelas conforme necessidade; |  |
+| 1.2.47.32.3 | IMPLEMENTADO | A formatação do texto, definindo seu tipo de fonte, cor, tamanho, alinhamento, negrito, itálico, sublinhado, tachado, subscrito, tabulações e as demais funções  | apps/api/src/modulos/laboratorio/html-pdf.ts |
+| 1.2.47.32.4 | IMPLEMENTADO | A inclusão de imagens e figuras. | apps/api/src/modulos/laboratorio/html-pdf.ts |
+| 1.2.47.32.5 | IMPLEMENTADO | Possibilidade de configurar o mapa de trabalho usando HTML; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.32.6 | IMPLEMENTADO | Deverá permitir o cadastro de recipientes para coleta de materiais, com a identificação da sua cor, descrição, volume e observação; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.32.7 | IMPLEMENTADO | Deverá permitir o cadastro de materiais relacionados ao exame, definindo a quantidade necessária e em que etapa do processo é empregado: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.32.7.1 | IMPLEMENTADO | Coleta, conservação de amostra, análise, entrega e outros; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.32.8 | IMPLEMENTADO | Permitir o cadastro de modelos de laudo de exame, com layout totalmente personalizável, que permita: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.32.8.1 | IMPLEMENTADO | O uso dos dados do cadastro do exame, como: | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.32.8.1.1 | IMPLEMENTADO (itens/agrupador) | Nome do exame, procedimento, nome do procedimento e sigla. |  |
+| 1.2.47.32.8.2 | IMPLEMENTADO (itens/agrupador) | O uso dos dados da amostra do material coletado, como: |  |
 | 1.2.47.32.8.2.1 | PENDENTE | Data da coleta, hora da coleta, recipiente usado, profissional responsável pela coleta, especialidade do profissional e operador que registrou. |  |
-| 1.2.47.32.8.3 | PENDENTE | O uso dos dados do registro de resultado, como: |  |
+| 1.2.47.32.8.3 | IMPLEMENTADO (itens/agrupador) | O uso dos dados do registro de resultado, como: |  |
 | 1.2.47.32.8.3.1 | PENDENTE | Data, hora, data da liberação, hora da liberação, data do agendamento, hora do agendamento, profissional, especialidade e operador que registrou o resultado. |  |
-| 1.2.47.32.9 | PENDENTE | O uso dos dados das variáveis de resultado definidas no cadastro do exame; |  |
-| 1.2.47.32.10 | PENDENTE | O uso dos valores de referência definidos para cada variável do resultado do exame; |  |
-| 1.2.47.32.11 | PENDENTE | O uso de outros dados, como: |  |
-| 1.2.47.32.11.1 | PENDENTE | Unidade prestadora, data atual, data atual por extenso, dia atual, mês atual e ano atual. |  |
-| 1.2.47.32.12 | PENDENTE | A criação de tabelas conforme necessidade; |  |
-| 1.2.47.32.13 | PENDENTE | A formatação do texto, definindo seu tipo de fonte, cor, tamanho, alinhamento, negrito, itálico, sublinhado, tachado, subscrito, tabulações e as demais funções  |  |
-| 1.2.47.32.14 | PENDENTE | A inclusão de imagens e figuras. |  |
-| 1.2.47.33 | PENDENTE | O sistema deve possibilitar configurar o laudo usando HTML; |  |
-| 1.2.47.34 | PENDENTE | Permitir ativar ou inativar um modelo de laudo de exame; |  |
-| 1.2.47.35 | PENDENTE | Permitir configurar diferentes modelos de laudos para cada material coletado; |  |
-| 1.2.47.36 | PENDENTE | Permitir configurar o modelo de impressão do laudo em retrato ou paisagem; |  |
-| 1.2.47.37 | PENDENTE | Deverá possuir uma visualização prévia do resultado do exame no momento da configuração do laudo; |  |
-| 1.2.47.38 | PENDENTE | Deverá possuir definição dos profissionais que assinam os resultados dos exames; |  |
-| 1.2.47.39 | PENDENTE | Deverá possuir assinatura gráfica para agilizar o processo de liberação da assinatura e do resultado pelo profissional mesmo à distância. |  |
-| 1.2.47.40 | PENDENTE | Materiais: |  |
-| 1.2.47.40.1 | PENDENTE | Deverá possibilitar a realização de pesquisa dos materiais pelos campos: |  |
-| 1.2.47.40.1.1 | PENDENTE | Nome; |  |
-| 1.2.47.40.1.2 | PENDENTE | Grupo; |  |
-| 1.2.47.40.1.3 | PENDENTE | CATMAT; |  |
-| 1.2.47.40.1.4 | PENDENTE | Situação cadastral: Ativo e Inativo. |  |
-| 1.2.47.40.2 | PENDENTE | Possuir forma de indicação dos locais de armazenamento do material, tais como: |  |
-| 1.2.47.40.2.1 | PENDENTE | Local, sala, estante, prateleira. |  |
-| 1.2.47.40.3 | PENDENTE | Deverá possuir forma de vinculação de materiais similares ou genéricos; |  |
-| 1.2.47.40.4 | PENDENTE | Deverá possuir informações de quantidade ideal e mínimas no estoque, gerando relatório de necessidade de materiais; |  |
-| 1.2.47.40.5 | PENDENTE | Deverá possuir campo para informação do código de barras do material; |  |
-| 1.2.47.40.6 | PENDENTE | Deverá emitir etiquetas para identificação do material, com código de barras, contendo código e descrição; |  |
+| 1.2.47.32.9 | IMPLEMENTADO (itens/agrupador) | O uso dos dados das variáveis de resultado definidas no cadastro do exame; |  |
+| 1.2.47.32.10 | IMPLEMENTADO (itens/agrupador) | O uso dos valores de referência definidos para cada variável do resultado do exame; |  |
+| 1.2.47.32.11 | IMPLEMENTADO (itens/agrupador) | O uso de outros dados, como: |  |
+| 1.2.47.32.11.1 | IMPLEMENTADO | Unidade prestadora, data atual, data atual por extenso, dia atual, mês atual e ano atual. | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.32.12 | IMPLEMENTADO (itens/agrupador) | A criação de tabelas conforme necessidade; |  |
+| 1.2.47.32.13 | IMPLEMENTADO | A formatação do texto, definindo seu tipo de fonte, cor, tamanho, alinhamento, negrito, itálico, sublinhado, tachado, subscrito, tabulações e as demais funções  | apps/api/src/modulos/laboratorio/html-pdf.ts |
+| 1.2.47.32.14 | IMPLEMENTADO (itens/agrupador) | A inclusão de imagens e figuras. |  |
+| 1.2.47.33 | IMPLEMENTADO | O sistema deve possibilitar configurar o laudo usando HTML; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.34 | IMPLEMENTADO | Permitir ativar ou inativar um modelo de laudo de exame; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.35 | IMPLEMENTADO | Permitir configurar diferentes modelos de laudos para cada material coletado; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.36 | IMPLEMENTADO | Permitir configurar o modelo de impressão do laudo em retrato ou paisagem; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.37 | IMPLEMENTADO | Deverá possuir uma visualização prévia do resultado do exame no momento da configuração do laudo; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.38 | IMPLEMENTADO | Deverá possuir definição dos profissionais que assinam os resultados dos exames; | apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.39 | IMPLEMENTADO | Deverá possuir assinatura gráfica para agilizar o processo de liberação da assinatura e do resultado pelo profissional mesmo à distância. | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.40 | IMPLEMENTADO | Materiais: | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.40.1 | IMPLEMENTADO (itens/agrupador) | Deverá possibilitar a realização de pesquisa dos materiais pelos campos: |  |
+| 1.2.47.40.1.1 | IMPLEMENTADO (itens/agrupador) | Nome; |  |
+| 1.2.47.40.1.2 | IMPLEMENTADO (itens/agrupador) | Grupo; |  |
+| 1.2.47.40.1.3 | IMPLEMENTADO (itens/agrupador) | CATMAT; |  |
+| 1.2.47.40.1.4 | IMPLEMENTADO (itens/agrupador) | Situação cadastral: Ativo e Inativo. |  |
+| 1.2.47.40.2 | IMPLEMENTADO (itens/agrupador) | Possuir forma de indicação dos locais de armazenamento do material, tais como: |  |
+| 1.2.47.40.2.1 | IMPLEMENTADO (itens/agrupador) | Local, sala, estante, prateleira. |  |
+| 1.2.47.40.3 | IMPLEMENTADO (itens/agrupador) | Deverá possuir forma de vinculação de materiais similares ou genéricos; |  |
+| 1.2.47.40.4 | IMPLEMENTADO | Deverá possuir informações de quantidade ideal e mínimas no estoque, gerando relatório de necessidade de materiais; | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.40.5 | IMPLEMENTADO (itens/agrupador) | Deverá possuir campo para informação do código de barras do material; |  |
+| 1.2.47.40.6 | IMPLEMENTADO | Deverá emitir etiquetas para identificação do material, com código de barras, contendo código e descrição; | apps/api/src/modulos/laboratorio/documentos.ts |
 | 1.2.47.40.7 | IMPLEMENTADO | Deverá gerenciar o cadastro de fornecedores da contratante, integrando com o sistema administrativo (Dependente de compatibilidade); | apps/api/src/modulos/farmacia/entidades.ts |
 | 1.2.47.40.8 | PENDENTE | Deverá possuir funcionalidade para duplicação de um cadastro, facilitando a inclusão de um novo que tenha as mesmas características; |  |
-| 1.2.47.40.9 | IMPLEMENTADO | Deverá possuir forma de definição de estoque ideal e mínimo para cada unidade de saúde; | apps/api/src/modulos/farmacia/entidades.ts |
+| 1.2.47.40.9 | IMPLEMENTADO | Deverá possuir forma de definição de estoque ideal e mínimo para cada unidade de saúde; | apps/api/src/modulos/farmacia/entidades.ts<br>apps/api/src/modulos/laboratorio/relatorios.ts |
 | 1.2.47.40.10 | PENDENTE | Deverá permitir, através da seleção do material, a visualização geral do estoque em todas as unidades, listando lotes e validades. |  |
-| 1.2.47.41 | PENDENTE | Entradas: |  |
-| 1.2.47.41.1 | PENDENTE | Na primeira tela de acesso de entradas, deverá ser exibido o histórico das entradas, possibilitando a pesquisa de informações por: |  |
-| 1.2.47.41.1.1 | PENDENTE | Data da entrada; |  |
-| 1.2.47.41.1.2 | PENDENTE | Número da nota fiscal; |  |
-| 1.2.47.41.1.3 | PENDENTE | Nome do fornecedor; |  |
-| 1.2.47.41.1.4 | PENDENTE | Unidade de saúde. |  |
-| 1.2.47.41.2 | PENDENTE | Deverá controlar as informações da nota fiscal por: |  |
-| 1.2.47.41.2.1 | PENDENTE | Data da compra, número da nota fiscal, série, fornecedor e unidade de entrada. |  |
-| 1.2.47.41.3 | PENDENTE | Deverá fazer uso de código de barras, para agilizar a entrada e saída de itens; |  |
-| 1.2.47.41.4 | PENDENTE | Deverá controlar as informações do item de entrada por: |  |
-| 1.2.47.41.4.1 | PENDENTE | Código do produto, lote, quantidade, valor unitário e data de validade. |  |
-| 1.2.47.41.5 | PENDENTE | Deverá emitir relatório de entradas com informações de custos por unidade; |  |
-| 1.2.47.41.6 | PENDENTE | Deverá disponibilizar relatório de entradas com informações de custos por grupo de produto; |  |
-| 1.2.47.41.7 | PENDENTE | Relatório de entradas com informações de custos por fornecedor; |  |
-| 1.2.47.41.8 | PENDENTE | Relatório de entradas com informações de custos por período. |  |
-| 1.2.47.42 | PENDENTE | Acertos e inutilizações: |  |
-| 1.2.47.42.1 | PENDENTE | Deverá permitir a inutilização de produtos por unidade, informando: |  |
-| 1.2.47.42.1.1 | PENDENTE | Data, unidade, produto, lote, quantidade, motivo e observações. |  |
-| 1.2.47.42.2 | PENDENTE | Deverá, ao informar o produto, listar todos os lotes disponíveis e a sua validade; |  |
-| 1.2.47.42.3 | PENDENTE | Deverá permitir a visualização de todas as inutilizações efetuadas, com informações da data, produto, lote, quantidade, valor total, unidade e motivo; |  |
-| 1.2.47.42.4 | PENDENTE | Deverá permitir a consulta de inutilizações efetuadas por data, nome do produto, lote, quantidade, data de vencimento e motivo da inutilização; |  |
-| 1.2.47.42.5 | PENDENTE | Deverá emitir relatório de inutilizações por período, agrupando por unidade, grupo e motivo. Listando a data, o produto, o lote, a validade a quantidade e o val |  |
-| 1.2.47.43 | PENDENTE | Recepção e laboratório: |  |
-| 1.2.47.43.1 | PENDENTE | Deverá exibir os pacientes com exames agendados, listando, no mínimo: |  |
+| 1.2.47.41 | IMPLEMENTADO | Entradas: | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.41.1 | IMPLEMENTADO | Na primeira tela de acesso de entradas, deverá ser exibido o histórico das entradas, possibilitando a pesquisa de informações por: | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.41.1.1 | IMPLEMENTADO (itens/agrupador) | Data da entrada; |  |
+| 1.2.47.41.1.2 | IMPLEMENTADO (itens/agrupador) | Número da nota fiscal; |  |
+| 1.2.47.41.1.3 | IMPLEMENTADO (itens/agrupador) | Nome do fornecedor; |  |
+| 1.2.47.41.1.4 | IMPLEMENTADO (itens/agrupador) | Unidade de saúde. |  |
+| 1.2.47.41.2 | IMPLEMENTADO | Deverá controlar as informações da nota fiscal por: | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.41.2.1 | IMPLEMENTADO (itens/agrupador) | Data da compra, número da nota fiscal, série, fornecedor e unidade de entrada. |  |
+| 1.2.47.41.3 | IMPLEMENTADO (itens/agrupador) | Deverá fazer uso de código de barras, para agilizar a entrada e saída de itens; |  |
+| 1.2.47.41.4 | IMPLEMENTADO (itens/agrupador) | Deverá controlar as informações do item de entrada por: |  |
+| 1.2.47.41.4.1 | IMPLEMENTADO | Código do produto, lote, quantidade, valor unitário e data de validade. | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.41.5 | IMPLEMENTADO | Deverá emitir relatório de entradas com informações de custos por unidade; | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.41.6 | IMPLEMENTADO | Deverá disponibilizar relatório de entradas com informações de custos por grupo de produto; | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.41.7 | IMPLEMENTADO | Relatório de entradas com informações de custos por fornecedor; | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.41.8 | IMPLEMENTADO | Relatório de entradas com informações de custos por período. | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.42 | IMPLEMENTADO | Acertos e inutilizações: | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.42.1 | IMPLEMENTADO (itens/agrupador) | Deverá permitir a inutilização de produtos por unidade, informando: |  |
+| 1.2.47.42.1.1 | IMPLEMENTADO (itens/agrupador) | Data, unidade, produto, lote, quantidade, motivo e observações. |  |
+| 1.2.47.42.2 | IMPLEMENTADO (itens/agrupador) | Deverá, ao informar o produto, listar todos os lotes disponíveis e a sua validade; |  |
+| 1.2.47.42.3 | IMPLEMENTADO | Deverá permitir a visualização de todas as inutilizações efetuadas, com informações da data, produto, lote, quantidade, valor total, unidade e motivo; | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.42.4 | IMPLEMENTADO | Deverá permitir a consulta de inutilizações efetuadas por data, nome do produto, lote, quantidade, data de vencimento e motivo da inutilização; | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.42.5 | IMPLEMENTADO | Deverá emitir relatório de inutilizações por período, agrupando por unidade, grupo e motivo. Listando a data, o produto, o lote, a validade a quantidade e o val | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.43 | IMPLEMENTADO | Recepção e laboratório: | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.43.1 | IMPLEMENTADO | Deverá exibir os pacientes com exames agendados, listando, no mínimo: | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
 | 1.2.47.43.1.1 | PENDENTE | Data, nome do paciente, número do prontuário, nome da unidade solicitante, nome do profissional solicitante, número da requisição, nome do procedimento, nome da |  |
-| 1.2.47.43.2 | PENDENTE | Deverá ser possível realizar a pesquisa do paciente, no mínimo: |  |
+| 1.2.47.43.2 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa do paciente, no mínimo: | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
 | 1.2.47.43.2.1 | PENDENTE | Pelo Código do paciente, nome do paciente, data, número do prontuário, unidade solicitante, nome do procedimento, CPF do paciente ou Cartão Nacional de Saúde. |  |
-| 1.2.47.43.3 | PENDENTE | Deverá ser possível realizar a pesquisa dos pacientes agendados que já realizaram, não realizaram a coleta do material e, ainda, para os exames com mais de uma  |  |
-| 1.2.47.43.4 | PENDENTE | Deverá ser possível realizar a pesquisa dos pacientes agendados, presentes e que não compareceram; |  |
-| 1.2.47.43.5 | PENDENTE | Deverá ser possível realizar a pesquisa dos pacientes de uma determinada seção; |  |
-| 1.2.47.43.6 | PENDENTE | Deverá ser possível realizar a pesquisa dos pacientes de um determinado convênio; |  |
-| 1.2.47.43.7 | PENDENTE | Deverá ser possível realizar a pesquisa dos pacientes pela situação do laudo: |  |
-| 1.2.47.43.7.1 | PENDENTE | Não digitado, digitado, digitado parcialmente e assinado. |  |
-| 1.2.47.43.8 | PENDENTE | Deverá ser possível realizar a pesquisa dos pacientes cujo exame esteja impresso ou aguardando impressão; |  |
-| 1.2.47.43.9 | PENDENTE | Deverá ser possível realizar a pesquisa dos pacientes cujo exame esteja aguardando entrega, tenha sido entregue ou não foi retirado; |  |
-| 1.2.47.43.10 | PENDENTE | Deverá possuir parâmetro para quando o exame for requisitado por uma unidade de pronto atendimento (UPA), apareça de forma destacada dentre os demais; |  |
-| 1.2.47.43.11 | PENDENTE | Deverá possuir parâmetro que permita ativar a confirmação de presença do paciente para o exame na recepção; |  |
-| 1.2.47.43.12 | PENDENTE | Deverá permitir o reagendamento da coleta de um exame para outra data, caso a configuração do exame permita; |  |
-| 1.2.47.43.13 | PENDENTE | Permitir o registro de coleta dos materiais dos exames; |  |
-| 1.2.47.43.14 | PENDENTE | Caso a configuração do exame permita, possuir ação para descartar uma amostra já coletada: |  |
-| 1.2.47.43.14.1 | PENDENTE | Após o descarte o sistema deve permitir uma nova coleta para o exame. |  |
-| 1.2.47.43.15 | PENDENTE | Disponibilizar parâmetro que, ativo, permita realizar automaticamente o registro de coleta juntamente com a confirmação de presença do paciente; |  |
-| 1.2.47.43.16 | PENDENTE | Ao registrar a coleta, sugerir a baixa de materiais conforme produtos configurados no cadastro do exame para a etapa da coleta; |  |
-| 1.2.47.43.17 | PENDENTE | Permitir registrar os materiais usados para coleta do exame, realizando baixa automática de estoque; |  |
-| 1.2.47.43.18 | PENDENTE | Possuir parâmetro para tornar obrigatório informar os materiais usados na coleta; |  |
-| 1.2.47.43.19 | PENDENTE | Possuir parâmetro para habilitar o registro automático de produção para a coleta; |  |
-| 1.2.47.43.20 | PENDENTE | Possuir parâmetro para permitir configurar o procedimento que será faturado no registro de produção da coleta; |  |
-| 1.2.47.43.21 | PENDENTE | Possuir parâmetro para definir o caráter e grupo padrão de atendimento para o registro de produção da coleta; |  |
-| 1.2.47.43.22 | PENDENTE | Possuir parâmetro para obrigar, caso não tenha sido informado na requisição, selecionar o material a examinar para o exame; |  |
-| 1.2.47.43.23 | PENDENTE | Permitir a coleta de várias amostras de material para o exame, caso sua configuração permita; |  |
-| 1.2.47.43.24 | PENDENTE | Deve permitir a conferência e alteração dos exames agendados e os dados dos pacientes em uma única tela; |  |
-| 1.2.47.43.25 | PENDENTE | Possuir módulo de comunicação e controle para que, quando definido no cadastro do exame que tenha interfaceamento, após o registro de coleta os dados necessário |  |
-| 1.2.47.43.26 | PENDENTE | Possuir parâmetro que permita configurar se, após a coleta, serão impressas automaticamente as etiquetas de identificação dos tubos de amostra; |  |
-| 1.2.47.43.27 | PENDENTE | Possuir parâmetro para determinar se, no comprovante de coleta, somente será impresso o prazo do resultado se todos os exames da requisição já tiverem sido cole |  |
-| 1.2.47.43.28 | PENDENTE | Possuir parâmetro para permitir configurar a impressão das etiquetas automaticamente após o registro de coleta; |  |
-| 1.2.47.43.29 | PENDENTE | Possuir parâmetro para permitir configurar a impressão dos mapas de trabalho automaticamente, após o registro de coleta; |  |
-| 1.2.47.43.30 | PENDENTE | Deverá possuir impressão do mapa de trabalho por seção, exame ou laboratório, de forma sintética, em colunas para a digitação que priorize a economia de papel,  |  |
-| 1.2.47.43.31 | PENDENTE | Deverá possuir a impressão dos mapas de trabalho, configurados para os exames individualmente ou em lote; |  |
-| 1.2.47.43.32 | PENDENTE | Deverá permitir a impressão de etiquetas individualmente ou em lote; |  |
-| 1.2.47.43.33 | PENDENTE | Deverá permitir a impressão das etiquetas em impressora térmica específica para etiquetas autoadesivas; |  |
-| 1.2.47.43.34 | PENDENTE | Deverá permitir a configuração da impressão das etiquetas, permitindo definir: |  |
-| 1.2.47.43.35 | PENDENTE | Tamanho vertical e horizontal em milímetros. |  |
-| 1.2.47.43.36 | PENDENTE | Permitir definir o que será impressa em cada linha da etiqueta; |  |
-| 1.2.47.43.37 | PENDENTE | Permitir o uso dos dados do paciente, exame e coleta para impressão das etiquetas, com: |  |
-| 1.2.47.43.37.1 | PENDENTE | Material a examinar, nome do tubo de amostra, cor do tubo, código e nome do paciente, número da amostra, nº da requisição, código de Barras do nº da requisição, |  |
-| 1.2.47.43.38 | PENDENTE | Possuir visualização em tempo real da configuração da etiqueta, à medida que é configurada; |  |
-| 1.2.47.43.39 | PENDENTE | Permitir impressão do comprovante de coleta do exame; |  |
-| 1.2.47.43.40 | PENDENTE | Permitir configurar o comprovante de coleta do exame definindo o seu modelo (½ página ou ¼ de página), o seu título da área de observações e um texto personaliz |  |
-| 1.2.47.43.41 | PENDENTE | O sistema deve permitir anexar o resultado do exame em formado .pdf. Após a inclusão do arquivo, o exame deve ser automaticamente considerado como liberado e as |  |
-| 1.2.47.43.42 | PENDENTE | Permitir configurar o tamanho máximo permitido para o arquivo de resultados de exame digitalizados; |  |
-| 1.2.47.43.43 | PENDENTE | Possuir área para o registro do resultado dos exames; |  |
-| 1.2.47.43.44 | PENDENTE | Possuir camada de controle e comunicação entre os equipamentos do laboratório e o sistema, permitindo a obtenção automática dos resultados de exames advindos de |  |
-| 1.2.47.43.45 | PENDENTE | Possuir parâmetro que permita definir o resultado do exame como assinado, quando este for recebido através de interfaceamento com equipamentos; |  |
-| 1.2.47.43.46 | PENDENTE | Deve permitir a digitação do resultado conforme as variáveis de resultado definidas; |  |
-| 1.2.47.43.47 | PENDENTE | Durante a digitação do resultado, caso um valor esteja fora dos valores de referências definidos no cadastro do exame, o sistema deve apresentar um alerta ao op |  |
-| 1.2.47.43.48 | PENDENTE | Deverá possuir forma de informação dos resultados por setor, de forma sequencial, para que, ao confirmar o resultado de um paciente, o sistema traga automaticam |  |
-| 1.2.47.43.49 | PENDENTE | Deverá possuir forma de informação dos resultados por paciente, de forma sequencial, para que, ao confirmar o resultado de um exame, o sistema traga automaticam |  |
-| 1.2.47.43.50 | PENDENTE | Durante a digitação do resultado, o sistema deverá disponibilizar funcionalidade para limpar as variáveis já digitadas; |  |
-| 1.2.47.43.51 | PENDENTE | Durante a digitação do resultado, deverá disponibilizar funcionalidade para pular para a digitação ou alteração do resultado anterior ou do próximo resultado; |  |
-| 1.2.47.43.52 | PENDENTE | Deverá possibilitar a informação dos resultados de forma parcial, para que possa ser concluído em outro momento; |  |
-| 1.2.47.43.53 | PENDENTE | O sistema deve bloquear a alteração do laudo após a liberação da assinatura; |  |
-| 1.2.47.43.54 | PENDENTE | No interfaceamento, disponibilizar cálculo dos valores de resultados por "Delta-Check"; |  |
-| 1.2.47.43.55 | PENDENTE | O sistema deve controlar para que, em uma alteração de modelo de laudo, os resultados já liberados permaneçam inalterados; |  |
-| 1.2.47.43.56 | PENDENTE | Permitir validação "Delta-Check" ao digitar manualmente os resultados; |  |
-| 1.2.47.43.57 | PENDENTE | Permitir liberação do resultado diretamente no laudo; |  |
-| 1.2.47.43.58 | PENDENTE | Deverá possuir funcionalidade para que somente profissionais autorizados assinem os laudos, liberando então a visualização e impressão dos resultados; |  |
-| 1.2.47.43.59 | PENDENTE | Deverá possibilitar a identificação e finalização da digitação dos resultados parcialmente digitados; |  |
-| 1.2.47.43.60 | PENDENTE | Deverá permitir acessar dados do paciente no momento da informação do resultado, tais como: |  |
-| 1.2.47.43.60.1 | PENDENTE | Resultados de exames anteriores, medicamentos em uso, medicamentos de uso contínuo, restrições alérgicas, carteira de imunização. |  |
-| 1.2.47.43.61 | PENDENTE | Deverá permitir o registro de pacientes faltosos; |  |
-| 1.2.47.43.62 | PENDENTE | Deve permitir o registro de entrega de exames aos pacientes; |  |
-| 1.2.47.43.63 | PENDENTE | Deve permitir ao operador autorizado liberar assinatura para impressão do resultado de um exame, individualmente ou em lote; |  |
-| 1.2.47.43.64 | IMPLEMENTADO | Ao realizar a liberação de assinatura para impressão, deve ser solicitada confirmação da ação através da digitação da senha do operador. | apps/web/src/genericos/dialogos.tsx |
-| 1.2.47.43.64.1 | PENDENTE | Sem a digitação da senha correta do operador, não deve ser possível liberar o resultado do exame para impressão; |  |
-| 1.2.47.43.65 | PENDENTE | O sistema não deve permitir a alteração do resultado do exame após a liberação de assinatura para impressão; |  |
-| 1.2.47.43.66 | PENDENTE | Deverá permitir, somente após a liberação da assinatura, a impressão do laudo do exame, conforme configuração do laudo realizada no cadastro do exame; |  |
-| 1.2.47.43.67 | PENDENTE | Deverá permitir, somente após a liberação da assinatura, a impressão do envelope do laudo do exame; |  |
-| 1.2.47.43.68 | PENDENTE | Deverá permitir configurar a impressão do envelope definindo a largura e altura, bem como a margem do topo e da esquerda; |  |
-| 1.2.47.43.69 | PENDENTE | Deverá permitir, somente após a liberação da assinatura, o registro dos exames não retirados; |  |
-| 1.2.47.43.70 | PENDENTE | Deverá permitir, para os operadores devidamente autorizados, o cancelamento da liberação da assinatura e do resultado do exame; |  |
-| 1.2.47.43.71 | PENDENTE | Deverá disponibilizar o resultado dos exames, automaticamente, no histórico do paciente; |  |
-| 1.2.47.43.72 | PENDENTE | Dispor de visualização dos laudos no monitor, sem a necessidade de impressão; |  |
-| 1.2.47.43.73 | PENDENTE | Deverá disponibilizar, automaticamente, os laudos liberados diretamente no prontuário do paciente, para fácil acesso do profissional solicitante (Médicos e dema |  |
-| 1.2.47.43.74 | PENDENTE | Deve disponibilizar e imprimir, de forma individual ou em lote, de capa de faturamento na recepção do paciente, com as seguintes informações: |  |
-| 1.2.47.43.74.1 | PENDENTE | Número da requisição, dados do paciente, unidade de origem, exames cadastrados, valor por exame e valor total, nome do profissional que realizou o cadastro, dat |  |
-| 1.2.47.44 | PENDENTE | Relatórios: |  |
-| 1.2.47.44.1 | PENDENTE | Deverá emitir relatório sintético de produção laboratorial por prestador, listando o procedimento, a quantidade, o valor e o valor total; totalizando por presta |  |
-| 1.2.47.44.2 | PENDENTE | Deverá emitir relatório analítico de produção laboratorial por prestador, listando o procedimento, a quantidade, o nome do paciente, a data e o valor; totalizan |  |
-| 1.2.47.44.3 | PENDENTE | Deverá emitir relatório sintético de produção laboratorial por seção, listando o procedimento, a quantidade, o valor e o valor total; totalizando por prestador  |  |
-| 1.2.47.44.4 | PENDENTE | Deverá emitir relatório sintético de agendamento laboratorial por prestador, listando o procedimento e a quantidade; totalizando por prestador a quantidade tota |  |
-| 1.2.48 | PENDENTE | MÓDULO DE INTERFACEAMENTO |  |
-| 1.2.48.1 | PENDENTE | O interfaceamento deve ser de responsabilidade da contratada, em conjunto com as empresas responsáveis pelos equipamentos de processamento de exames; |  |
-| 1.2.48.2 | PENDENTE | O sistema deve dispor de interfaceamento de equipamentos de análise com protocolo mono e bidirecionais, permitindo execução de “Delta Check”; |  |
-| 1.2.48.3 | PENDENTE | Deve processar amostras com controles automáticos integrados, com rotina de controle interno de qualidade, permitindo: |  |
-| 1.2.48.3.1 | PENDENTE | Cadastro de equipamentos que serão utilizados, cadastro de regras, definição de valores de média de bula ou de laboratório. |  |
-| 1.2.48.4 | PENDENTE | O interfaceamento deve ter solução integrada entre o sistema de gestão do laboratório e o de automação; |  |
-| 1.2.48.5 | PENDENTE | O sistema deve possibilitar o cadastro de equipamentos, automatizados ou não, para controle de qualidade; |  |
-| 1.2.48.6 | PENDENTE | Deve possibilitar extração automática dos resultados de exame; |  |
-| 1.2.48.7 | PENDENTE | Deve executar leitura de todos os parâmetros disponíveis, inclusive flags, através de protocolos ASTM, HL7 e Kermit, além de qualquer outra forma de automação d |  |
-| 1.2.48.8 | PENDENTE | Deve disponibilizar leitura automática do código de barras das amostras, ou seja, bidirecional com "request mode" (Dependente dos modelos de equipamentos); |  |
-| 1.2.48.9 | PENDENTE | Possibilidade de elaboração de listas de trabalho para equipamentos que não fazem leitura de códigos de barra; |  |
-| 1.2.48.10 | PENDENTE | Possibilitar rastreabilidade e indicação de status no momento da automação; |  |
-| 1.2.48.11 | PENDENTE | Possibilidade de centralização do servidor de automação, ou seja, apenas um (Ou o mínimo possível) para os equipamentos analisadores; |  |
-| 1.2.48.12 | PENDENTE | Os pedidos repassados para outros laboratórios devem ser cadastrados no laboratório que solicita o serviço, e já devem entrar no banco de dados do sistema pront |  |
-| 1.2.48.13 | PENDENTE | Os pedidos repassados para outros laboratórios devem ser totalmente integrados ao prontuário do paciente, desde a solicitação do exame até os resultados; |  |
-| 1.2.48.14 | PENDENTE | Deve gerar os arquivos de faturamento SUS, individualizados e consolidados, dos pedidos repassados para outros laboratórios; |  |
-| 1.2.48.15 | PENDENTE | Deve permitir a geração dos relatórios, em formato .pdf ou .csv, dos pedidos repassados para outros laboratórios. |  |
-| 1.2.49 | PENDENTE | MÓDULO DE ACESSO ACS (AGENTE COMUNITÁRIO DE SAÚDE) |  |
-| 1.2.49.1 | PENDENTE | O Aplicativo mobile para uso do Agente Comunitário de Saúde deve possibilitar execução offline, ou seja, sem necessidade de conexão com internet; |  |
-| 1.2.49.2 | PENDENTE | O Aplicativo mobile para uso do Agente Comunitário de Saúde deve conter funcionalidades para gerenciamento e controle dos mesmos dados do aplicativo WEB; |  |
-| 1.2.49.2.1 | PENDENTE | O sistema de plataforma mobile online/off-line deve permitir a visualização dos locais de visitas dos agentes comunitários de saúde, em mapa interativo e on-lin |  |
+| 1.2.47.43.3 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos pacientes agendados que já realizaram, não realizaram a coleta do material e, ainda, para os exames com mais de uma  | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.4 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos pacientes agendados, presentes e que não compareceram; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.5 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos pacientes de uma determinada seção; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.6 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos pacientes de um determinado convênio; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.7 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos pacientes pela situação do laudo: | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.7.1 | IMPLEMENTADO (itens/agrupador) | Não digitado, digitado, digitado parcialmente e assinado. |  |
+| 1.2.47.43.8 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos pacientes cujo exame esteja impresso ou aguardando impressão; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.9 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos pacientes cujo exame esteja aguardando entrega, tenha sido entregue ou não foi retirado; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.10 | IMPLEMENTADO | Deverá possuir parâmetro para quando o exame for requisitado por uma unidade de pronto atendimento (UPA), apareça de forma destacada dentre os demais; | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.11 | IMPLEMENTADO | Deverá possuir parâmetro que permita ativar a confirmação de presença do paciente para o exame na recepção; | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.12 | IMPLEMENTADO | Deverá permitir o reagendamento da coleta de um exame para outra data, caso a configuração do exame permita; | apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.13 | IMPLEMENTADO | Permitir o registro de coleta dos materiais dos exames; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.14 | IMPLEMENTADO | Caso a configuração do exame permita, possuir ação para descartar uma amostra já coletada: | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.14.1 | IMPLEMENTADO | Após o descarte o sistema deve permitir uma nova coleta para o exame. | apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.15 | IMPLEMENTADO | Disponibilizar parâmetro que, ativo, permita realizar automaticamente o registro de coleta juntamente com a confirmação de presença do paciente; | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.16 | IMPLEMENTADO | Ao registrar a coleta, sugerir a baixa de materiais conforme produtos configurados no cadastro do exame para a etapa da coleta; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.17 | IMPLEMENTADO | Permitir registrar os materiais usados para coleta do exame, realizando baixa automática de estoque; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.18 | IMPLEMENTADO | Possuir parâmetro para tornar obrigatório informar os materiais usados na coleta; | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.19 | IMPLEMENTADO | Possuir parâmetro para habilitar o registro automático de produção para a coleta; | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.20 | IMPLEMENTADO | Possuir parâmetro para permitir configurar o procedimento que será faturado no registro de produção da coleta; | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.21 | IMPLEMENTADO | Possuir parâmetro para definir o caráter e grupo padrão de atendimento para o registro de produção da coleta; | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.22 | IMPLEMENTADO | Possuir parâmetro para obrigar, caso não tenha sido informado na requisição, selecionar o material a examinar para o exame; | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.23 | IMPLEMENTADO | Permitir a coleta de várias amostras de material para o exame, caso sua configuração permita; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.24 | IMPLEMENTADO | Deve permitir a conferência e alteração dos exames agendados e os dados dos pacientes em uma única tela; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.25 | IMPLEMENTADO | Possuir módulo de comunicação e controle para que, quando definido no cadastro do exame que tenha interfaceamento, após o registro de coleta os dados necessário | apps/api/src/modulos/laboratorio/interface.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.26 | IMPLEMENTADO | Possuir parâmetro que permita configurar se, após a coleta, serão impressas automaticamente as etiquetas de identificação dos tubos de amostra; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.27 | IMPLEMENTADO | Possuir parâmetro para determinar se, no comprovante de coleta, somente será impresso o prazo do resultado se todos os exames da requisição já tiverem sido cole | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.28 | IMPLEMENTADO | Possuir parâmetro para permitir configurar a impressão das etiquetas automaticamente após o registro de coleta; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.29 | IMPLEMENTADO | Possuir parâmetro para permitir configurar a impressão dos mapas de trabalho automaticamente, após o registro de coleta; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.30 | IMPLEMENTADO | Deverá possuir impressão do mapa de trabalho por seção, exame ou laboratório, de forma sintética, em colunas para a digitação que priorize a economia de papel,  | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.31 | IMPLEMENTADO | Deverá possuir a impressão dos mapas de trabalho, configurados para os exames individualmente ou em lote; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.32 | IMPLEMENTADO | Deverá permitir a impressão de etiquetas individualmente ou em lote; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.43.33 | IMPLEMENTADO | Deverá permitir a impressão das etiquetas em impressora térmica específica para etiquetas autoadesivas; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.43.34 | IMPLEMENTADO | Deverá permitir a configuração da impressão das etiquetas, permitindo definir: | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.43.35 | IMPLEMENTADO | Tamanho vertical e horizontal em milímetros. | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.43.36 | IMPLEMENTADO | Permitir definir o que será impressa em cada linha da etiqueta; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.47.43.37 | IMPLEMENTADO (itens/agrupador) | Permitir o uso dos dados do paciente, exame e coleta para impressão das etiquetas, com: |  |
+| 1.2.47.43.37.1 | IMPLEMENTADO | Material a examinar, nome do tubo de amostra, cor do tubo, código e nome do paciente, número da amostra, nº da requisição, código de Barras do nº da requisição, | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.43.38 | IMPLEMENTADO | Possuir visualização em tempo real da configuração da etiqueta, à medida que é configurada; | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.43.39 | IMPLEMENTADO | Permitir impressão do comprovante de coleta do exame; | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.43.40 | IMPLEMENTADO | Permitir configurar o comprovante de coleta do exame definindo o seu modelo (½ página ou ¼ de página), o seu título da área de observações e um texto personaliz | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.43.41 | IMPLEMENTADO | O sistema deve permitir anexar o resultado do exame em formado .pdf. Após a inclusão do arquivo, o exame deve ser automaticamente considerado como liberado e as | apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.42 | IMPLEMENTADO | Permitir configurar o tamanho máximo permitido para o arquivo de resultados de exame digitalizados; | apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.43 | IMPLEMENTADO | Possuir área para o registro do resultado dos exames; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.44 | IMPLEMENTADO | Possuir camada de controle e comunicação entre os equipamentos do laboratório e o sistema, permitindo a obtenção automática dos resultados de exames advindos de | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.43.45 | IMPLEMENTADO | Possuir parâmetro que permita definir o resultado do exame como assinado, quando este for recebido através de interfaceamento com equipamentos; | apps/api/src/modulos/laboratorio/interface.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.43.46 | IMPLEMENTADO | Deve permitir a digitação do resultado conforme as variáveis de resultado definidas; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/LaboratorioComum.tsx |
+| 1.2.47.43.47 | IMPLEMENTADO | Durante a digitação do resultado, caso um valor esteja fora dos valores de referências definidos no cadastro do exame, o sistema deve apresentar um alerta ao op | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.48 | IMPLEMENTADO | Deverá possuir forma de informação dos resultados por setor, de forma sequencial, para que, ao confirmar o resultado de um paciente, o sistema traga automaticam | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.49 | IMPLEMENTADO | Deverá possuir forma de informação dos resultados por paciente, de forma sequencial, para que, ao confirmar o resultado de um exame, o sistema traga automaticam | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.50 | IMPLEMENTADO | Durante a digitação do resultado, o sistema deverá disponibilizar funcionalidade para limpar as variáveis já digitadas; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.51 | IMPLEMENTADO | Durante a digitação do resultado, deverá disponibilizar funcionalidade para pular para a digitação ou alteração do resultado anterior ou do próximo resultado; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.52 | IMPLEMENTADO | Deverá possibilitar a informação dos resultados de forma parcial, para que possa ser concluído em outro momento; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.53 | IMPLEMENTADO | O sistema deve bloquear a alteração do laudo após a liberação da assinatura; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.54 | IMPLEMENTADO | No interfaceamento, disponibilizar cálculo dos valores de resultados por "Delta-Check"; | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/interface.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.43.55 | IMPLEMENTADO | O sistema deve controlar para que, em uma alteração de modelo de laudo, os resultados já liberados permaneçam inalterados; | apps/api/src/modulos/laboratorio/documentos.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.56 | IMPLEMENTADO | Permitir validação "Delta-Check" ao digitar manualmente os resultados; | apps/api/src/modulos/laboratorio/calculo.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.57 | IMPLEMENTADO | Permitir liberação do resultado diretamente no laudo; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.58 | IMPLEMENTADO | Deverá possuir funcionalidade para que somente profissionais autorizados assinem os laudos, liberando então a visualização e impressão dos resultados; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.59 | IMPLEMENTADO | Deverá possibilitar a identificação e finalização da digitação dos resultados parcialmente digitados; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.60 | IMPLEMENTADO | Deverá permitir acessar dados do paciente no momento da informação do resultado, tais como: | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.43.60.1 | IMPLEMENTADO | Resultados de exames anteriores, medicamentos em uso, medicamentos de uso contínuo, restrições alérgicas, carteira de imunização. | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.61 | IMPLEMENTADO | Deverá permitir o registro de pacientes faltosos; | apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.62 | IMPLEMENTADO | Deve permitir o registro de entrega de exames aos pacientes; | apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.63 | IMPLEMENTADO | Deve permitir ao operador autorizado liberar assinatura para impressão do resultado de um exame, individualmente ou em lote; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.64 | IMPLEMENTADO | Ao realizar a liberação de assinatura para impressão, deve ser solicitada confirmação da ação através da digitação da senha do operador. | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/genericos/dialogos.tsx |
+| 1.2.47.43.64.1 | IMPLEMENTADO | Sem a digitação da senha correta do operador, não deve ser possível liberar o resultado do exame para impressão; | apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.65 | IMPLEMENTADO | O sistema não deve permitir a alteração do resultado do exame após a liberação de assinatura para impressão; | apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.66 | IMPLEMENTADO | Deverá permitir, somente após a liberação da assinatura, a impressão do laudo do exame, conforme configuração do laudo realizada no cadastro do exame; | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.43.67 | IMPLEMENTADO | Deverá permitir, somente após a liberação da assinatura, a impressão do envelope do laudo do exame; | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.43.68 | IMPLEMENTADO | Deverá permitir configurar a impressão do envelope definindo a largura e altura, bem como a margem do topo e da esquerda; | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.43.69 | IMPLEMENTADO | Deverá permitir, somente após a liberação da assinatura, o registro dos exames não retirados; | apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.70 | IMPLEMENTADO | Deverá permitir, para os operadores devidamente autorizados, o cancelamento da liberação da assinatura e do resultado do exame; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts<br>apps/web/src/telas/modulos/Laboratorio.tsx |
+| 1.2.47.43.71 | IMPLEMENTADO | Deverá disponibilizar o resultado dos exames, automaticamente, no histórico do paciente; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.72 | IMPLEMENTADO | Dispor de visualização dos laudos no monitor, sem a necessidade de impressão; | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.47.43.73 | IMPLEMENTADO | Deverá disponibilizar, automaticamente, os laudos liberados diretamente no prontuário do paciente, para fácil acesso do profissional solicitante (Médicos e dema | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.47.43.74 | IMPLEMENTADO | Deve disponibilizar e imprimir, de forma individual ou em lote, de capa de faturamento na recepção do paciente, com as seguintes informações: | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.43.74.1 | IMPLEMENTADO | Número da requisição, dados do paciente, unidade de origem, exames cadastrados, valor por exame e valor total, nome do profissional que realizou o cadastro, dat | apps/api/src/modulos/laboratorio/documentos.ts |
+| 1.2.47.44 | IMPLEMENTADO (itens/agrupador) | Relatórios: |  |
+| 1.2.47.44.1 | IMPLEMENTADO | Deverá emitir relatório sintético de produção laboratorial por prestador, listando o procedimento, a quantidade, o valor e o valor total; totalizando por presta | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.44.2 | IMPLEMENTADO | Deverá emitir relatório analítico de produção laboratorial por prestador, listando o procedimento, a quantidade, o nome do paciente, a data e o valor; totalizan | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.44.3 | IMPLEMENTADO | Deverá emitir relatório sintético de produção laboratorial por seção, listando o procedimento, a quantidade, o valor e o valor total; totalizando por prestador  | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.47.44.4 | IMPLEMENTADO | Deverá emitir relatório sintético de agendamento laboratorial por prestador, listando o procedimento e a quantidade; totalizando por prestador a quantidade tota | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.48 | IMPLEMENTADO | MÓDULO DE INTERFACEAMENTO | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/interface.ts |
+| 1.2.48.1 | IMPLEMENTADO | O interfaceamento deve ser de responsabilidade da contratada, em conjunto com as empresas responsáveis pelos equipamentos de processamento de exames; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.48.2 | IMPLEMENTADO | O sistema deve dispor de interfaceamento de equipamentos de análise com protocolo mono e bidirecionais, permitindo execução de “Delta Check”; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/interface.ts |
+| 1.2.48.3 | IMPLEMENTADO | Deve processar amostras com controles automáticos integrados, com rotina de controle interno de qualidade, permitindo: | apps/api/src/modulos/laboratorio/carga.ts<br>apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/interface.ts |
+| 1.2.48.3.1 | IMPLEMENTADO | Cadastro de equipamentos que serão utilizados, cadastro de regras, definição de valores de média de bula ou de laboratório. | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/interface.ts |
+| 1.2.48.4 | IMPLEMENTADO | O interfaceamento deve ter solução integrada entre o sistema de gestão do laboratório e o de automação; | apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.48.5 | IMPLEMENTADO | O sistema deve possibilitar o cadastro de equipamentos, automatizados ou não, para controle de qualidade; | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.48.6 | IMPLEMENTADO | Deve possibilitar extração automática dos resultados de exame; | apps/api/src/modulos/laboratorio/interface.ts |
+| 1.2.48.7 | IMPLEMENTADO | Deve executar leitura de todos os parâmetros disponíveis, inclusive flags, através de protocolos ASTM, HL7 e Kermit, além de qualquer outra forma de automação d | apps/api/src/modulos/laboratorio/entidades.ts |
+| 1.2.48.8 | IMPLEMENTADO | Deve disponibilizar leitura automática do código de barras das amostras, ou seja, bidirecional com "request mode" (Dependente dos modelos de equipamentos); | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/interface.ts |
+| 1.2.48.9 | IMPLEMENTADO | Possibilidade de elaboração de listas de trabalho para equipamentos que não fazem leitura de códigos de barra; | apps/api/src/modulos/laboratorio/interface.ts |
+| 1.2.48.10 | IMPLEMENTADO | Possibilitar rastreabilidade e indicação de status no momento da automação; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/interface.ts<br>apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.48.11 | IMPLEMENTADO | Possibilidade de centralização do servidor de automação, ou seja, apenas um (Ou o mínimo possível) para os equipamentos analisadores; | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/interface.ts<br>apps/api/src/modulos/laboratorio/rotas.ts |
+| 1.2.48.12 | IMPLEMENTADO | Os pedidos repassados para outros laboratórios devem ser cadastrados no laboratório que solicita o serviço, e já devem entrar no banco de dados do sistema pront | apps/api/src/modulos/laboratorio/entidades.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.48.13 | IMPLEMENTADO | Os pedidos repassados para outros laboratórios devem ser totalmente integrados ao prontuário do paciente, desde a solicitação do exame até os resultados; | apps/api/src/modulos/laboratorio/relatorios.ts<br>apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.48.14 | IMPLEMENTADO | Deve gerar os arquivos de faturamento SUS, individualizados e consolidados, dos pedidos repassados para outros laboratórios; | apps/api/src/modulos/laboratorio/rotas.ts<br>apps/api/src/modulos/laboratorio/servico.ts |
+| 1.2.48.15 | IMPLEMENTADO | Deve permitir a geração dos relatórios, em formato .pdf ou .csv, dos pedidos repassados para outros laboratórios. | apps/api/src/modulos/laboratorio/relatorios.ts |
+| 1.2.49 | IMPLEMENTADO | MÓDULO DE ACESSO ACS (AGENTE COMUNITÁRIO DE SAÚDE) | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/modulos/acs/servico.ts |
+| 1.2.49.1 | IMPLEMENTADO | O Aplicativo mobile para uso do Agente Comunitário de Saúde deve possibilitar execução offline, ou seja, sem necessidade de conexão com internet; | apps/web/src/acs/AppAcs.tsx<br>apps/web/src/acs/cofre.ts<br>apps/web/src/acs/estado.tsx |
+| 1.2.49.2 | IMPLEMENTADO | O Aplicativo mobile para uso do Agente Comunitário de Saúde deve conter funcionalidades para gerenciamento e controle dos mesmos dados do aplicativo WEB; | apps/api/src/modulos/acs/relatorios.ts |
+| 1.2.49.2.1 | IMPLEMENTADO | O sistema de plataforma mobile online/off-line deve permitir a visualização dos locais de visitas dos agentes comunitários de saúde, em mapa interativo e on-lin | apps/api/src/modulos/acs/relatorios.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/acs/MapaVisitas.tsx |
 | 1.2.49.3 | PENDENTE | O sistema deve ser desenvolvido em linguagem que permita também a operação via Internet e ser acessível diretamente em navegadores, como por exemplo o Chrome, S |  |
-| 1.2.49.4 | PENDENTE | Atualizações do aplicativo devem ser efetuadas automaticamente, sem a necessidade de intervenção ou confirmação do ACS ou operador responsável da unidade de saú |  |
-| 1.2.49.5 | PENDENTE | Deverá possibilitar a liberação do acesso aos ACS, por operador responsável da unidade de saúde; |  |
-| 1.2.49.6 | IMPLEMENTADO | Deverá realizar a identificação do ACS através do Cadastro de Pessoa Física (CPF) e senha com no mínimo 8 dígitos, contendo: | apps/api/src/compartilhado/validacao.ts |
+| 1.2.49.4 | IMPLEMENTADO | Atualizações do aplicativo devem ser efetuadas automaticamente, sem a necessidade de intervenção ou confirmação do ACS ou operador responsável da unidade de saú | apps/web/src/acs/AppAcs.tsx |
+| 1.2.49.5 | IMPLEMENTADO | Deverá possibilitar a liberação do acesso aos ACS, por operador responsável da unidade de saúde; | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/modulos/acs/servico.ts |
+| 1.2.49.6 | IMPLEMENTADO | Deverá realizar a identificação do ACS através do Cadastro de Pessoa Física (CPF) e senha com no mínimo 8 dígitos, contendo: | apps/api/src/compartilhado/validacao.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/acs/AppAcs.tsx |
 | 1.2.49.6.1 | IMPLEMENTADO (itens/agrupador) | 1 dígito numérico; |  |
 | 1.2.49.6.2 | IMPLEMENTADO (itens/agrupador) | 1 dígito alfanumérico; |  |
 | 1.2.49.6.3 | IMPLEMENTADO (itens/agrupador) | 1 caractere especial. |  |
-| 1.2.49.7 | PENDENTE | Deverá bloquear o acesso do ACS após algumas tentativas que apresentarem dados de login inválido; |  |
-| 1.2.49.8 | PENDENTE | Deverá possibilitar o gerenciamento de cargas dos ACS, por operador responsável da unidade de saúde, sem intervenção ou manipulação de arquivos, para garantia d |  |
-| 1.2.49.8.1 | PENDENTE | Cancelamento de carga; |  |
-| 1.2.49.8.2 | PENDENTE | Redefinição de validade da carga. |  |
-| 1.2.49.9 | PENDENTE | Deverá controlar o bloqueio e liberação do cadastro das famílias e seus integrantes, enviados para o aplicativo mobile até a data final da validade da carga, li |  |
-| 1.2.49.10 | IMPLEMENTADO | Deverá possuir forma de criptografia dos dados coletados, para garantia de integridade das informações coletadas e armazenadas no dispositivo móvel; | apps/api/src/servicos/cripto.ts |
-| 1.2.49.11 | IMPLEMENTADO | Deverá gerar a produção (BPA) automaticamente a partir das visitas efetuadas pelo agente comunitário. | apps/api/src/modulos/faturamento/entidades.ts |
-| 1.2.49.12 | PENDENTE | Gerenciamento de dados: |  |
-| 1.2.49.12.1 | PENDENTE | Deverá permitir ao ACS o gerenciamento de cargas de dados, sem intervenção ou manipulação de arquivos, para garantia de integridade das informações coletadas, c |  |
-| 1.2.49.12.1.1 | PENDENTE | Recebimento de carga; |  |
-| 1.2.49.12.1.2 | PENDENTE | Envio de carga; |  |
-| 1.2.49.12.1.3 | PENDENTE | Cancelamento de carga. |  |
-| 1.2.49.12.2 | PENDENTE | Deverá possuir visualização das informações da carga atual contendo no mínimo as informações: |  |
-| 1.2.49.12.2.1 | PENDENTE | Data do recebimento; |  |
-| 1.2.49.12.2.2 | PENDENTE | Responsável; |  |
-| 1.2.49.12.2.3 | PENDENTE | Área; |  |
-| 1.2.49.12.2.4 | PENDENTE | Micro área ou subdivisão; |  |
-| 1.2.49.12.2.5 | PENDENTE | Número de famílias; |  |
-| 1.2.49.12.2.6 | PENDENTE | Número de pessoas; |  |
-| 1.2.49.12.2.7 | PENDENTE | Data para o retorno da carga (validade). |  |
-| 1.2.49.13 | PENDENTE | Cadastros: |  |
-| 1.2.49.13.1 | PENDENTE | Deverá possuir uma lista de todas as famílias contidas na carga de dados; |  |
-| 1.2.49.13.2 | IMPLEMENTADO | Deverá permitir a visualização das informações da família nos padrões da Ficha “A”, com: | apps/api/src/modulos/cadastros/pessoas.ts |
+| 1.2.49.7 | IMPLEMENTADO | Deverá bloquear o acesso do ACS após algumas tentativas que apresentarem dados de login inválido; | apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/acs/AppAcs.tsx<br>apps/web/src/acs/cofre.ts |
+| 1.2.49.8 | IMPLEMENTADO | Deverá possibilitar o gerenciamento de cargas dos ACS, por operador responsável da unidade de saúde, sem intervenção ou manipulação de arquivos, para garantia d | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts |
+| 1.2.49.8.1 | IMPLEMENTADO | Cancelamento de carga; | apps/api/src/modulos/acs/rotas.ts |
+| 1.2.49.8.2 | IMPLEMENTADO | Redefinição de validade da carga. | apps/api/src/modulos/acs/rotas.ts |
+| 1.2.49.9 | IMPLEMENTADO | Deverá controlar o bloqueio e liberação do cadastro das famílias e seus integrantes, enviados para o aplicativo mobile até a data final da validade da carga, li | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/modulos/acs/servico.ts |
+| 1.2.49.10 | IMPLEMENTADO | Deverá possuir forma de criptografia dos dados coletados, para garantia de integridade das informações coletadas e armazenadas no dispositivo móvel; | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/servicos/cripto.ts |
+| 1.2.49.11 | IMPLEMENTADO | Deverá gerar a produção (BPA) automaticamente a partir das visitas efetuadas pelo agente comunitário. | apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/modulos/acs/servico.ts<br>apps/api/src/modulos/faturamento/entidades.ts |
+| 1.2.49.12 | IMPLEMENTADO | Gerenciamento de dados: | apps/web/src/acs/estado.tsx |
+| 1.2.49.12.1 | IMPLEMENTADO | Deverá permitir ao ACS o gerenciamento de cargas de dados, sem intervenção ou manipulação de arquivos, para garantia de integridade das informações coletadas, c | apps/api/src/modulos/acs/entidades.ts<br>apps/web/src/acs/AppAcs.tsx |
+| 1.2.49.12.1.1 | IMPLEMENTADO | Recebimento de carga; | apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/acs/estado.tsx |
+| 1.2.49.12.1.2 | IMPLEMENTADO | Envio de carga; | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/modulos/acs/servico.ts |
+| 1.2.49.12.1.3 | IMPLEMENTADO | Cancelamento de carga. | apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/acs/estado.tsx |
+| 1.2.49.12.2 | IMPLEMENTADO | Deverá possuir visualização das informações da carga atual contendo no mínimo as informações: | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/web/src/acs/AppAcs.tsx |
+| 1.2.49.12.2.1 | IMPLEMENTADO (itens/agrupador) | Data do recebimento; |  |
+| 1.2.49.12.2.2 | IMPLEMENTADO (itens/agrupador) | Responsável; |  |
+| 1.2.49.12.2.3 | IMPLEMENTADO (itens/agrupador) | Área; |  |
+| 1.2.49.12.2.4 | IMPLEMENTADO (itens/agrupador) | Micro área ou subdivisão; |  |
+| 1.2.49.12.2.5 | IMPLEMENTADO (itens/agrupador) | Número de famílias; |  |
+| 1.2.49.12.2.6 | IMPLEMENTADO (itens/agrupador) | Número de pessoas; |  |
+| 1.2.49.12.2.7 | IMPLEMENTADO | Data para o retorno da carga (validade). | apps/api/src/modulos/acs/entidades.ts |
+| 1.2.49.13 | IMPLEMENTADO (itens/agrupador) | Cadastros: |  |
+| 1.2.49.13.1 | IMPLEMENTADO | Deverá possuir uma lista de todas as famílias contidas na carga de dados; | apps/web/src/acs/AppAcs.tsx |
+| 1.2.49.13.2 | IMPLEMENTADO | Deverá permitir a visualização das informações da família nos padrões da Ficha “A”, com: | apps/api/src/modulos/acs/servico.ts<br>apps/api/src/modulos/cadastros/pessoas.ts<br>apps/web/src/acs/AppAcs.tsx |
 | 1.2.49.13.2.1 | IMPLEMENTADO (itens/agrupador) | Integrantes; |  |
 | 1.2.49.13.2.2 | IMPLEMENTADO (itens/agrupador) | Informações básicas; |  |
 | 1.2.49.13.2.3 | IMPLEMENTADO (itens/agrupador) | Documentos; |  |
@@ -2662,68 +2662,68 @@ Pregão Eletrônico nº 71/2025 — Prefeitura Municipal de Cabreúva/SP. Gerada
 | 1.2.49.13.2.26.1 | IMPLEMENTADO (itens/agrupador) | Munícipio; tipo do Logradouro; logradouro; bairro; CEP; número; complemento; |  |
 | 1.2.49.13.2.27 | IMPLEMENTADO (itens/agrupador) | Outras informações: |  |
 | 1.2.49.13.2.27.1 | PENDENTE | Plano de saúde, participação em grupos comunitários, meios de comunicação que mais utiliza; meios de transporte que mais utiliza. |  |
-| 1.2.49.13.3 | PENDENTE | Deverá permitir a atualização dos integrantes da família; |  |
-| 1.2.49.13.4 | PENDENTE | Deverá permitir a inclusão de novos integrantes na família; |  |
-| 1.2.49.13.5 | PENDENTE | Deverá permitir o registro de visita domiciliar para a família, com informações especificas para cada integrante da família nos padrões do e-SUS AB, com as segu |  |
-| 1.2.49.13.5.1 | PENDENTE | Parecer do Técnico; |  |
-| 1.2.49.13.5.2 | PENDENTE | Motivo da Visita; |  |
-| 1.2.49.13.5.3 | PENDENTE | Situação da Visita; |  |
-| 1.2.49.13.5.4 | PENDENTE | Se a visita foi compartilhada por outros profissionais. |  |
-| 1.2.49.13.6 | PENDENTE | Deverá registrar automaticamente a latitude e longitude ao concluir a visita domiciliar (Funcionalidade vinculada à disponibilidade de GPS e permissão de acesso |  |
-| 1.2.49.13.7 | PENDENTE | Deverá permitir que o ACS solicite agendamentos de consulta para os integrantes da família com as seguintes informações: |  |
-| 1.2.49.13.7.1 | PENDENTE | Especialidade; |  |
-| 1.2.49.13.7.2 | PENDENTE | Justificativa/Observação. |  |
-| 1.2.49.13.8 | PENDENTE | Deve permitir sincronizar as informações para o sistema de Gestão de Saúde, devendo esse fazer a transposição dos dados, com geração do BPA, e-SUS e e-SUS AB. |  |
-| 1.2.50 | PENDENTE | MÓDULO DE ECOGRAFIA |  |
-| 1.2.50.1 | PENDENTE | Deverá permitir o cadastro dos exames prestados com as seguintes informações e referências ao SIGTAP: |  |
-| 1.2.50.1.1 | PENDENTE | Nome; |  |
-| 1.2.50.1.2 | PENDENTE | Sexo; |  |
-| 1.2.50.1.3 | PENDENTE | Faixa etária; |  |
-| 1.2.50.1.4 | PENDENTE | CBO; |  |
-| 1.2.50.1.5 | PENDENTE | Instrumento de registro; |  |
-| 1.2.50.1.6 | PENDENTE | Habilitações; |  |
-| 1.2.50.1.7 | PENDENTE | Valor. |  |
-| 1.2.50.2 | PENDENTE | Deverá permitir o cadastro de estruturas e órgãos a examinar; |  |
-| 1.2.50.3 | PENDENTE | Deverá permitir cadastro de um ou mais modelos de resultado para cada exame, podendo ser totalmente personalizado pelo usuário de acordo com suas necessidades; |  |
-| 1.2.50.4 | PENDENTE | Deverá possuir uma visualização prévia do modelo de resultado; |  |
-| 1.2.50.5 | PENDENTE | Deverá possuir definição dos profissionais que assinam os resultados dos exames; |  |
-| 1.2.50.6 | PENDENTE | Deverá possuir assinatura gráfica para acelerar o processo de liberação da assinatura e do resultado pelo profissional, mesmo à distância; |  |
-| 1.2.50.7 | PENDENTE | Deverá possuir configuração do cabeçalho a ser impresso no resultado do exame; podendo ser para o solicitante ou para o prestador. |  |
-| 1.2.50.8 | PENDENTE | Recepção: |  |
-| 1.2.50.8.1 | PENDENTE | Na primeira tela de acesso a agenda de exames de ultrassonografias, deverá exibir os pacientes com exames agendados na data, listando: |  |
-| 1.2.50.8.1.1 | PENDENTE | Data; |  |
-| 1.2.50.8.1.2 | PENDENTE | Nome do paciente; |  |
-| 1.2.50.8.1.3 | PENDENTE | Número do Prontuário; |  |
-| 1.2.50.8.1.4 | PENDENTE | Nome da unidade solicitante; |  |
-| 1.2.50.8.1.5 | PENDENTE | Nome do profissional solicitante; |  |
-| 1.2.50.8.1.6 | PENDENTE | Número da requisição; |  |
-| 1.2.50.8.1.7 | PENDENTE | Nome do procedimento; |  |
-| 1.2.50.8.1.8 | PENDENTE | Estrutura ou órgão a examinar. |  |
-| 1.2.50.8.2 | PENDENTE | Deverá ser possível realizar a pesquisa pelo paciente pelos campos: |  |
-| 1.2.50.8.2.1 | PENDENTE | Código do paciente; |  |
-| 1.2.50.8.2.2 | PENDENTE | Nome do paciente; |  |
-| 1.2.50.8.2.3 | PENDENTE | Data; |  |
-| 1.2.50.8.2.4 | PENDENTE | Número do prontuário; |  |
-| 1.2.50.8.2.5 | PENDENTE | Unidade solicitante; |  |
-| 1.2.50.8.2.6 | PENDENTE | Nome do procedimento; |  |
-| 1.2.50.8.2.7 | PENDENTE | CPF do paciente; |  |
-| 1.2.50.8.2.8 | PENDENTE | Cartão Nacional de Saúde. |  |
-| 1.2.50.8.3 | PENDENTE | Deverá ser possível realizar a pesquisa dos usuários de um determinado convênio; |  |
-| 1.2.50.8.4 | PENDENTE | Deverá ser possível realizar a pesquisa dos usuários pelo status do laudo: Não digitado; Digitado; Impresso; |  |
-| 1.2.50.8.5 | PENDENTE | Deverá possuir campo para o registro do resultado do exame; |  |
-| 1.2.50.8.6 | PENDENTE | Deverá permitir anexar digitalizações de imagens ao resultado no exame; |  |
-| 1.2.50.8.7 | PENDENTE | Deverá possuir campo para anexar o resultado do exame; |  |
-| 1.2.50.8.8 | PENDENTE | Deverá possibilitar a alteração do resultado do exame enquanto o mesmo não possuir assinatura ou não possua resultado anexado; |  |
-| 1.2.50.8.9 | PENDENTE | Deverá possuir funcionalidade de assinatura dos resultados para resultados que não foram anexados; |  |
-| 1.2.50.8.10 | PENDENTE | Deverá liberar a impressão do resultado somente após a assinatura; |  |
-| 1.2.50.8.11 | PENDENTE | Deverá liberar a impressão do envelope somente após a assinatura; |  |
-| 1.2.50.8.12 | PENDENTE | Deverá disponibilizar o resultado dos exames no histórico do paciente; |  |
-| 1.2.50.8.13 | PENDENTE | Deverá disponibilizar os laudos liberados diretamente no prontuário do paciente para fácil acesso do profissional solicitante (Médicos e demais profissionais); |  |
-| 1.2.50.8.14 | PENDENTE | Deverá conter funcionalidade para definição de exames retirados. |  |
-| 1.2.50.9 | PENDENTE | Relatórios: |  |
-| 1.2.50.9.1 | PENDENTE | Relatório analítico de produção por unidade do prestador; |  |
-| 1.2.50.9.2 | PENDENTE | Relatório sintético de produção por unidade do prestador; |  |
-| 1.2.50.9.3 | PENDENTE | Relatório sintético de agendamentos de exames de ultrassonografias. |  |
+| 1.2.49.13.3 | IMPLEMENTADO | Deverá permitir a atualização dos integrantes da família; | apps/api/src/modulos/acs/servico.ts<br>apps/web/src/acs/AppAcs.tsx |
+| 1.2.49.13.4 | IMPLEMENTADO | Deverá permitir a inclusão de novos integrantes na família; | apps/api/src/modulos/acs/servico.ts<br>apps/web/src/acs/AppAcs.tsx |
+| 1.2.49.13.5 | IMPLEMENTADO | Deverá permitir o registro de visita domiciliar para a família, com informações especificas para cada integrante da família nos padrões do e-SUS AB, com as segu | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/servico.ts<br>apps/web/src/acs/AppAcs.tsx |
+| 1.2.49.13.5.1 | IMPLEMENTADO | Parecer do Técnico; | apps/api/src/modulos/acs/entidades.ts |
+| 1.2.49.13.5.2 | IMPLEMENTADO | Motivo da Visita; | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/relatorios.ts |
+| 1.2.49.13.5.3 | IMPLEMENTADO | Situação da Visita; | apps/api/src/modulos/acs/entidades.ts |
+| 1.2.49.13.5.4 | IMPLEMENTADO | Se a visita foi compartilhada por outros profissionais. | apps/api/src/modulos/acs/entidades.ts |
+| 1.2.49.13.6 | IMPLEMENTADO | Deverá registrar automaticamente a latitude e longitude ao concluir a visita domiciliar (Funcionalidade vinculada à disponibilidade de GPS e permissão de acesso | apps/api/src/modulos/acs/entidades.ts<br>apps/api/src/modulos/acs/servico.ts<br>apps/web/src/acs/AppAcs.tsx |
+| 1.2.49.13.7 | IMPLEMENTADO | Deverá permitir que o ACS solicite agendamentos de consulta para os integrantes da família com as seguintes informações: | apps/api/src/modulos/acs/servico.ts<br>apps/web/src/acs/AppAcs.tsx |
+| 1.2.49.13.7.1 | IMPLEMENTADO (itens/agrupador) | Especialidade; |  |
+| 1.2.49.13.7.2 | IMPLEMENTADO (itens/agrupador) | Justificativa/Observação. |  |
+| 1.2.49.13.8 | IMPLEMENTADO | Deve permitir sincronizar as informações para o sistema de Gestão de Saúde, devendo esse fazer a transposição dos dados, com geração do BPA, e-SUS e e-SUS AB. | apps/api/src/modulos/acs/relatorios.ts<br>apps/api/src/modulos/acs/rotas.ts<br>apps/api/src/modulos/acs/servico.ts |
+| 1.2.50 | IMPLEMENTADO | MÓDULO DE ECOGRAFIA | apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/ecografia/entidades.ts<br>apps/api/src/modulos/ecografia/rotas.ts |
+| 1.2.50.1 | IMPLEMENTADO | Deverá permitir o cadastro dos exames prestados com as seguintes informações e referências ao SIGTAP: | apps/api/src/modulos/ecografia/config.ts |
+| 1.2.50.1.1 | IMPLEMENTADO | Nome; | apps/api/src/modulos/ecografia/config.ts |
+| 1.2.50.1.2 | IMPLEMENTADO | Sexo; | apps/api/src/modulos/ecografia/config.ts |
+| 1.2.50.1.3 | IMPLEMENTADO | Faixa etária; | apps/api/src/modulos/ecografia/config.ts |
+| 1.2.50.1.4 | IMPLEMENTADO | CBO; | apps/api/src/modulos/ecografia/config.ts |
+| 1.2.50.1.5 | IMPLEMENTADO | Instrumento de registro; | apps/api/src/modulos/ecografia/config.ts |
+| 1.2.50.1.6 | IMPLEMENTADO | Habilitações; | apps/api/src/modulos/ecografia/config.ts |
+| 1.2.50.1.7 | IMPLEMENTADO | Valor. | apps/api/src/modulos/ecografia/config.ts |
+| 1.2.50.2 | IMPLEMENTADO | Deverá permitir o cadastro de estruturas e órgãos a examinar; | apps/api/src/modulos/ecografia/config.ts |
+| 1.2.50.3 | IMPLEMENTADO | Deverá permitir cadastro de um ou mais modelos de resultado para cada exame, podendo ser totalmente personalizado pelo usuário de acordo com suas necessidades; | apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.4 | IMPLEMENTADO | Deverá possuir uma visualização prévia do modelo de resultado; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.5 | IMPLEMENTADO | Deverá possuir definição dos profissionais que assinam os resultados dos exames; | apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.6 | IMPLEMENTADO | Deverá possuir assinatura gráfica para acelerar o processo de liberação da assinatura e do resultado pelo profissional, mesmo à distância; | apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.7 | IMPLEMENTADO | Deverá possuir configuração do cabeçalho a ser impresso no resultado do exame; podendo ser para o solicitante ou para o prestador. | apps/api/src/modulos/ecografia/carga.ts<br>apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8 | IMPLEMENTADO (itens/agrupador) | Recepção: |  |
+| 1.2.50.8.1 | IMPLEMENTADO | Na primeira tela de acesso a agenda de exames de ultrassonografias, deverá exibir os pacientes com exames agendados na data, listando: | apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.1.1 | IMPLEMENTADO | Data; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.1.2 | IMPLEMENTADO | Nome do paciente; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.1.3 | IMPLEMENTADO | Número do Prontuário; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.1.4 | IMPLEMENTADO | Nome da unidade solicitante; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.1.5 | IMPLEMENTADO | Nome do profissional solicitante; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.1.6 | IMPLEMENTADO | Número da requisição; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.1.7 | IMPLEMENTADO | Nome do procedimento; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.1.8 | IMPLEMENTADO | Estrutura ou órgão a examinar. | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.2 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa pelo paciente pelos campos: | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.2.1 | IMPLEMENTADO | Código do paciente; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.2.2 | IMPLEMENTADO | Nome do paciente; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.2.3 | IMPLEMENTADO | Data; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.2.4 | IMPLEMENTADO | Número do prontuário; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.2.5 | IMPLEMENTADO | Unidade solicitante; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.2.6 | IMPLEMENTADO | Nome do procedimento; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.2.7 | IMPLEMENTADO | CPF do paciente; | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.2.8 | IMPLEMENTADO | Cartão Nacional de Saúde. | apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.8.3 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos usuários de um determinado convênio; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.4 | IMPLEMENTADO | Deverá ser possível realizar a pesquisa dos usuários pelo status do laudo: Não digitado; Digitado; Impresso; | apps/api/src/modulos/ecografia/relatorios.ts<br>apps/api/src/modulos/ecografia/servico.ts<br>apps/api/src/modulos/radiologia/imagem-rotas.ts |
+| 1.2.50.8.5 | IMPLEMENTADO | Deverá possuir campo para o registro do resultado do exame; | apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.6 | IMPLEMENTADO | Deverá permitir anexar digitalizações de imagens ao resultado no exame; | apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.7 | IMPLEMENTADO | Deverá possuir campo para anexar o resultado do exame; | apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.8 | IMPLEMENTADO | Deverá possibilitar a alteração do resultado do exame enquanto o mesmo não possuir assinatura ou não possua resultado anexado; | apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.9 | IMPLEMENTADO | Deverá possuir funcionalidade de assinatura dos resultados para resultados que não foram anexados; | apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.10 | IMPLEMENTADO | Deverá liberar a impressão do resultado somente após a assinatura; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.11 | IMPLEMENTADO | Deverá liberar a impressão do envelope somente após a assinatura; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.12 | IMPLEMENTADO | Deverá disponibilizar o resultado dos exames no histórico do paciente; | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.13 | IMPLEMENTADO | Deverá disponibilizar os laudos liberados diretamente no prontuário do paciente para fácil acesso do profissional solicitante (Médicos e demais profissionais); | apps/api/src/modulos/radiologia/imagem-rotas.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts<br>apps/web/src/telas/modulos/RadiologiaNucleo.tsx |
+| 1.2.50.8.14 | IMPLEMENTADO | Deverá conter funcionalidade para definição de exames retirados. | apps/api/src/modulos/ecografia/config.ts<br>apps/api/src/modulos/ecografia/relatorios.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.9 | IMPLEMENTADO (itens/agrupador) | Relatórios: |  |
+| 1.2.50.9.1 | IMPLEMENTADO | Relatório analítico de produção por unidade do prestador; | apps/api/src/modulos/ecografia/relatorios.ts<br>apps/api/src/modulos/radiologia/imagem-servico.ts |
+| 1.2.50.9.2 | IMPLEMENTADO | Relatório sintético de produção por unidade do prestador; | apps/api/src/modulos/ecografia/relatorios.ts |
+| 1.2.50.9.3 | IMPLEMENTADO | Relatório sintético de agendamentos de exames de ultrassonografias. | apps/api/src/modulos/ecografia/relatorios.ts |
 | 1.3.1 | PENDENTE | A licitante melhor classificada será convocada para realização da Prova de Conceito no prazo de até 10 (Dez) dias úteis; |  |
 | 1.3.2 | PENDENTE | Serão avaliados objetivamente os requisitos descritos nas Características Tecnológicas do Sistema e as Funcionalidades, conforme roteiro constante no anexo III. |  |
 | 1.3.3 | PENDENTE | A demonstração do item deve permitir identificar e avaliar a funcionalidade descrita, ou seja, a licitante deverá executar as ações que julgar necessária para c |  |

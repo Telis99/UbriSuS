@@ -1,0 +1,121 @@
+// APAC - Autorização de Procedimentos Ambulatoriais de alta complexidade/custo: laudo de solicitação,
+// autorização com numeração das faixas do órgão emissor, procedimentos realizados por competência e
+// exportação para o SIA (TR 1.2.13.1.18, 1.2.13.1.19, 1.2.13.1.20).
+import { definirEntidade } from '../../meta/registro.js';
+import { CARATER_ATENDIMENTO } from '../cadastros/opcoes.js';
+
+const FAT = 'FAT';
+
+export const SITUACAO_APAC: [string, string][] = [
+  ['SOLICITADO', 'Solicitado'],
+  ['AUTORIZADO', 'Autorizado'],
+  ['NEGADO', 'Negado'],
+  ['CANCELADO', 'Cancelado'],
+  ['ENCERRADO', 'Encerrado'],
+];
+
+definirEntidade({
+  nome: 'apac_laudo',
+  tabela: 'apac.laudo',
+  titulo: 'Laudos de APAC',
+  tituloSingular: 'Laudo de APAC',
+  modulo: FAT,
+  menu: 'Faturamento/APAC',
+  rotulo: ['numero_laudo', 'paciente_id'],
+  ordemPadrao: 'data_solicitacao desc',
+  tr: ['1.2.13.1.18', '1.2.13.1.19'],
+  abas: ['Solicitação', 'Justificativa', 'Autorização'],
+  campos: [
+    { nome: 'numero_laudo', tipo: 'texto', rotulo: 'Nº do laudo', max: 20, unico: true, lista: true, busca: true, somenteLeitura: true, aba: 'Solicitação' },
+    { nome: 'data_solicitacao', tipo: 'data', rotulo: 'Data da solicitação', obrigatorio: true, lista: true, aba: 'Solicitação' },
+    { nome: 'unidade_solicitante_id', tipo: 'ref', ref: 'unidade', rotulo: 'Estabelecimento solicitante', obrigatorio: true, lista: true, aba: 'Solicitação', largura: 6 },
+    { nome: 'unidade_executante_id', tipo: 'ref', ref: 'unidade', rotulo: 'Estabelecimento executante', obrigatorio: true, lista: true, aba: 'Solicitação', largura: 6 },
+    { nome: 'paciente_id', tipo: 'ref', ref: 'paciente', rotulo: 'Paciente', obrigatorio: true, lista: true, aba: 'Solicitação', largura: 8 },
+    { nome: 'prontuario', tipo: 'texto', rotulo: 'Nº do prontuário', max: 20, aba: 'Solicitação', largura: 4 },
+    {
+      nome: 'tipo_apac',
+      tipo: 'opcao',
+      rotulo: 'Tipo de APAC',
+      opcoes: [['1', 'Inicial'], ['2', 'Continuidade'], ['3', 'Única']],
+      obrigatorio: true,
+      padrao: '1',
+      lista: true,
+      aba: 'Solicitação',
+    },
+    { nome: 'apac_anterior', tipo: 'texto', rotulo: 'Nº da APAC anterior (continuidade)', max: 13, aba: 'Solicitação' },
+    { nome: 'carater', tipo: 'opcao', rotulo: 'Caráter do atendimento', opcoes: CARATER_ATENDIMENTO, padrao: '01', aba: 'Solicitação' },
+    { nome: 'procedimento_id', tipo: 'ref', ref: 'procedimento', rotulo: 'Procedimento principal', obrigatorio: true, lista: true, aba: 'Solicitação', largura: 8 },
+    { nome: 'quantidade', tipo: 'inteiro', rotulo: 'Quantidade solicitada', padrao: 1, min: 1, aba: 'Solicitação', largura: 4 },
+    { nome: 'profissional_solicitante_id', tipo: 'ref', ref: 'profissional', rotulo: 'Profissional solicitante', obrigatorio: true, lista: true, aba: 'Solicitação' },
+    { nome: 'cid_principal_id', tipo: 'ref', ref: 'cid', rotulo: 'CID-10 principal', obrigatorio: true, lista: true, aba: 'Justificativa' },
+    { nome: 'cid_secundario_id', tipo: 'ref', ref: 'cid', rotulo: 'CID-10 secundário', aba: 'Justificativa' },
+    { nome: 'cid_associado_id', tipo: 'ref', ref: 'cid', rotulo: 'CID-10 causas associadas', aba: 'Justificativa' },
+    { nome: 'justificativa', tipo: 'texto_longo', rotulo: 'Justificativa / dados clínicos', obrigatorio: true, aba: 'Justificativa' },
+    { nome: 'observacao', tipo: 'texto_longo', rotulo: 'Observações', aba: 'Justificativa' },
+    { nome: 'situacao', tipo: 'opcao', rotulo: 'Situação', opcoes: SITUACAO_APAC, padrao: 'SOLICITADO', lista: true, somenteLeitura: true, aba: 'Autorização' },
+    { nome: 'numero_apac', tipo: 'texto', rotulo: 'Número da APAC', max: 13, lista: true, busca: true, somenteLeitura: true, aba: 'Autorização' },
+    { nome: 'faixa_id', tipo: 'ref', ref: 'aih_faixa', rotulo: 'Faixa numérica', somenteLeitura: true, aba: 'Autorização' },
+    { nome: 'orgao_emissor_id', tipo: 'ref', ref: 'aih_orgao_emissor', rotulo: 'Órgão emissor', somenteLeitura: true, aba: 'Autorização' },
+    { nome: 'autorizador_id', tipo: 'ref', ref: 'profissional', rotulo: 'Autorizador', somenteLeitura: true, aba: 'Autorização' },
+    { nome: 'autorizado_em', tipo: 'data_hora', rotulo: 'Autorizado em', somenteLeitura: true, aba: 'Autorização' },
+    { nome: 'autorizado_por', tipo: 'ref', ref: 'operador', rotulo: 'Registrado por', somenteLeitura: true, aba: 'Autorização' },
+    { nome: 'validade_inicio', tipo: 'data', rotulo: 'Validade - início', somenteLeitura: true, lista: true, aba: 'Autorização' },
+    { nome: 'validade_fim', tipo: 'data', rotulo: 'Validade - fim', somenteLeitura: true, lista: true, aba: 'Autorização' },
+    { nome: 'motivo', tipo: 'texto', rotulo: 'Motivo (negativa/cancelamento)', max: 250, somenteLeitura: true, aba: 'Autorização' },
+    {
+      nome: 'motivo_saida',
+      tipo: 'opcao',
+      rotulo: 'Motivo de saída / permanência',
+      opcoes: [['21', 'Permanência por características próprias da doença'], ['12', 'Alta melhorado'], ['15', 'Alta com previsão de retorno'], ['18', 'Alta por outros motivos'], ['31', 'Transferência'], ['41', 'Óbito'], ['51', 'Encerramento administrativo']],
+      padrao: '21',
+      aba: 'Autorização',
+    },
+  ],
+  filhos: [{ entidade: 'apac_procedimento', campo: 'laudo_id', titulo: 'Procedimentos realizados' }],
+});
+
+definirEntidade({
+  nome: 'apac_procedimento',
+  tabela: 'apac.procedimento',
+  titulo: 'Procedimentos realizados em APAC',
+  tituloSingular: 'Procedimento da APAC',
+  modulo: FAT,
+  permissao: 'apac_laudo',
+  rotulo: ['procedimento_id', 'competencia'],
+  ordemPadrao: 'competencia, id',
+  tr: ['1.2.13.1.19'],
+  campos: [
+    { nome: 'laudo_id', tipo: 'ref', ref: 'apac_laudo', rotulo: 'APAC', obrigatorio: true },
+    { nome: 'competencia', tipo: 'texto', rotulo: 'Competência (AAAAMM)', max: 6, obrigatorio: true, lista: true },
+    { nome: 'data', tipo: 'data', rotulo: 'Data de realização', lista: true },
+    { nome: 'procedimento_id', tipo: 'ref', ref: 'procedimento', rotulo: 'Procedimento', obrigatorio: true, lista: true },
+    { nome: 'quantidade', tipo: 'inteiro', rotulo: 'Quantidade', padrao: 1, min: 1, lista: true },
+    { nome: 'profissional_id', tipo: 'ref', ref: 'profissional', rotulo: 'Profissional executante', lista: true },
+    { nome: 'cbo_codigo', tipo: 'texto', rotulo: 'CBO', max: 6 },
+    { nome: 'cid_codigo', tipo: 'texto', rotulo: 'CID', max: 4 },
+    { nome: 'valor', tipo: 'moeda', rotulo: 'Valor', somenteLeitura: true, lista: true },
+    { nome: 'producao_id', tipo: 'ref', ref: 'producao', rotulo: 'Produção de origem', oculto: true },
+    { nome: 'lote_id', tipo: 'ref', ref: 'apac_lote', rotulo: 'Arquivo APAC', somenteLeitura: true },
+  ],
+});
+
+definirEntidade({
+  nome: 'apac_lote',
+  tabela: 'apac.lote',
+  titulo: 'Arquivos APAC gerados',
+  tituloSingular: 'Arquivo APAC',
+  modulo: FAT,
+  menu: 'Faturamento/APAC',
+  rotulo: ['competencia', 'id'],
+  ordemPadrao: 'id desc',
+  tr: ['1.2.13.1.20'],
+  campos: [
+    { nome: 'competencia', tipo: 'texto', rotulo: 'Competência', max: 6, obrigatorio: true, lista: true },
+    { nome: 'unidade_id', tipo: 'ref', ref: 'unidade', rotulo: 'Estabelecimento', lista: true },
+    { nome: 'apacs', tipo: 'inteiro', rotulo: 'APACs', lista: true },
+    { nome: 'linhas', tipo: 'inteiro', rotulo: 'Linhas', lista: true },
+    { nome: 'campo_controle', tipo: 'texto', rotulo: 'Campo de controle', max: 4 },
+    { nome: 'arquivo_id', tipo: 'arquivo', rotulo: 'Arquivo', lista: true },
+    { nome: 'gerado_em', tipo: 'data_hora', rotulo: 'Gerado em', lista: true },
+  ],
+});
