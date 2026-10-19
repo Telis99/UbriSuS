@@ -50,10 +50,10 @@ const DESFECHOS: [string, string][] = [
 
 const TIPOS_RECEITA: [string, string][] = [
   ['BASICA', 'Receita simples'],
-  ['CONTROLE_ESPECIAL', 'Controle especial (C1/C5)'],
+  ['BRANCA_C', 'Controle especial (branca - C)'],
   ['ANTIMICROBIANO', 'Antimicrobiano'],
-  ['NOTIFICACAO_B', 'Notificação B'],
-  ['NOTIFICACAO_A', 'Notificação A'],
+  ['AZUL_B', 'Notificação azul (B)'],
+  ['AMARELA_A', 'Notificação amarela (A)'],
 ];
 
 interface Completo {

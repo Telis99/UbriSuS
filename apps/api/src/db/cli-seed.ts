@@ -5,6 +5,7 @@ import { carregarCid10, carregarEnderecos, carregarTabelasApoio } from './carga/
 import { carregarAdministrador, carregarParametros, carregarPerfis, carregarUnidades } from './carga/configuracao.js';
 import { carregarTabelasSaude } from './carga/saude.js';
 import { cargasModulos } from './carga/modulos.js';
+import '../modulos/cargas.js';
 
 async function principal() {
   await migrar(() => {});

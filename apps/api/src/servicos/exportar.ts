@@ -4,6 +4,7 @@ import ExcelJS from 'exceljs';
 import { AlignmentType, Document, HeadingLevel, Packer, PageOrientation, Paragraph, Table, TableCell, TableRow, TextRun, WidthType } from 'docx';
 import type { Content, TableCell as PdfCell } from 'pdfmake/interfaces.js';
 import { documentoPadrao, gerarPdf, type Identidade, type OpcoesDocumento } from './pdf.js';
+import { svgGrafico, type Grafico } from './grafico.js';
 
 export const FORMATOS = ['pdf', 'docx', 'doc', 'xlsx', 'xls', 'csv', 'xml', 'html', 'txt'] as const;
 export type Formato = (typeof FORMATOS)[number];
@@ -36,6 +37,8 @@ export interface Tabela {
   agrupar?: string[];
   zebrado?: boolean;
   totalizarRegistros?: boolean;
+  /** Gráfico exibido acima da tabela no PDF e na tela. */
+  grafico?: Grafico;
 }
 
 export function formatarValor(v: any, f?: Coluna['formato']): string {
@@ -271,7 +274,9 @@ ${corpo}
           );
         }
       });
+      const paisagem = (opcoes.orientacao ?? (colunas.length > 7 ? 'landscape' : 'portrait')) === 'landscape';
       const conteudo: Content[] = [
+        ...(t.grafico && t.linhas.length ? [{ svg: svgGrafico(t.grafico, t.linhas), width: paisagem ? 760 : 515, margin: [0, 0, 0, 10] } as Content] : []),
         {
           table: { headerRows: 1, widths: colunas.map((c) => c.largura ?? '*'), body: corpo },
           layout: { hLineColor: '#cccccc', vLineColor: '#cccccc', hLineWidth: () => 0.5, vLineWidth: () => 0.5 },

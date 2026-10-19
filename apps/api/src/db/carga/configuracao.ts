@@ -42,6 +42,8 @@ export const PARAMETROS: [string, unknown, string, string][] = [
   ['exames.limite_sem_justificativa', 10, 'Quantidade de exames por requisição sem exigir justificativa', 'AMB'],
   ['exames.lista_espera_automatica', true, 'Incluir automaticamente na lista de espera os exames requisitados', 'AMB'],
   ['receita.impressao', { cabecalho: true, rodape: true, logoSus: true, duasVias: false, textoCabecalho: '' }, 'Configuração da impressão de receitas (cabeçalho, rodapé, logotipo do SUS, duas vias)', 'PEP'],
+  ['farmacia.demanda_na_dispensacao', true, 'Permitir lançar demanda reprimida no momento da dispensação', 'FAR'],
+  ['farmacia.comprovante', { imprimir: true, termica: false }, 'Comprovante de entrega de medicamentos (imprimir; impressora térmica)', 'FAR'],
   ['integracao.rnds', { ativo: false, urlAutenticacao: 'https://ehr-auth-hmg.saude.gov.br/api/token', urlServicos: 'https://sp-ehr-services.hmg.saude.gov.br', certificadoId: null, cpfResponsavel: '' }, 'Integração CADSUS/RNDS', 'TEC'],
 ];
 

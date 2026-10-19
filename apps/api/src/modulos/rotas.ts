@@ -2,6 +2,8 @@
 import type { FastifyInstance } from 'fastify';
 import { rotasAgendamento, rotinaDiariaAgendamento } from './agendamento/rotas.js';
 import { rotasAtendimento } from './atendimento/rotas.js';
+import { rotasFarmacia } from './farmacia/rotas.js';
+import { rotasCatalogo } from '../servicos/catalogo.js';
 import { rotasCadastros } from './cadastros/rotas.js';
 import { rotasSuporte } from './suporte/rotas.js';
 
@@ -10,6 +12,8 @@ export async function registrarRotasModulos(app: FastifyInstance) {
   await rotasSuporte(app);
   await rotasAgendamento(app);
   await rotasAtendimento(app);
+  await rotasFarmacia(app);
+  await rotasCatalogo(app);
 }
 
 const tarefasDiarias: (() => Promise<unknown>)[] = [rotinaDiariaAgendamento];

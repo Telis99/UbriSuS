@@ -7,3 +7,5 @@ import './Recepcao';
 import './Fila';
 import './Atendimento';
 import './Pacientes';
+import './Relatorios';
+import './Farmacia';
